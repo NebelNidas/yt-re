@@ -28,9 +28,8 @@ plugins {
 }
 
 
-def youtubeVersion = "17.14.35"
-def youtubeApkLocation = "youtube.apk"
-def youtubeApkSha1 = "9768d70f3da95dc7aa78a22ff38c44ed92f7af11"
+def youtubeVersion = project.youtube_version
+def youtubeApkSha1 = project.youtube_apk_sha1
 
 
 def ENV = System.getenv()
@@ -97,8 +96,10 @@ def mappingsGroup = "yt-mappings"
 def buildMappingGroup = "mapping build"
 def mapJarGroup = "jar mapping"
 def mappingsDir = file("mappings")
+
 def cacheFilesYoutube = file(".gradle/youtube")
 def tempDir = file(".gradle/temp")
+def youtubeApkLocation = "youtube.apk"
 def intermediaryJar = file("youtube-${youtubeVersion}-intermediary.jar")
 def unpickedJar = file("youtube-${youtubeVersion}-intermediary-unpicked.jar")
 def namedJar = file("${youtubeVersion}-named.jar")
@@ -181,7 +182,7 @@ import java.io.File
 task convertApkToJar {
 	group = setupGroup
 	inputs.file youtubeApkLocation
-    
+
 	doLast {
 		logger.lifecycle(":converting apk to jar")
 
@@ -244,10 +245,10 @@ task removeUnneededPackages(dependsOn: renameGeneratedJar) {
 			'kotlinx',
 			'org'
 		);
-		/* Define ZIP File System Properies in HashMap */    
-		Map<String, String> zipProperties = new HashMap<>(); 
+		/* Define ZIP File System Properies in HashMap */
+		Map<String, String> zipProperties = new HashMap<>();
 		/* We want to read an existing ZIP File, so we set this to False */
-		zipProperties.put("create", "false"); 
+		zipProperties.put("create", "false");
 
 		Path path = youtubeJarFile.toPath();
 		URI zipFile = URI.create("jar:" + path.toUri());

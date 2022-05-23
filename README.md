@@ -6,6 +6,7 @@ To see the current version being targeted, check the branch name!
 
 
 ## Usage
+To get started,
 To obtain a deobfuscated YouTube JAR, [`./gradlew mapNamedJar`](#mapNamedJar) will generate a jar named like `youtube-<youtube version>-named.jar`, which can be sent to a decompiler for deobfuscated code.
 
 Please note, to run our build script **Java 16** or higher is required!
@@ -21,9 +22,11 @@ Please have a look at the [naming conventions](/CONVENTIONS.md) before submittin
 
 ### Getting Started
 1. Fork and clone the repo
-2. Run `./gradlew startMapping` to open [Enigma](https://github.com/FabricMC/Enigma), a user interface to easily edit the mappings
-3. Commit and push your work to your fork
-4. Open a pull request with your changes
+2. Download the correct version of the YouTube APK (version number see [build.gradle](build.gradle)), preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/)
+3. Place the APK at the root of this directory and rename it to `youtube.apk`
+4. Run `./gradlew startMapping` to do some magic behind the scenes and open [Enigma](https://github.com/FabricMC/Enigma), a user interface to easily edit the mappings
+5. Commit and push your work to your fork
+6. Open a pull request with your changes
 
 
 ## Gradle

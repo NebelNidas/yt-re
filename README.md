@@ -5,13 +5,6 @@ The intention is to let everyone mod YouTube freely and openly, while also being
 To see the current version being targeted, check the branch name!
 
 
-## Usage
-To get started,
-To obtain a deobfuscated YouTube JAR, [`./gradlew mapNamedJar`](#mapNamedJar) will generate a jar named like `youtube-<youtube version>-named.jar`, which can be sent to a decompiler for deobfuscated code.
-
-Please note, to run our build script **Java 16** or higher is required!
-
-
 ## Contributing
 Please remember that copying and pasting mappings from alternate projects under more restrictive licenses is **completely forbidden** without explicit permission from the owners of said mappings to distribute the names under the CC0 license.
 This includes using the names from those mappings for inspiration.
@@ -31,6 +24,7 @@ Please have a look at the [naming conventions](/CONVENTIONS.md) before submittin
 
 ## Gradle
 YT-Mappings uses Gradle to provide a number of utility tasks for working with the mappings.
+Please note, to run our build script **Java 16** or higher is required!
 
 ### `startMapping`
 Setup and download and launch the latest version of [Enigma](https://github.com/FabricMC/Enigma) automatically configured to use the merged jar and the mappings.
@@ -41,7 +35,7 @@ Compared to launching Enigma externally, the gradle task adds a name guesser plu
 Build a GZip'd archive containing a tiny mapping between official (obfuscated), [intermediary](https://github.com/NebelNidas/intermediary), and YT-Mappings names ("named") and packages enigma mappings into a zip archive.
 
 ### `mapNamedJar`
-Builds a deobfuscated jar with YT-Mappings and automapped fields (enums, etc.). Unmapped names will be filled with [intermediary](https://github.com/NebelNidas/Intermediary) names.
+Builds a deobfuscated jar with YT-Mappings and automapped fields (enums, etc.) called `youtube-<youtube version>-named.jar`. Unmapped names will be filled with [intermediary](https://github.com/NebelNidas/Intermediary) names.
 
 ### `decompileCFR`
 Decompile the mapped source code. **Note:** This is not designed to be recompiled.

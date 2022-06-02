@@ -358,7 +358,7 @@ task mappingsUnpicked(dependsOn: "unpickIntermediaryJar", type: JavaExec) {
 	args '-profile'
 	args 'enigma_profile.json'
 
-	jvmArgs "-Xmx2048m"
+	jvmArgs "${project.enigma_jvmargs}"
 }
 
 task startMapping(dependsOn: mapIntermediaryJar, type: JavaExec) {

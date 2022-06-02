@@ -5,10 +5,6 @@
         },
         "jar_indexer": {
             "id": "nameproposal:jar_indexer"
-        },
-	"obfuscation_test": {
-            "id": "nameproposal:intermediary_obfuscation_test",
-            "args": {}
         }
     }
 }

@@ -17,25 +17,28 @@ Please have a look at the [naming conventions](/CONVENTIONS.md) before submittin
 ## Getting Started
 1. Clone the repo
 2. Download the correct version (see [here](./gradle.properties)) of the YouTube APK, preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/) (`nodpi` is the default)
-3. Place the APK at the root of this directory and rename it to `youtube.apk`
+3. Place the APK at the root of this directory and rename it to `youtube-<version>.apk`
 4. Run `./gradlew startMapping` to open [Enigma](https://github.com/FabricMC/Enigma), a user interface to easily edit the mappings
 5. If you want to, commit and push your work to a fork and open a PR upstream with your changes
 
 
 ## Gradle
 YT-Mappings uses Gradle to provide a number of utility tasks for working with the mappings.
-Please note, to run our build script **Java 16** or higher is required!
+Please note, to run our build script **Java 17** is required!
 
 ### `startMapping`
 Setup and download and launch the latest version of [Enigma](https://github.com/FabricMC/Enigma) automatically configured to use the merged jar and the mappings.
 
 Compared to launching Enigma externally, the gradle task adds a name guesser plugin that automatically maps enums and a few constant field names.
 
-### `build`
-Build a GZip'd archive containing a tiny mapping between official (obfuscated), [intermediary](https://github.com/NebelNidas/intermediary), and YT-Mappings names ("named") and packages enigma mappings into a zip archive.
+### `buildTinyMappingFiles`
+Build Tiny and Tiny v2 mapping files between official (obfuscated) names and our renames ("named").
 
-### `mapNamedJar`
-Builds a deobfuscated jar with YT-Mappings and automapped fields (enums, etc.) called `youtube-<youtube version>-named.jar`. Unmapped names will be filled with [intermediary](https://github.com/NebelNidas/Intermediary) names.
+### `buildNamedJar`
+Builds a deobfuscated jar with YT-Mappings applied, called `youtube-<yt-version>-named.jar`.
 
-### `decompileCFR`
-Decompile the mapped source code. **Note:** This is not designed to be recompiled.
+### `decompileWithCfr`
+Decompile the mapped source code with [CFR](https://github.com/leibnitz27/cfr) (quite slow, but has the best quality).
+
+### `decompileWithQuiltflower`
+Decompile the mapped source code with [QuiltFlower](https://github.com/QuiltMC/quiltflower) (faster, but produces more errors).

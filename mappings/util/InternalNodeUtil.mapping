@@ -1,0 +1,2 @@
+CLASS cds util/InternalNodeUtil
+	METHOD k create (Lded;)Ldgd;

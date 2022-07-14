@@ -1,0 +1,2 @@
+CLASS ahbz DescriptionProtobuf
+	FIELD d clipText Ljava/lang/String;

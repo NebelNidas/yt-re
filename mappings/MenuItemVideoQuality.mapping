@@ -1,0 +1,2 @@
+CLASS hzb MenuItemVideoQuality
+	FIELD e qualities [Lcom/google/android/libraries/youtube/innertube/model/media/VideoQuality;

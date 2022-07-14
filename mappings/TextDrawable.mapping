@@ -1,0 +1,32 @@
+CLASS dpq TextDrawable
+	FIELD a mLayout Landroid/text/Layout;
+	FIELD c mLayoutTranslationY F
+	FIELD d mClipToBounds Z
+	FIELD e mShouldHandleTouch Z
+	FIELD f mText Ljava/lang/CharSequence;
+	FIELD g mColorStateList Landroid/content/res/ColorStateList;
+	FIELD i mHighlightColor I
+	FIELD j mImageSpans [Landroid/text/style/ImageSpan;
+	FIELD l mLongClickActivated Z
+	FIELD m mLongClickHandler Landroid/os/Handler;
+	FIELD n mContextLogTag Ljava/lang/String;
+	FIELD q mSelectionStart I
+	FIELD r mSelectionEnd I
+	FIELD s mSelectionPath Landroid/graphics/Path;
+	FIELD t mSelectionPathNeedsUpdate Z
+	FIELD u mHighlightPaint Landroid/graphics/Paint;
+	FIELD v mLongClickRunnable Ldpo;
+	METHOD b getTextOffsetAt (II)I
+	METHOD e getClickableSpanInCoords (II)Landroid/text/style/ClickableSpan;
+		ARG 1 x
+		ARG 2 y
+	METHOD f resetLongClick ()V
+	METHOD g setSelection (II)V
+		ARG 1 selectionStart
+		ARG 2 selectionEnd
+	METHOD h isWithinBounds (Landroid/graphics/Rect;Landroid/view/MotionEvent;)Z
+		ARG 0 bounds
+	METHOD j shouldHandleTouchForLongClickableSpan (Landroid/view/MotionEvent;)Z
+	METHOD a clearSelection ()V
+	METHOD onStateChange ([I)Z
+		ARG 1 states

@@ -1,0 +1,2 @@
+CLASS aenr DoubleList
+	METHOD d mutableCopyWithCapacity (I)Laenr;

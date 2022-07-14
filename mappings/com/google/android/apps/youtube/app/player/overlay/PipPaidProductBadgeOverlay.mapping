@@ -1,0 +1,12 @@
+CLASS com/google/android/apps/youtube/app/player/overlay/PipPaidProductBadgeOverlay
+	FIELD a hasParent Z
+	FIELD d delay J
+	FIELD e context Landroid/content/Context;
+	FIELD g handler Landroid/os/Handler;
+	FIELD i runnable Ljava/lang/Runnable;
+	FIELD k view Landroid/view/View;
+	FIELD n shown Z
+	METHOD m createView ()V
+	METHOD k hide ()V
+	METHOD l show ()V
+	METHOD lu hasView ()Z

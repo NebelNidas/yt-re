@@ -1,0 +1,3 @@
+CLASS dgg
+	METHOD a getLayoutOutput (Ldqm;)Ldgg;
+	METHOD c isAccessible ()Z

@@ -1,0 +1,2 @@
+CLASS cno
+	FIELD a context Ljava/lang/Object;

@@ -1,0 +1,2 @@
+CLASS dhh NoOpEventHandler
+	FIELD d NO_OP_EVENT_HANDLER Ldhh;

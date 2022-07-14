@@ -1,0 +1,3 @@
+CLASS aepi Protobuf
+	FIELD a instance Laepi;
+	METHOD b schemaFor (Ljava/lang/Object;)Laepq;

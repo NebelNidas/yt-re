@@ -1,0 +1,2 @@
+CLASS aemy ExtensionRegistryLite
+	METHOD a getEmptyRegistry ()Laemy;

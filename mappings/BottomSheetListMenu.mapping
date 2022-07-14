@@ -1,0 +1,3 @@
+CLASS jxz BottomSheetListMenu
+	FIELD e watchWhileActivity Landroid/content/Context;
+	FIELD p menuItemToBoolean Ljava/util/Map;

@@ -1,0 +1,22 @@
+CLASS deo LayoutStateFuture
+	FIELD b root Lddz;
+	FIELD c widthSpec I
+	FIELD d heightSpec I
+	FIELD e diffingEnabled Z
+	FIELD h source I
+	FIELD i extraAttribution Ljava/lang/String;
+	FIELD k tree Lcom/facebook/litho/ComponentTree;
+	FIELD l treeProps Laju;
+	FIELD o isFromSyncLayout Z
+	FIELD m runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD f refCount Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD j released Z
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Lded;Lddz;IIZLaju;ILjava/lang/String;[B)V
+		ARG 3 root
+		ARG 4 widthSpec
+		ARG 5 heightSpec
+		ARG 6 diffingEnabled
+		ARG 7 treeProps
+		ARG 8 source
+		ARG 9 extraAttribution
+	METHOD c isFromSyncLayout (I)Z

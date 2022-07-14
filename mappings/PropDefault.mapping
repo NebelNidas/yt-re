@@ -1,0 +1,2 @@
+CLASS djp PropDefault
+	METHOD a resId ()I

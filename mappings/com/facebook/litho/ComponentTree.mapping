@@ -1,0 +1,2 @@
+CLASS com/facebook/litho/ComponentTree
+	FIELD q mMainThreadLayoutState Ldgj;

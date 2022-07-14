@@ -1,0 +1,2 @@
+CLASS aeop LongArrayList
+	FIELD b emptyList Laeop;

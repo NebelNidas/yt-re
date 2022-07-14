@@ -1,0 +1,2 @@
+CLASS aenv FloatList
+	METHOD g mutableCopyWithCapacity (I)Laenv;

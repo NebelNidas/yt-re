@@ -1,0 +1,12 @@
+CLASS dpz TextSpec
+	FIELD b typefaceStyle I
+	FIELD c DEFAULT_TYPEFACE Landroid/graphics/Typeface;
+	FIELD e typeface Landroid/graphics/Typeface;
+	FIELD f DEFAULT_TEXT_COLOR_STATE_LIST_STATES [[I
+	FIELD g DEFAULT_TEXT_COLOR_STATE_LIST_COLORS [I
+	FIELD h sTempPath Landroid/graphics/Path;
+	FIELD i sTempRect Landroid/graphics/Rect;
+	FIELD j sTempRectF Landroid/graphics/RectF;
+	METHOD d newTextDrawable ()Ldpq;
+	METHOD h onMeasure (Lded;Ldeh;IILdhu;Ljava/lang/CharSequence;Landroid/text/TextUtils$TruncateAt;ZIFFFILandroid/content/res/ColorStateList;IILjava/lang/CharSequence;FILandroid/graphics/Typeface;IILdvs;Ldvs;Ldvs;Ldvs;Ldvs;)V
+	METHOD n createTextLayout (Lded;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILdqt;FI)Landroid/text/Layout;

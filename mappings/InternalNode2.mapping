@@ -1,0 +1,2 @@
+CLASS dgd InternalNode2
+	METHOD ao getTestKey ()Ljava/lang/String;

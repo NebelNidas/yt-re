@@ -1,0 +1,2 @@
+CLASS aju DebugLayoutNode
+	METHOD p getClickHandler ()Ldfr;

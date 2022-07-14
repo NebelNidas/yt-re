@@ -1,0 +1,3 @@
+CLASS zmh
+	METHOD G setPlaybackSpeed (F)V
+		ARG 1 speed

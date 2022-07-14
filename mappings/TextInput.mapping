@@ -1,0 +1,2 @@
+CLASS dpt TextInput
+	FIELD e hint Ljava/lang/CharSequence;

@@ -1,0 +1,2 @@
+CLASS jxm PlaybackSpeedItem
+	FIELD a speedMultiplier F

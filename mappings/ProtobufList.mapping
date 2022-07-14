@@ -1,0 +1,2 @@
+CLASS aeoa ProtobufList
+	METHOD e mutableCopyWithCapacity (I)Laeoa;

@@ -1,0 +1,3 @@
+CLASS deu Reporter
+	METHOD a emitMessage (ILjava/lang/String;Ljava/lang/String;)V
+	METHOD b emitMessage (ILjava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,2 @@
+CLASS ahjw SomeEnum
+	METHOD b fromValue (I)Lahjw;

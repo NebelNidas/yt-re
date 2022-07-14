@@ -1,0 +1,2 @@
+CLASS aepz StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Laeph;Z[I[Laena;Ljava/lang/Object;)V

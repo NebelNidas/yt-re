@@ -1,0 +1,2 @@
+CLASS aeod InvalidProtocolBufferException
+	FIELD a thrownFromInputStream Z

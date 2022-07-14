@@ -1,0 +1,2 @@
+CLASS aenw IntList
+	METHOD f mutableCopyWithCapacity (I)Laenw;

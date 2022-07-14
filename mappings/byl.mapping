@@ -1,0 +1,2 @@
+CLASS byl
+	METHOD b prefixStringWithWM (Ljava/lang/String;)Ljava/lang/String;

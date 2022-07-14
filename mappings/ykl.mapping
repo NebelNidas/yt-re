@@ -1,0 +1,2 @@
+CLASS ykl
+	METHOD c getPlayingState ()Lzgt;

@@ -1,0 +1,6 @@
+CLASS aeqc UnknownFieldSetLite
+	FIELD a defaultInstance Laeqc;
+	METHOD b mutableCopyOf (Laeqc;Laeqc;)Laeqc;
+	METHOD c newInstance ()Laeqc;
+	METHOD f mergeVarintField (ILjava/lang/Object;)V
+	METHOD g mergeFieldFrom (ILaemn;)Z

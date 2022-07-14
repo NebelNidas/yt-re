@@ -1,0 +1,3 @@
+CLASS aitc LikeType
+	FIELD e ordinal I
+	METHOD b fromOrdinal (I)Laitc;

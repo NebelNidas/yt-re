@@ -1,0 +1,6 @@
+CLASS dpl TextKt
+	FIELD a text Ldpm;
+	FIELD d mRequired Ljava/util/BitSet;
+	METHOD b setText (Lddz;)V
+	METHOD c getText ()Ldpm;
+	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

@@ -1,0 +1,5 @@
+CLASS aemn CodedInputStream
+	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
+	METHOD M newInstance (Ljava/io/InputStream;)Laemn;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Laemn;
+	METHOD B checkLastTagWas (I)V

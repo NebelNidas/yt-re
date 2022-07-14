@@ -1,0 +1,3 @@
+CLASS nkc TextComponentSpec
+	METHOD d getHint (Lnoq;Landroid/content/Context;Laobc;Lnok;Lnra;Lnpu;Ljava/util/Map;)Ljava/lang/CharSequence;
+	METHOD f create (Lded;Laobz;Lnok;Lnra;Lnpu;Lnoq;Ljava/util/Map;Lnoy;FFFLjava/lang/Integer;ZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Lddz;

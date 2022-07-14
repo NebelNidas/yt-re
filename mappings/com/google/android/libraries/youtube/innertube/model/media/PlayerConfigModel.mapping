@@ -1,0 +1,2 @@
+CLASS com/google/android/libraries/youtube/innertube/model/media/PlayerConfigModel
+	FIELD a speedMultipliers [F

@@ -1,0 +1,2 @@
+CLASS aenz LongList
+	METHOD d mutableCopyWithCapacity (I)Laenz;

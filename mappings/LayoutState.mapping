@@ -1,0 +1,2 @@
+CLASS dgj LayoutState
+	FIELD e mMountableOutputs Ljava/util/List;

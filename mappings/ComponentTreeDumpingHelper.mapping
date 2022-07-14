@@ -1,0 +1,3 @@
+CLASS dez ComponentTreeDumpingHelper
+	METHOD addViewDescription (IILdey;Ljava/lang/StringBuilder;Z)V
+		ARG 2 debugComponent

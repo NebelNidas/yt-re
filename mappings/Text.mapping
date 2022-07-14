@@ -1,0 +1,9 @@
+CLASS dpm Text
+	FIELD D tmpText Ljava/lang/CharSequence;
+	FIELD G typefaceStyle I
+	FIELD I typeface Landroid/graphics/Typeface;
+	FIELD Q text Ljava/lang/CharSequence;
+	FIELD b minLines I
+	FIELD e ellipsize Landroid/text/TextUtils$TruncateAt;
+	FIELD x maxLines I
+	FIELD y shadowColor I

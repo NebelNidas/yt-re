@@ -1,2 +1,0 @@
-CLASS ddp AccessibilityUtils
-	METHOD b isAccessibilityEnabled (Landroid/content/Context;)Z

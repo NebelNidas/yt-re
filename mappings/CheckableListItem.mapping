@@ -1,7 +1,0 @@
-CLASS aanu CheckableListItem
-	FIELD g checked Z
-	FIELD j context Landroid/content/Context;
-	METHOD <init> (Landroid/content/Context;Ljava/lang/String;)V
-		ARG 2 text
-	METHOD a (Z)V
-		ARG 1 checked

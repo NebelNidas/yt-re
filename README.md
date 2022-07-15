@@ -17,7 +17,7 @@ Please have a look at the [naming conventions](/CONVENTIONS.md) before submittin
 ## Getting Started
 1. Clone the repo
 2. Download the correct version (see [here](./gradle.properties)) of the YouTube APK, preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/) (`nodpi` is the default)
-3. Place the APK at the root of this directory and rename it to `youtube-<version>.apk`
+3. Place the APK at the root of this directory and rename it to `youtube.apk`
 4. Run `./gradlew startMapping` to open [Enigma](https://github.com/FabricMC/Enigma), a user interface to easily edit the mappings
 5. If you want to, commit and push your work to a fork and open a PR upstream with your changes
 

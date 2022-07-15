@@ -1,4 +1,5 @@
 .gradle/
+.jadx/
 *.DS_Store
 build/
 out/

@@ -18,7 +18,7 @@ Please have a look at the [naming conventions](/CONVENTIONS.md) before submittin
 1. Clone the repo
 2. Download the correct version (see [here](./gradle.properties)) of the YouTube APK, preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/) (`nodpi` is the default)
 3. Place the APK at the root of this directory and rename it to `youtube.apk`
-4. Run `./gradlew startMapping` to open [Enigma](https://github.com/FabricMC/Enigma), a user interface to easily edit the mappings
+4. Run `./gradlew enigma` or `/gradlew jadx` to use and/or edit the mappings (see the tasks' descriptions below)
 5. If you want to, commit and push your work to a fork and open a PR upstream with your changes
 
 
@@ -26,10 +26,13 @@ Please have a look at the [naming conventions](/CONVENTIONS.md) before submittin
 YT-Mappings uses Gradle to provide a number of utility tasks for working with the mappings.
 Please note, to run our build script **Java 17** is required!
 
-### `startMapping`
-Setup and download and launch the latest version of [Enigma](https://github.com/FabricMC/Enigma) automatically configured to use the merged jar and the mappings.
+### `enigma`
+Download, setup and launch the latest version of [Enigma](https://github.com/FabricMC/Enigma) automatically configured to use the converted jar and the mappings.
 
 Compared to launching Enigma externally, the gradle task adds a name guesser plugin that automatically maps enums and a few constant field names.
+
+### `jadx`
+Download, setup and launch the latest version of [JADX](https://github.com/skylot/jadx) automatically configured to use provided APK and the mappings.
 
 ### `buildTinyMappingFiles`
 Build Tiny and Tiny v2 mapping files between official (obfuscated) names and our renames ("named").

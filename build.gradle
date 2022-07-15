@@ -18,7 +18,6 @@ buildscript {
 	dependencies {
 		classpath "cuchaz:enigma-cli:${project.enigma_version}"
 		classpath "commons-io:commons-io:2.11.0"
-		classpath "de.undercouch:gradle-download-task:5.1.0"
 		classpath "net.fabricmc:tiny-remapper:${project.tiny_remapper_version}"
 		classpath "net.fabricmc:name-proposal:${project.name_proposal_version}"
 		classpath "com.github.ThexXTURBOXx:dex2jar:v${project.dex2jar_version}"
@@ -42,6 +41,7 @@ repositories {
 		name "Quilt"
 		url 'https://maven.quiltmc.org/repository/release/'
 	}
+	google()
 	mavenLocal()
 }
 
@@ -50,6 +50,7 @@ configurations {
 	enigmaRuntime {
 		extendsFrom asm
 	}
+	jadxRuntime
 	javadocClasspath
 	decompileClasspath
 	mappingPoetJar {
@@ -65,6 +66,8 @@ configurations {
 dependencies {
 	enigmaRuntime "cuchaz:enigma-swing:${project.enigma_version}"
 	enigmaRuntime "net.fabricmc:name-proposal:${project.name_proposal_version}"
+	// TODO: Switch to Maven Central package (https://github.com/skylot/jadx/issues/1579)
+	jadxRuntime files("libs/jadx-gui-${project.jadx_version}.jar")
 	javadocClasspath "org.jetbrains:annotations:${project.jetbrains_annotations_version}"
 	javadocClasspath "com.google.code.findbugs:jsr305:3.0.2" // for some other jsr annotations
 	decompileClasspath "net.fabricmc:cfr:${project.cfr_version}"
@@ -121,9 +124,10 @@ def cacheDir = file(".gradle/youtube")
 def tempDir = file(".gradle/temp")
 def fakeSourceDir = file(".gradle/temp/fakeSource")
 
-def youtubeApk = file("youtube-${youtubeVersion}.apk")
+def youtubeApk = file("youtube.apk")
 def youtubeJar = new File(cacheDir, "youtube-${youtubeVersion}.jar")
 def namedJar = file("youtube-${youtubeVersion}-named.jar")
+def jadxProjectFile = file(".jadx/youtube-${youtubeVersion}.jadx")
 
 
 
@@ -273,7 +277,7 @@ task convertApkToJar(dependsOn: validateApkChecksum, type: FileOutputInput) {
 		d2j.to(youtubeJar.toPath())
 	}
 }
-convertApkToJar.enabled = !youtubeJar.exists() || youtubeJar.length() == 0
+convertApkToJar.enabled = !youtubeJar.exists() || youtubeJar.length() < 30000000
 
 
 import java.nio.file.NoSuchFileException
@@ -344,7 +348,7 @@ task checkMappings(dependsOn: removeUnneededPackagesFromJar) {
 //       User mapping
 // **************************
 
-task startMapping(dependsOn: checkMappings, type: JavaExec) {
+task enigma(dependsOn: checkMappings, type: JavaExec) {
 	group = mappingsGroup
 
 	classpath = configurations.enigmaRuntime
@@ -358,6 +362,36 @@ task startMapping(dependsOn: checkMappings, type: JavaExec) {
 	args 'enigma_profile.json'
 
 	jvmArgs project.enigma_jvmargs
+}
+
+task prepareJadx {
+	doLast {
+		jadxProjectFile.getParentFile().mkdirs()
+		jadxProjectFile.text = """
+			{
+				"projectVersion": 1,
+				"files": [
+					"../youtube.apk"
+				],
+				"cacheDir": "youtube-${youtubeVersion}.apk.cache"
+			}
+		"""
+	}
+}
+prepareJadx.enabled = !jadxProjectFile.exists()
+
+task jadx(dependsOn: [validateApkChecksum, prepareJadx], type: JavaExec) {
+	group = mappingsGroup
+
+	classpath = configurations.jadxRuntime
+	mainClass = 'jadx.gui.JadxGUI'
+
+	args jadxProjectFile.getAbsolutePath()
+	// TODO: Reenable once this PR is ready: https://github.com/skylot/jadx/pull/1532
+	// args '--mappings-path'
+	// args mappingsDir.getAbsolutePath()
+
+	jvmArgs project.jadx_jvmargs
 }
 
 

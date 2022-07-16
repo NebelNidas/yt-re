@@ -16,7 +16,7 @@ Please have a look at the [naming conventions](/CONVENTIONS.md) before submittin
 
 ## Getting Started
 1. Clone the repo
-2. Download the [correct version]([./gradle.properties](https://github.com/NebelNidas/yt-mappings/blob/master/gradle.properties#L9)) of the YouTube APK, preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/) (`nodpi` is the default)
+2. Download the [correct version]([./gradle.properties](https://github.com/NebelNidas/yt-mappings/blob/master/gradle.properties#L12)) of the YouTube APK, preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/) (`nodpi` is the default)
 3. Place the APK at the root of this directory and rename it to `youtube.apk`
 4. Run `./gradlew enigma` or `/gradlew jadx` to use and/or edit the mappings (see the tasks' descriptions below)
 5. If you want to, commit and push your work to a fork and open a PR with your changes
@@ -45,3 +45,6 @@ Decompile the mapped source code with [CFR](https://github.com/leibnitz27/cfr) (
 
 ### `decompileWithQuiltflower`
 Decompile the mapped source code with [QuiltFlower](https://github.com/QuiltMC/quiltflower) (faster, but produces more errors).
+
+### `matcher`
+Run [Matcher](https://github.com/NebelNidas/Matcher) with the provided `youtube.apk` and `youtube-new.apk` as inputs, so you can update the mappings to a newer YT version.

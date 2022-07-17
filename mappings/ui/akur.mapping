@@ -1,2 +1,2 @@
-CLASS ui/akur
+CLASS akur ui/akur
 	FIELD e aspectRatio F

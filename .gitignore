@@ -1,9 +1,9 @@
-.gradle/
-.jadx/
 *.DS_Store
-build/
-out/
-namedSrc/
+/.gradle/
+/.jadx/
+/build/
+/out/
+/namedSrc/
 /*.jar
 /*.apk
 /yt-mappings*.tiny

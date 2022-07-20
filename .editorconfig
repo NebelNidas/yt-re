@@ -10,5 +10,8 @@ trim_trailing_whitespace = true
 [*.{yml,yaml}]
 indent_size = 2
 
-[*.{gradle,mapping,unpick}]
+[*.{gradle,mapping,unpick,tiny,match}]
 indent_style = tab
+
+[*.{tiny,match}]
+trim_trailing_whitespace = false

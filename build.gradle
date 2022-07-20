@@ -134,8 +134,6 @@ def fakeSourceDir = file(".gradle/temp/fakeSource")
 def youtubeApk = file("youtube.apk")
 def youtubeJar = file("${cacheDir}/youtube-${youtubeVersion}.jar")
 def youtubeJarNamed = file("youtube-${youtubeVersion}-named.jar")
-def youtubeJarWithNonMappedClassesRemoved = file("${cacheDir}/youtube-${youtubeVersion}-only-classes-with-mappings-available.jar")
-def youtubeJarWithNonMappedClassesRemovedNamed = file("${cacheDir}/youtube-${youtubeVersion}-only-classes-with-mappings-available-named.jar")
 def jadxProjectFile = file(".jadx/youtube-${youtubeVersion}.jadx")
 def youtubeApkToMatchAgainst = file("youtube-new.apk")
 def youtubeJarToMatchAgainst = file("${cacheDir}/youtube-new.jar")
@@ -254,7 +252,7 @@ void mapJar(File output, File input, File mappings, File libraries, String from,
 
 
 clean.doFirst {
-	delete tempDir, cacheDir
+	delete tempDir, cacheDir, jadxProjectFile.getParentFile()
 }
 
 
@@ -308,7 +306,7 @@ task removeUnneededPackagesFromJar(dependsOn: convertApkToJar, type: FileOutputI
 			// 'dagger',
 			// 'io',
 			// 'J',
-			// 'j$',
+			'j$',			// The dollar sign causes some issues with certain tools
 			// 'kotlinx',
 			// 'org'
 		);
@@ -363,8 +361,8 @@ task buildTinyMappingFiles(type: WithV2FileOutput) {
 	group = buildMappingGroup
 	inputs.dir mappingsDir
 
-	tiny1Output = file("yt-mappings.tiny")
-	tiny2Output = file("yt-mappings-v2.tiny")
+	tiny1Output = file("yt-mappings-${mappingsVersion}.tiny")
+	tiny2Output = file("yt-mappings-${mappingsVersion}-v2.tiny")
 
 	outputs.upToDateWhen { false }
 
@@ -626,117 +624,17 @@ task convertApkToMatchAgainstToJar(type: FileOutputInput) {
 convertApkToMatchAgainstToJar.enabled = !youtubeJarToMatchAgainst.exists() || youtubeJarToMatchAgainst.length() < 30000000
 
 
-task copyYoutubeJarForMatcher(dependsOn: convertApkToJar) {
-	doLast {
-		logger.lifecycle(":Copy youtube jar for matcher")
-		copy {
-			from youtubeJar
-			into cacheDir
-			rename { String fileName ->
-				fileName.replace(youtubeJar.getName(), youtubeJarWithNonMappedClassesRemoved.getName())
-			}
-
-		}
-
-	}
-}
-
-
-import java.nio.file.FileSystemAlreadyExistsException
-import java.util.zip.ZipEntry
-import net.fabricmc.mappingio.MappingReader;
-import net.fabricmc.mappingio.tree.MemoryMappingTree;
-
-task removeUnmappedClassesFromYoutubeJarForMatcher(dependsOn: copyYoutubeJarForMatcher, type: FileOutputInput) {
-	group = setupGroup
-	input youtubeJarWithNonMappedClassesRemoved
-	output youtubeJarWithNonMappedClassesRemoved
-
-	doLast {
-		logger.lifecycle(":removing classes from copied youtube jar which have no mappings available")
-
-		MemoryMappingTree mappingTree = new MemoryMappingTree();
-		MappingReader.read(mappingsDir.toPath(), mappingTree);
-		List<String> classesToDelete = new ArrayList<>(29000)
-
-		// Collect unmapped classes
-		ZipFile zipFile = new ZipFile(youtubeJarWithNonMappedClassesRemoved)
-		zipFile.entries().asIterator().forEachRemaining(entry -> {
-			if (entry.getName().endsWith(".class")) {
-				String classPath = entry.getName().replace(".class", "")
-				if (mappingTree.getClass(classPath) == null) {
-					classesToDelete.add(entry.getName())
-				}
-			}
-		});
-		zipFile.close()
-
-		/* Define ZIP File System Properies in HashMap */
-		Map<String, String> zipProperties = new HashMap<>();
-		/* We want to read an existing ZIP File, so we set this to False */
-		zipProperties.put("create", "false");
-
-		Path path = youtubeJarWithNonMappedClassesRemoved.toPath();
-		URI zipFileUri = URI.create("jar:" + path.toUri());
-
-		/* Create ZIP file System */
-		FileSystem zipFileSystem
-		try {
-			zipFileSystem = FileSystems.newFileSystem(zipFileUri, zipProperties)
-		} catch (FileSystemAlreadyExistsException e) {
-			zipFileSystem = FileSystems.getFileSystem(zipFileUri)
-		}
-		for (String pack : classesToDelete) {
-			Path pathInZipfile = zipFileSystem.getPath(pack);
-			// try {
-				deleteDirectory(pathInZipfile);
-			// } catch (NoSuchFileException e) {}
-		}
-		zipFileSystem.close()
-	}
-}
-
-
-task buildNamedJarForMatcher(dependsOn: [buildTinyMappingFiles, removeUnmappedClassesFromYoutubeJarForMatcher]) {
-	group = mapJarGroup
-	inputs.file youtubeJarWithNonMappedClassesRemoved
-	outputs.file youtubeJarWithNonMappedClassesRemovedNamed
-
-	outputs.upToDateWhen { false }
-
-	def jsrToJetbrains = [
-		"javax/annotation/Nullable": "org/jetbrains/annotations/Nullable",
-		"javax/annotation/Nonnull": "org/jetbrains/annotations/NotNull",
-		"javax/annotation/concurrent/Immutable": "org/jetbrains/annotations/Unmodifiable"
-	]
-
-	doLast {
-		logger.lifecycle(":mapping copied youtube jar to named")
-
-		mapJar(youtubeJarWithNonMappedClassesRemovedNamed, youtubeJarWithNonMappedClassesRemoved, buildTinyMappingFiles.tiny2Output, null, "official", "named") {
-			it.withMappings { out ->
-				jsrToJetbrains.each { e ->
-					out.acceptClass e.key, e.value
-				}
-			}
-		}
-	}
-}
-
-
-task matcher(dependsOn: [buildNamedJarForMatcher, convertApkToMatchAgainstToJar], type: JavaExec) {
+task matcher(dependsOn: [buildNamedJar, convertApkToMatchAgainstToJar], type: JavaExec) {
 	group = mappingsGroup
 
 	classpath = configurations.matcherClasspath
 	mainClass = "matcher.Main"
 
-	// TODO: Actually implement handling of these args
-	args '--jar-a'
-	args youtubeJarWithNonMappedClassesRemovedNamed.getAbsolutePath()
-	args '--classpath-a'
-	args youtubeJar.getAbsolutePath()
-	args '--jar-b'
+	args '--input-a'
+	args youtubeJarNamed.getAbsolutePath()
+	args '--input-b'
 	args youtubeJarToMatchAgainst.getAbsolutePath()
+	args '--ignore-unmapped-a'
 
 	jvmArgs project.matcher_jvmargs
 }

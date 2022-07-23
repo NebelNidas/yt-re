@@ -601,9 +601,8 @@ task jadx(dependsOn: [validateApkChecksum, prepareJadx], type: JavaExec) {
 	mainClass = 'jadx.gui.JadxGUI'
 
 	args jadxProjectFile.getAbsolutePath()
-	// TODO: Reenable once this PR is ready: https://github.com/skylot/jadx/pull/1532
-	// args '--mappings-path'
-	// args mappingsDir.getAbsolutePath()
+	args '--mappings-path'
+	args mappingsDir.getAbsolutePath()
 
 	jvmArgs project.jadx_jvmargs
 }

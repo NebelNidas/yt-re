@@ -73,7 +73,9 @@ dependencies {
 	enigmaRuntime "cuchaz:enigma-swing:${project.enigma_version}"
 	enigmaRuntime "net.fabricmc:name-proposal:${project.name_proposal_version}"
 	// TODO: Switch to Maven Central package (https://github.com/skylot/jadx/issues/1579)
-	jadxRuntime files("libs/jadx-gui-${project.jadx_version}.jar")
+	jadxRuntime ("com.github.NebelNidas.jadx:jadx-gui:${project.jadx_version}:all") {
+		transitive = false
+	}
 	matcherClasspath "com.github.NebelNidas:Matcher:${project.matcher_version}:all"
 	javadocClasspath "org.jetbrains:annotations:${project.jetbrains_annotations_version}"
 	javadocClasspath "com.google.code.findbugs:jsr305:3.0.2" // for some other jsr annotations

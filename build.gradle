@@ -631,9 +631,18 @@ task matcher(dependsOn: [buildNamedJar, convertApkToMatchAgainstToJar], type: Ja
 
 	args '--input-a'
 	args youtubeJarNamed.getAbsolutePath()
+
 	args '--input-b'
 	args youtubeJarToMatchAgainst.getAbsolutePath()
+
+	args '--mappings-a'
+	args mappingsDir.getAbsolutePath()
+
 	args '--ignore-unmapped-a'
+	args 'true'
+
+	args '--analyze-unmapped-classes'
+	args 'false'
 
 	jvmArgs project.matcher_jvmargs
 }

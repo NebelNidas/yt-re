@@ -605,6 +605,9 @@ task jadx(dependsOn: [validateApkChecksum, prepareJadx], type: JavaExec) {
 	args jadxProjectFile.getAbsolutePath()
 	args '--mappings-path'
 	args mappingsDir.getAbsolutePath()
+	// args '--mappings-mode'
+	// args 'read_and_autosave_every_change'
+	// args 'read_and_autosave_before_closing'
 
 	jvmArgs project.jadx_jvmargs
 }

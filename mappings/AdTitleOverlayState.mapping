@@ -1,1 +1,2 @@
 CLASS rbf AdTitleOverlayState
+	FIELD a adOverlayMetadata Lraz;

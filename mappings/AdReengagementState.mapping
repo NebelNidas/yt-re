@@ -1,1 +1,6 @@
 CLASS rbe AdReengagementState
+	FIELD a renderer Lafna;
+	FIELD b enabled Z
+	FIELD c fullscreen Z
+	FIELD d annotationEnabled Z
+	FIELD e appPromoEnabled Z

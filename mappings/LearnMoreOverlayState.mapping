@@ -1,1 +1,4 @@
 CLASS rbj LearnMoreOverlayState
+	FIELD a learnMoreCtaHidden Z
+	FIELD b learnMoreCtaEnabled Z
+	FIELD c learnMoreText Ljava/lang/CharSequence;

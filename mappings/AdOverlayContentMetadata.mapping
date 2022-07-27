@@ -1,0 +1,3 @@
+CLASS rbr AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Ltml;
+	FIELD c title Ljava/lang/String;

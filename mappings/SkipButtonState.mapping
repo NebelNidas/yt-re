@@ -7,7 +7,7 @@ CLASS rbm SkipButtonState
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
 	FIELD h breakType Lqxl;
-	FIELD i DRCallToActionEnabled Z
+	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
 	FIELD k countdownOnThumbnail Z
 	FIELD l countdownNextToThumbnail Z

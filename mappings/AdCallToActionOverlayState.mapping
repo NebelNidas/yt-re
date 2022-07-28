@@ -1,0 +1,11 @@
+CLASS ray AdCallToActionOverlayState
+	FIELD b renderer Lacoh;
+	FIELD c onClickedRenderer Lacoh;
+	FIELD d trackingParams Laemi;
+	FIELD e visualStateChangeTriggers Lactj;
+	FIELD f currentPositionMillis J
+	FIELD g animate Z
+	FIELD h fullscreen Z
+	FIELD i shownLogged Z
+	FIELD j visualChanged Z
+	FIELD k visualState I

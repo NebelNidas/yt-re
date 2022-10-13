@@ -1,0 +1,17 @@
+plugins {
+	id 'java-library'
+}
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+repositories {
+	maven {
+		name "Fabric Repository"
+		url 'https://maven.fabricmc.net'
+	}
+}
+
+dependencies {
+	implementation "cuchaz:enigma-swing:${project.enigma_version}"
+}

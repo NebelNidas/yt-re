@@ -1,0 +1,14 @@
+CLASS rbb AdOverlayState
+	FIELD a adOverlayShown Z
+	FIELD b overflowMenuShown Z
+	FIELD c skipButtonState Lrbm;
+	FIELD e adProgressTextState Lrbc;
+	FIELD f learnMoreOverlayState Lrbj;
+	FIELD g adTitleOverlayState Lrbf;
+	FIELD h adReengagementState Lrbe;
+	FIELD i brandInteractionState Lrbh;
+	FIELD j overlayTrackingParams Laemi;
+	FIELD k interactionLoggingClientData Laimp;
+	FIELD l currentPositionMillis I
+	FIELD m bufferedPositionMillis I
+	FIELD n durationMillis I

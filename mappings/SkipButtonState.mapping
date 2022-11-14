@@ -1,0 +1,15 @@
+CLASS rbm SkipButtonState
+	FIELD a skipAdRenderer Lalhc;
+	FIELD b contentMetadata Lrbr;
+	FIELD c adCountMetadata Lqty;
+	FIELD d skipState I
+	FIELD e hidden Z
+	FIELD f timeRemainingUntilSkippableMillis I
+	FIELD g timeRemainingInAdMillis I
+	FIELD h breakType Lqxl;
+	FIELD i drCallToActionEnabled Z
+	FIELD j fullscreen Z
+	FIELD k countdownOnThumbnail Z
+	FIELD l countdownNextToThumbnail Z
+	FIELD m preskipScalingFactor F
+	FIELD n preskipPadding I

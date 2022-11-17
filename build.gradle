@@ -141,6 +141,7 @@ def fakeSourceDir = file(".gradle/temp/fakeSource")
 
 def youtubeApk = file("youtube.apk")
 def youtubeJar = file("${cacheDir}/youtube-${youtubeVersion}.jar")
+def youtubeJarCleaned = file("${cacheDir}/youtube-${youtubeVersion}-cleaned.jar")
 def youtubeJarNamed = file("youtube-${youtubeVersion}-named.jar")
 def jadxProjectFile = file(".jadx/youtube-${youtubeVersion}.jadx")
 def youtubeApkToMatchAgainst = file("youtube-new.apk")
@@ -302,7 +303,7 @@ import java.nio.file.NoSuchFileException
 task removeUnneededPackagesFromJar(dependsOn: convertApkToJar, type: FileOutputInput) {
 	group = setupGroup
 	input convertApkToJar.output
-	output youtubeJar
+	output youtubeJarCleaned
 
 	doLast {
 		logger.lifecycle(":removing unneeded packages from jar")
@@ -346,7 +347,7 @@ task checkMappings(dependsOn: removeUnneededPackagesFromJar) {
 		logger.lifecycle(":checking mappings")
 
 		String[] args = [
-				youtubeJar.getAbsolutePath(),
+				youtubeJarCleaned.getAbsolutePath(),
 				mappingsDir.getAbsolutePath()
 		]
 
@@ -575,7 +576,7 @@ task enigma(dependsOn: checkMappings, type: JavaExec) {
 	mainClass = 'cuchaz.enigma.gui.Main'
 
 	args '-jar'
-	args youtubeJar.getAbsolutePath()
+	args youtubeJarCleaned.getAbsolutePath()
 	args '-mappings'
 	args mappingsDir.getAbsolutePath()
 	args '-profile'
@@ -634,26 +635,23 @@ task convertApkToMatchAgainstToJar(type: FileOutputInput) {
 convertApkToMatchAgainstToJar.enabled = !youtubeJarToMatchAgainst.exists() || youtubeJarToMatchAgainst.length() < 30000000
 
 
-task matcher(dependsOn: [buildNamedJar, convertApkToMatchAgainstToJar], type: JavaExec) {
+task matcher(dependsOn: [convertApkToJar, buildTinyMappingFiles, convertApkToMatchAgainstToJar], type: JavaExec) {
 	group = mappingsGroup
 
 	classpath = configurations.matcherClasspath
 	mainClass = "matcher.Main"
 
-	args '--input-a'
-	args youtubeJarNamed.getAbsolutePath()
+	args '--inputs-a'
+	args youtubeJar.getAbsolutePath()
 
-	args '--input-b'
+	args '--inputs-b'
 	args youtubeJarToMatchAgainst.getAbsolutePath()
 
 	args '--mappings-a'
 	args mappingsDir.getAbsolutePath()
 
-	args '--ignore-unmapped-a'
-	args 'true'
-
-	args '--analyze-unmapped-classes'
-	args 'false'
+	args '--hide-unmapped-a'
+	args '--dont-save-unmapped-matches'
 
 	jvmArgs project.matcher_jvmargs
 }

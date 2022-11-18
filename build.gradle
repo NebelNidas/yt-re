@@ -289,6 +289,9 @@ task convertApkToJar(dependsOn: validateApkChecksum, type: FileOutputInput) {
 	output youtubeJar
 
 	doLast {
+		logger.lifecycle(":deleting old cache")
+		delete cacheDir
+
 		logger.lifecycle(":converting youtube apk to jar")
 
 		Dex2jar d2j = Dex2jar.from(youtubeApk)
@@ -298,11 +301,28 @@ task convertApkToJar(dependsOn: validateApkChecksum, type: FileOutputInput) {
 convertApkToJar.enabled = !youtubeJar.exists() || youtubeJar.length() < 30000000
 
 
+task copyYoutubeJarForCleanup(dependsOn: convertApkToJar) {
+	doLast {
+		logger.lifecycle(":copying youtube jar for cleanup")
+		copy {
+			from youtubeJar
+			into cacheDir
+			rename { String fileName ->
+				fileName.replace(youtubeJar.getName(), youtubeJarCleaned.getName())
+			}
+
+		}
+
+	}
+}
+copyYoutubeJarForCleanup.enabled = !youtubeJarCleaned.exists() || youtubeJarCleaned.length() < 30000000
+
+
 import java.nio.file.NoSuchFileException
 
-task removeUnneededPackagesFromJar(dependsOn: convertApkToJar, type: FileOutputInput) {
+task removeUnneededPackagesFromJar(dependsOn: copyYoutubeJarForCleanup, type: FileOutputInput) {
 	group = setupGroup
-	input convertApkToJar.output
+	input youtubeJarCleaned
 	output youtubeJarCleaned
 
 	doLast {
@@ -325,7 +345,7 @@ task removeUnneededPackagesFromJar(dependsOn: convertApkToJar, type: FileOutputI
 		/* We want to read an existing ZIP File, so we set this to False */
 		zipProperties.put("create", "false");
 
-		Path path = youtubeJar.toPath();
+		Path path = youtubeJarCleaned.toPath();
 		URI zipFile = URI.create("jar:" + path.toUri());
 
 		/* Create ZIP file System */
@@ -635,7 +655,7 @@ task convertApkToMatchAgainstToJar(type: FileOutputInput) {
 convertApkToMatchAgainstToJar.enabled = !youtubeJarToMatchAgainst.exists() || youtubeJarToMatchAgainst.length() < 30000000
 
 
-task matcher(dependsOn: [convertApkToJar, buildTinyMappingFiles, convertApkToMatchAgainstToJar], type: JavaExec) {
+task matcher(dependsOn: [convertApkToJar, convertApkToMatchAgainstToJar], type: JavaExec) {
 	group = mappingsGroup
 
 	classpath = configurations.matcherClasspath

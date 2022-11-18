@@ -6,6 +6,6 @@ CLASS com/google/android/apps/youtube/app/player/overlay/PipPaidProductBadgeOver
 	FIELD i runnable Ljava/lang/Runnable;
 	FIELD k view Landroid/view/View;
 	FIELD n shown Z
-	METHOD m createView ()V
 	METHOD k hide ()V
 	METHOD l show ()V
+	METHOD m createView ()V

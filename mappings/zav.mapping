@@ -4,5 +4,5 @@ CLASS zav
 	FIELD f paidContentOverlay Landroid/view/View;
 	FIELD g paidContentText Landroid/widget/TextView;
 	FIELD m runnable Ljava/lang/Runnable;
-	METHOD l hasViews ()Z
 	METHOD i createViews ()V
+	METHOD l hasViews ()Z

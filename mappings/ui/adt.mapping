@@ -1,6 +1,5 @@
 CLASS adt ui/adt
 	FIELD b info Landroid/view/accessibility/AccessibilityNodeInfo;
-	METHOD N getTag (Landroid/view/View;)Landroid/util/SparseArray;
 	METHOD A setHintText (Ljava/lang/CharSequence;)V
 	METHOD B setLabelFor (Landroid/view/View;)V
 	METHOD C setParent (Landroid/view/View;)V
@@ -13,6 +12,7 @@ CLASS adt ui/adt
 	METHOD J isFocusable ()Z
 	METHOD K isPassword1 ()Z
 	METHOD L isPassword2 ()Z
+	METHOD N getTag (Landroid/view/View;)Landroid/util/SparseArray;
 	METHOD O unselect ()V
 	METHOD a getExtras ()Landroid/os/Bundle;
 	METHOD d getClassName ()Ljava/lang/CharSequence;

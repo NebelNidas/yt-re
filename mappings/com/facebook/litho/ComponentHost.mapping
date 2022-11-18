@@ -10,7 +10,6 @@ CLASS com/facebook/litho/ComponentHost
 	FIELD t mWasInvalidatedWhileSuppressed Z
 	FIELD u mWasInvalidatedForAccessibilityWhileSuppressed Z
 	FIELD w mSuppressInvalidations Z
-	METHOD z implementsVirtualViews ()Z
 	METHOD a getMountItemCount ()I
 	METHOD b getAccessibleMountItem ()Ldqm;
 	METHOD c getMountItemAt (I)Ldqm;
@@ -18,3 +17,4 @@ CLASS com/facebook/litho/ComponentHost
 	METHOD k init (ILdqm;)V
 	METHOD o refreshAccessibilityDelegatesIfNeeded (Z)V
 	METHOD v shouldRequestLayout ()Z
+	METHOD z implementsVirtualViews ()Z

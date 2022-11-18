@@ -1,11 +1,11 @@
 CLASS skw CustomUri
 	FIELD c params Ljava/util/HashMap;
+	METHOD a buildQueryParams ()Landroid/net/Uri;
 	METHOD b fromUri (Landroid/net/Uri;)Lskw;
 	METHOD c fromCustomUri (Lskw;)Lskw;
-	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lskv;
+	METHOD h setParam (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 key
 		ARG 2 value
-	METHOD a buildQueryParams ()Landroid/net/Uri;
-	METHOD h setParam (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lskv;
 		ARG 1 key
 		ARG 2 value

@@ -3,14 +3,14 @@ CLASS deo LayoutStateFuture
 	FIELD c widthSpec I
 	FIELD d heightSpec I
 	FIELD e diffingEnabled Z
+	FIELD f refCount Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD h source I
 	FIELD i extraAttribution Ljava/lang/String;
+	FIELD j released Z
 	FIELD k tree Lcom/facebook/litho/ComponentTree;
 	FIELD l treeProps Laju;
-	FIELD o isFromSyncLayout Z
 	FIELD m runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD f refCount Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD j released Z
+	FIELD o isFromSyncLayout Z
 	METHOD <init> (Lcom/facebook/litho/ComponentTree;Lded;Lddz;IIZLaju;ILjava/lang/String;[B)V
 		ARG 3 root
 		ARG 4 widthSpec

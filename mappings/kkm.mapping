@@ -1,7 +1,6 @@
 CLASS kkm
 	FIELD c playerViewModeMonitor Lese;
-	FIELD o config Landroid/content/res/Configuration;
 	FIELD m tabNames Ljava/util/Set;
 	FIELD n flags Lacto;
+	FIELD o config Landroid/content/res/Configuration;
 	FIELD q pivotBar Lj$/util/Optional;
-	METHOD z (Z)V

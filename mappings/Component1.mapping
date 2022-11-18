@@ -4,3 +4,5 @@ CLASS dej Component1
 	METHOD O mount (Lded;Ljava/lang/Object;)V
 	METHOD R onMeasure (Lded;Ldeh;IILdhu;)V
 	METHOD S onMount (Lded;Ljava/lang/Object;)V
+	METHOD b getThis (Lded;)Lddz;
+	METHOD c resolve (Lded;)Ldeh;

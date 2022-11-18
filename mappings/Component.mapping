@@ -1,4 +1,5 @@
 CLASS ddx Component
+	METHOD b setContent (Lddz;)V
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

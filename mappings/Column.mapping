@@ -2,6 +2,3 @@ CLASS ddt Column
 	FIELD a children Ljava/util/List;
 	FIELD d reverse Z
 	METHOD a create (Lded;)Ldds;
-	METHOD b getThis (Lded;)Lddz;
-	METHOD c resolve (Lded;)Ldeh;
-	METHOD e isEquivalentTo (Lddz;)Z

@@ -5,4 +5,3 @@ CLASS jgu OldDislikeButton_OnClick
 	FIELD m textColors Landroid/content/res/ColorStateList;
 	METHOD <init> (Ltip;Laalh;Landroid/content/Context;Landroid/view/ViewGroup;ILjnd;)V
 		ARG 5 id
-	METHOD b reset ()V

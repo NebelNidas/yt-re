@@ -2,4 +2,3 @@ CLASS fmj
 	FIELD a buttonsMap Ljava/util/EnumMap;
 	FIELD b pivotTabsMap Ljava/util/EnumMap;
 	METHOD c generateButtonsMap ()Ljava/util/EnumMap;
-	METHOD a getButtonId (Lahjw;)I

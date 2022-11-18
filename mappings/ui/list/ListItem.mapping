@@ -3,4 +3,3 @@ CLASS pdg ui/list/ListItem
 	FIELD e iconDrawable Landroid/graphics/drawable/Drawable;
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 1 text
-	METHOD b getIconResourceId ()I

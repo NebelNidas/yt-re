@@ -5,6 +5,4 @@ CLASS zav
 	FIELD g paidContentText Landroid/widget/TextView;
 	FIELD m runnable Ljava/lang/Runnable;
 	METHOD l hasViews ()Z
-	METHOD f setOnClick (Landroid/view/View$OnClickListener;)V
-	METHOD h show ()V
 	METHOD i createViews ()V

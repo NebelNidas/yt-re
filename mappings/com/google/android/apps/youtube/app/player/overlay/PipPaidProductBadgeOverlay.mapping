@@ -9,4 +9,3 @@ CLASS com/google/android/apps/youtube/app/player/overlay/PipPaidProductBadgeOver
 	METHOD m createView ()V
 	METHOD k hide ()V
 	METHOD l show ()V
-	METHOD lu hasView ()Z

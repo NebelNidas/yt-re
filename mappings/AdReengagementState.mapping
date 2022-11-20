@@ -1,5 +1,5 @@
-CLASS rbe AdReengagementState
-	FIELD a renderer Lafna;
+CLASS rbh AdReengagementState
+	FIELD a renderer Lafot;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

@@ -1,2 +1,0 @@
-CLASS zrz
-	METHOD L setPlaybackSpeed (F)V

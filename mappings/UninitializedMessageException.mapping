@@ -1,2 +1,2 @@
-CLASS aeqb UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Laeod;
+CLASS aert UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Laepv;

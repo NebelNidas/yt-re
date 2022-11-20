@@ -1,0 +1,3 @@
+CLASS znv
+	METHOD G (F)V
+		ARG 1 speed

@@ -1,5 +1,0 @@
-CLASS seq
-	METHOD k getDrawableWithColor (Landroid/content/Context;II)Landroid/graphics/drawable/Drawable;
-		ARG 1 drawableId
-		ARG 2 color
-	METHOD u setVisibility (Landroid/view/View;Z)V

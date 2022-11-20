@@ -1,7 +1,0 @@
-CLASS rrq
-	METHOD F getResourceId (Landroid/content/Context;I)I
-		ARG 1 attr
-	METHOD G getColorStateList (Landroid/content/Context;I)Landroid/content/res/ColorStateList;
-		ARG 1 attr
-	METHOD H (Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
-		ARG 1 attr

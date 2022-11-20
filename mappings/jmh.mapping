@@ -1,0 +1,2 @@
+CLASS jmh
+	METHOD b reset ()V

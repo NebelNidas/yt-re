@@ -1,3 +1,0 @@
-CLASS zmh
-	METHOD G (F)V
-		ARG 1 speed

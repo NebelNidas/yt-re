@@ -1,2 +1,0 @@
-CLASS tlc
-	METHOD d toByteArray ()[B

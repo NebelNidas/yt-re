@@ -1,2 +1,2 @@
-CLASS aenw IntList
-	METHOD f mutableCopyWithCapacity (I)Laenw;
+CLASS aepo IntList
+	METHOD f mutableCopyWithCapacity (I)Laepo;

@@ -1,2 +1,0 @@
-CLASS dhp
-	METHOD b markerPoint (Ljava/lang/String;)V

@@ -1,2 +1,2 @@
-CLASS dpt TextInput
+CLASS dpy TextInput
 	FIELD e hint Ljava/lang/CharSequence;

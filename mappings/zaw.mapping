@@ -1,3 +1,5 @@
 CLASS zaw
-	METHOD f setOnClick (Landroid/view/View$OnClickListener;)V
-	METHOD h show ()V
+	FIELD b prm Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
+	FIELD c emptySpeeds [Lamkt;
+	METHOD c ([Lamkt;)V
+		ARG 1 speeds

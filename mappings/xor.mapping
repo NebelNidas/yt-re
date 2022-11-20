@@ -1,2 +1,0 @@
-CLASS xor
-	METHOD h findXop (Ljava/lang/String;)Lxop;

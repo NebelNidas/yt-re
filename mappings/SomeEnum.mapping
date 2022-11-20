@@ -1,2 +1,2 @@
-CLASS ahjw SomeEnum
-	METHOD b fromValue (I)Lahjw;
+CLASS ahlw SomeEnum
+	METHOD b fromValue (I)Lahlw;

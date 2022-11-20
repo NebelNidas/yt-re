@@ -1,0 +1,2 @@
+CLASS zto
+	METHOD L setPlaybackSpeed (F)V

@@ -1,4 +1,0 @@
-CLASS gwc
-	METHOD v setText (Landroid/widget/TextView;I)V
-		ARG 1 resid
-	METHOD y setText (Landroid/widget/TextView;Ljava/lang/CharSequence;)V

@@ -1,2 +1,2 @@
-CLASS cds util/InternalNodeUtil
-	METHOD k create (Lded;)Ldgd;
+CLASS cdx util/InternalNodeUtil
+	METHOD k create (Ldei;)Ldgi;

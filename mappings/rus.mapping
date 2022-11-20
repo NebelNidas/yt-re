@@ -1,4 +1,0 @@
-CLASS rus
-	METHOD p getFromMap (Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD q getFromMapAndCheckInstance (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD r getFromMapAndCast (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;

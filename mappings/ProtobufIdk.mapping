@@ -1,5 +1,5 @@
-CLASS aebv ProtobufIdk
-	METHOD F toLowerCase (Ljava/lang/String;)Ljava/lang/String;
-	METHOD G toUpperCase (Ljava/lang/String;)Ljava/lang/String;
-	METHOD I isLowerCase (C)Z
-	METHOD J isUpperCase (C)Z
+CLASS addi ProtobufIdk
+	METHOD h toLowerCase (Ljava/lang/String;)Ljava/lang/String;
+	METHOD i toUpperCase (Ljava/lang/String;)Ljava/lang/String;
+	METHOD k isLowerCase (C)Z
+	METHOD l isUpperCase (C)Z

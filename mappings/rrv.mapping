@@ -1,0 +1,7 @@
+CLASS rrv
+	METHOD af isHttps (Landroid/net/Uri;)Z
+	METHOD ah isLocalhost (Landroid/net/Uri;)Z
+	METHOD i checkNotInMainThread ()V
+	METHOD j checkIsInMainThread ()V
+	METHOD k isNotInMainThread ()Z
+	METHOD l isInMainthread ()Z

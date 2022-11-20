@@ -1,8 +1,8 @@
-CLASS dej Component1
-	METHOD H newEventHandler (Ljava/lang/Class;Lded;I[Ljava/lang/Object;)Ldfr;
+CLASS deo Component1
+	METHOD H newEventHandler (Ljava/lang/Class;Ldei;I[Ljava/lang/Object;)Ldfw;
 	METHOD L onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD O mount (Lded;Ljava/lang/Object;)V
-	METHOD R onMeasure (Lded;Ldeh;IILdhu;)V
-	METHOD S onMount (Lded;Ljava/lang/Object;)V
-	METHOD b getThis (Lded;)Lddz;
-	METHOD c resolve (Lded;)Ldeh;
+	METHOD O mount (Ldei;Ljava/lang/Object;)V
+	METHOD R onMeasure (Ldei;Ldem;IILdhz;)V
+	METHOD S onMount (Ldei;Ljava/lang/Object;)V
+	METHOD b getThis (Ldei;)Ldee;
+	METHOD c resolve (Ldei;)Ldem;

@@ -1,6 +1,6 @@
-CLASS ddx Component
-	METHOD b setContent (Lddz;)V
-	METHOD m clone ()Lddx;
+CLASS dec Component
+	METHOD b setContent (Ldee;)V
+	METHOD m clone ()Ldec;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

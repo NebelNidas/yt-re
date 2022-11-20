@@ -1,2 +1,2 @@
-CLASS aenq BooleanList
-	METHOD d withCapacity (I)Laenq;
+CLASS aepi BooleanList
+	METHOD d withCapacity (I)Laepi;

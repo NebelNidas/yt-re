@@ -1,3 +1,3 @@
-CLASS aemi ByteBuffer
-	METHOD l newCodedInput ()Laemn;
+CLASS aeoa ByteBuffer
+	METHOD l newCodedInput ()Laeof;
 	METHOD q isValidUtf8 ()Z

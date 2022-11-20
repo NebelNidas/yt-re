@@ -1,4 +1,4 @@
-CLASS dpm Text
+CLASS dpr Text
 	FIELD D tmpText Ljava/lang/CharSequence;
 	FIELD G typefaceStyle I
 	FIELD I typeface Landroid/graphics/Typeface;

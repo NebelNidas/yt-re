@@ -1,4 +1,0 @@
-CLASS xpt
-	FIELD a notificationTag Ljava/lang/String;
-	FIELD b notificationId I
-	FIELD c clientId Ljava/lang/String;

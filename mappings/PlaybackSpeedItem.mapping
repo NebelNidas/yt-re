@@ -1,2 +1,2 @@
-CLASS jxm PlaybackSpeedItem
+CLASS jxj PlaybackSpeedItem
 	FIELD a speedMultiplier F

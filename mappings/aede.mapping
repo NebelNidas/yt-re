@@ -1,3 +1,0 @@
-CLASS aede
-	METHOD ad objectEquals (Ljava/lang/Object;Ljava/lang/Object;)Z
-	METHOD s build (Laems;[B)Laemi;

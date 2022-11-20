@@ -1,4 +1,4 @@
-CLASS apaq util/AssertUtil
+CLASS apdb util/AssertUtil
 	METHOD a areEqual (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD b assertNotNull (Ljava/lang/Object;Ljava/lang/String;)V
 	METHOD c assertGreaterThan0 (ILjava/lang/String;)V

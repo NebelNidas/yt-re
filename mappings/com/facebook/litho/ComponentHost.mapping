@@ -1,20 +1,20 @@
 CLASS com/facebook/litho/ComponentHost
 	FIELD A mInLayout Z
-	FIELD B mComponentAccessibilityDelegate Ldeb;
+	FIELD B mComponentAccessibilityDelegate Ldeg;
 	FIELD C mIsComponentAccessibilityDelegateSet Z
 	FIELD a mMountItems Lua;
 	FIELD e mDrawableMountItems Lua;
 	FIELD h tag Ljava/lang/Object;
-	FIELD k clickListener Ldec;
+	FIELD k clickListener Ldeh;
 	FIELD s mContentDescription Ljava/lang/CharSequence;
 	FIELD t mWasInvalidatedWhileSuppressed Z
 	FIELD u mWasInvalidatedForAccessibilityWhileSuppressed Z
 	FIELD w mSuppressInvalidations Z
 	METHOD a getMountItemCount ()I
-	METHOD b getAccessibleMountItem ()Ldqm;
-	METHOD c getMountItemAt (I)Ldqm;
+	METHOD b getAccessibleMountItem ()Ldqs;
+	METHOD c getMountItemAt (I)Ldqs;
 	METHOD j invalidateAccessibilityState ()V
-	METHOD k init (ILdqm;)V
+	METHOD k init (ILdqs;)V
 	METHOD o refreshAccessibilityDelegatesIfNeeded (Z)V
 	METHOD v shouldRequestLayout ()Z
 	METHOD z implementsVirtualViews ()Z

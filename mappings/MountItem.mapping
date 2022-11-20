@@ -1,2 +1,2 @@
-CLASS dqm MountItem
+CLASS dqs MountItem
 	FIELD a content Ljava/lang/Object;

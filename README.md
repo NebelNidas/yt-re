@@ -49,7 +49,7 @@ Decompile the mapped source code with [QuiltFlower](https://github.com/QuiltMC/q
 ### `matcher`
 Run [Matcher](https://github.com/NebelNidas/Matcher) with the provided `youtube.apk` and `youtube-new.apk` as inputs, so you can update the mappings to a newer YT version.
 
-As soon as Matcher is started and has analyzed its input files, select `Matching` → `Auto match all`. Depending on your Computer's hardware, this may take several hours, sometimes up to half a day. A modern multi-core CPU with >=6 cores (12 threads) and >=16GB RAM are recommended! After the process has finished, take care of the remaining red entries. You may have to double-check each class and method if any containing children are still unmatched. If you can't find a similar enough counterpart, perhaps the class/method/etc. has been removed from the newer APK. In this case, click the "unmatchable" button in the bottom pane.
+As soon as Matcher is started and has analyzed its input files, select `Matching` → `Auto match all`. Depending on your Computer's hardware, this may take several hours, sometimes up to half a day. A modern multi-core CPU with ≥6 cores (12 threads) and ≥16GB RAM are recommended! After the process has finished, take care of the remaining red entries. You may have to double-check each class and method if any containing children are still unmatched. If you can't find a similar enough counterpart, perhaps the class/method/etc. has been removed from the newer APK. In this case, click the "unmatchable" button in the bottom pane.
 
 Once you're confident with your results, go to `File` → `Save matches` and save the file into the `matches` folder. Please name it `<old-version> - <new-version>.match`; see the already existent match files.
 

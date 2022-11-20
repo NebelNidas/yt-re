@@ -1,0 +1,2 @@
+CLASS zsk
+	METHOD G setPlaybackSpeed (F)V

@@ -1,2 +1,0 @@
-CLASS abac
-	METHOD X objectEquals (Ljava/lang/Object;Ljava/lang/Object;)Z

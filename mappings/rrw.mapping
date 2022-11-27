@@ -1,4 +1,0 @@
-CLASS rrw
-	METHOD s getFromMap (Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD t getFromMapAndCheckInstance (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD u getFromMapAndCast (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;

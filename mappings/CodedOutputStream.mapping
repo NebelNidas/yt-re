@@ -1,5 +1,5 @@
-CLASS aeok CodedOutputStream
+CLASS aesq CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Laeok;
+	METHOD ak getCodedOutput ([B)Laesq;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

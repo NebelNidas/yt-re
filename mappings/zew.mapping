@@ -1,0 +1,5 @@
+CLASS zew
+	FIELD b prm Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
+	FIELD c emptySpeeds [Lampg;
+	METHOD c ([Lampg;)V
+		ARG 1 speeds

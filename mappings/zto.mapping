@@ -1,2 +1,2 @@
 CLASS zto
-	METHOD L setPlaybackSpeed (F)V
+	FIELD m speedMult F

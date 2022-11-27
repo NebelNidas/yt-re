@@ -1,0 +1,2 @@
+CLASS zxy
+	METHOD F setPlaybackSpeed (F)V

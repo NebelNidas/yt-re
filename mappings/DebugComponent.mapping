@@ -1,5 +1,5 @@
-CLASS dfd DebugComponent
+CLASS dht DebugComponent
 	METHOD a getRect ()Landroid/graphics/Rect;
-	METHOD c getComponent ()Ldee;
-	METHOD g getLithoView ()Ldhe;
-	METHOD p getLayoutNode ()Lajv;
+	METHOD c getComponent ()Ldgu;
+	METHOD g getLithoView ()Ldju;
+	METHOD p getLayoutNode ()Lamm;

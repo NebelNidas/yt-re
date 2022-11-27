@@ -1,6 +1,6 @@
-CLASS aeru UnknownFieldSetLite
-	FIELD a defaultInstance Laeru;
-	METHOD b mutableCopyOf (Laeru;Laeru;)Laeru;
-	METHOD c newInstance ()Laeru;
+CLASS aewa UnknownFieldSetLite
+	FIELD a defaultInstance Laewa;
+	METHOD b mutableCopyOf (Laewa;Laewa;)Laewa;
+	METHOD c newInstance ()Laewa;
 	METHOD f mergeVarintField (ILjava/lang/Object;)V
-	METHOD g mergeFieldFrom (ILaeof;)Z
+	METHOD g mergeFieldFrom (ILaesl;)Z

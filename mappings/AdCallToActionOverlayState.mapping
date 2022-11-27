@@ -1,8 +1,8 @@
-CLASS rbb AdCallToActionOverlayState
-	FIELD b renderer Lacpy;
-	FIELD c onClickedRenderer Lacpy;
-	FIELD d trackingParams Laeoa;
-	FIELD e visualStateChangeTriggers Lacvb;
+CLASS rei AdCallToActionOverlayState
+	FIELD b renderer Lacui;
+	FIELD c onClickedRenderer Lacui;
+	FIELD d trackingParams Laesg;
+	FIELD e visualStateChangeTriggers Laczi;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

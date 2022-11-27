@@ -1,0 +1,2 @@
+CLASS zev
+	METHOD c changeSpeed ([Lampg;I)V

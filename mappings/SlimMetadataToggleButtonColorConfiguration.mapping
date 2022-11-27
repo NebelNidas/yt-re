@@ -1,4 +1,4 @@
-CLASS jmr SlimMetadataToggleButtonColorConfiguration
+CLASS jxe SlimMetadataToggleButtonColorConfiguration
 	FIELD a defaultIconColorRes I
 	FIELD b selectedIconColorRes I
 	FIELD c defaultTextColorRes I

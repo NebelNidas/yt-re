@@ -1,2 +1,0 @@
-CLASS zyl
-	METHOD b getDisplayString (Lahdy;)Landroid/text/Spanned;

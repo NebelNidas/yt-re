@@ -1,0 +1,7 @@
+CLASS ryd
+	METHOD I isHttps (Landroid/net/Uri;)Z
+	METHOD K isLocalhost (Landroid/net/Uri;)Z
+	METHOD c checkNotInMainThread ()V
+	METHOD d checkIsInMainThread ()V
+	METHOD e isNotInMainThread ()Z
+	METHOD f isInMainthread ()Z

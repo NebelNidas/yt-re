@@ -1,2 +1,0 @@
-CLASS tmg
-	METHOD d toByteArray ()[B

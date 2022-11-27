@@ -1,3 +1,0 @@
-CLASS dgl
-	METHOD a getLayoutOutput (Ldqs;)Ldgl;
-	METHOD c isAccessible ()Z

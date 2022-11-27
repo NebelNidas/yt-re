@@ -1,9 +1,9 @@
-CLASS aeri Schema
+CLASS aevo Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;Laerd;Laeoq;)V
-	METHOD i mergeFrom (Ljava/lang/Object;[BIILaeno;)V
+	METHOD h mergeFrom (Ljava/lang/Object;Laevj;Laesw;)V
+	METHOD i mergeFrom (Ljava/lang/Object;[BIILaeru;)V
 	METHOD j equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD k isInitialized (Ljava/lang/Object;)Z
-	METHOD l writeTo (Ljava/lang/Object;Laebw;)V
+	METHOD l writeTo (Ljava/lang/Object;Laegd;)V

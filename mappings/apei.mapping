@@ -1,0 +1,4 @@
+CLASS apei
+	METHOD a (Lapgs;Lapgs;Lapgm;Lapgm;Lapgm;Lapgm;)Lapei;
+		ARG 3 onComplete
+		ARG 6 onDispose

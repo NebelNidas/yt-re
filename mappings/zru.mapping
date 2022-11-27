@@ -1,0 +1,3 @@
+CLASS zru
+	METHOD F (F)V
+		ARG 1 speed

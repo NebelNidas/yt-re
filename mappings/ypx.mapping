@@ -1,0 +1,2 @@
+CLASS ypx
+	METHOD e getProgress ()J

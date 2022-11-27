@@ -1,9 +1,0 @@
-CLASS adid
-	METHOD n assertTrue (Z)V
-	METHOD o assertTrue (ZLjava/lang/Object;)V
-	METHOD p assertTrue (ZLjava/lang/String;I)V
-	METHOD q assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD r assertTrue (ZLjava/lang/String;II)V
-	METHOD s assertTrue (ZLjava/lang/String;Ljava/lang/Object;J)V
-	METHOD t assertTrue (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-	METHOD u assertTrue (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V

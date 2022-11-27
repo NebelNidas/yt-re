@@ -1,2 +1,0 @@
-CLASS ylx
-	METHOD c getPlayingState ()Lzig;

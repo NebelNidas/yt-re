@@ -1,2 +1,2 @@
-CLASS aerr StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Laeqz;Z[I[Laeos;Ljava/lang/Object;)V
+CLASS aevx StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Laevf;Z[I[Laesy;Ljava/lang/Object;)V

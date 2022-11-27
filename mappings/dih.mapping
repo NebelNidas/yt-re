@@ -1,5 +1,0 @@
-CLASS dih
-	FIELD b mDelegateView Landroid/view/View;
-	FIELD d mSlop I
-	FIELD e mDelegateSlopBounds1 Landroid/graphics/Rect;
-	FIELD f mDelegateSlopBounds2 Landroid/graphics/Rect;

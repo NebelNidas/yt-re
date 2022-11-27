@@ -1,0 +1,2 @@
+CLASS pgn
+	FIELD aq list Landroid/widget/ListAdapter;

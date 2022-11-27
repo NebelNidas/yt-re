@@ -1,5 +1,5 @@
-CLASS addi ProtobufIdk
-	METHOD h toLowerCase (Ljava/lang/String;)Ljava/lang/String;
-	METHOD i toUpperCase (Ljava/lang/String;)Ljava/lang/String;
-	METHOD k isLowerCase (C)Z
-	METHOD l isUpperCase (C)Z
+CLASS adhp ProtobufIdk
+	METHOD i toLowerCase (Ljava/lang/String;)Ljava/lang/String;
+	METHOD j toUpperCase (Ljava/lang/String;)Ljava/lang/String;
+	METHOD l isLowerCase (C)Z
+	METHOD m isUpperCase (C)Z

@@ -1,2 +1,0 @@
-CLASS zua
-	METHOD G setPlaybackSpeed (F)V

@@ -1,0 +1,2 @@
+CLASS tqc
+	METHOD d toByteArray ()[B

@@ -1,0 +1,2 @@
+CLASS diu
+	METHOD a collectChildren (Ljava/util/List;)V

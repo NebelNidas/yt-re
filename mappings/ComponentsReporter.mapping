@@ -1,4 +1,4 @@
-CLASS dfa ComponentsReporter
-	FIELD a sInstance Ldez;
+CLASS dhq ComponentsReporter
+	FIELD a sInstance Ldhp;
 	METHOD a emitMessage (ILjava/lang/String;Ljava/lang/String;)V
-	METHOD c getInstance ()Ldez;
+	METHOD c getInstance ()Ldhp;

@@ -1,2 +1,2 @@
-CLASS pdd ui/pdf
+CLASS pgo ui/pdf
 	METHOD b getIconResourceId ()I

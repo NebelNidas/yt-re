@@ -1,2 +1,0 @@
-CLASS abdt
-	METHOD h getFormFactor (Landroid/content/Context;)Lahtj;

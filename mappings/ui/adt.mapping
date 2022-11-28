@@ -7,13 +7,13 @@ CLASS afy ui/adt
 	METHOD E setText (Ljava/lang/CharSequence;)V
 	METHOD F setTraversalAfter (Landroid/view/View;)V
 	METHOD G setVisibleToUser (Z)V
-	METHOD H setVisibleToUser ()Z
+	METHOD H isChecked ()Z
 	METHOD I isEnabled ()Z
 	METHOD J isFocusable ()Z
-	METHOD K isPassword1 ()Z
-	METHOD L isPassword2 ()Z
+	METHOD K isPassword ()Z
+	METHOD L isScrollable ()Z
 	METHOD N getTag (Landroid/view/View;)Landroid/util/SparseArray;
-	METHOD O unselect ()V
+	METHOD O deselect ()V
 	METHOD a getExtras ()Landroid/os/Bundle;
 	METHOD d getClassName ()Ljava/lang/CharSequence;
 	METHOD e getContentDescription ()Ljava/lang/CharSequence;

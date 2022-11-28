@@ -24,7 +24,7 @@ CLASS aga ui/adt
 	METHOD k getBoundsInScreen (Landroid/graphics/Rect;)V
 	METHOD l setAccessibilityFocused (Z)V
 	METHOD n setBoundsInParent (Landroid/graphics/Rect;)V
-	METHOD o nsetBoundsInScreen (Landroid/graphics/Rect;)V
+	METHOD o setBoundsInScreen (Landroid/graphics/Rect;)V
 	METHOD p setCheckable (Z)V
 	METHOD q setChecked (Z)V
 	METHOD r setClassName (Ljava/lang/CharSequence;)V

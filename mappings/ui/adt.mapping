@@ -29,7 +29,7 @@ CLASS aga ui/adt
 	METHOD q setChecked (Z)V
 	METHOD r setClassName (Ljava/lang/CharSequence;)V
 	METHOD s setClickable (Z)V
-	METHOD t nsetCollectionInfo (Ljava/lang/Object;)V
+	METHOD t setCollectionInfo (Ljava/lang/Object;)V
 	METHOD u setCollectionItemInfo (Ljava/lang/Object;)V
 	METHOD v setContentDescription (Ljava/lang/CharSequence;)V
 	METHOD w setDismissable (Z)V

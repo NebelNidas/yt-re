@@ -1,0 +1,2 @@
+CLASS dit
+	METHOD a collectChildren (Ljava/util/List;)V

@@ -1,5 +1,0 @@
-CLASS qdp
-	METHOD o getDrawableWithColor (Landroid/content/Context;II)Landroid/graphics/drawable/Drawable;
-		ARG 1 drawableId
-		ARG 2 color
-	METHOD z setVisibility (Landroid/view/View;Z)V

@@ -1,6 +1,6 @@
-CLASS aexz UnknownFieldSetLite
-	FIELD a defaultInstance Laexz;
-	METHOD b mutableCopyOf (Laexz;Laexz;)Laexz;
-	METHOD c newInstance ()Laexz;
+CLASS afdm UnknownFieldSetLite
+	FIELD a defaultInstance Lafdm;
+	METHOD b mutableCopyOf (Lafdm;Lafdm;)Lafdm;
+	METHOD c newInstance ()Lafdm;
 	METHOD f mergeVarintField (ILjava/lang/Object;)V
-	METHOD g mergeFieldFrom (ILaeuk;)Z
+	METHOD g mergeFieldFrom (ILaezx;)Z

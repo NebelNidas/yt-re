@@ -1,0 +1,2 @@
+CLASS aorq
+	METHOD aI isItalic ()Z

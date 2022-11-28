@@ -1,2 +1,2 @@
-CLASS aevt IntList
-	METHOD f mutableCopyWithCapacity (I)Laevt;
+CLASS afbg IntList
+	METHOD f mutableCopyWithCapacity (I)Lafbg;

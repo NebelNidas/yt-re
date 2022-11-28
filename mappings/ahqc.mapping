@@ -1,0 +1,2 @@
+CLASS ahqc
+	FIELD c displayString Ljava/lang/String;

@@ -1,9 +1,0 @@
-CLASS aelb
-	METHOD A assertTrue (ZLjava/lang/String;Ljava/lang/Object;J)V
-	METHOD B assertTrue (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-	METHOD C assertTrue (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-	METHOD v assertTrue (Z)V
-	METHOD w assertTrue (ZLjava/lang/Object;)V
-	METHOD x assertTrue (ZLjava/lang/String;I)V
-	METHOD y assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD z assertTrue (ZLjava/lang/String;II)V

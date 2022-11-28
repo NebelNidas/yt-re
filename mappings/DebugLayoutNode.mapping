@@ -1,2 +1,2 @@
-CLASS amo DebugLayoutNode
-	METHOD p getClickHandler ()Ldio;
+CLASS amm DebugLayoutNode
+	METHOD p getClickHandler ()Ldil;

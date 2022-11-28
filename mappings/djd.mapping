@@ -1,3 +1,0 @@
-CLASS djd
-	METHOD a getLayoutOutput (Ldtl;)Ldjd;
-	METHOD c isAccessible ()Z

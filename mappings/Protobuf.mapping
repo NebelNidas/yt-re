@@ -1,3 +1,3 @@
-CLASS aexf Protobuf
-	FIELD a instance Laexf;
-	METHOD b schemaFor (Ljava/lang/Object;)Laexn;
+CLASS afcs Protobuf
+	FIELD a instance Lafcs;
+	METHOD b schemaFor (Ljava/lang/Object;)Lafda;

@@ -1,2 +1,2 @@
-CLASS aevw LongList
-	METHOD d mutableCopyWithCapacity (I)Laevw;
+CLASS afbj LongList
+	METHOD d mutableCopyWithCapacity (I)Lafbj;

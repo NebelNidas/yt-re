@@ -1,5 +1,1 @@
-CLASS adjr ProtobufIdk
-	METHOD i toLowerCase (Ljava/lang/String;)Ljava/lang/String;
-	METHOD j toUpperCase (Ljava/lang/String;)Ljava/lang/String;
-	METHOD l isLowerCase (C)Z
-	METHOD m isUpperCase (C)Z
+CLASS adon ProtobufIdk

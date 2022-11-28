@@ -1,2 +1,2 @@
-CLASS aevm IntArrayList
-	FIELD b emptyList Laevm;
+CLASS afaz IntArrayList
+	FIELD b emptyList Lafaz;

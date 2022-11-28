@@ -1,0 +1,2 @@
+CLASS koa
+	FIELD j recreateSignedInState I

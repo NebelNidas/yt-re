@@ -1,2 +1,2 @@
-CLASS aevo DoubleList
-	METHOD d mutableCopyWithCapacity (I)Laevo;
+CLASS afbb DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lafbb;

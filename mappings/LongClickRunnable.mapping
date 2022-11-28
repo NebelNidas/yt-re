@@ -1,4 +1,4 @@
-CLASS dsm LongClickRunnable
-	FIELD a longClickableSpan Ldqt;
-	FIELD b textDrawable Ldso;
+CLASS dsk LongClickRunnable
+	FIELD a longClickableSpan Ldqr;
+	FIELD b textDrawable Ldsm;
 	FIELD c longClickableSpanView Landroid/view/View;

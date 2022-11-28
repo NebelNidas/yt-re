@@ -1,2 +1,0 @@
-CLASS diw
-	METHOD a collectChildren (Ljava/util/List;)V

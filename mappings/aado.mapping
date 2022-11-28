@@ -1,0 +1,2 @@
+CLASS aado
+	METHOD H setPlaybackSpeed (F)V

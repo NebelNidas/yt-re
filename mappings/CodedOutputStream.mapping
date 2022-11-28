@@ -1,5 +1,5 @@
-CLASS aeup CodedOutputStream
+CLASS afac CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Laeup;
+	METHOD ak getCodedOutput ([B)Lafac;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

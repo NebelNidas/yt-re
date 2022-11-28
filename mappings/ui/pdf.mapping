@@ -1,2 +1,2 @@
-CLASS pgy ui/pdf
+CLASS pji ui/pdf
 	METHOD b getIconResourceId ()I

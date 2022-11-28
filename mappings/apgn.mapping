@@ -1,4 +1,0 @@
-CLASS apgn
-	METHOD a (Lapix;Lapix;Lapir;Lapir;Lapir;Lapir;)Lapgn;
-		ARG 3 onComplete
-		ARG 6 onDispose

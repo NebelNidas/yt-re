@@ -1,11 +1,11 @@
-CLASS dgw Component2
+CLASS dgt Component2
 	FIELD h sIdGenerator Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD j mId I
-	FIELD s sEmptyArray [Ldtx;
-	METHOD e isEquivalentTo (Ldgw;)Z
-	METHOD j makeShallowCopy ()Ldgw;
-	METHOD k makeShallowCopyWithNewId (Ldha;)Ldgw;
+	FIELD s sEmptyArray [Ldtv;
+	METHOD e isEquivalentTo (Ldgt;)Z
+	METHOD j makeShallowCopy ()Ldgt;
+	METHOD k makeShallowCopyWithNewId (Ldgx;)Ldgt;
 	METHOD o getSimpleName ()Ljava/lang/String;
-	METHOD r measure (Ldha;IILdkr;)V
-	METHOD s generateKey (Ldha;)V
-	METHOD u isHostSpec (Ldgw;)Z
+	METHOD r measure (Ldgx;IILdko;)V
+	METHOD s generateKey (Ldgx;)V
+	METHOD u isHostSpec (Ldgt;)Z

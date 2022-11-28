@@ -1,8 +1,8 @@
-CLASS zyq VideoInfo
+CLASS aaco VideoInfo
 	FIELD g duration J
 	FIELD i height I
 	FIELD j width I
 	FIELD k speedMult F
 	FIELD l titleText Ljava/lang/CharSequence;
 	FIELD m channelText Ljava/lang/CharSequence;
-	FIELD q audioRoute Lkss;
+	FIELD q audioRoute Lktv;

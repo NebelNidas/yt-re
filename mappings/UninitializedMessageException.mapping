@@ -1,2 +1,2 @@
-CLASS aexy UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Laewa;
+CLASS afdl UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lafbn;

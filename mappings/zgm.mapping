@@ -1,2 +1,0 @@
-CLASS zgm
-	METHOD c changeSpeed ([Lamrg;I)V

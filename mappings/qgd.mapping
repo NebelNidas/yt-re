@@ -1,4 +1,0 @@
-CLASS qgd
-	METHOD M getFromMap (Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD N getFromMapAndCheckInstance (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD O getFromMapAndCast (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;

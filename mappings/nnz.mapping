@@ -1,0 +1,2 @@
+CLASS nnz
+	FIELD b touchLocation Ljava/util/concurrent/atomic/AtomicReference;

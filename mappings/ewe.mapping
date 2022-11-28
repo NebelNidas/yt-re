@@ -1,3 +1,0 @@
-CLASS ewe
-	METHOD e isInlineMinimal ()Z
-	METHOD f isPIP ()Z

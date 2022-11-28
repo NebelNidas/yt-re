@@ -1,2 +1,2 @@
-CLASS aewa InvalidProtocolBufferException
+CLASS afbn InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

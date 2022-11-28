@@ -1,0 +1,5 @@
+CLASS slb
+	METHOD l getDrawableWithColor (Landroid/content/Context;II)Landroid/graphics/drawable/Drawable;
+		ARG 1 drawableId
+		ARG 2 color
+	METHOD w setVisibility (Landroid/view/View;Z)V

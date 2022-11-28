@@ -1,5 +1,0 @@
-CLASS zgn
-	FIELD b prm Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
-	FIELD c emptySpeeds [Lamrg;
-	METHOD c ([Lamrg;)V
-		ARG 1 speeds

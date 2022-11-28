@@ -1,0 +1,2 @@
+CLASS aadd
+	METHOD L setPlaybackSpeed (F)V

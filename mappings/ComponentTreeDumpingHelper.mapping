@@ -1,3 +1,3 @@
-CLASS dhu ComponentTreeDumpingHelper
-	METHOD addViewDescription (IILdht;Ljava/lang/StringBuilder;Z)V
+CLASS dhw ComponentTreeDumpingHelper
+	METHOD addViewDescription (IILdhv;Ljava/lang/StringBuilder;Z)V
 		ARG 2 debugComponent

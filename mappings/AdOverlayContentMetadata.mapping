@@ -1,3 +1,3 @@
-CLASS rfb AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lxmc;
+CLASS rfs AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Ltsn;
 	FIELD c title Ljava/lang/String;

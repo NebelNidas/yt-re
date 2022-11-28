@@ -1,2 +1,0 @@
-CLASS dkv
-	FIELD b stacktrace Ljava/lang/Throwable;

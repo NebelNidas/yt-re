@@ -1,16 +1,16 @@
-CLASS aesy FieldInfo
+CLASS aeux FieldInfo
 	FIELD a field Ljava/lang/reflect/Field;
-	FIELD b type Laetb;
+	FIELD b type Laeva;
 	FIELD c messageClass Ljava/lang/Class;
 	FIELD d fieldNumber I
 	FIELD e presenceField Ljava/lang/reflect/Field;
 	FIELD f presenceMask I
 	FIELD g required Z
 	FIELD h enforceUtf8 Z
-	FIELD i oneof Laevc;
+	FIELD i oneof Laexb;
 	FIELD j oneofStoredType Ljava/lang/Class;
 	FIELD k mapDefaultEntry Ljava/lang/Object;
-	FIELD l enumVerifier Laets;
-	METHOD a forOneofMemberField (ILaetb;Laevc;Ljava/lang/Class;ZLaets;)Laesy;
+	FIELD l enumVerifier Laevr;
+	METHOD a forOneofMemberField (ILaeva;Laexb;Ljava/lang/Class;ZLaevr;)Laeux;
 	METHOD b checkFieldNumber (I)V
 	METHOD c isExactlyOneBitSet (I)Z

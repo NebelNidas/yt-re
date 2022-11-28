@@ -1,2 +1,2 @@
-CLASS rep AdTitleOverlayState
-	FIELD a adOverlayMetadata Lrej;
+CLASS rfg AdTitleOverlayState
+	FIELD a adOverlayMetadata Lrfa;

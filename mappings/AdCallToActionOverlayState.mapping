@@ -1,8 +1,8 @@
-CLASS rei AdCallToActionOverlayState
-	FIELD b renderer Lacui;
-	FIELD c onClickedRenderer Lacui;
-	FIELD d trackingParams Laesg;
-	FIELD e visualStateChangeTriggers Laczi;
+CLASS rez AdCallToActionOverlayState
+	FIELD b renderer Lacwj;
+	FIELD c onClickedRenderer Lacwj;
+	FIELD d trackingParams Laeuf;
+	FIELD e visualStateChangeTriggers Ladbk;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

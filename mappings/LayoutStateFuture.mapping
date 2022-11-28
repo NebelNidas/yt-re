@@ -1,5 +1,5 @@
-CLASS dhj LayoutStateFuture
-	FIELD b root Ldgu;
+CLASS dhl LayoutStateFuture
+	FIELD b root Ldgw;
 	FIELD c widthSpec I
 	FIELD d heightSpec I
 	FIELD e diffingEnabled Z
@@ -8,10 +8,10 @@ CLASS dhj LayoutStateFuture
 	FIELD i extraAttribution Ljava/lang/String;
 	FIELD j released Z
 	FIELD k tree Lcom/facebook/litho/ComponentTree;
-	FIELD l treeProps Lcgl;
+	FIELD l treeProps Lcgn;
 	FIELD m runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD o isFromSyncLayout Z
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldgy;Ldgu;IIZLcgl;ILjava/lang/String;[B[B[B[B)V
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldha;Ldgw;IIZLcgn;ILjava/lang/String;[B[B[B[B)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec

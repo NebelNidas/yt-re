@@ -1,0 +1,3 @@
+CLASS zia
+	METHOD f setOnClick (Landroid/view/View$OnClickListener;)V
+	METHOD h show ()V

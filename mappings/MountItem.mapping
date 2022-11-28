@@ -1,2 +1,2 @@
-CLASS dtj MountItem
+CLASS dtl MountItem
 	FIELD a content Ljava/lang/Object;

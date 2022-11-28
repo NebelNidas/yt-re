@@ -1,0 +1,12 @@
+CLASS oua
+	METHOD i setChannelThumbnailDetails (Lambq;)V
+	METHOD j setChannelTitle (Ljava/lang/String;)V
+	METHOD k setDescription (Lahkg;)V
+	METHOD l setDislikeCountText (Ljava/lang/String;)V
+	METHOD m setId (Ljava/lang/String;)V
+	METHOD n setLengthSeconds (I)V
+	METHOD o setLikeCountText (Ljava/lang/String;)V
+	METHOD p setPublishedTimestampMs (J)V
+	METHOD q setThumbnailDetails (Lambq;)V
+	METHOD r setTitle (Ljava/lang/String;)V
+	METHOD s setViewCount (J)V

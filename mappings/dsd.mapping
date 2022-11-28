@@ -1,3 +1,0 @@
-CLASS dsd
-	FIELD k lithoView Ldju;
-	FIELD l recyclerView Landroid/support/v7/widget/RecyclerView;

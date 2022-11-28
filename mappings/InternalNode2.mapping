@@ -1,2 +1,2 @@
-CLASS diy InternalNode2
+CLASS dja InternalNode2
 	METHOD ao getTestKey ()Ljava/lang/String;

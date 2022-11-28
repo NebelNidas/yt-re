@@ -1,8 +1,8 @@
-CLASS dhe Component1
-	METHOD H newEventHandler (Ljava/lang/Class;Ldgy;I[Ljava/lang/Object;)Ldim;
+CLASS dhg Component1
+	METHOD H newEventHandler (Ljava/lang/Class;Ldha;I[Ljava/lang/Object;)Ldio;
 	METHOD L onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD O mount (Ldgy;Ljava/lang/Object;)V
-	METHOD R onMeasure (Ldgy;Ldhc;IILdkp;)V
-	METHOD S onMount (Ldgy;Ljava/lang/Object;)V
-	METHOD b getThis (Ldgy;)Ldgu;
-	METHOD c resolve (Ldgy;)Ldhc;
+	METHOD O mount (Ldha;Ljava/lang/Object;)V
+	METHOD R onMeasure (Ldha;Ldhe;IILdkr;)V
+	METHOD S onMount (Ldha;Ljava/lang/Object;)V
+	METHOD b getThis (Ldha;)Ldgw;
+	METHOD c resolve (Ldha;)Ldhe;

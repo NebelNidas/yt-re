@@ -1,6 +1,6 @@
-CLASS dgs Component
-	METHOD b setContent (Ldgu;)V
-	METHOD m clone ()Ldgs;
+CLASS dgu Component
+	METHOD b setContent (Ldgw;)V
+	METHOD m clone ()Ldgu;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

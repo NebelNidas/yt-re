@@ -1,0 +1,3 @@
+CLASS hrc
+	METHOD e getDataModel ()Ljava/lang/Class;
+	METHOD f getViewModel ()Ljava/lang/Class;

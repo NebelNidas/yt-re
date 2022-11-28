@@ -1,0 +1,5 @@
+CLASS isr
+	METHOD L (Lj$/util/Optional;Lakie;Lakij;Lvih;Lj$/util/Optional;Lj$/util/Optional;)V
+		ARG 4 videoId
+		ARG 5 playlistId
+	METHOD l getSpeedDisplayString (Lamrg;)Ljava/lang/String;

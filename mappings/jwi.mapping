@@ -1,2 +1,0 @@
-CLASS jwi
-	FIELD h reelDismissalInfo Ljava/util/List;

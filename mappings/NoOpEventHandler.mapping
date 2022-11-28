@@ -1,2 +1,2 @@
-CLASS dkc NoOpEventHandler
-	FIELD d NO_OP_EVENT_HANDLER Ldkc;
+CLASS dke NoOpEventHandler
+	FIELD d NO_OP_EVENT_HANDLER Ldke;

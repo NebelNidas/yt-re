@@ -1,4 +1,0 @@
-CLASS qfr
-	METHOD I getFromMap (Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD J getFromMapAndCheckInstance (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD K getFromMapAndCast (Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;

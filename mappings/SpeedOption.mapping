@@ -1,4 +1,4 @@
-CLASS ampg SpeedOption
+CLASS amrg SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Laetl;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Laevk;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

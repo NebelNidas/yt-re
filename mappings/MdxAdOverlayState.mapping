@@ -1,2 +1,2 @@
-CLASS reu MdxAdOverlayState
+CLASS rfl MdxAdOverlayState
 	FIELD a remotePlayback Z

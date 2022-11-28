@@ -1,8 +1,8 @@
-CLASS rer BrandInteractionState
+CLASS rfi BrandInteractionState
 	FIELD a hidden Z
 	FIELD b enabled Z
 	FIELD c annotationEnabled Z
 	FIELD d appPromoEnabled Z
 	FIELD e fullscreen Z
-	FIELD f renderer Lafsd;
+	FIELD f renderer Lafud;
 	FIELD g likeOrdinal I

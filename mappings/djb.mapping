@@ -1,3 +1,0 @@
-CLASS djb
-	METHOD a getLayoutOutput (Ldtj;)Ldjb;
-	METHOD c isAccessible ()Z

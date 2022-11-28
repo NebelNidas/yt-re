@@ -1,5 +1,5 @@
-CLASS reo AdReengagementState
-	FIELD a renderer Lafsy;
+CLASS rff AdReengagementState
+	FIELD a renderer Lafuy;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

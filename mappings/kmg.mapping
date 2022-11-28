@@ -1,3 +1,2 @@
 CLASS kmg
-	FIELD aI accountId Lcom/google/apps/tiktok/account/AccountId;
-	FIELD aJ accountChangedCalledKey Z
+	FIELD k hasHandledIntent Z

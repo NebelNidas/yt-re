@@ -1,2 +1,0 @@
-CLASS xoy
-	METHOD m createError204Uri (Lxos;Lxor;Ljava/lang/String;)Lsoj;

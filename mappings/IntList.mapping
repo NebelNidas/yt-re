@@ -1,2 +1,2 @@
-CLASS aetu IntList
-	METHOD f mutableCopyWithCapacity (I)Laetu;
+CLASS aevt IntList
+	METHOD f mutableCopyWithCapacity (I)Laevt;

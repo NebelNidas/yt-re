@@ -1,2 +1,0 @@
-CLASS ypw
-	METHOD c getPlayingState ()Lzmf;

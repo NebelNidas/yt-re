@@ -1,6 +1,0 @@
-CLASS kno
-	FIELD c playerViewModeMonitor Levg;
-	FIELD m tabNames Ljava/util/Set;
-	FIELD n flags Laczn;
-	FIELD o config Landroid/content/res/Configuration;
-	FIELD q pivotBar Lj$/util/Optional;

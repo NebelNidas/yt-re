@@ -1,3 +1,3 @@
-CLASS rhq AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Ltxf;
+CLASS rip AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Ltyt;
 	FIELD c title Ljava/lang/String;

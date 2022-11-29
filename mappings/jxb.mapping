@@ -1,0 +1,2 @@
+CLASS jxb
+	FIELD h reelDismissalInfo Ljava/util/List;

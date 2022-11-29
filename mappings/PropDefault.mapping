@@ -1,2 +1,2 @@
-CLASS dmy PropDefault
+CLASS dna PropDefault
 	METHOD a resId ()I

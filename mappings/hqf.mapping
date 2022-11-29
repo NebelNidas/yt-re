@@ -1,0 +1,2 @@
+CLASS hqf
+	FIELD a context Landroid/content/Context;

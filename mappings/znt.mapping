@@ -1,0 +1,2 @@
+CLASS znt
+	METHOD c changeSpeed ([Lancj;I)V

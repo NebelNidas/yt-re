@@ -1,0 +1,3 @@
+CLASS exd
+	METHOD e isInlineMinimal ()Z
+	METHOD f isPIP ()Z

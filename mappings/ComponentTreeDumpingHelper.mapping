@@ -1,3 +1,3 @@
-CLASS dig ComponentTreeDumpingHelper
-	METHOD addViewDescription (Ldie;Ljava/lang/StringBuilder;IIZZLdif;)V
+CLASS dih ComponentTreeDumpingHelper
+	METHOD addViewDescription (Ldif;Ljava/lang/StringBuilder;IIZZLdig;)V
 		ARG 0 debugComponent

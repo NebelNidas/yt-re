@@ -1,0 +1,2 @@
+CLASS djl
+	METHOD a collectChildren (Ljava/util/List;)V

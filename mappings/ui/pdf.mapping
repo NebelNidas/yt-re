@@ -1,2 +1,2 @@
-CLASS piu ui/pdf
+CLASS pjl ui/pdf
 	METHOD b getIconResourceId ()I

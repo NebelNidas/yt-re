@@ -1,0 +1,12 @@
+CLASS owp
+	METHOD i setChannelThumbnailDetails (Lammw;)V
+	METHOD j setChannelTitle (Ljava/lang/String;)V
+	METHOD k setDescription (Lahue;)V
+	METHOD l setDislikeCountText (Ljava/lang/String;)V
+	METHOD m setId (Ljava/lang/String;)V
+	METHOD n setLengthSeconds (I)V
+	METHOD o setLikeCountText (Ljava/lang/String;)V
+	METHOD p setPublishedTimestampMs (J)V
+	METHOD q setThumbnailDetails (Lammw;)V
+	METHOD r setTitle (Ljava/lang/String;)V
+	METHOD s setViewCount (J)V

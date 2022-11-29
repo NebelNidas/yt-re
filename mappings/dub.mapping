@@ -1,3 +1,0 @@
-CLASS dub
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldue;

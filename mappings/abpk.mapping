@@ -1,2 +1,0 @@
-CLASS abpk
-	METHOD i getFormFactor (Landroid/content/Context;)Laihi;

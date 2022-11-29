@@ -1,26 +1,24 @@
-CLASS nts ConversionContext
+CLASS nun ConversionContext
 	FIELD b container Landroid/view/View;
 	FIELD c widthConstraint Ljava/lang/Integer;
 	FIELD d heightConstraint Ljava/lang/Integer;
-	FIELD e templateLoggerFactory Lnvy;
-	FIELD f rootDisposableContainer Lapru;
+	FIELD e templateLoggerFactory Lnws;
+	FIELD f rootDisposableContainer Lapuv;
 	FIELD g imagePrefetchRangeRatio F
-	FIELD h useDynamicPropsForStylePropertiesInternal Z
-	FIELD i dynamicPropsMap Ljava/util/Map;
-	FIELD j horizontalCollectionSwipeProtector Lnu;
-	FIELD k useIncrementalMountOnChildrenInternal Z
-	FIELD l pathBuilder Ljava/lang/StringBuilder;
-	FIELD m elementId Ljava/lang/String;
-	FIELD n identifierProperty Ljava/lang/String;
-	FIELD o loggingNodeInternal Ljava/lang/ref/WeakReference;
-	FIELD p parentLoggingNodeInternal Ljava/lang/ref/WeakReference;
-	FIELD q elementsInteractionLoggerInternal Lnuz;
-	FIELD r globalCommandDataDecoratorsInternal Ladin;
-	FIELD s decoratingElementBuilder Lnub;
-	FIELD t debugId Ljava/lang/String;
-	FIELD u treeDebugId Ljava/lang/String;
-	FIELD v shouldAddDebuggerViewTags Z
-	FIELD w elementsConfig Lnuu;
-	FIELD x couldOverlapWithElementsConfig Z
-	FIELD y scrollStrategyListenerHolder Ljava/util/concurrent/atomic/AtomicReference;
-	FIELD z horizontalCollectionTouchInterceptor Larql;
+	FIELD h horizontalCollectionSwipeProtector Lnu;
+	FIELD i useIncrementalMountOnChildrenInternal Z
+	FIELD j pathBuilder Ljava/lang/StringBuilder;
+	FIELD k elementId Ljava/lang/String;
+	FIELD l identifierProperty Ljava/lang/String;
+	FIELD m loggingNodeInternal Ljava/lang/ref/WeakReference;
+	FIELD n parentLoggingNodeInternal Ljava/lang/ref/WeakReference;
+	FIELD o elementsInteractionLoggerInternal Lnvt;
+	FIELD p globalCommandDataDecoratorsInternal Ladkr;
+	FIELD q decoratingElementBuilder Lnuv;
+	FIELD r debugId Ljava/lang/String;
+	FIELD s treeDebugId Ljava/lang/String;
+	FIELD t shouldAddDebuggerViewTags Z
+	FIELD u elementsConfig Lnvo;
+	FIELD v couldOverlapWithElementsConfig Z
+	FIELD w scrollStrategyListenerHolder Ljava/util/concurrent/atomic/AtomicReference;
+	FIELD x horizontalCollectionTouchInterceptor Labao;

@@ -1,2 +1,0 @@
-CLASS ith
-	METHOD n getSpeedDisplayString (Lamzl;)Ljava/lang/String;

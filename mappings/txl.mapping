@@ -1,0 +1,2 @@
+CLASS txl
+	METHOD d toByteArray ()[B

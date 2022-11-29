@@ -1,4 +1,0 @@
-CLASS hxe
-	METHOD c (Lj$/util/Optional;Lakqb;Lakqg;Lvnd;Lj$/util/Optional;Lj$/util/Optional;)V
-		ARG 4 videoId
-		ARG 5 playlistId

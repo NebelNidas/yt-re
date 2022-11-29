@@ -1,0 +1,4 @@
+CLASS apgg
+	METHOD aF assertTrue (Z)V
+	METHOD aG assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD o assertTrue (ZLjava/lang/String;[Ljava/lang/Object;)V

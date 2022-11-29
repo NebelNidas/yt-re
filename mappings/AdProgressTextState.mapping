@@ -1,4 +1,4 @@
-CLASS rhb AdProgressTextState
+CLASS ria AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Lqzw;
+	FIELD c adCountMetadata Lrau;

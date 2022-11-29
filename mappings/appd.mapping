@@ -1,4 +1,0 @@
-CLASS appd
-	METHOD a (Laprn;Laprn;Laprh;Laprh;Laprh;Laprh;)Lappd;
-		ARG 3 onComplete
-		ARG 6 onDispose

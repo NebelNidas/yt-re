@@ -1,8 +1,8 @@
 CLASS com/google/android/libraries/youtube/innertube/model/media/FormatStreamModel
 	FIELD d uri Landroid/net/Uri;
-	METHOD D isDefaultAudioTrack ()Z
-	METHOD c getHeight ()I
-	METHOD d getItag ()I
-	METHOD h getWidth ()I
-	METHOD o getAudioTrackDisplayName ()Ljava/lang/String;
-	METHOD p getAudioTrackId ()Ljava/lang/String;
+	METHOD E isDefaultAudioTrack ()Z
+	METHOD d getHeight ()I
+	METHOD e getItag ()I
+	METHOD i getWidth ()I
+	METHOD p getAudioTrackDisplayName ()Ljava/lang/String;
+	METHOD q getAudioTrackId ()Ljava/lang/String;

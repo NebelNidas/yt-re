@@ -1,2 +1,0 @@
-CLASS ahrx
-	FIELD c displayString Ljava/lang/String;

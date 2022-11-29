@@ -1,5 +1,5 @@
-CLASS afbt CodedOutputStream
+CLASS afee CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lafbt;
+	METHOD ak getCodedOutput ([B)Lafee;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

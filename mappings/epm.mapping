@@ -1,5 +1,5 @@
 CLASS epm
 	FIELD c watchWhileActivity Lbr;
-	METHOD f someDislikeMethod (Lagon;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Lagon;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Lagon;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD f someDislikeMethod (Lagqw;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD g someLikeMethod (Lagqw;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD h someIndifferentMethod (Lagqw;)Lcom/google/common/util/concurrent/ListenableFuture;

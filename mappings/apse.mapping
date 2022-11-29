@@ -1,0 +1,4 @@
+CLASS apse
+	METHOD a (Lapuo;Lapuo;Lapui;Lapui;Lapui;Lapui;)Lapse;
+		ARG 3 onComplete
+		ARG 6 onDispose

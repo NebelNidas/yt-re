@@ -1,7 +1,7 @@
-CLASS ua SparseArrayCompat
+CLASS ub SparseArrayCompat
 	FIELD b mGarbage Z
 	FIELD c mKeys [I
 	FIELD d mValues [Ljava/lang/Object;
-	METHOD d size ()I
-	METHOD g valueAt (I)Ljava/lang/Object;
-	METHOD j gc ()V
+	METHOD c size ()I
+	METHOD f valueAt (I)Ljava/lang/Object;
+	METHOD i gc ()V

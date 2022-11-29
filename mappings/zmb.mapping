@@ -1,0 +1,2 @@
+CLASS zmb
+	METHOD c changeSpeed ([Lamzl;I)V

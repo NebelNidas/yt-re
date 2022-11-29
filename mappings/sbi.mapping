@@ -1,3 +1,0 @@
-CLASS sbi
-	METHOD w isHttps (Landroid/net/Uri;)Z
-	METHOD y isLocalhost (Landroid/net/Uri;)Z

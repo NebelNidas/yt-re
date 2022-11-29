@@ -1,2 +1,2 @@
-CLASS afdl UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lafbn;
+CLASS affc UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lafde;

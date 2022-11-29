@@ -1,0 +1,6 @@
+CLASS knw
+	FIELD c playerViewModeMonitor Lewe;
+	FIELD m tabNames Ljava/util/Set;
+	FIELD n flags Ladis;
+	FIELD o config Landroid/content/res/Configuration;
+	FIELD q pivotBar Lj$/util/Optional;

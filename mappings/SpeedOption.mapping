@@ -1,4 +1,4 @@
-CLASS amxo SpeedOption
+CLASS amzl SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Lafax;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Lafco;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

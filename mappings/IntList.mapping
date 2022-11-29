@@ -1,2 +1,2 @@
-CLASS afbg IntList
-	METHOD f mutableCopyWithCapacity (I)Lafbg;
+CLASS afcx IntList
+	METHOD f mutableCopyWithCapacity (I)Lafcx;

@@ -1,2 +1,2 @@
-CLASS dsp TextInput
+CLASS dtf TextInput
 	FIELD e hint Ljava/lang/CharSequence;

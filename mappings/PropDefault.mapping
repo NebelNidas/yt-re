@@ -1,2 +1,2 @@
-CLASS dmk PropDefault
+CLASS dmy PropDefault
 	METHOD a resId ()I

@@ -1,0 +1,3 @@
+CLASS sat
+	METHOD O isHttps (Landroid/net/Uri;)Z
+	METHOD Q isLocalhost (Landroid/net/Uri;)Z

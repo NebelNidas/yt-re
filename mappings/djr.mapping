@@ -1,0 +1,3 @@
+CLASS djr
+	METHOD b getLayoutOutput (Ldue;)Ldjr;
+	METHOD d isAccessible ()Z

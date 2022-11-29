@@ -1,3 +1,0 @@
-CLASS dja
-	METHOD a getLayoutOutput (Ldtj;)Ldja;
-	METHOD c isAccessible ()Z

@@ -1,2 +1,2 @@
-CLASS afbk ProtobufList
-	METHOD e mutableCopyWithCapacity (I)Lafbk;
+CLASS afdb ProtobufList
+	METHOD e mutableCopyWithCapacity (I)Lafdb;

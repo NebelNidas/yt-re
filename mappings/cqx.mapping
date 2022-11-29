@@ -1,0 +1,2 @@
+CLASS cqx
+	FIELD a context Ljava/lang/Object;

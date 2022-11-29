@@ -1,0 +1,2 @@
+CLASS fez
+	FIELD b menuItems Ljava/util/Map;

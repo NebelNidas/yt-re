@@ -1,4 +1,4 @@
-CLASS dgn Column
+CLASS dhc Column
 	FIELD a children Ljava/util/List;
 	FIELD d reverse Z
-	METHOD a create (Ldgx;)Ldgm;
+	METHOD b create (Ldhm;)Ldhb;

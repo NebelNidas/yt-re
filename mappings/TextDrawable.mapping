@@ -1,4 +1,4 @@
-CLASS dsm TextDrawable
+CLASS dtc TextDrawable
 	FIELD a mLayout Landroid/text/Layout;
 	FIELD c mLayoutTranslationY F
 	FIELD d mClipToBounds Z
@@ -10,12 +10,12 @@ CLASS dsm TextDrawable
 	FIELD l mLongClickActivated Z
 	FIELD m mLongClickHandler Landroid/os/Handler;
 	FIELD n mContextLogTag Ljava/lang/String;
-	FIELD r mSelectionStart I
-	FIELD s mSelectionEnd I
-	FIELD t mSelectionPath Landroid/graphics/Path;
-	FIELD u mSelectionPathNeedsUpdate Z
-	FIELD v mHighlightPaint Landroid/graphics/Paint;
-	FIELD w mLongClickRunnable Ldsk;
+	FIELD q mSelectionStart I
+	FIELD r mSelectionEnd I
+	FIELD s mSelectionPath Landroid/graphics/Path;
+	FIELD t mSelectionPathNeedsUpdate Z
+	FIELD u mHighlightPaint Landroid/graphics/Paint;
+	FIELD v mLongClickRunnable Ldta;
 	METHOD a clearSelection ()V
 	METHOD b getTextOffsetAt (II)I
 	METHOD e getClickableSpanInCoords (II)Landroid/text/style/ClickableSpan;

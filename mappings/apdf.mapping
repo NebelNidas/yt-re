@@ -1,0 +1,4 @@
+CLASS apdf
+	METHOD aL assertTrue (Z)V
+	METHOD aM assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD q assertTrue (ZLjava/lang/String;[Ljava/lang/Object;)V

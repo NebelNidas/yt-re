@@ -1,0 +1,2 @@
+CLASS dll
+	FIELD b stacktrace Ljava/lang/Throwable;

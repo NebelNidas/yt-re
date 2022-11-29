@@ -1,9 +1,8 @@
-CLASS dsi Text
-	FIELD D tmpText Ljava/lang/CharSequence;
-	FIELD G typefaceStyle I
-	FIELD I typeface Landroid/graphics/Typeface;
-	FIELD Q text Ljava/lang/CharSequence;
+CLASS dsy Text
+	FIELD A maxLines I
+	FIELD B shadowColor I
+	FIELD G tmpText Ljava/lang/CharSequence;
+	FIELD J typefaceStyle I
+	FIELD L typeface Landroid/graphics/Typeface;
 	FIELD b minLines I
 	FIELD e ellipsize Landroid/text/TextUtils$TruncateAt;
-	FIELD x maxLines I
-	FIELD y shadowColor I

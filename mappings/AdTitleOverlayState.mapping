@@ -1,2 +1,2 @@
-CLASS rhv AdTitleOverlayState
-	FIELD a adOverlayMetadata Lrhp;
+CLASS rhe AdTitleOverlayState
+	FIELD a adOverlayMetadata Lrgy;

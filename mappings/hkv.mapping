@@ -1,2 +1,0 @@
-CLASS hkv
-	FIELD d likeEndpoint Ljava/lang/Object;

@@ -1,2 +1,0 @@
-CLASS aaib
-	METHOD b getDisplayString (Lahqa;)Landroid/text/Spanned;

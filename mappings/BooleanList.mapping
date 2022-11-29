@@ -1,2 +1,2 @@
-CLASS afba BooleanList
-	METHOD d withCapacity (I)Lafba;
+CLASS afcr BooleanList
+	METHOD d withCapacity (I)Lafcr;

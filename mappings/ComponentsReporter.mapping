@@ -1,4 +1,3 @@
-CLASS dhp ComponentsReporter
-	FIELD a sInstance Ldho;
-	METHOD a emitMessage (ILjava/lang/String;Ljava/lang/String;)V
-	METHOD c getInstance ()Ldho;
+CLASS dtz ComponentsReporter
+	FIELD a sInstance Ldua;
+	METHOD a getInstance ()Ldua;

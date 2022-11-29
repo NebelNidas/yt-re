@@ -1,2 +1,0 @@
-CLASS tuj
-	METHOD d toByteArray ()[B

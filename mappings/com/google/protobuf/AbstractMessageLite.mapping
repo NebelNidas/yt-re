@@ -1,2 +1,2 @@
-CLASS aezb com/google/protobuf/AbstractMessageLite
+CLASS afas com/google/protobuf/AbstractMessageLite
 	COMMENT https://github.com/protocolbuffers/protobuf/blob/main/java/core/src/main/java/com/google/protobuf/AbstractMessageLite.java

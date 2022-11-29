@@ -1,9 +1,0 @@
-CLASS aobp
-	METHOD cq assertTrue (Z)V
-	METHOD cr assertTrue (ZLjava/lang/Object;)V
-	METHOD cs assertTrue (ZLjava/lang/String;I)V
-	METHOD ct assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD cu assertTrue (ZLjava/lang/String;II)V
-	METHOD cv assertTrue (ZLjava/lang/String;Ljava/lang/Object;J)V
-	METHOD cw assertTrue (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-	METHOD cx assertTrue (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V

@@ -1,3 +1,3 @@
-CLASS aezs ByteBuffer
-	METHOD l newCodedInput ()Laezx;
+CLASS afbj ByteBuffer
+	METHOD l newCodedInput ()Lafbo;
 	METHOD q isValidUtf8 ()Z

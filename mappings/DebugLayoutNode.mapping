@@ -1,2 +1,2 @@
-CLASS amm DebugLayoutNode
-	METHOD p getClickHandler ()Ldil;
+CLASS cmm DebugLayoutNode
+	METHOD k getClickHandler ()Ldja;

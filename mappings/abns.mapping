@@ -1,2 +1,0 @@
-CLASS abns
-	METHOD h getFormFactor (Landroid/content/Context;)Laifn;

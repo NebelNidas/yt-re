@@ -1,3 +1,3 @@
-CLASS ajhm LikeType
+CLASS ajjh LikeType
 	FIELD e ordinal I
-	METHOD b fromOrdinal (I)Lajhm;
+	METHOD b fromOrdinal (I)Lajjh;

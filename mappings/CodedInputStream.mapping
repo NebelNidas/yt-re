@@ -1,5 +1,5 @@
-CLASS aezx CodedInputStream
+CLASS afbo CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD M newInstance (Ljava/io/InputStream;)Laezx;
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Laezx;
+	METHOD M newInstance (Ljava/io/InputStream;)Lafbo;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafbo;

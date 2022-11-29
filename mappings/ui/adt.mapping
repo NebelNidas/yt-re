@@ -1,25 +1,26 @@
-CLASS afy ui/adt
+CLASS aga ui/adt
 	FIELD b info Landroid/view/accessibility/AccessibilityNodeInfo;
-	METHOD A setHintText (Ljava/lang/CharSequence;)V
-	METHOD B setLabelFor (Landroid/view/View;)V
-	METHOD C setParent (Landroid/view/View;)V
-	METHOD D setScrollable (Z)V
-	METHOD E setText (Ljava/lang/CharSequence;)V
-	METHOD F setTraversalAfter (Landroid/view/View;)V
-	METHOD G setVisibleToUser (Z)V
-	METHOD H isChecked ()Z
-	METHOD I isEnabled ()Z
-	METHOD J isFocusable ()Z
-	METHOD K isPassword ()Z
-	METHOD L isScrollable ()Z
-	METHOD N getTag (Landroid/view/View;)Landroid/util/SparseArray;
-	METHOD O deselect ()V
+	METHOD A setHeading (Z)V
+	METHOD B setHintText (Ljava/lang/CharSequence;)V
+	METHOD C setLabelFor (Landroid/view/View;)V
+	METHOD D setParent (Landroid/view/View;)V
+	METHOD E setScrollable (Z)V
+	METHOD F setText (Ljava/lang/CharSequence;)V
+	METHOD G setTraversalAfter (Landroid/view/View;)V
+	METHOD H setVisibleToUser (Z)V
+	METHOD I isChecked ()Z
+	METHOD J isEnabled ()Z
+	METHOD K isFocusable ()Z
+	METHOD L isPassword ()Z
+	METHOD M isScrollable ()Z
+	METHOD O getTag (Landroid/view/View;)Landroid/util/SparseArray;
+	METHOD Q deselect ()V
 	METHOD a getExtras ()Landroid/os/Bundle;
 	METHOD d getClassName ()Ljava/lang/CharSequence;
 	METHOD e getContentDescription ()Ljava/lang/CharSequence;
 	METHOD f getText ()Ljava/lang/CharSequence;
 	METHOD h addAction (I)V
-	METHOD i addAction (Lafx;)V
+	METHOD i addAction (Lafz;)V
 	METHOD j getBoundsInParent (Landroid/graphics/Rect;)V
 	METHOD k getBoundsInScreen (Landroid/graphics/Rect;)V
 	METHOD l setAccessibilityFocused (Z)V
@@ -35,4 +36,3 @@ CLASS afy ui/adt
 	METHOD w setDismissable (Z)V
 	METHOD x setEnabled (Z)V
 	METHOD y setFocusable (Z)V
-	METHOD z setHeading (Z)V

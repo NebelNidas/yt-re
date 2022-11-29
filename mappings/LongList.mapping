@@ -1,2 +1,2 @@
-CLASS afbj LongList
-	METHOD d mutableCopyWithCapacity (I)Lafbj;
+CLASS afda LongList
+	METHOD d mutableCopyWithCapacity (I)Lafda;

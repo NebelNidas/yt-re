@@ -1,2 +1,2 @@
-CLASS afai ExtensionRegistryLite
-	METHOD a getEmptyRegistry ()Lafai;
+CLASS afbz ExtensionRegistryLite
+	METHOD a getEmptyRegistry ()Lafbz;

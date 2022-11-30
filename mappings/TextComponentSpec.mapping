@@ -1,3 +1,3 @@
-CLASS nrf TextComponentSpec
-	METHOD b create (Ldid;Laoyc;Lnvy;Lnyo;Lnxg;Lnwe;Ljava/util/Map;Lnwl;ZFFFLjava/lang/Integer;ZZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Ldhz;
-	METHOD c getHint (Lnwe;Landroid/content/Context;Laoxe;Lnvy;Lnyo;Lnxg;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS nrt TextComponentSpec
+	METHOD b create (Ldij;Laozy;Lnwl;Lnzb;Lnxt;Lnwr;Ljava/util/Map;Lnwy;ZFFFLjava/lang/Integer;ZZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Ldif;
+	METHOD c getHint (Lnwr;Landroid/content/Context;Laoza;Lnwl;Lnzb;Lnxt;Ljava/util/Map;Z)Ljava/lang/CharSequence;

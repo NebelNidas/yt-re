@@ -1,0 +1,2 @@
+CLASS jtd
+	FIELD c view Landroid/view/View;

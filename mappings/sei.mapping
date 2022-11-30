@@ -1,0 +1,5 @@
+CLASS sei
+	METHOD b assertNotInMainThread ()V
+	METHOD c assertInMainThread ()V
+	METHOD d isNotInMainThread ()Z
+	METHOD e isInMainthread ()Z

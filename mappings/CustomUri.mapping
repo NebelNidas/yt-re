@@ -1,9 +1,9 @@
-CLASS sto CustomUri
+CLASS suh CustomUri
 	FIELD c params Ljava/util/HashMap;
 	METHOD a buildQueryParams ()Landroid/net/Uri;
-	METHOD b fromUri (Landroid/net/Uri;)Lsto;
-	METHOD c fromCustomUri (Lsto;)Lsto;
+	METHOD b fromUri (Landroid/net/Uri;)Lsuh;
+	METHOD c fromCustomUri (Lsuh;)Lsuh;
 	METHOD h setParam (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 key
 		ARG 2 value
-	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lstn;
+	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lsug;

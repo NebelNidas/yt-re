@@ -1,0 +1,2 @@
+CLASS hli
+	FIELD d likeEndpoint Ljava/lang/Object;

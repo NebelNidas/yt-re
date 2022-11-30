@@ -1,0 +1,2 @@
+CLASS abun
+	METHOD h getFormFactor (Landroid/content/Context;)Lainh;

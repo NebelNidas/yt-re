@@ -1,2 +1,2 @@
-CLASS pkx ui/pdf
+CLASS plo ui/pdf
 	METHOD b getIconResourceId ()I

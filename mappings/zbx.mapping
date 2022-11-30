@@ -1,0 +1,2 @@
+CLASS zbx
+	METHOD c getPlayingState ()Lzyl;

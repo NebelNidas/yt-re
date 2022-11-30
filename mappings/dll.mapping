@@ -1,0 +1,5 @@
+CLASS dll
+	METHOD c getClickListener (Landroid/view/View;)Ldii;
+	METHOD d getFocusChangeListener (Landroid/view/View;)Ldik;
+	METHOD e getLongClickListener (Landroid/view/View;)Ldiq;
+	METHOD f getTouchListener (Landroid/view/View;)Ldir;

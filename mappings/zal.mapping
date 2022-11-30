@@ -1,2 +1,0 @@
-CLASS zal
-	METHOD c getPlayingState ()Lzwx;

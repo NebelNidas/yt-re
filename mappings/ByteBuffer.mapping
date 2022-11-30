@@ -1,3 +1,3 @@
-CLASS afgl ByteBuffer
-	METHOD l newCodedInput ()Lafgq;
+CLASS afhz ByteBuffer
+	METHOD l newCodedInput ()Lafie;
 	METHOD q isValidUtf8 ()Z

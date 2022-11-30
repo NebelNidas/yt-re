@@ -1,9 +1,9 @@
-CLASS kdj PlaybackSpeedAdapterView
-	FIELD ae speeds [Landr;
+CLASS kdt PlaybackSpeedAdapterView
+	FIELD ae speeds [Lanfo;
 	FIELD af selectedIndex I
-	METHOD aP (Landroid/content/Context;Labei;[Landr;I)V
+	METHOD aP (Landroid/content/Context;Labfr;[Lanfo;I)V
 		ARG 2 speeds
 		ARG 3 selectedIndex
-	METHOD b ([Landr;I)V
+	METHOD b ([Lanfo;I)V
 		ARG 1 speeds
 		ARG 2 selectedIndex

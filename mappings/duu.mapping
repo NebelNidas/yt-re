@@ -1,3 +1,0 @@
-CLASS duu
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldux;

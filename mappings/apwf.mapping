@@ -1,0 +1,4 @@
+CLASS apwf
+	METHOD a (Lapyp;Lapyp;Lapyj;Lapyj;Lapyj;Lapyj;)Lapwf;
+		ARG 3 onComplete
+		ARG 6 onDispose

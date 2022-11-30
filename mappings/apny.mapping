@@ -1,0 +1,4 @@
+CLASS apny
+	METHOD at assertTrue (Z)V
+	METHOD au assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD av assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

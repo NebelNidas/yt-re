@@ -1,0 +1,3 @@
+CLASS dva
+	METHOD a getMountItemCount ()I
+	METHOD b getMountItemAt (I)Ldvd;

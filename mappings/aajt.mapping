@@ -1,0 +1,2 @@
+CLASS aajt
+	METHOD L setPlaybackSpeed (F)V

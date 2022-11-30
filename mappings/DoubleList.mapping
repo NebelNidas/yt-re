@@ -1,2 +1,2 @@
-CLASS afhu DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lafhu;
+CLASS afji DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lafji;

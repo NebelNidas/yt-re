@@ -1,5 +1,0 @@
-CLASS dlf
-	METHOD c getClickListener (Landroid/view/View;)Ldic;
-	METHOD d getFocusChangeListener (Landroid/view/View;)Ldie;
-	METHOD e getLongClickListener (Landroid/view/View;)Ldik;
-	METHOD f getTouchListener (Landroid/view/View;)Ldil;

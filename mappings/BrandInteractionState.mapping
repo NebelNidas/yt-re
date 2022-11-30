@@ -1,8 +1,8 @@
-CLASS rjt BrandInteractionState
+CLASS rkk BrandInteractionState
 	FIELD a hidden Z
 	FIELD b enabled Z
 	FIELD c annotationEnabled Z
 	FIELD d appPromoEnabled Z
 	FIELD e fullscreen Z
-	FIELD f renderer Laggm;
+	FIELD f renderer Lagia;
 	FIELD g likeOrdinal I

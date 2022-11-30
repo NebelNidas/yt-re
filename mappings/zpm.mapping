@@ -1,2 +1,0 @@
-CLASS zpm
-	METHOD c changeSpeed ([Landr;I)V

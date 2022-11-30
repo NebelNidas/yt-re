@@ -1,0 +1,2 @@
+CLASS tzo
+	METHOD d toByteArray ()[B

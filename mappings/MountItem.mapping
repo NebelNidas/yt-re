@@ -1,2 +1,2 @@
-CLASS dux MountItem
+CLASS dvd MountItem
 	FIELD a content Ljava/lang/Object;

@@ -1,3 +1,3 @@
-CLASS dlw Size
+CLASS dmc Size
 	FIELD a width I
 	FIELD b height I

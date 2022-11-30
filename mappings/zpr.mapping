@@ -1,0 +1,2 @@
+CLASS zpr
+	METHOD lk hasView ()Z

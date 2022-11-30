@@ -1,0 +1,21 @@
+CLASS jwv
+	FIELD B offlineBadge Lhun;
+	FIELD C resumePlaybackOverlay Landroid/view/ViewStub;
+	FIELD D metadataBadge Lfmu;
+	FIELD K ytBadgeChipBackground I
+	FIELD af ytGeneralBackgroundA Landroid/graphics/drawable/Drawable;
+	FIELD e video_info Landroid/widget/TextView;
+	FIELD k swipeLayout Lcom/google/android/libraries/youtube/common/ui/swipelayout/SwipeLayout;
+	FIELD n playlistPanelVideoItem Landroid/view/View;
+	FIELD p dragHandleStub Landroid/view/ViewStub;
+	FIELD q title Landroid/widget/TextView;
+	FIELD r channel Landroid/widget/TextView;
+	FIELD s channel_avatar Landroid/widget/ImageView;
+	FIELD t unplayableReason Landroid/widget/TextView;
+	FIELD u duration Lcom/google/android/libraries/youtube/rendering/ui/badge/DurationBadgeView;
+	FIELD v equalizer Landroid/widget/ImageView;
+	FIELD w thumbnail Landroid/widget/ImageView;
+	FIELD x threeDotsMenu Landroid/widget/ImageView;
+	FIELD y actionButtons Landroid/view/ViewGroup;
+	METHOD j getThumbsIconView (Z)Landroid/view/View;
+		ARG 1 up

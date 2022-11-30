@@ -1,2 +1,2 @@
-CLASS afhb ExtensionRegistryLite
-	METHOD a getEmptyRegistry ()Lafhb;
+CLASS afip ExtensionRegistryLite
+	METHOD a getEmptyRegistry ()Lafip;

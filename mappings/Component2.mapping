@@ -1,11 +1,11 @@
-CLASS dhz Component2
+CLASS dif Component2
 	FIELD a sIdGenerator Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD j mId I
-	FIELD v sEmptyArray [Ldja;
-	METHOD E makeShallowCopyWithNewId (Ldid;)Ldhz;
-	METHOD G generateKey (Ldid;)Ldid;
-	METHOD f isEquivalentTo (Ldhz;)Z
-	METHOD i makeShallowCopy ()Ldhz;
+	FIELD v sEmptyArray [Ldjg;
+	METHOD E makeShallowCopyWithNewId (Ldij;)Ldif;
+	METHOD G generateKey (Ldij;)Ldij;
+	METHOD f isEquivalentTo (Ldif;)Z
+	METHOD i makeShallowCopy ()Ldif;
 	METHOD p getSimpleName ()Ljava/lang/String;
-	METHOD s measure (Ldid;IILdlw;)V
-	METHOD u isHostSpec (Ldhz;)Z
+	METHOD s measure (Ldij;IILdmc;)V
+	METHOD u isHostSpec (Ldif;)Z

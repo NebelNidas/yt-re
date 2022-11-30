@@ -1,0 +1,3 @@
+CLASS dko
+	METHOD b getLayoutOutput (Ldvd;)Ldko;
+	METHOD d isAccessible ()Z

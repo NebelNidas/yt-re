@@ -1,6 +1,2 @@
 CLASS kqe
-	FIELD c playerViewModeMonitor Lewz;
-	FIELD m tabNames Ljava/util/Set;
-	FIELD n flags Ladng;
-	FIELD o config Landroid/content/res/Configuration;
-	FIELD q pivotBar Lj$/util/Optional;
+	FIELD j recreateSignedInState I

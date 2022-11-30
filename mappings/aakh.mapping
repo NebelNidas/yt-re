@@ -1,0 +1,3 @@
+CLASS aakh
+	METHOD p (F)V
+		ARG 1 speedMult

@@ -1,3 +1,0 @@
-CLASS dki
-	METHOD b getLayoutOutput (Ldux;)Ldki;
-	METHOD d isAccessible ()Z

@@ -1,3 +1,3 @@
-CLASS dus ComponentsReporter
-	FIELD a sInstance Ldut;
-	METHOD a getInstance ()Ldut;
+CLASS duy ComponentsReporter
+	FIELD a sInstance Lduz;
+	METHOD a getInstance ()Lduz;

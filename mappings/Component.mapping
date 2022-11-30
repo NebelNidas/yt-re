@@ -1,6 +1,6 @@
-CLASS dhx Component
-	METHOD b setContent (Ldhz;)V
-	METHOD m clone ()Ldhx;
+CLASS did Component
+	METHOD b setContent (Ldif;)V
+	METHOD m clone ()Ldid;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

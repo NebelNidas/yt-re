@@ -1,2 +1,2 @@
-CLASS duf MountItem
+CLASS dux MountItem
 	FIELD a content Ljava/lang/Object;

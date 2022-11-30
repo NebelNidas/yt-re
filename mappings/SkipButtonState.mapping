@@ -1,15 +1,14 @@
-CLASS rik SkipButtonState
-	FIELD a skipAdRenderer Lambb;
-	FIELD b contentMetadata Lrip;
-	FIELD c adCountMetadata Lrau;
+CLASS rjy SkipButtonState
+	FIELD a skipAdRenderer Lamcq;
+	FIELD b contentMetadata Lrkd;
+	FIELD c adCountMetadata Lrch;
 	FIELD d skipState I
 	FIELD e hidden Z
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
-	FIELD h breakType Lrej;
+	FIELD h breakType Lrfw;
 	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
-	FIELD k countdownOnThumbnail Z
-	FIELD l countdownNextToThumbnail Z
-	FIELD m preskipScalingFactor F
-	FIELD n preskipPadding I
+	FIELD k countdownNextToThumbnail Z
+	FIELD l preskipScalingFactor F
+	FIELD m preskipPadding I

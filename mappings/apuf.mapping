@@ -1,0 +1,4 @@
+CLASS apuf
+	METHOD a (Lapwp;Lapwp;Lapwj;Lapwj;Lapwj;Lapwj;)Lapuf;
+		ARG 3 onComplete
+		ARG 6 onDispose

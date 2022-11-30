@@ -1,2 +1,2 @@
-CLASS dka InternalNode2
+CLASS dkq InternalNode2
 	METHOD au getTestKey ()Ljava/lang/String;

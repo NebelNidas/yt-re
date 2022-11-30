@@ -1,2 +1,2 @@
-CLASS afhn UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Laffp;
+CLASS afke UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lafig;

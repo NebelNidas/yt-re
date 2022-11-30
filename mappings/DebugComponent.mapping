@@ -1,4 +1,4 @@
-CLASS dif DebugComponent
-	METHOD b getComponent ()Ldhj;
-	METHOD f getLithoView ()Ldkk;
-	METHOD n getLayoutNode ()Lcmn;
+CLASS div DebugComponent
+	METHOD b getComponent ()Ldhz;
+	METHOD f getLithoView ()Ldla;
+	METHOD n getLayoutNode ()Lcnd;

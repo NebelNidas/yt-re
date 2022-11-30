@@ -1,0 +1,2 @@
+CLASS tyv
+	METHOD d toByteArray ()[B

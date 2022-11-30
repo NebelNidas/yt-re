@@ -1,3 +1,0 @@
-CLASS qfu
-	METHOD K isHttps (Landroid/net/Uri;)Z
-	METHOD M isLocalhost (Landroid/net/Uri;)Z

@@ -1,5 +1,0 @@
-CLASS ryu
-	METHOD g assertNotInMainThread ()V
-	METHOD h assertInMainThread ()V
-	METHOD i isNotInMainThread ()Z
-	METHOD j isInMainthread ()Z

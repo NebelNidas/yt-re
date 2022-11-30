@@ -1,5 +1,0 @@
-CLASS dkp
-	METHOD c getClickListener (Landroid/view/View;)Ldhm;
-	METHOD d getFocusChangeListener (Landroid/view/View;)Ldho;
-	METHOD e getLongClickListener (Landroid/view/View;)Ldhu;
-	METHOD f getTouchListener (Landroid/view/View;)Ldhv;

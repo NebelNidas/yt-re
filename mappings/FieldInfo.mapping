@@ -1,16 +1,16 @@
-CLASS afem FieldInfo
+CLASS afhd FieldInfo
 	FIELD a field Ljava/lang/reflect/Field;
-	FIELD b type Lafep;
+	FIELD b type Lafhg;
 	FIELD c messageClass Ljava/lang/Class;
 	FIELD d fieldNumber I
 	FIELD e presenceField Ljava/lang/reflect/Field;
 	FIELD f presenceMask I
 	FIELD g required Z
 	FIELD h enforceUtf8 Z
-	FIELD i oneof Lafgq;
+	FIELD i oneof Lafjh;
 	FIELD j oneofStoredType Ljava/lang/Class;
 	FIELD k mapDefaultEntry Ljava/lang/Object;
-	FIELD l enumVerifier Laffg;
-	METHOD a forOneofMemberField (ILafep;Lafgq;Ljava/lang/Class;ZLaffg;)Lafem;
+	FIELD l enumVerifier Lafhx;
+	METHOD a forOneofMemberField (ILafhg;Lafjh;Ljava/lang/Class;ZLafhx;)Lafhd;
 	METHOD b checkFieldNumber (I)V
 	METHOD c isExactlyOneBitSet (I)Z

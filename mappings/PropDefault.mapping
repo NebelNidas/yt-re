@@ -1,2 +1,2 @@
-CLASS dna PropDefault
+CLASS dnq PropDefault
 	METHOD a resId ()I

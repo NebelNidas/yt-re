@@ -1,2 +1,2 @@
-CLASS dhm LithoClickListener
-	FIELD a handler Ldjb;
+CLASS dic LithoClickListener
+	FIELD a handler Ldjr;

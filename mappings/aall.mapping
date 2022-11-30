@@ -1,2 +1,0 @@
-CLASS aall
-	METHOD b getDisplayString (Lahue;)Landroid/text/Spanned;

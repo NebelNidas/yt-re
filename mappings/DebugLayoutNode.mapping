@@ -1,2 +1,2 @@
-CLASS cmn DebugLayoutNode
-	METHOD l getClickHandler ()Ldjb;
+CLASS cnd DebugLayoutNode
+	METHOD l getClickHandler ()Ldjr;

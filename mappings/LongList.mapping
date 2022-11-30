@@ -1,2 +1,2 @@
-CLASS affl LongList
-	METHOD d mutableCopyWithCapacity (I)Laffl;
+CLASS afic LongList
+	METHOD d mutableCopyWithCapacity (I)Lafic;

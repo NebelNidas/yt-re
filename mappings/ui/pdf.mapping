@@ -1,2 +1,2 @@
-CLASS pjl ui/pdf
+CLASS pkx ui/pdf
 	METHOD b getIconResourceId ()I

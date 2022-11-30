@@ -1,2 +1,2 @@
-CLASS kbq PlaybackSpeedItem
+CLASS kcq PlaybackSpeedItem
 	FIELD a speedMultiplier F

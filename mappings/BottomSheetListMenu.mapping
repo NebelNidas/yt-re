@@ -1,3 +1,3 @@
-CLASS kcd BottomSheetListMenu
+CLASS kde BottomSheetListMenu
 	FIELD e watchWhileActivity Landroid/content/Context;
 	FIELD p menuItemToBoolean Ljava/util/Map;

@@ -1,2 +1,2 @@
-CLASS dks NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldks;
+CLASS dli NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldli;

@@ -1,2 +1,0 @@
-CLASS iuf
-	METHOD o getSpeedDisplayString (Lancj;)Ljava/lang/String;

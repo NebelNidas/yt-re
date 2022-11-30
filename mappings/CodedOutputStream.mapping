@@ -1,5 +1,5 @@
-CLASS afee CodedOutputStream
+CLASS afgv CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lafee;
+	METHOD ak getCodedOutput ([B)Lafgv;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

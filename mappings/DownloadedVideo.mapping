@@ -1,11 +1,11 @@
-CLASS hmw DownloadedVideo
+CLASS hnr DownloadedVideo
 	FIELD a id Ljava/lang/String;
 	FIELD b title Ljava/lang/String;
 	FIELD c lengthSeconds Ljava/lang/Integer;
 	FIELD d channelTitle Ljava/lang/String;
-	FIELD e channelThumbnailDetails Lammw;
-	FIELD f thumbnailDetails Lammw;
-	FIELD g description Lahue;
+	FIELD e channelThumbnailDetails Lamog;
+	FIELD f thumbnailDetails Lamog;
+	FIELD g description Lahwf;
 	FIELD h publishedTimestampMs Ljava/lang/Long;
 	FIELD i viewCount Ljava/lang/Long;
 	FIELD j likeCountText Ljava/lang/String;

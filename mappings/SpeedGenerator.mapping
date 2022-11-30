@@ -1,10 +1,10 @@
-CLASS yxd SpeedGenerator
-	FIELD a emptySpeeds [Lancj;
-	FIELD c speeds [Lancj;
+CLASS yyv SpeedGenerator
+	FIELD a emptySpeeds [Landr;
+	FIELD c speeds [Landr;
 	FIELD d speedMult F
 	METHOD <init> (ZLcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;F)V
 		ARG 3 speedMult
 	METHOD a getSpeedMult ()F
 	METHOD b getSelectedDisplayString ()Ljava/lang/String;
-	METHOD c getSpeeds ()[Lancj;
-	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Lancj;
+	METHOD c getSpeeds ()[Landr;
+	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Landr;

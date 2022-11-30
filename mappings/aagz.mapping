@@ -1,4 +1,0 @@
-CLASS aagz
-	FIELD c speedMultiplier F
-	FIELD d interstititialRequested Z
-	METHOD y resetSpeed ()V

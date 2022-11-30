@@ -1,5 +1,5 @@
-CLASS ric AdReengagementState
-	FIELD a renderer Lageq;
+CLASS rjq AdReengagementState
+	FIELD a renderer Laghg;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

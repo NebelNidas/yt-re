@@ -1,0 +1,2 @@
+CLASS abtc
+	METHOD h getFormFactor (Landroid/content/Context;)Lailq;

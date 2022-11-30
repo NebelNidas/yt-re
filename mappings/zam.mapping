@@ -1,0 +1,2 @@
+CLASS zam
+	METHOD e getProgress ()J

@@ -1,3 +1,0 @@
-CLASS duc
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Lduf;

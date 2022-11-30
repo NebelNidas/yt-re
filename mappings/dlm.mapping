@@ -1,2 +1,0 @@
-CLASS dlm
-	FIELD b stacktrace Ljava/lang/Throwable;

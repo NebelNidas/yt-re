@@ -1,4 +1,0 @@
-CLASS gys
-	METHOD A setText (Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-	METHOD x setText (Landroid/widget/TextView;I)V
-		ARG 1 resid

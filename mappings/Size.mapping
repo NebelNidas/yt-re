@@ -1,3 +1,3 @@
-CLASS dlg Size
+CLASS dlw Size
 	FIELD a width I
 	FIELD b height I

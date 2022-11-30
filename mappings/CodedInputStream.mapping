@@ -1,5 +1,5 @@
-CLASS afdz CodedInputStream
+CLASS afgq CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD M newInstance (Ljava/io/InputStream;)Lafdz;
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafdz;
+	METHOD M newInstance (Ljava/io/InputStream;)Lafgq;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafgq;

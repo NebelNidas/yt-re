@@ -665,7 +665,7 @@ task matcher(dependsOn: [convertApkToJar, convertApkToMatchAgainstToJar], type: 
 	args mappingsDir.getAbsolutePath()
 
 	args '--hide-unmapped-a'
-	// args '--dont-save-unmapped-matches'
+	args '--dont-save-unmapped-matches'
 
 	jvmArgs project.matcher_jvmargs
 }

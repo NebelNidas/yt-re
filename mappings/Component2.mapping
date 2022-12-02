@@ -1,11 +1,11 @@
-CLASS dij Component2
+CLASS dix Component2
 	FIELD a sIdGenerator Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD j mId I
-	FIELD v sEmptyArray [Ldjk;
-	METHOD E makeShallowCopyWithNewId (Ldin;)Ldij;
-	METHOD G generateKey (Ldin;)Ldin;
-	METHOD f isEquivalentTo (Ldij;)Z
-	METHOD i makeShallowCopy ()Ldij;
+	FIELD v sEmptyArray [Lcgo;
+	METHOD E makeShallowCopyWithNewId (Ldjb;)Ldix;
+	METHOD G generateKey (Ldjb;)Ldjb;
+	METHOD f isEquivalentTo (Ldix;)Z
+	METHOD i makeShallowCopy ()Ldix;
 	METHOD p getSimpleName ()Ljava/lang/String;
-	METHOD s measure (Ldin;IILdmg;)V
-	METHOD u isHostSpec (Ldij;)Z
+	METHOD s measure (Ldjb;IILdmu;)V
+	METHOD u isHostSpec (Ldix;)Z

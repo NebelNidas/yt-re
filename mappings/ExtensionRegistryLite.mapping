@@ -1,2 +1,2 @@
-CLASS afkg ExtensionRegistryLite
-	METHOD a getEmptyRegistry ()Lafkg;
+CLASS afmj ExtensionRegistryLite
+	METHOD a getEmptyRegistry ()Lafmj;

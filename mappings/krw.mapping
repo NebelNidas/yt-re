@@ -1,0 +1,6 @@
+CLASS krw
+	FIELD c playerViewModeMonitor Lexy;
+	FIELD m tabNames Ljava/util/Set;
+	FIELD n flags Ladsi;
+	FIELD o config Landroid/content/res/Configuration;
+	FIELD q pivotBar Lj$/util/Optional;

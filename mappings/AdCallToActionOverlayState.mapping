@@ -1,8 +1,8 @@
-CLASS rkd AdCallToActionOverlayState
-	FIELD b renderer Ladld;
-	FIELD c onClickedRenderer Ladld;
-	FIELD d trackingParams Lafjq;
-	FIELD e visualStateChangeTriggers Ladqe;
+CLASS rln AdCallToActionOverlayState
+	FIELD b renderer Ladnd;
+	FIELD c onClickedRenderer Ladnd;
+	FIELD d trackingParams Laflt;
+	FIELD e visualStateChangeTriggers Ladsd;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

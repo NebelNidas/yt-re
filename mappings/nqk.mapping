@@ -1,2 +1,0 @@
-CLASS nqk
-	FIELD c touchLocation Ljava/util/concurrent/atomic/AtomicReference;

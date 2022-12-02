@@ -1,3 +1,0 @@
-CLASS aali
-	METHOD p (F)V
-		ARG 1 speedMult

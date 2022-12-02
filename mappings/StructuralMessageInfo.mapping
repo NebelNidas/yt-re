@@ -1,2 +1,2 @@
-CLASS afnh StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Lafmp;Z[I[Lafki;Ljava/lang/Object;)V
+CLASS afpk StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Lafos;Z[I[Lafml;Ljava/lang/Object;)V

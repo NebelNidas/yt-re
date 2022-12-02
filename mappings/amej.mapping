@@ -1,4 +1,0 @@
-CLASS amej
-	METHOD am assertTrue (Z)V
-	METHOD an assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD ao assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

@@ -1,2 +1,0 @@
-CLASS dmm
-	FIELD b stacktrace Ljava/lang/Throwable;

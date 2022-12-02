@@ -1,2 +1,0 @@
-CLASS zda
-	METHOD c getPlayingState ()Lzzm;

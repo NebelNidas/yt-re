@@ -1,4 +1,4 @@
-CLASS did Column
+CLASS dir Column
 	FIELD a children Ljava/util/List;
 	FIELD d reverse Z
-	METHOD b create (Ldin;)Ldic;
+	METHOD b create (Ldjb;)Ldiq;

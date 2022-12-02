@@ -1,0 +1,4 @@
+CLASS aqbe
+	METHOD a (Laqdo;Laqdo;Laqdi;Laqdi;Laqdi;Laqdi;)Laqbe;
+		ARG 3 onComplete
+		ARG 6 onDispose

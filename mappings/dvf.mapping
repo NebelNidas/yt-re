@@ -1,3 +1,0 @@
-CLASS dvf
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldvi;

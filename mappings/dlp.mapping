@@ -1,5 +1,0 @@
-CLASS dlp
-	METHOD c getClickListener (Landroid/view/View;)Ldim;
-	METHOD d getFocusChangeListener (Landroid/view/View;)Ldio;
-	METHOD e getLongClickListener (Landroid/view/View;)Ldiu;
-	METHOD f getTouchListener (Landroid/view/View;)Ldiv;

@@ -1,2 +1,2 @@
-CLASS afnj UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lafll;
+CLASS afpm UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lafno;

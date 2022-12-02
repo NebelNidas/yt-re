@@ -1,0 +1,2 @@
+CLASS aarl
+	METHOD b getDisplayString (Laibr;)Landroid/text/Spanned;

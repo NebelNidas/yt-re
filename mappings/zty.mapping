@@ -1,0 +1,2 @@
+CLASS zty
+	METHOD c changeSpeed ([Lankh;I)V

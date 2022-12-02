@@ -1,0 +1,3 @@
+CLASS aagv
+	METHOD J (F)V
+		ARG 1 speed

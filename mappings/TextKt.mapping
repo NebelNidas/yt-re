@@ -1,5 +1,5 @@
-CLASS dua TextKt
-	FIELD a text Lduc;
+CLASS duo TextKt
+	FIELD a text Lduq;
 	FIELD d mRequired Ljava/util/BitSet;
-	METHOD c getText ()Lduc;
+	METHOD c getText ()Lduq;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

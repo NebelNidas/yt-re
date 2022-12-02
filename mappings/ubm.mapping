@@ -1,0 +1,2 @@
+CLASS ubm
+	METHOD d toByteArray ()[B

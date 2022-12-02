@@ -1,2 +1,2 @@
-CLASS dvd MountItem
+CLASS dvi MountItem
 	FIELD a content Ljava/lang/Object;

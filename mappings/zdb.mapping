@@ -1,0 +1,2 @@
+CLASS zdb
+	METHOD e getProgress ()J

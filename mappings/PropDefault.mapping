@@ -1,2 +1,2 @@
-CLASS dnw PropDefault
+CLASS doa PropDefault
 	METHOD a resId ()I

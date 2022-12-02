@@ -1,4 +1,4 @@
-CLASS jzj SlimMetadataToggleButtonColorConfiguration
+CLASS jzp SlimMetadataToggleButtonColorConfiguration
 	FIELD a defaultIconColorRes I
 	FIELD b selectedIconColorRes I
 	FIELD c defaultTextColorRes I

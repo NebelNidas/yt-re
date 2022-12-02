@@ -1,2 +1,2 @@
-CLASS plo ui/pdf
+CLASS plp ui/pdf
 	METHOD b getIconResourceId ()I

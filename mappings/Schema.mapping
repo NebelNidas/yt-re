@@ -1,9 +1,9 @@
-CLASS aflh Schema
+CLASS afmy Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;Laflc;Lafip;)V
-	METHOD i mergeFrom (Ljava/lang/Object;[BIILafhm;)V
+	METHOD h mergeFrom (Ljava/lang/Object;Lafmt;Lafkg;)V
+	METHOD i mergeFrom (Ljava/lang/Object;[BIILafjd;)V
 	METHOD j equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD k isInitialized (Ljava/lang/Object;)Z
-	METHOD l writeTo (Ljava/lang/Object;Laevy;)V
+	METHOD l writeTo (Ljava/lang/Object;Laexo;)V

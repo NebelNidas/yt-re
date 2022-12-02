@@ -1,0 +1,2 @@
+CLASS zsd
+	METHOD c changeSpeed ([Lanho;I)V

@@ -1,2 +1,2 @@
-CLASS cni DebugLayoutNode
-	METHOD h getClickHandler ()Ldjx;
+CLASS cnn DebugLayoutNode
+	METHOD h getClickHandler ()Ldkb;

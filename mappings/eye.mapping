@@ -1,0 +1,3 @@
+CLASS eye
+	METHOD e isInlineMinimal ()Z
+	METHOD f isPIP ()Z

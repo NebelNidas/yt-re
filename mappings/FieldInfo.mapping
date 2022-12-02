@@ -1,16 +1,16 @@
-CLASS afir FieldInfo
+CLASS afki FieldInfo
 	FIELD a field Ljava/lang/reflect/Field;
-	FIELD b type Lafiu;
+	FIELD b type Lafkl;
 	FIELD c messageClass Ljava/lang/Class;
 	FIELD d fieldNumber I
 	FIELD e presenceField Ljava/lang/reflect/Field;
 	FIELD f presenceMask I
 	FIELD g required Z
 	FIELD h enforceUtf8 Z
-	FIELD i oneof Lafkv;
+	FIELD i oneof Lafmm;
 	FIELD j oneofStoredType Ljava/lang/Class;
 	FIELD k mapDefaultEntry Ljava/lang/Object;
-	FIELD l enumVerifier Lafjl;
-	METHOD a forOneofMemberField (ILafiu;Lafkv;Ljava/lang/Class;ZLafjl;)Lafir;
+	FIELD l enumVerifier Laflc;
+	METHOD a forOneofMemberField (ILafkl;Lafmm;Ljava/lang/Class;ZLaflc;)Lafki;
 	METHOD b checkFieldNumber (I)V
 	METHOD c isExactlyOneBitSet (I)Z

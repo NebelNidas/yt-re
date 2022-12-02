@@ -1,3 +1,3 @@
-CLASS dmc Size
+CLASS dmg Size
 	FIELD a width I
 	FIELD b height I

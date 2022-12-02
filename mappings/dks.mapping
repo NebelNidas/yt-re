@@ -1,0 +1,3 @@
+CLASS dks
+	METHOD b getLayoutOutput (Ldvi;)Ldks;
+	METHOD d isAccessible ()Z

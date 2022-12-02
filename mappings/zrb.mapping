@@ -1,2 +1,0 @@
-CLASS zrb
-	METHOD c changeSpeed ([Lanfo;I)V

@@ -1,0 +1,2 @@
+CLASS apca
+	METHOD aI isItalic ()Z

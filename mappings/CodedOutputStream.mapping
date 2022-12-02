@@ -1,5 +1,5 @@
-CLASS afij CodedOutputStream
+CLASS afka CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lafij;
+	METHOD ak getCodedOutput ([B)Lafka;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

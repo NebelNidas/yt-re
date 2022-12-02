@@ -1,6 +1,6 @@
-CLASS did Component
-	METHOD b setContent (Ldif;)V
-	METHOD m clone ()Ldid;
+CLASS dih Component
+	METHOD b setContent (Ldij;)V
+	METHOD m clone ()Ldih;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

@@ -1,2 +1,2 @@
-CLASS dlo NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldlo;
+CLASS dls NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldls;

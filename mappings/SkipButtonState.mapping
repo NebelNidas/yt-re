@@ -1,6 +1,6 @@
-CLASS rkp SkipButtonState
-	FIELD a skipAdRenderer Lamen;
-	FIELD b contentMetadata Lrku;
+CLASS rkr SkipButtonState
+	FIELD a skipAdRenderer Lamgo;
+	FIELD b contentMetadata Lrkw;
 	FIELD c adCountMetadata Lrda;
 	FIELD d skipState I
 	FIELD e hidden Z

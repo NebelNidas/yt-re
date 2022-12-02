@@ -1,5 +1,3 @@
 CLASS qip
-	METHOD n getDrawableWithColor (Landroid/content/Context;II)Landroid/graphics/drawable/Drawable;
-		ARG 1 drawableId
-		ARG 2 color
-	METHOD y setVisibility (Landroid/view/View;Z)V
+	METHOD ac isHttps (Landroid/net/Uri;)Z
+	METHOD ae isLocalhost (Landroid/net/Uri;)Z

@@ -1,2 +1,2 @@
-CLASS aifx SomeEnum
-	METHOD b fromValue (I)Laifx;
+CLASS aihp SomeEnum
+	METHOD b fromValue (I)Laihp;

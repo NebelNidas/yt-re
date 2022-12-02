@@ -1,2 +1,2 @@
-CLASS afjn IntList
-	METHOD f mutableCopyWithCapacity (I)Lafjn;
+CLASS afle IntList
+	METHOD f mutableCopyWithCapacity (I)Lafle;

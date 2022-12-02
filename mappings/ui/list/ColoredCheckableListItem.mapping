@@ -1,4 +1,4 @@
-CLASS kcz ui/list/ColoredCheckableListItem
+CLASS kde ui/list/ColoredCheckableListItem
 	FIELD a drawable Landroid/graphics/drawable/Drawable;
 	METHOD <init> (Landroid/content/Context;Ljava/lang/String;)V
 		ARG 2 text

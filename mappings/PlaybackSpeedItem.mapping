@@ -1,2 +1,2 @@
-CLASS kdb PlaybackSpeedItem
+CLASS kdg PlaybackSpeedItem
 	FIELD a speedMultiplier F

@@ -1,2 +1,0 @@
-CLASS dkh
-	METHOD a collectChildren (Ljava/util/List;)V

@@ -1,4 +1,4 @@
-CLASS djb DebugComponent
-	METHOD b getComponent ()Ldif;
-	METHOD f getLithoView ()Ldlg;
-	METHOD n getLayoutNode ()Lcni;
+CLASS djf DebugComponent
+	METHOD b getComponent ()Ldij;
+	METHOD f getLithoView ()Ldlk;
+	METHOD n getLayoutNode ()Lcnn;

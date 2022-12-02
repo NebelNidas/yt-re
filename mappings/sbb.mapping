@@ -1,0 +1,5 @@
+CLASS sbb
+	METHOD h assertNotInMainThread ()V
+	METHOD i assertInMainThread ()V
+	METHOD j isNotInMainThread ()Z
+	METHOD k isInMainthread ()Z

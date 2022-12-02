@@ -1,9 +1,9 @@
-CLASS nxx ConversionContext
+CLASS nzi ConversionContext
 	FIELD b container Landroid/view/View;
 	FIELD c widthConstraint Ljava/lang/Integer;
 	FIELD d heightConstraint Ljava/lang/Integer;
-	FIELD e templateLoggerFactory Loab;
-	FIELD f rootDisposableContainer Laqdv;
+	FIELD e templateLoggerFactory Lobm;
+	FIELD f rootDisposableContainer Laqgr;
 	FIELD g imagePrefetchRangeRatio F
 	FIELD h horizontalCollectionSwipeProtector Lnv;
 	FIELD i useIncrementalMountOnChildrenInternal Z
@@ -12,13 +12,13 @@ CLASS nxx ConversionContext
 	FIELD l identifierProperty Ljava/lang/String;
 	FIELD m loggingNodeInternal Ljava/lang/ref/WeakReference;
 	FIELD n parentLoggingNodeInternal Ljava/lang/ref/WeakReference;
-	FIELD o elementsInteractionLoggerInternal Lnzc;
-	FIELD p globalCommandDataDecoratorsInternal Ladsd;
-	FIELD q decoratingElementBuilder Lnyf;
+	FIELD o elementsInteractionLoggerInternal Loan;
+	FIELD p globalCommandDataDecoratorsInternal Ladue;
+	FIELD q decoratingElementBuilder Lnzq;
 	FIELD r debugId Ljava/lang/String;
 	FIELD s treeDebugId Ljava/lang/String;
 	FIELD t shouldAddDebuggerViewTags Z
-	FIELD u elementsConfig Lnyx;
+	FIELD u elementsConfig Loai;
 	FIELD v couldOverlapWithElementsConfig Z
 	FIELD x scrollStrategyListenerHolder Ljava/util/concurrent/atomic/AtomicReference;
-	FIELD y horizontalCollectionTouchInterceptor Labgt;
+	FIELD y horizontalCollectionTouchInterceptor Labik;

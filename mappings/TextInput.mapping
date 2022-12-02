@@ -1,2 +1,2 @@
-CLASS dux TextInput
+CLASS dvg TextInput
 	FIELD e hint Ljava/lang/CharSequence;

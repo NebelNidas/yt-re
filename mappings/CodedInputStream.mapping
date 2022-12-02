@@ -1,5 +1,5 @@
-CLASS afly CodedInputStream
+CLASS afob CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD M newInstance (Ljava/io/InputStream;)Lafly;
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafly;
+	METHOD M newInstance (Ljava/io/InputStream;)Lafob;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafob;

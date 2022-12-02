@@ -1,2 +1,2 @@
-CLASS afnb BooleanList
-	METHOD d withCapacity (I)Lafnb;
+CLASS afpe BooleanList
+	METHOD d withCapacity (I)Lafpe;

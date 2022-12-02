@@ -1,0 +1,2 @@
+CLASS dmx
+	METHOD b markerPoint (Ljava/lang/String;)V

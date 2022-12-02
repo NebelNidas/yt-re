@@ -1,6 +1,6 @@
-CLASS afpn UnknownFieldSetLite
-	FIELD a defaultInstance Lafpn;
-	METHOD b mutableCopyOf (Lafpn;Lafpn;)Lafpn;
-	METHOD c newInstance ()Lafpn;
+CLASS afrq UnknownFieldSetLite
+	FIELD a defaultInstance Lafrq;
+	METHOD b mutableCopyOf (Lafrq;Lafrq;)Lafrq;
+	METHOD c newInstance ()Lafrq;
 	METHOD f mergeVarintField (ILjava/lang/Object;)V
-	METHOD g mergeFieldFrom (ILafly;)Z
+	METHOD g mergeFieldFrom (ILafob;)Z

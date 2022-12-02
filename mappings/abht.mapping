@@ -1,0 +1,2 @@
+CLASS abht
+	METHOD a getButtonId (Laimd;)I

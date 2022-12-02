@@ -1,2 +1,2 @@
-CLASS afmp FloatArrayList
-	FIELD b emptyList Lafmp;
+CLASS afos FloatArrayList
+	FIELD b emptyList Lafos;

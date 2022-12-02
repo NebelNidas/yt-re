@@ -1,2 +1,0 @@
-CLASS zcb
-	METHOD I isInMainthread ()Z

@@ -1,2 +1,2 @@
-CLASS dmg NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldmg;
+CLASS dmp NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldmp;

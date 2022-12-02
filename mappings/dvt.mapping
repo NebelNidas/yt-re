@@ -1,3 +1,0 @@
-CLASS dvt
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldvw;

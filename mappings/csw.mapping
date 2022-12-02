@@ -1,0 +1,2 @@
+CLASS csw
+	FIELD a context Ljava/lang/Object;

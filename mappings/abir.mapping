@@ -1,2 +1,0 @@
-CLASS abir
-	METHOD f setSelectedText (Ljava/lang/String;)V

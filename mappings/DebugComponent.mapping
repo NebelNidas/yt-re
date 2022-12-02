@@ -1,4 +1,4 @@
-CLASS djt DebugComponent
-	METHOD b getComponent ()Ldix;
-	METHOD f getLithoView ()Ldly;
-	METHOD n getLayoutNode ()Lcoc;
+CLASS dkc DebugComponent
+	METHOD b getComponent ()Ldjg;
+	METHOD f getLithoView ()Ldmh;
+	METHOD n getLayoutNode ()Lcol;

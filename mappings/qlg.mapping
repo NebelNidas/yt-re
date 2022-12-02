@@ -1,0 +1,3 @@
+CLASS qlg
+	METHOD M isHttps (Landroid/net/Uri;)Z
+	METHOD O isLocalhost (Landroid/net/Uri;)Z

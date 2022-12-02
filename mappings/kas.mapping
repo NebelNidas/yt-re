@@ -1,0 +1,2 @@
+CLASS kas
+	FIELD h reelDismissalInfo Ljava/util/List;

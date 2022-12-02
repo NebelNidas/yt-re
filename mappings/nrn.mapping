@@ -1,2 +1,0 @@
-CLASS nrn
-	FIELD c touchLocation Ljava/util/concurrent/atomic/AtomicReference;

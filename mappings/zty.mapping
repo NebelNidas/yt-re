@@ -1,2 +1,2 @@
 CLASS zty
-	METHOD c changeSpeed ([Lankh;I)V
+	METHOD lA hasView ()Z

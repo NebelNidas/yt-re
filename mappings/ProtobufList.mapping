@@ -1,2 +1,2 @@
-CLASS afnl ProtobufList
-	METHOD e mutableCopyWithCapacity (I)Lafnl;
+CLASS afpo ProtobufList
+	METHOD e mutableCopyWithCapacity (I)Lafpo;

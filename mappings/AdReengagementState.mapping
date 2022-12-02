@@ -1,5 +1,5 @@
-CLASS rlt AdReengagementState
-	FIELD a renderer Lagmp;
+CLASS rnb AdReengagementState
+	FIELD a renderer Lagos;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

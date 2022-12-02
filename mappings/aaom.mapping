@@ -1,0 +1,2 @@
+CLASS aaom
+	METHOD J setPlaybackSpeed (F)V

@@ -1,0 +1,2 @@
+CLASS abzm
+	METHOD i getFormFactor (Landroid/content/Context;)Laito;

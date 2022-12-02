@@ -1,3 +1,3 @@
-CLASS ajts LikeType
+CLASS ajwb LikeType
 	FIELD e ordinal I
-	METHOD b fromOrdinal (I)Lajts;
+	METHOD b fromOrdinal (I)Lajwb;

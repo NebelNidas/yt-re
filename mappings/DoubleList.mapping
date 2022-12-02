@@ -1,2 +1,2 @@
-CLASS afnc DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lafnc;
+CLASS afpf DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lafpf;

@@ -1,2 +1,2 @@
-CLASS pmx ui/pdf
+CLASS poh ui/pdf
 	METHOD b getIconResourceId ()I

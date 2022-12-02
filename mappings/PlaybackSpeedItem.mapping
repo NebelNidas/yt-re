@@ -1,2 +1,2 @@
-CLASS keh PlaybackSpeedItem
+CLASS kfc PlaybackSpeedItem
 	FIELD a speedMultiplier F

@@ -1,2 +1,2 @@
-CLASS dlo InternalNode2
+CLASS dlx InternalNode2
 	METHOD au getTestKey ()Ljava/lang/String;

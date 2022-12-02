@@ -1,3 +1,3 @@
-CLASS dvr ComponentsReporter
-	FIELD a sInstance Ldvs;
-	METHOD a getInstance ()Ldvs;
+CLASS dwa ComponentsReporter
+	FIELD a sInstance Ldwb;
+	METHOD a getInstance ()Ldwb;

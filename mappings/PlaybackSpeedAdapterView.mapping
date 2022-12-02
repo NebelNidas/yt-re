@@ -1,9 +1,9 @@
-CLASS kez PlaybackSpeedAdapterView
-	FIELD ae speeds [Lankh;
+CLASS kfv PlaybackSpeedAdapterView
+	FIELD ae speeds [Lanna;
 	FIELD af selectedIndex I
-	METHOD aP (Landroid/content/Context;Labin;[Lankh;I)V
+	METHOD aP (Landroid/content/Context;Labke;[Lanna;I)V
 		ARG 2 speeds
 		ARG 3 selectedIndex
-	METHOD b ([Lankh;I)V
+	METHOD b ([Lanna;I)V
 		ARG 1 speeds
 		ARG 2 selectedIndex

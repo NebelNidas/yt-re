@@ -1,0 +1,2 @@
+CLASS zgn
+	METHOD c getPlayingState ()Laacu;

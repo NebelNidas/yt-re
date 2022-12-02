@@ -1,2 +1,2 @@
-CLASS afno InvalidProtocolBufferException
+CLASS afpr InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

@@ -1,5 +1,0 @@
-CLASS zua
-	FIELD b prm Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
-	FIELD c emptySpeeds [Lankh;
-	METHOD c ([Lankh;)V
-		ARG 1 speeds

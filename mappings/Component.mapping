@@ -1,6 +1,6 @@
-CLASS div Component
-	METHOD b setContent (Ldix;)V
-	METHOD m clone ()Ldiv;
+CLASS dje Component
+	METHOD b setContent (Ldjg;)V
+	METHOD m clone ()Ldje;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

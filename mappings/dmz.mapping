@@ -1,3 +1,0 @@
-CLASS dmz
-	METHOD b getLayoutOutput (Ldxp;)Ldmz;
-	METHOD d isAccessible ()Z

@@ -1,3 +1,0 @@
-CLASS qnp
-	METHOD C isHttps (Landroid/net/Uri;)Z
-	METHOD E isLocalhost (Landroid/net/Uri;)Z

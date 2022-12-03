@@ -1,4 +1,4 @@
-CLASS antk SpeedOption
+CLASS anxm SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Laftx;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Lafwy;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

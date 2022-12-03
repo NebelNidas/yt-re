@@ -1,0 +1,6 @@
+CLASS kxq
+	FIELD c playerViewModeMonitor Lfal;
+	FIELD m tabNames Ljava/util/Set;
+	FIELD n flags Laecf;
+	FIELD o config Landroid/content/res/Configuration;
+	FIELD q pivotBar Lj$/util/Optional;

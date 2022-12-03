@@ -1,2 +1,2 @@
 CLASS com/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel
-	METHOD f getConfigModel ()Lcom/google/android/libraries/youtube/innertube/model/media/PlayerConfigModel;
+	METHOD m getConfigModel ()Lcom/google/android/libraries/youtube/innertube/model/media/PlayerConfigModel;

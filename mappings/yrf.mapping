@@ -1,0 +1,2 @@
+CLASS yrf
+	METHOD h findXop (Ljava/lang/String;)Lyrd;

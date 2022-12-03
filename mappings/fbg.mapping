@@ -1,0 +1,3 @@
+CLASS fbg
+	METHOD e isInlineMinimal ()Z
+	METHOD f isPIP ()Z

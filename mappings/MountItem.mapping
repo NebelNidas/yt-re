@@ -1,2 +1,2 @@
-CLASS dxp MountItem
+CLASS dxu MountItem
 	FIELD a content Ljava/lang/Object;

@@ -1,2 +1,2 @@
-CLASS afuk ProtobufList
-	METHOD e mutableCopyWithCapacity (I)Lafuk;
+CLASS afxp ProtobufList
+	METHOD e mutableCopyWithCapacity (I)Lafxp;

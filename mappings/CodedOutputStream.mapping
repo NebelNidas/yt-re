@@ -1,5 +1,5 @@
-CLASS aftc CodedOutputStream
+CLASS afwd CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Laftc;
+	METHOD ak getCodedOutput ([B)Lafwd;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

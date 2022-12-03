@@ -1,0 +1,2 @@
+CLASS abrq
+	METHOD f setSelectedText (Ljava/lang/String;)V

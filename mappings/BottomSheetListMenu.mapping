@@ -1,3 +1,3 @@
-CLASS kih BottomSheetListMenu
+CLASS kjh BottomSheetListMenu
 	FIELD e watchWhileActivity Landroid/content/Context;
 	FIELD r menuItemToBoolean Ljava/util/Map;

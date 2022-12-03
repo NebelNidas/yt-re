@@ -1,2 +1,0 @@
-CLASS acer
-	METHOD i getFormFactor (Landroid/content/Context;)Laizm;

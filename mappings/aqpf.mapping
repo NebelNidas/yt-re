@@ -1,0 +1,4 @@
+CLASS aqpf
+	METHOD a (Laqrq;Laqrq;Laqrk;Laqrk;Laqrk;Laqrk;)Laqpf;
+		ARG 3 onComplete
+		ARG 6 onDispose

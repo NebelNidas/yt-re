@@ -1,0 +1,2 @@
+CLASS abld
+	METHOD a getButtonId (Laiqa;)I

@@ -1,0 +1,2 @@
+CLASS zkb
+	METHOD c getPlayingState ()Laagi;

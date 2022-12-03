@@ -1,0 +1,2 @@
+CLASS ynz
+	METHOD h findXop (Ljava/lang/String;)Lynx;

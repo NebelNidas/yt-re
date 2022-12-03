@@ -1,3 +1,3 @@
-CLASS ajyn LikeType
+CLASS akai LikeType
 	FIELD e ordinal I
-	METHOD b fromOrdinal (I)Lajyn;
+	METHOD b fromOrdinal (I)Lakai;

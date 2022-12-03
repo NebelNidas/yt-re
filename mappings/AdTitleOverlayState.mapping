@@ -1,2 +1,2 @@
-CLASS roy AdTitleOverlayState
-	FIELD a adOverlayMetadata Lror;
+CLASS rpm AdTitleOverlayState
+	FIELD a adOverlayMetadata Lrpf;

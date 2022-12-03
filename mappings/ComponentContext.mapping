@@ -1,6 +1,6 @@
-CLASS dkm ComponentContext
+CLASS dks ComponentContext
 	FIELD b context Landroid/content/Context;
 	FIELD d mNoStateUpdatesMethod Ljava/lang/String;
-	FIELD e componentScope Ldki;
+	FIELD e componentScope Ldko;
 	FIELD h componentTree Lcom/facebook/litho/ComponentTree;
 	METHOD t checkIfNoStateUpdatesMethod ()V

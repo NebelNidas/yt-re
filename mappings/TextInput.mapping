@@ -1,2 +1,2 @@
-CLASS dwi TextInput
+CLASS dwo TextInput
 	FIELD e hint Ljava/lang/CharSequence;

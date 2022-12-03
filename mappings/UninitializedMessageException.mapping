@@ -1,2 +1,2 @@
-CLASS afto UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lafrq;
+CLASS afva UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Laftc;

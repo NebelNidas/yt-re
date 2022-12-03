@@ -1,2 +1,0 @@
-CLASS dmk
-	METHOD a collectChildren (Ljava/util/List;)V

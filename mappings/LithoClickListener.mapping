@@ -1,2 +1,2 @@
-CLASS dkl LithoClickListener
-	FIELD a handler Ldma;
+CLASS dkr LithoClickListener
+	FIELD a handler Ldmg;

@@ -1,0 +1,2 @@
+CLASS kdf
+	METHOD b reset ()V

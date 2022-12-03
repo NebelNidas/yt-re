@@ -1,4 +1,4 @@
-CLASS anpt SpeedOption
+CLASS anrq SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Lafra;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Lafsm;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

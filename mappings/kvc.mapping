@@ -1,0 +1,6 @@
+CLASS kvc
+	FIELD c playerViewModeMonitor Lezs;
+	FIELD m tabNames Ljava/util/Set;
+	FIELD n flags Ladyd;
+	FIELD o config Landroid/content/res/Configuration;
+	FIELD q pivotBar Lj$/util/Optional;

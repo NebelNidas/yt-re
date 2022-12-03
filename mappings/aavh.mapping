@@ -1,2 +1,0 @@
-CLASS aavh
-	METHOD b getDisplayString (Laigi;)Landroid/text/Spanned;

@@ -1,2 +1,0 @@
-CLASS kcg
-	FIELD h reelDismissalInfo Ljava/util/List;

@@ -1,2 +1,2 @@
-CLASS afsw ProtobufArrayList
-	FIELD b emptyList Lafsw;
+CLASS afui ProtobufArrayList
+	FIELD b emptyList Lafui;

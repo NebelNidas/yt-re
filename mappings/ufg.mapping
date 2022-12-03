@@ -1,0 +1,2 @@
+CLASS ufg
+	METHOD d toByteArray ()[B

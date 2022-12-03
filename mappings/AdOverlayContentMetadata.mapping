@@ -1,3 +1,3 @@
-CLASS rpk AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lufy;
+CLASS rpy AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lugs;
 	FIELD c title Ljava/lang/String;

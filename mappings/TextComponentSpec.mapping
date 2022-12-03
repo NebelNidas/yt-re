@@ -1,3 +1,3 @@
-CLASS nvy TextComponentSpec
-	METHOD c create (Ldkm;Lapku;Loav;Lodm;Locd;Lobb;Ljava/util/Map;Lobi;ZFFFLjava/lang/Integer;ZZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Ldki;
-	METHOD d getHint (Lobb;Landroid/content/Context;Lapjw;Loav;Lodm;Locd;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS nwc TextComponentSpec
+	METHOD c create (Ldks;Lapmq;Loay;Lodp;Locg;Lobe;Ljava/util/Map;Lobl;ZFFFLjava/lang/Integer;ZZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Ldko;
+	METHOD d getHint (Lobe;Landroid/content/Context;Lapls;Loay;Lodp;Locg;Ljava/util/Map;Z)Ljava/lang/CharSequence;

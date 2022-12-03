@@ -1,3 +1,0 @@
-CLASS ktg
-	FIELD aJ accountId Lcom/google/apps/tiktok/account/AccountId;
-	FIELD aK accountChangedCalledKey Z

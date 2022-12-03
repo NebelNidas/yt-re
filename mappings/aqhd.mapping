@@ -1,4 +1,0 @@
-CLASS aqhd
-	METHOD a (Laqjn;Laqjn;Laqjh;Laqjh;Laqjh;Laqjh;)Laqhd;
-		ARG 3 onComplete
-		ARG 6 onDispose

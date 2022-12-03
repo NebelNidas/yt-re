@@ -1,2 +1,0 @@
-CLASS yhr
-	METHOD m createError204Uri (Lyhl;Lyhk;Ljava/lang/String;)Lszc;

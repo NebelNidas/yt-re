@@ -1,4 +1,4 @@
-CLASS rov AdProgressTextState
+CLASS rpj AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Lrhn;
+	FIELD c adCountMetadata Lrhz;

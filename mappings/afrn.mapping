@@ -1,0 +1,2 @@
+CLASS afrn
+	METHOD p forCodedInput (Lafrm;)Lafrn;

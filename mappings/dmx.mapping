@@ -1,0 +1,3 @@
+CLASS dmx
+	METHOD b getLayoutOutput (Ldxn;)Ldmx;
+	METHOD d isAccessible ()Z

@@ -1,2 +1,0 @@
-CLASS acbw
-	METHOD i getFormFactor (Landroid/content/Context;)Laivy;

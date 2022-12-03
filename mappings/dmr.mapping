@@ -1,3 +1,0 @@
-CLASS dmr
-	METHOD b getLayoutOutput (Ldxh;)Ldmr;
-	METHOD d isAccessible ()Z

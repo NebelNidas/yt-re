@@ -1,2 +1,0 @@
-CLASS wxk
-	METHOD I isInMainthread ()Z

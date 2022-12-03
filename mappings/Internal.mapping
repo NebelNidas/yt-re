@@ -1,4 +1,4 @@
-CLASS afro Internal
+CLASS afta Internal
 	FIELD a UTF_8 Ljava/nio/charset/Charset;
 	METHOD a hashBoolean (Z)I
 	METHOD b hashCode ([B)I

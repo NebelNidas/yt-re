@@ -1,5 +1,5 @@
-CLASS rox AdReengagementState
-	FIELD a renderer Lagqu;
+CLASS rpl AdReengagementState
+	FIELD a renderer Lagsg;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

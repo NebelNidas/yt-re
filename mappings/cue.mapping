@@ -1,0 +1,2 @@
+CLASS cue
+	FIELD a context Ljava/lang/Object;

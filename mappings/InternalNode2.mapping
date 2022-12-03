@@ -1,2 +1,2 @@
-CLASS dmz InternalNode2
+CLASS dnf InternalNode2
 	METHOD au getTestKey ()Ljava/lang/String;

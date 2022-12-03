@@ -1,4 +1,4 @@
-CLASS abmo ui/list/CheckableListItem
+CLASS abnp ui/list/CheckableListItem
 	FIELD g checked Z
 	FIELD j context Landroid/content/Context;
 	METHOD <init> (Landroid/content/Context;Ljava/lang/String;)V

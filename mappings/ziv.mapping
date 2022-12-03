@@ -1,2 +1,0 @@
-CLASS ziv
-	METHOD c getPlayingState ()Laafc;

@@ -1,2 +1,2 @@
-CLASS afsq DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lafsq;
+CLASS afub DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lafub;

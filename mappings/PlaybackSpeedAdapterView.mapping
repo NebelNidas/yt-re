@@ -1,9 +1,9 @@
-CLASS khx PlaybackSpeedAdapterView
-	FIELD ae speeds [Lanrq;
+CLASS kin PlaybackSpeedAdapterView
+	FIELD ae speeds [Lantk;
 	FIELD af selectedIndex I
-	METHOD aP (Landroid/content/Context;Labno;[Lanrq;I)V
+	METHOD aP (Landroid/content/Context;Labpb;[Lantk;I)V
 		ARG 2 speeds
 		ARG 3 selectedIndex
-	METHOD b ([Lanrq;I)V
+	METHOD b ([Lantk;I)V
 		ARG 1 speeds
 		ARG 2 selectedIndex

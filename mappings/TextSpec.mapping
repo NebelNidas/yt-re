@@ -1,4 +1,4 @@
-CLASS dwv TextSpec
+CLASS dwx TextSpec
 	FIELD b typefaceStyle I
 	FIELD c DEFAULT_TYPEFACE Landroid/graphics/Typeface;
 	FIELD e typeface Landroid/graphics/Typeface;
@@ -7,6 +7,6 @@ CLASS dwv TextSpec
 	FIELD h sTempPath Landroid/graphics/Path;
 	FIELD i sTempRect Landroid/graphics/Rect;
 	FIELD j sTempRectF Landroid/graphics/RectF;
-	METHOD c newTextDrawable ()Ldwl;
-	METHOD h onMeasure (Ldks;Ldkw;IILdol;Ljava/lang/CharSequence;Landroid/text/TextUtils$TruncateAt;ZIFFFILandroid/content/res/ColorStateList;IILjava/lang/CharSequence;FILandroid/graphics/Typeface;IILedo;Ledo;Ledo;Ledo;Ledo;)V
-	METHOD n createTextLayout (Ldks;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILdyk;FI)Landroid/text/Layout;
+	METHOD c newTextDrawable ()Ldwn;
+	METHOD h onMeasure (Ldku;Ldky;IILdon;Ljava/lang/CharSequence;Landroid/text/TextUtils$TruncateAt;ZIFFFILandroid/content/res/ColorStateList;IILjava/lang/CharSequence;FILandroid/graphics/Typeface;IILedr;Ledr;Ledr;Ledr;Ledr;)V
+	METHOD n createTextLayout (Ldku;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILdym;FI)Landroid/text/Layout;

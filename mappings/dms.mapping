@@ -1,0 +1,2 @@
+CLASS dms
+	METHOD a collectChildren (Ljava/util/List;)V

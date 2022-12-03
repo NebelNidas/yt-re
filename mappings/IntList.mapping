@@ -1,2 +1,2 @@
-CLASS afsv IntList
-	METHOD f mutableCopyWithCapacity (I)Lafsv;
+CLASS afug IntList
+	METHOD f mutableCopyWithCapacity (I)Lafug;

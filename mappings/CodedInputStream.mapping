@@ -1,5 +1,5 @@
-CLASS afrm CodedInputStream
+CLASS afsx CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD M newInstance (Ljava/io/InputStream;)Lafrm;
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafrm;
+	METHOD M newInstance (Ljava/io/InputStream;)Lafsx;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafsx;

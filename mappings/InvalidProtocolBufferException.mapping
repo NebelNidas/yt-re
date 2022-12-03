@@ -1,2 +1,2 @@
-CLASS aftc InvalidProtocolBufferException
+CLASS afun InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

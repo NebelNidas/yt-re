@@ -1,2 +1,2 @@
-CLASS afrx ExtensionRegistryLite
-	METHOD a getEmptyRegistry ()Lafrx;
+CLASS afti ExtensionRegistryLite
+	METHOD a getEmptyRegistry ()Lafti;

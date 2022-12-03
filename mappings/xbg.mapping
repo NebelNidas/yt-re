@@ -1,0 +1,2 @@
+CLASS xbg
+	METHOD bK isInMainthread ()Z

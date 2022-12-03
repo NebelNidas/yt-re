@@ -1,0 +1,2 @@
+CLASS hpt
+	FIELD d likeEndpoint Ljava/lang/Object;

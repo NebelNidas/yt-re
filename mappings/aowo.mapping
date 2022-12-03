@@ -1,4 +1,0 @@
-CLASS aowo
-	METHOD al assertTrue (Z)V
-	METHOD am assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD an assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

@@ -1,2 +1,0 @@
-CLASS dmq
-	METHOD a collectChildren (Ljava/util/List;)V

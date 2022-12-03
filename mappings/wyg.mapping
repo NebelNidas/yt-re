@@ -1,2 +1,0 @@
-CLASS wyg
-	METHOD O isInMainthread ()Z

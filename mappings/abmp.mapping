@@ -1,0 +1,2 @@
+CLASS abmp
+	METHOD a getButtonId (Lairs;)I

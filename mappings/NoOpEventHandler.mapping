@@ -1,2 +1,2 @@
-CLASS dnx NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldnx;
+CLASS dnz NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldnz;

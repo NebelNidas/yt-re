@@ -1,2 +1,2 @@
-CLASS aiqa SomeEnum
-	METHOD b fromValue (I)Laiqa;
+CLASS airs SomeEnum
+	METHOD b fromValue (I)Lairs;

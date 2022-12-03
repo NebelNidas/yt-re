@@ -1,4 +1,0 @@
-CLASS aqiv
-	METHOD a (Laqlf;Laqlf;Laqkz;Laqkz;Laqkz;Laqkz;)Laqiv;
-		ARG 3 onComplete
-		ARG 6 onDispose

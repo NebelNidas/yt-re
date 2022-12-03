@@ -1,0 +1,2 @@
+CLASS zlr
+	METHOD e getProgress ()J

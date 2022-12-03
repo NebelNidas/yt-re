@@ -1,2 +1,2 @@
-CLASS afsp BooleanList
-	METHOD d withCapacity (I)Lafsp;
+CLASS afua BooleanList
+	METHOD d withCapacity (I)Lafua;

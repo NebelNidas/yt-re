@@ -1,3 +1,2 @@
 CLASS aaak
-	METHOD e setOnClick (Landroid/view/View$OnClickListener;)V
-	METHOD g show ()V
+	METHOD c changeSpeed ([Lantk;I)V

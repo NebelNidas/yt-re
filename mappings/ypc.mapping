@@ -1,0 +1,2 @@
+CLASS ypc
+	METHOD h findXop (Ljava/lang/String;)Lypa;

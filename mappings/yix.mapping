@@ -1,2 +1,0 @@
-CLASS yix
-	METHOD m createError204Uri (Lyir;Lyiq;Ljava/lang/String;)Lszs;

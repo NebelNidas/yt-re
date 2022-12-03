@@ -1,4 +1,0 @@
-CLASS aasa
-	FIELD c speedMultiplier F
-	FIELD d interstititialRequested Z
-	METHOD x resetSpeed ()V

@@ -1,2 +1,0 @@
-CLASS fiq
-	FIELD b menuItems Ljava/util/Map;

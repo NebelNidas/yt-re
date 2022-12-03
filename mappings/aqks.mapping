@@ -1,0 +1,4 @@
+CLASS aqks
+	METHOD a (Laqnc;Laqnc;Laqmw;Laqmw;Laqmw;Laqmw;)Laqks;
+		ARG 3 onComplete
+		ARG 6 onDispose

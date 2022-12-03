@@ -1,5 +1,5 @@
-CLASS afrr CodedOutputStream
+CLASS aftc CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lafrr;
+	METHOD ak getCodedOutput ([B)Laftc;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

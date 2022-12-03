@@ -1,0 +1,2 @@
+CLASS cen
+	METHOD b prefixStringWithWM (Ljava/lang/String;)Ljava/lang/String;

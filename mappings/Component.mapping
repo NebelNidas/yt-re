@@ -1,6 +1,6 @@
-CLASS dkm Component
-	METHOD b setContent (Ldko;)V
-	METHOD m clone ()Ldkm;
+CLASS dko Component
+	METHOD b setContent (Ldkq;)V
+	METHOD m clone ()Ldko;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

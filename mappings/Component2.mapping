@@ -1,11 +1,11 @@
-CLASS dko Component2
+CLASS dkq Component2
 	FIELD a sIdGenerator Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD j mId I
-	FIELD v sEmptyArray [Lhmy;
-	METHOD G makeShallowCopyWithNewId (Ldks;)Ldko;
-	METHOD I generateKey (Ldks;)Ldks;
-	METHOD f isEquivalentTo (Ldko;)Z
-	METHOD j makeShallowCopy ()Ldko;
+	FIELD v sEmptyArray [Lhnq;
+	METHOD G makeShallowCopyWithNewId (Ldku;)Ldkq;
+	METHOD I generateKey (Ldku;)Ldku;
+	METHOD f isEquivalentTo (Ldkq;)Z
+	METHOD j makeShallowCopy ()Ldkq;
 	METHOD q getSimpleName ()Ljava/lang/String;
-	METHOD t measure (Ldks;IILdol;)V
-	METHOD v isHostSpec (Ldko;)Z
+	METHOD t measure (Ldku;IILdon;)V
+	METHOD v isHostSpec (Ldkq;)Z

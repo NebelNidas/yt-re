@@ -1,5 +1,0 @@
-CLASS zvj
-	FIELD b prm Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
-	FIELD c emptySpeeds [Lanna;
-	METHOD c ([Lanna;)V
-		ARG 1 speeds

@@ -1,0 +1,3 @@
+CLASS hqi
+	FIELD a obj Ljava/lang/Object;
+	FIELD b type I

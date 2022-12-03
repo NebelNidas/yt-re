@@ -1,3 +1,0 @@
-CLASS dlp
-	METHOD b getLayoutOutput (Ldwf;)Ldlp;
-	METHOD d isAccessible ()Z

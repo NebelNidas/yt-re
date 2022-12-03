@@ -1,3 +1,0 @@
-CLASS aaop
-	METHOD p (F)V
-		ARG 1 speedMult

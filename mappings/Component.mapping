@@ -1,6 +1,6 @@
-CLASS dje Component
-	METHOD b setContent (Ldjg;)V
-	METHOD m clone ()Ldje;
+CLASS dkg Component
+	METHOD b setContent (Ldki;)V
+	METHOD m clone ()Ldkg;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

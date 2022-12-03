@@ -1,2 +1,2 @@
 CLASS com/facebook/litho/ComponentTree
-	FIELD r mMainThreadLayoutState Ldlr;
+	FIELD r mMainThreadLayoutState Ldmt;

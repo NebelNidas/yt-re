@@ -1,0 +1,4 @@
+CLASS aour
+	METHOD ak assertTrue (Z)V
+	METHOD al assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD am assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

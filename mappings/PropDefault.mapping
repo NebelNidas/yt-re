@@ -1,2 +1,2 @@
-CLASS dox PropDefault
+CLASS dqa PropDefault
 	METHOD a resId ()I

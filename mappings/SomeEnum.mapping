@@ -1,2 +1,2 @@
-CLASS aimd SomeEnum
-	METHOD b fromValue (I)Laimd;
+CLASS aion SomeEnum
+	METHOD b fromValue (I)Laion;

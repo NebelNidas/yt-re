@@ -1,2 +1,0 @@
-CLASS ucz
-	METHOD d toByteArray ()[B

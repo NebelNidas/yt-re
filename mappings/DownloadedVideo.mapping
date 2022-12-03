@@ -1,11 +1,11 @@
-CLASS hpx DownloadedVideo
+CLASS hrc DownloadedVideo
 	FIELD a id Ljava/lang/String;
 	FIELD b title Ljava/lang/String;
 	FIELD c lengthSeconds Ljava/lang/Integer;
 	FIELD d channelTitle Ljava/lang/String;
-	FIELD e channelThumbnailDetails Lamxp;
-	FIELD f thumbnailDetails Lamxp;
-	FIELD g description Laidy;
+	FIELD e channelThumbnailDetails Lanai;
+	FIELD f thumbnailDetails Lanai;
+	FIELD g description Laigi;
 	FIELD h publishedTimestampMs Ljava/lang/Long;
 	FIELD i viewCount Ljava/lang/Long;
 	FIELD j likeCountText Ljava/lang/String;

@@ -1,5 +1,5 @@
-CLASS afog CodedOutputStream
+CLASS afqf CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lafog;
+	METHOD ak getCodedOutput ([B)Lafqf;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

@@ -1,8 +1,8 @@
-CLASS rmv AdCallToActionOverlayState
-	FIELD b renderer Ladpd;
-	FIELD c onClickedRenderer Ladpd;
-	FIELD d trackingParams Lafnw;
-	FIELD e visualStateChangeTriggers Ladue;
+CLASS roq AdCallToActionOverlayState
+	FIELD b renderer Ladrh;
+	FIELD c onClickedRenderer Ladrh;
+	FIELD d trackingParams Lafpv;
+	FIELD e visualStateChangeTriggers Ladwj;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

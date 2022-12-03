@@ -1,0 +1,2 @@
+CLASS ctz
+	FIELD a context Ljava/lang/Object;

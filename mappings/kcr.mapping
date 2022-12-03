@@ -1,0 +1,2 @@
+CLASS kcr
+	METHOD b reset ()V

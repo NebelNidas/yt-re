@@ -1,4 +1,4 @@
-CLASS duz Text
+CLASS dwb Text
 	FIELD A maxLines I
 	FIELD B shadowColor I
 	FIELD G tmpText Ljava/lang/CharSequence;

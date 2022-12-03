@@ -1,2 +1,2 @@
-CLASS afnn BooleanArrayList
-	FIELD b emptyList Lafnn;
+CLASS afpm BooleanArrayList
+	FIELD b emptyList Lafpm;

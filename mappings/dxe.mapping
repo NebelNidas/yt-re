@@ -1,0 +1,3 @@
+CLASS dxe
+	METHOD a getMountItemCount ()I
+	METHOD b getMountItemAt (I)Ldxh;

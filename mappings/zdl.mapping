@@ -1,2 +1,0 @@
-CLASS zdl
-	METHOD I isInMainthread ()Z

@@ -1,0 +1,3 @@
+CLASS pzs
+	METHOD B isHttps (Landroid/net/Uri;)Z
+	METHOD D isLocalhost (Landroid/net/Uri;)Z

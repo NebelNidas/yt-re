@@ -1,2 +1,2 @@
-CLASS afom ExtensionRegistryLite
-	METHOD a getEmptyRegistry ()Lafom;
+CLASS afql ExtensionRegistryLite
+	METHOD a getEmptyRegistry ()Lafql;

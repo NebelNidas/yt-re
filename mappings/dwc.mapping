@@ -1,3 +1,0 @@
-CLASS dwc
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldwf;

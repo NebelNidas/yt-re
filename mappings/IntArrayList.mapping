@@ -1,2 +1,2 @@
-CLASS afpd IntArrayList
-	FIELD b emptyList Lafpd;
+CLASS afrc IntArrayList
+	FIELD b emptyList Lafrc;

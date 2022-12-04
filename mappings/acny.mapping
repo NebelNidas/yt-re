@@ -1,0 +1,2 @@
+CLASS acny
+	METHOD h getFormFactor (Landroid/content/Context;)Lajma;

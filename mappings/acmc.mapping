@@ -1,2 +1,0 @@
-CLASS acmc
-	METHOD h getFormFactor (Landroid/content/Context;)Lajjt;

@@ -1,4 +1,4 @@
-CLASS ruk AdProgressTextState
+CLASS rtx AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Lrmz;
+	FIELD c adCountMetadata Lrmp;

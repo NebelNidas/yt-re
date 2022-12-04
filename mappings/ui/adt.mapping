@@ -1,4 +1,4 @@
-CLASS ahm ui/adt
+CLASS ahh ui/adt
 	FIELD b info Landroid/view/accessibility/AccessibilityNodeInfo;
 	METHOD A setHeading (Z)V
 	METHOD B setHintText (Ljava/lang/CharSequence;)V
@@ -20,7 +20,7 @@ CLASS ahm ui/adt
 	METHOD e getContentDescription ()Ljava/lang/CharSequence;
 	METHOD f getText ()Ljava/lang/CharSequence;
 	METHOD h addAction (I)V
-	METHOD i addAction (Lahl;)V
+	METHOD i addAction (Lahg;)V
 	METHOD j getBoundsInParent (Landroid/graphics/Rect;)V
 	METHOD k getBoundsInScreen (Landroid/graphics/Rect;)V
 	METHOD l setAccessibilityFocused (Z)V

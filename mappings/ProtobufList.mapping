@@ -1,2 +1,2 @@
-CLASS agcy ProtobufList
-	METHOD e mutableCopyWithCapacity (I)Lagcy;
+CLASS agfa ProtobufList
+	METHOD e mutableCopyWithCapacity (I)Lagfa;

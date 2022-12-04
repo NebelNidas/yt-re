@@ -1,7 +1,7 @@
 CLASS com/facebook/litho/ComponentHost
-	FIELD a mMountItems Luz;
+	FIELD a mMountItems Luu;
 	FIELD c clickListener Ldlv;
-	FIELD n mDrawableMountItems Luz;
+	FIELD n mDrawableMountItems Luu;
 	FIELD q mContentDescription Ljava/lang/CharSequence;
 	FIELD u mInLayout Z
 	FIELD v mComponentAccessibilityDelegate Ldlu;

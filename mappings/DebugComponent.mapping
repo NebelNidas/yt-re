@@ -1,4 +1,4 @@
 CLASS dmo DebugComponent
 	METHOD b getComponent ()Ldls;
-	METHOD f getLithoView ()Ldou;
+	METHOD f getLithoView ()Ldot;
 	METHOD n getLayoutNode ()Lcqx;

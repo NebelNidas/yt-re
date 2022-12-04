@@ -1,2 +1,1 @@
-CLASS agbs ExtensionRegistryLite
-	METHOD a getEmptyRegistry ()Lagbs;
+CLASS agdu ExtensionRegistryLite

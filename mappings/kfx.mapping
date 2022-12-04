@@ -1,0 +1,2 @@
+CLASS kfx
+	METHOD b reset ()V

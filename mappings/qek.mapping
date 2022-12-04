@@ -1,0 +1,3 @@
+CLASS qek
+	METHOD W isHttps (Landroid/net/Uri;)Z
+	METHOD Y isLocalhost (Landroid/net/Uri;)Z

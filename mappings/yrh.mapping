@@ -1,0 +1,2 @@
+CLASS yrh
+	METHOD m createError204Uri (Lyra;Lyqz;Ljava/lang/String;)Ltex;

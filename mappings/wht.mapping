@@ -1,3 +1,0 @@
-CLASS wht
-	METHOD aA isHttps (Landroid/net/Uri;)Z
-	METHOD aC isLocalhost (Landroid/net/Uri;)Z

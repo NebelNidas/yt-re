@@ -1,0 +1,2 @@
+CLASS xhn
+	METHOD M isInMainthread ()Z

@@ -1,2 +1,0 @@
-CLASS abfa
-	METHOD b getDisplayString (Laito;)Landroid/text/Spanned;

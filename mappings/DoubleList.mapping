@@ -1,2 +1,2 @@
-CLASS agcl DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lagcl;
+CLASS agen DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lagen;

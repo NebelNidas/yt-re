@@ -1,0 +1,3 @@
+CLASS dob
+	METHOD b getLayoutOutput (Ldyr;)Ldob;
+	METHOD d isAccessible ()Z

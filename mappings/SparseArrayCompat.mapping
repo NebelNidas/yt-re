@@ -1,4 +1,4 @@
-CLASS uz SparseArrayCompat
+CLASS uu SparseArrayCompat
 	FIELD b mGarbage Z
 	FIELD c mKeys [I
 	FIELD d mValues [Ljava/lang/Object;

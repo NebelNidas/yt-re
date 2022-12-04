@@ -1,0 +1,6 @@
+CLASS kzr
+	FIELD c playerViewModeMonitor Lfbt;
+	FIELD n tabNames Ljava/util/Set;
+	FIELD o flags Laeiy;
+	FIELD p config Landroid/content/res/Configuration;
+	FIELD r pivotBar Lj$/util/Optional;

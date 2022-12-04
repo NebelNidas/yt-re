@@ -1,2 +1,2 @@
-CLASS ijo ui/menu/VideoQualityMenuItem
+CLASS ijd ui/menu/VideoQualityMenuItem
 	FIELD e qualities [Lcom/google/android/libraries/youtube/innertube/model/media/VideoQuality;

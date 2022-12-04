@@ -1,5 +1,5 @@
-CLASS dwm TextKt
-	FIELD a text Ldwo;
+CLASS dws TextKt
+	FIELD a text Ldwu;
 	FIELD d mRequired Ljava/util/BitSet;
-	METHOD c getText ()Ldwo;
+	METHOD c getText ()Ldwu;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

@@ -1,4 +1,0 @@
-CLASS apkt
-	METHOD aG assertTrue (Z)V
-	METHOD aH assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD aI assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

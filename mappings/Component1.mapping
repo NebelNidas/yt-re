@@ -1,8 +1,8 @@
-CLASS dlf Component1
-	METHOD M newEventHandler (Ljava/lang/Class;Ljava/lang/String;Ldkz;I[Ljava/lang/Object;)Ldmn;
+CLASS dll Component1
+	METHOD M newEventHandler (Ljava/lang/Class;Ljava/lang/String;Ldlf;I[Ljava/lang/Object;)Ldmt;
 	METHOD R onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD V mount (Ldkz;Ljava/lang/Object;)V
-	METHOD Z onMeasure (Ldkz;Ldld;IILdos;)V
-	METHOD aa onMount (Ldkz;Ljava/lang/Object;)V
-	METHOD c getThis (Ldkz;)Ldkv;
-	METHOD d resolve (Ldkz;)Ldnb;
+	METHOD V mount (Ldlf;Ljava/lang/Object;)V
+	METHOD Z onMeasure (Ldlf;Ldlj;IILdoy;)V
+	METHOD aa onMount (Ldlf;Ljava/lang/Object;)V
+	METHOD c getThis (Ldlf;)Ldlb;
+	METHOD d resolve (Ldlf;)Ldnh;

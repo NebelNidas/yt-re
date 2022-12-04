@@ -1,2 +1,2 @@
-CLASS afxs InvalidProtocolBufferException
+CLASS afzl InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

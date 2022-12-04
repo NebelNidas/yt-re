@@ -1,2 +1,2 @@
-CLASS afxh IntList
-	METHOD f mutableCopyWithCapacity (I)Lafxh;
+CLASS afza IntList
+	METHOD f mutableCopyWithCapacity (I)Lafza;

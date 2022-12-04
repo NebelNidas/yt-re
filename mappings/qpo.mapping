@@ -1,3 +1,0 @@
-CLASS qpo
-	METHOD ah isHttps (Landroid/net/Uri;)Z
-	METHOD aj isLocalhost (Landroid/net/Uri;)Z

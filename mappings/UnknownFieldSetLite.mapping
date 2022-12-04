@@ -1,6 +1,6 @@
-CLASS afzr UnknownFieldSetLite
-	FIELD a defaultInstance Lafzr;
-	METHOD b mutableCopyOf (Lafzr;Lafzr;)Lafzr;
-	METHOD c newInstance ()Lafzr;
+CLASS agbk UnknownFieldSetLite
+	FIELD a defaultInstance Lagbk;
+	METHOD b mutableCopyOf (Lagbk;Lagbk;)Lagbk;
+	METHOD c newInstance ()Lagbk;
 	METHOD f mergeVarintField (ILjava/lang/Object;)V
-	METHOD g mergeFieldFrom (ILafvy;)Z
+	METHOD g mergeFieldFrom (ILafxr;)Z

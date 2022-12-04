@@ -1,2 +1,2 @@
-CLASS doe NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldoe;
+CLASS dok NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldok;

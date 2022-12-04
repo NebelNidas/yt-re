@@ -1,0 +1,3 @@
+CLASS woz
+	METHOD aO isHttps (Landroid/net/Uri;)Z
+	METHOD aQ isLocalhost (Landroid/net/Uri;)Z

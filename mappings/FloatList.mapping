@@ -1,2 +1,2 @@
-CLASS afxg FloatList
-	METHOD g mutableCopyWithCapacity (I)Lafxg;
+CLASS afyz FloatList
+	METHOD g mutableCopyWithCapacity (I)Lafyz;

@@ -1,0 +1,2 @@
+CLASS zpf
+	METHOD c getPlayingState ()Laalk;

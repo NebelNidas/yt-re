@@ -1,2 +1,2 @@
-CLASS aivp SomeEnum
-	METHOD b fromValue (I)Laivp;
+CLASS aiya SomeEnum
+	METHOD b fromValue (I)Laiya;

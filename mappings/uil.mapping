@@ -1,2 +1,0 @@
-CLASS uil
-	METHOD d toByteArray ()[B

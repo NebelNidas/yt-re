@@ -1,2 +1,2 @@
-CLASS kit PlaybackSpeedItem
+CLASS kjk PlaybackSpeedItem
 	FIELD a speedMultiplier F

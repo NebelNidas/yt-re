@@ -1,3 +1,0 @@
-CLASS dne
-	METHOD b getLayoutOutput (Ldxu;)Ldne;
-	METHOD d isAccessible ()Z

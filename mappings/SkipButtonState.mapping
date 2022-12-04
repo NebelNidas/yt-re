@@ -1,12 +1,12 @@
-CLASS rsv SkipButtonState
-	FIELD a skipAdRenderer Lamwi;
-	FIELD b contentMetadata Lrta;
-	FIELD c adCountMetadata Lrlc;
+CLASS rtm SkipButtonState
+	FIELD a skipAdRenderer Lamyy;
+	FIELD b contentMetadata Lrtr;
+	FIELD c adCountMetadata Lrlu;
 	FIELD d skipState I
 	FIELD e hidden Z
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
-	FIELD h breakType Lros;
+	FIELD h breakType Lrpk;
 	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
 	FIELD k countdownNextToThumbnail Z

@@ -1,2 +1,2 @@
-CLASS rso AdTitleOverlayState
-	FIELD a adOverlayMetadata Lrsh;
+CLASS rtf AdTitleOverlayState
+	FIELD a adOverlayMetadata Lrsz;

@@ -1,0 +1,4 @@
+CLASS hfy
+	METHOD w setText (Landroid/widget/TextView;I)V
+		ARG 1 resid
+	METHOD z setText (Landroid/widget/TextView;Ljava/lang/CharSequence;)V

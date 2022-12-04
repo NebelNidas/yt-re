@@ -1,4 +1,0 @@
-CLASS aavv
-	FIELD c speedMultiplier F
-	FIELD d interstititialRequested Z
-	METHOD w resetSpeed ()V

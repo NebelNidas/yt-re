@@ -1,0 +1,2 @@
+CLASS ynl
+	METHOD m createError204Uri (Lynf;Lyne;Ljava/lang/String;)Ltdo;

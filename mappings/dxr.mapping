@@ -1,3 +1,0 @@
-CLASS dxr
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldxu;

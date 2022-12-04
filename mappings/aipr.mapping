@@ -1,0 +1,2 @@
+CLASS aipr
+	FIELD c displayString Ljava/lang/String;

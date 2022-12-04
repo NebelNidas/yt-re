@@ -1,2 +1,2 @@
-CLASS ainh DescriptionProtobuf
+CLASS aipp DescriptionProtobuf
 	FIELD d clipText Ljava/lang/String;

@@ -1,2 +1,2 @@
-CLASS dng LayoutState
+CLASS dnm LayoutState
 	FIELD f mMountableOutputs Ljava/util/List;

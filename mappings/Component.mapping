@@ -1,6 +1,6 @@
-CLASS dkt Component
-	METHOD b setContent (Ldkv;)V
-	METHOD m clone ()Ldkt;
+CLASS dkz Component
+	METHOD b setContent (Ldlb;)V
+	METHOD m clone ()Ldkz;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

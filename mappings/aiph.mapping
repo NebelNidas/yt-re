@@ -1,0 +1,4 @@
+CLASS aiph
+	METHOD G assertTrue (Z)V
+	METHOD H assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD I assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

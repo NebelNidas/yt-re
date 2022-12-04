@@ -1,2 +1,0 @@
-CLASS xdb
-	METHOD R isInMainthread ()Z

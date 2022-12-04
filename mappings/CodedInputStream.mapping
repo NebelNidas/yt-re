@@ -1,5 +1,5 @@
-CLASS afvy CodedInputStream
+CLASS afxr CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD M newInstance (Ljava/io/InputStream;)Lafvy;
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafvy;
+	METHOD M newInstance (Ljava/io/InputStream;)Lafxr;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lafxr;

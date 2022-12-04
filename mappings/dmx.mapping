@@ -1,2 +1,0 @@
-CLASS dmx
-	METHOD a collectChildren (Ljava/util/List;)V

@@ -1,4 +1,4 @@
-CLASS pth ui/list/ListItem
+CLASS pty ui/list/ListItem
 	FIELD c text Ljava/lang/String;
 	FIELD e iconDrawable Landroid/graphics/drawable/Drawable;
 	METHOD <init> (Ljava/lang/String;)V

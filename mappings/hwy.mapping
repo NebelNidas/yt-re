@@ -1,0 +1,2 @@
+CLASS hwy
+	FIELD a context Landroid/content/Context;

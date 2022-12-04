@@ -1,3 +1,0 @@
-CLASS dxx
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldya;

@@ -1,2 +1,2 @@
-CLASS dya MountItem
+CLASS dyl MountItem
 	FIELD a content Ljava/lang/Object;

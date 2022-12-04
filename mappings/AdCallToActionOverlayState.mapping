@@ -1,8 +1,8 @@
-CLASS rsy AdCallToActionOverlayState
-	FIELD b renderer Ladyp;
-	FIELD c onClickedRenderer Ladyp;
-	FIELD d trackingParams Lafxm;
-	FIELD e visualStateChangeTriggers Laedq;
+CLASS rty AdCallToActionOverlayState
+	FIELD b renderer Laebj;
+	FIELD c onClickedRenderer Laebj;
+	FIELD d trackingParams Lagap;
+	FIELD e visualStateChangeTriggers Laegk;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

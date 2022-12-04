@@ -1,0 +1,2 @@
+CLASS hry
+	FIELD d likeEndpoint Ljava/lang/Object;

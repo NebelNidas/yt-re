@@ -1,2 +1,0 @@
-CLASS dnd
-	METHOD a collectChildren (Ljava/util/List;)V

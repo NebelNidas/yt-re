@@ -1,2 +1,0 @@
-CLASS nya
-	FIELD c touchLocation Ljava/util/concurrent/atomic/AtomicReference;

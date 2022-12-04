@@ -1,2 +1,2 @@
-CLASS dns InternalNode2
+CLASS dod InternalNode2
 	METHOD au getTestKey ()Ljava/lang/String;

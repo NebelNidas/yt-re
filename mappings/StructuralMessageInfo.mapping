@@ -1,2 +1,2 @@
-CLASS agbh StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Lagap;Z[I[Lafye;Ljava/lang/Object;)V
+CLASS agek StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Lagds;Z[I[Lagbh;Ljava/lang/Object;)V

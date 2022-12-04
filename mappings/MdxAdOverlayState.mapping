@@ -1,2 +1,2 @@
-CLASS rtk MdxAdOverlayState
+CLASS ruk MdxAdOverlayState
 	FIELD a remotePlayback Z

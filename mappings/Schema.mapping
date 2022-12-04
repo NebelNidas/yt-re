@@ -1,9 +1,9 @@
-CLASS agay Schema
+CLASS ageb Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;Lagat;Lafyc;)V
-	METHOD i mergeFrom (Ljava/lang/Object;[BIILafwz;)V
+	METHOD h mergeFrom (Ljava/lang/Object;Lagdw;Lagbf;)V
+	METHOD i mergeFrom (Ljava/lang/Object;[BIILagac;)V
 	METHOD j equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD k isInitialized (Ljava/lang/Object;)Z
-	METHOD l writeTo (Ljava/lang/Object;Laflg;)V
+	METHOD l writeTo (Ljava/lang/Object;Lafoj;)V

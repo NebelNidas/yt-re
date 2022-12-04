@@ -1,2 +1,2 @@
-CLASS agar ProtobufArrayList
-	FIELD b emptyList Lagar;
+CLASS agdu ProtobufArrayList
+	FIELD b emptyList Lagdu;

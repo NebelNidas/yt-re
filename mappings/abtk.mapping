@@ -1,0 +1,2 @@
+CLASS abtk
+	METHOD a getButtonId (Lajbe;)I

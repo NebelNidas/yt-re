@@ -1,2 +1,0 @@
-CLASS hrf
-	FIELD d likeEndpoint Ljava/lang/Object;

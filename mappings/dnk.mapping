@@ -1,3 +1,0 @@
-CLASS dnk
-	METHOD b getLayoutOutput (Ldya;)Ldnk;
-	METHOD d isAccessible ()Z

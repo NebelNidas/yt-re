@@ -1,2 +1,5 @@
 CLASS dos
-	METHOD b markerPoint (Ljava/lang/String;)V
+	METHOD c getClickListener (Landroid/view/View;)Ldlp;
+	METHOD d getFocusChangeListener (Landroid/view/View;)Ldlr;
+	METHOD e getLongClickListener (Landroid/view/View;)Ldlx;
+	METHOD f getTouchListener (Landroid/view/View;)Ldly;

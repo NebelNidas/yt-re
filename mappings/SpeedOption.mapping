@@ -1,4 +1,4 @@
-CLASS aoab SpeedOption
+CLASS aodg SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Lafyr;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Lagbu;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

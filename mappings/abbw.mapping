@@ -1,2 +1,0 @@
-CLASS abbw
-	METHOD b getDisplayString (Laipp;)Landroid/text/Spanned;

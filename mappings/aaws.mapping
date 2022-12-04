@@ -1,2 +1,0 @@
-CLASS aaws
-	METHOD M setPlaybackSpeed (F)V

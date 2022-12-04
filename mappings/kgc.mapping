@@ -1,0 +1,2 @@
+CLASS kgc
+	METHOD b reset ()V

@@ -1,0 +1,2 @@
+CLASS xdy
+	METHOD Q isInMainthread ()Z

@@ -1,12 +1,12 @@
-CLASS rum SkipButtonState
-	FIELD a skipAdRenderer Lancd;
-	FIELD b contentMetadata Lrur;
-	FIELD c adCountMetadata Lrms;
+CLASS rut SkipButtonState
+	FIELD a skipAdRenderer Landf;
+	FIELD b contentMetadata Lruy;
+	FIELD c adCountMetadata Lrmz;
 	FIELD d skipState I
 	FIELD e hidden Z
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
-	FIELD h breakType Lrqi;
+	FIELD h breakType Lrqp;
 	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
 	FIELD k countdownNextToThumbnail Z

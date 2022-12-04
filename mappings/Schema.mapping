@@ -1,9 +1,9 @@
-CLASS ageb Schema
+CLASS ageo Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;Lagdw;Lagbf;)V
-	METHOD i mergeFrom (Ljava/lang/Object;[BIILagac;)V
+	METHOD h mergeFrom (Ljava/lang/Object;Lagej;Lagbs;)V
+	METHOD i mergeFrom (Ljava/lang/Object;[BIILagap;)V
 	METHOD j equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD k isInitialized (Ljava/lang/Object;)Z
-	METHOD l writeTo (Ljava/lang/Object;Lafoj;)V
+	METHOD l writeTo (Ljava/lang/Object;Lafow;)V

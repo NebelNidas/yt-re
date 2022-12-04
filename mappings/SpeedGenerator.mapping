@@ -1,10 +1,10 @@
-CLASS zqh SpeedGenerator
-	FIELD a emptySpeeds [Laodg;
-	FIELD c speeds [Laodg;
+CLASS zqx SpeedGenerator
+	FIELD a emptySpeeds [Laoeo;
+	FIELD c speeds [Laoeo;
 	FIELD d speedMult F
 	METHOD <init> (ZLcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;F)V
 		ARG 3 speedMult
 	METHOD a getSpeedMult ()F
 	METHOD b getSelectedDisplayString ()Ljava/lang/String;
-	METHOD c getSpeeds ()[Laodg;
-	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Laodg;
+	METHOD c getSpeeds ()[Laoeo;
+	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Laoeo;

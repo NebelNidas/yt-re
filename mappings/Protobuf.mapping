@@ -1,3 +1,3 @@
-CLASS agdt Protobuf
-	FIELD a instance Lagdt;
-	METHOD b schemaFor (Ljava/lang/Object;)Lageb;
+CLASS ageg Protobuf
+	FIELD a instance Lageg;
+	METHOD b schemaFor (Ljava/lang/Object;)Lageo;

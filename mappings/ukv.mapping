@@ -1,2 +1,0 @@
-CLASS ukv
-	METHOD d toByteArray ()[B

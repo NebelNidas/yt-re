@@ -1,0 +1,4 @@
+CLASS adjq
+	METHOD ao assertTrue (Z)V
+	METHOD ap assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD aq assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

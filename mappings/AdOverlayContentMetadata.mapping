@@ -1,3 +1,3 @@
-CLASS rur AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Laaju;
+CLASS ruy AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lyac;
 	FIELD c title Ljava/lang/String;

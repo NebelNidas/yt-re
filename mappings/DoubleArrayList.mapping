@@ -1,2 +1,2 @@
-CLASS agba DoubleArrayList
-	FIELD b emptyList Lagba;
+CLASS agbn DoubleArrayList
+	FIELD b emptyList Lagbn;

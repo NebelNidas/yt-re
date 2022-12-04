@@ -1,0 +1,2 @@
+CLASS pva
+	FIELD ar list Landroid/widget/ListAdapter;

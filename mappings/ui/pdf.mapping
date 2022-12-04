@@ -1,2 +1,2 @@
-CLASS pux ui/pdf
+CLASS pvb ui/pdf
 	METHOD b getIconResourceId ()I

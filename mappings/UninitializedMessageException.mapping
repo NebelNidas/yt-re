@@ -1,2 +1,2 @@
-CLASS agem UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lagco;
+CLASS agez UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lagdb;

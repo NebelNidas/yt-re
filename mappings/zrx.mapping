@@ -1,2 +1,0 @@
-CLASS zrx
-	METHOD c getPlayingState ()Laaoi;

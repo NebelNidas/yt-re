@@ -1,2 +1,2 @@
-CLASS agcg LongList
-	METHOD d mutableCopyWithCapacity (I)Lagcg;
+CLASS agct LongList
+	METHOD d mutableCopyWithCapacity (I)Lagct;

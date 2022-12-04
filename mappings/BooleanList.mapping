@@ -1,2 +1,2 @@
-CLASS agbx BooleanList
-	METHOD d withCapacity (I)Lagbx;
+CLASS agck BooleanList
+	METHOD d withCapacity (I)Lagck;

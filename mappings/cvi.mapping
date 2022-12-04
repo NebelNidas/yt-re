@@ -1,0 +1,2 @@
+CLASS cvi
+	FIELD a context Ljava/lang/Object;

@@ -1,5 +1,5 @@
-CLASS rue AdReengagementState
-	FIELD a renderer Lahcf;
+CLASS rul AdReengagementState
+	FIELD a renderer Lahcx;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

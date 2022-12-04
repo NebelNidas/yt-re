@@ -1,2 +1,0 @@
-CLASS abeo
-	METHOD b getDisplayString (Laisu;)Landroid/text/Spanned;

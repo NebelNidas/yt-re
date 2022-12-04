@@ -1,0 +1,2 @@
+CLASS xeg
+	METHOD O isInMainthread ()Z

@@ -1,2 +1,2 @@
-CLASS agbf ExtensionRegistryLite
-	METHOD a getEmptyRegistry ()Lagbf;
+CLASS agbs ExtensionRegistryLite
+	METHOD a getEmptyRegistry ()Lagbs;

@@ -1,2 +1,2 @@
-CLASS agcc FloatList
-	METHOD g mutableCopyWithCapacity (I)Lagcc;
+CLASS agcp FloatList
+	METHOD g mutableCopyWithCapacity (I)Lagcp;

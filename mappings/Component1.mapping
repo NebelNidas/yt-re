@@ -1,8 +1,8 @@
-CLASS dlw Component1
-	METHOD M newEventHandler (Ljava/lang/Class;Ljava/lang/String;Ldlq;I[Ljava/lang/Object;)Ldne;
+CLASS dmc Component1
+	METHOD M newEventHandler (Ljava/lang/Class;Ljava/lang/String;Ldlw;I[Ljava/lang/Object;)Ldnk;
 	METHOD R onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD V mount (Ldlq;Ljava/lang/Object;)V
-	METHOD Z onMeasure (Ldlq;Ldlu;IILdpj;)V
-	METHOD aa onMount (Ldlq;Ljava/lang/Object;)V
-	METHOD c getThis (Ldlq;)Ldlm;
-	METHOD d resolve (Ldlq;)Ldns;
+	METHOD V mount (Ldlw;Ljava/lang/Object;)V
+	METHOD Z onMeasure (Ldlw;Ldma;IILdpq;)V
+	METHOD aa onMount (Ldlw;Ljava/lang/Object;)V
+	METHOD c getThis (Ldlw;)Ldls;
+	METHOD d resolve (Ldlw;)Ldnz;

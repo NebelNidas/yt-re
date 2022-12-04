@@ -1,2 +1,0 @@
-CLASS ypg
-	METHOD m createError204Uri (Lypa;Lyoz;Ljava/lang/String;)Ltey;

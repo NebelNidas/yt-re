@@ -1,2 +1,0 @@
-CLASS aclq
-	METHOD i getFormFactor (Landroid/content/Context;)Lajiy;

@@ -1,2 +1,0 @@
-CLASS uke
-	METHOD a createSnapshot ()Lcom/google/android/libraries/elements/interfaces/Snapshot;

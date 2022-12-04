@@ -1,0 +1,3 @@
+CLASS dxp
+	FIELD k lithoView Ldpd;
+	FIELD l recyclerView Landroid/support/v7/widget/RecyclerView;

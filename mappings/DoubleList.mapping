@@ -1,2 +1,2 @@
-CLASS agen DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lagen;
+CLASS agfz DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lagfz;

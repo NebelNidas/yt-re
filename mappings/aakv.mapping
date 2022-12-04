@@ -1,8 +1,0 @@
-CLASS aakv
-	FIELD c delay J
-	FIELD d handler Landroid/os/Handler;
-	FIELD e paidContentOverlay Landroid/view/View;
-	FIELD f paidContentText Landroid/widget/TextView;
-	FIELD l runnable Ljava/lang/Runnable;
-	METHOD i createViews ()V
-	METHOD k hasViews ()Z

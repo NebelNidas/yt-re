@@ -1,0 +1,4 @@
+CLASS aitd
+	METHOD T assertTrue (Z)V
+	METHOD U assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD V assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

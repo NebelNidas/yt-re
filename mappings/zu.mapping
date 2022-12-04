@@ -1,0 +1,4 @@
+CLASS zu
+	METHOD a getExternalCacheDirs (Landroid/content/Context;)[Ljava/io/File;
+	METHOD b getExternalFilesDirs (Landroid/content/Context;Ljava/lang/String;)[Ljava/io/File;
+	METHOD c getObbDirs (Landroid/content/Context;)[Ljava/io/File;

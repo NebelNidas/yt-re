@@ -1,2 +1,2 @@
-CLASS doj InternalNode2
+CLASS dot InternalNode2
 	METHOD au getTestKey ()Ljava/lang/String;

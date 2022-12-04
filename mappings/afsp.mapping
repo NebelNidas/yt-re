@@ -1,4 +1,0 @@
-CLASS afsp
-	METHOD L assertTrue (Z)V
-	METHOD M assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD N assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

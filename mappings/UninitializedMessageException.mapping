@@ -1,2 +1,2 @@
-CLASS aghb UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lagfd;
+CLASS agin UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Laggp;

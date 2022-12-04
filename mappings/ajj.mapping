@@ -1,3 +1,0 @@
-CLASS ajj
-	METHOD n invalidateRoot ()V
-	METHOD t dispatchHoverEvent (Landroid/view/MotionEvent;)Z

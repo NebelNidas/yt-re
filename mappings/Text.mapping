@@ -1,4 +1,4 @@
-CLASS dxl Text
+CLASS dxv Text
 	FIELD A maxLines I
 	FIELD B shadowColor I
 	FIELD G tmpText Ljava/lang/CharSequence;

@@ -1,2 +1,2 @@
-CLASS agfd InvalidProtocolBufferException
+CLASS aggp InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

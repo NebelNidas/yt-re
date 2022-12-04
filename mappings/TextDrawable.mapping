@@ -1,4 +1,4 @@
-CLASS dxp TextDrawable
+CLASS dxz TextDrawable
 	FIELD a mLayout Landroid/text/Layout;
 	FIELD c mLayoutTranslationY F
 	FIELD d mClipToBounds Z
@@ -15,7 +15,7 @@ CLASS dxp TextDrawable
 	FIELD s mSelectionPath Landroid/graphics/Path;
 	FIELD t mSelectionPathNeedsUpdate Z
 	FIELD u mHighlightPaint Landroid/graphics/Paint;
-	FIELD v mLongClickRunnable Ldxn;
+	FIELD v mLongClickRunnable Ldxx;
 	METHOD a clearSelection ()V
 	METHOD b getTextOffsetAt (II)I
 	METHOD e getClickableSpanInCoords (II)Landroid/text/style/ClickableSpan;

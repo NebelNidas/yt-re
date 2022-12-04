@@ -1,5 +1,5 @@
-CLASS agdo CodedOutputStream
+CLASS agfa CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lagdo;
+	METHOD ak getCodedOutput ([B)Lagfa;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

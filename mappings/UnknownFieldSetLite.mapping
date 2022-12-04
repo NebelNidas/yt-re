@@ -1,6 +1,6 @@
-CLASS aghc UnknownFieldSetLite
-	FIELD a defaultInstance Laghc;
-	METHOD b mutableCopyOf (Laghc;Laghc;)Laghc;
-	METHOD c newInstance ()Laghc;
+CLASS agio UnknownFieldSetLite
+	FIELD a defaultInstance Lagio;
+	METHOD b mutableCopyOf (Lagio;Lagio;)Lagio;
+	METHOD c newInstance ()Lagio;
 	METHOD f mergeVarintField (ILjava/lang/Object;)V
-	METHOD g mergeFieldFrom (ILagdj;)Z
+	METHOD g mergeFieldFrom (ILagev;)Z

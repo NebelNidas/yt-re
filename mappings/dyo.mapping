@@ -1,3 +1,0 @@
-CLASS dyo
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldyr;

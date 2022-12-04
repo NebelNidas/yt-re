@@ -1,2 +1,2 @@
-CLASS dxs TextInput
+CLASS dyc TextInput
 	FIELD f hint Ljava/lang/CharSequence;

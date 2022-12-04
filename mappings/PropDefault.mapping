@@ -1,2 +1,2 @@
-CLASS drk PropDefault
+CLASS drt PropDefault
 	METHOD a resId ()I

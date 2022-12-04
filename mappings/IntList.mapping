@@ -1,2 +1,2 @@
-CLASS ages IntList
-	METHOD f mutableCopyWithCapacity (I)Lages;
+CLASS agge IntList
+	METHOD f mutableCopyWithCapacity (I)Lagge;

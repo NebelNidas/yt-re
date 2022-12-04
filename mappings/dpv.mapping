@@ -1,2 +1,0 @@
-CLASS dpv
-	FIELD b stacktrace Ljava/lang/Throwable;

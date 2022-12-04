@@ -1,0 +1,2 @@
+CLASS ytg
+	METHOD m createError204Uri (Lysz;Lysy;Ljava/lang/String;)Ltgl;

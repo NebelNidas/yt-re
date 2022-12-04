@@ -1,4 +1,4 @@
-CLASS dpy Touchable
+CLASS dqi Touchable
 	METHOD c onTouchEvent (Landroid/view/MotionEvent;Landroid/view/View;)Z
 		ARG 2 host
 	METHOD d shouldHandleTouchEvent (Landroid/view/MotionEvent;)Z

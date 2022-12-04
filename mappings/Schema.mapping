@@ -1,9 +1,9 @@
-CLASS aggq Schema
+CLASS agic Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;Laggl;Lagdu;)V
-	METHOD i mergeFrom (Ljava/lang/Object;[BIILagcr;)V
+	METHOD h mergeFrom (Ljava/lang/Object;Laghx;Lagfg;)V
+	METHOD i mergeFrom (Ljava/lang/Object;[BIILaged;)V
 	METHOD j equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD k isInitialized (Ljava/lang/Object;)Z
-	METHOD l writeTo (Ljava/lang/Object;Lafqy;)V
+	METHOD l writeTo (Ljava/lang/Object;Lafsl;)V

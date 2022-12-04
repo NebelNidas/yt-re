@@ -1,2 +1,2 @@
-CLASS ajeg SomeEnum
-	METHOD b fromValue (I)Lajeg;
+CLASS ajft SomeEnum
+	METHOD b fromValue (I)Lajft;

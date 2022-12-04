@@ -1,0 +1,2 @@
+CLASS zvf
+	METHOD c getPlayingState ()Laarl;

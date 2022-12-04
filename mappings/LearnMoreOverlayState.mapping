@@ -1,4 +1,4 @@
-CLASS rud LearnMoreOverlayState
+CLASS rvp LearnMoreOverlayState
 	FIELD a learnMoreCallToActionHidden Z
 	FIELD b learnMoreCallToActionEnabled Z
 	FIELD c learnMoreText Ljava/lang/CharSequence;

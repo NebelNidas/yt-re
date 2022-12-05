@@ -1,0 +1,4 @@
+CLASS arkg
+	METHOD a (Larmq;Larmq;Larmk;Larmk;Larmk;Larmk;)Larkg;
+		ARG 3 onComplete
+		ARG 6 onDispose

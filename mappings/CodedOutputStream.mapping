@@ -1,5 +1,5 @@
-CLASS aggl CodedOutputStream
+CLASS agie CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Laggl;
+	METHOD ak getCodedOutput ([B)Lagie;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

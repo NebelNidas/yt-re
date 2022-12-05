@@ -1,16 +1,16 @@
-CLASS aggu FieldInfo
+CLASS agin FieldInfo
 	FIELD a field Ljava/lang/reflect/Field;
-	FIELD b type Laggx;
+	FIELD b type Lagiq;
 	FIELD c messageClass Ljava/lang/Class;
 	FIELD d fieldNumber I
 	FIELD e presenceField Ljava/lang/reflect/Field;
 	FIELD f presenceMask I
 	FIELD g required Z
 	FIELD h enforceUtf8 Z
-	FIELD i oneof Lagjc;
+	FIELD i oneof Lagkv;
 	FIELD j oneofStoredType Ljava/lang/Class;
 	FIELD k mapDefaultEntry Ljava/lang/Object;
-	FIELD l enumVerifier Lagho;
-	METHOD a forOneofMemberField (ILaggx;Lagjc;Ljava/lang/Class;ZLagho;)Laggu;
+	FIELD l enumVerifier Lagjh;
+	METHOD a forOneofMemberField (ILagiq;Lagkv;Ljava/lang/Class;ZLagjh;)Lagin;
 	METHOD b checkFieldNumber (I)V
 	METHOD c isExactlyOneBitSet (I)Z

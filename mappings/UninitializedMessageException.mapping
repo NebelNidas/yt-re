@@ -1,2 +1,2 @@
-CLASS agjz UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lagib;
+CLASS agls UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lagju;

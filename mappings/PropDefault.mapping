@@ -1,2 +1,2 @@
-CLASS dpt PropDefault
+CLASS dqc PropDefault
 	METHOD a resId ()I

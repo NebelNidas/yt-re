@@ -1,11 +1,11 @@
-CLASS hub DownloadedVideo
+CLASS huy DownloadedVideo
 	FIELD a id Ljava/lang/String;
 	FIELD b title Ljava/lang/String;
 	FIELD c lengthSeconds Ljava/lang/Integer;
 	FIELD d channelTitle Ljava/lang/String;
-	FIELD e channelThumbnailDetails Lanvi;
-	FIELD f thumbnailDetails Lanvi;
-	FIELD g description Laiyu;
+	FIELD e channelThumbnailDetails Lanxm;
+	FIELD f thumbnailDetails Lanxm;
+	FIELD g description Lajaq;
 	FIELD h publishedTimestampMs Ljava/lang/Long;
 	FIELD i viewCount Ljava/lang/Long;
 	FIELD j likeCountText Ljava/lang/String;

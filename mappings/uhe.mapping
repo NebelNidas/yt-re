@@ -1,3 +1,0 @@
-CLASS uhe
-	METHOD bd isHttps (Landroid/net/Uri;)Z
-	METHOD bf isLocalhost (Landroid/net/Uri;)Z

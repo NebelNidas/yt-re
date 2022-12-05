@@ -1,4 +1,4 @@
-CLASS agf ui/adt
+CLASS agj ui/adt
 	FIELD a info Landroid/view/accessibility/AccessibilityNodeInfo;
 	METHOD A setHintText (Ljava/lang/CharSequence;)V
 	METHOD B setLabelFor (Landroid/view/View;)V
@@ -18,7 +18,7 @@ CLASS agf ui/adt
 	METHOD e getContentDescription ()Ljava/lang/CharSequence;
 	METHOD f getText ()Ljava/lang/CharSequence;
 	METHOD g addAction (I)V
-	METHOD h addAction (Lage;)V
+	METHOD h addAction (Lagi;)V
 	METHOD i getBoundsInParent (Landroid/graphics/Rect;)V
 	METHOD j getBoundsInScreen (Landroid/graphics/Rect;)V
 	METHOD k setAccessibilityFocused (Z)V

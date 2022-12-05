@@ -1,2 +1,2 @@
-CLASS dmt InternalNode2
+CLASS dnc InternalNode2
 	METHOD au getTestKey ()Ljava/lang/String;

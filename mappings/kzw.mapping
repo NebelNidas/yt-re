@@ -1,6 +1,0 @@
-CLASS kzw
-	FIELD c playerViewModeMonitor Lfaq;
-	FIELD n tabNames Ljava/util/Set;
-	FIELD o flags Laelg;
-	FIELD p config Landroid/content/res/Configuration;
-	FIELD r pivotBar Lj$/util/Optional;

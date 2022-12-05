@@ -1,0 +1,3 @@
+CLASS udr
+	METHOD au isHttps (Landroid/net/Uri;)Z
+	METHOD aw isLocalhost (Landroid/net/Uri;)Z

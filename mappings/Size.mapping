@@ -1,3 +1,3 @@
-CLASS dnz Size
+CLASS doi Size
 	FIELD a width I
 	FIELD b height I

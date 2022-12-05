@@ -1,3 +1,0 @@
-CLASS fdf
-	FIELD a mainAppPlayerOverlayDataProvider Ljava/lang/Object;
-	FIELD b type I

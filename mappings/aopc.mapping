@@ -1,0 +1,4 @@
+CLASS aopc
+	METHOD aF assertTrue (Z)V
+	METHOD aG assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD aH assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

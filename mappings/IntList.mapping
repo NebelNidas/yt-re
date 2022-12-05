@@ -1,2 +1,2 @@
-CLASS aghq IntList
-	METHOD f mutableCopyWithCapacity (I)Laghq;
+CLASS agjj IntList
+	METHOD f mutableCopyWithCapacity (I)Lagjj;

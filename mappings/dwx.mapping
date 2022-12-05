@@ -1,3 +1,0 @@
-CLASS dwx
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldxa;

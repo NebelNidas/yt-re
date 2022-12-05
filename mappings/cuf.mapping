@@ -1,0 +1,2 @@
+CLASS cuf
+	FIELD a context Ljava/lang/Object;

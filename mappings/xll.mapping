@@ -1,0 +1,2 @@
+CLASS xll
+	METHOD I isInMainthread ()Z

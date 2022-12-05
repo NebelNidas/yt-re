@@ -1,2 +1,0 @@
-CLASS unv
-	METHOD d toByteArray ()[B

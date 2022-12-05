@@ -1,6 +1,6 @@
-CLASS agka UnknownFieldSetLite
-	FIELD a defaultInstance Lagka;
-	METHOD b mutableCopyOf (Lagka;Lagka;)Lagka;
-	METHOD c newInstance ()Lagka;
+CLASS aglt UnknownFieldSetLite
+	FIELD a defaultInstance Laglt;
+	METHOD b mutableCopyOf (Laglt;Laglt;)Laglt;
+	METHOD c newInstance ()Laglt;
 	METHOD f mergeVarintField (ILjava/lang/Object;)V
-	METHOD g mergeFieldFrom (ILaggg;)Z
+	METHOD g mergeFieldFrom (ILaghz;)Z

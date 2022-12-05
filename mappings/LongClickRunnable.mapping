@@ -1,4 +1,4 @@
-CLASS dvw LongClickRunnable
-	FIELD a longClickableSpan Ldua;
-	FIELD b textDrawable Ldvy;
+CLASS dwf LongClickRunnable
+	FIELD a longClickableSpan Lduj;
+	FIELD b textDrawable Ldwh;
 	FIELD c longClickableSpanView Landroid/view/View;

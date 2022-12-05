@@ -1,0 +1,2 @@
+CLASS abej
+	METHOD M setPlaybackSpeed (F)V

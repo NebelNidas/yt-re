@@ -1,4 +1,0 @@
-CLASS apsg
-	METHOD ag assertTrue (Z)V
-	METHOD ah assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD ai assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

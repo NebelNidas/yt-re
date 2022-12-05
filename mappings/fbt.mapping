@@ -1,0 +1,3 @@
+CLASS fbt
+	METHOD e isInlineMinimal ()Z
+	METHOD f isPIP ()Z

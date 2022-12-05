@@ -1,2 +1,0 @@
-CLASS xhw
-	METHOD ac isInMainthread ()Z

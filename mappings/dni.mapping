@@ -1,5 +1,0 @@
-CLASS dni
-	METHOD c getClickListener (Landroid/view/View;)Ldkf;
-	METHOD d getFocusChangeListener (Landroid/view/View;)Ldkh;
-	METHOD e getLongClickListener (Landroid/view/View;)Ldkn;
-	METHOD f getTouchListener (Landroid/view/View;)Ldko;

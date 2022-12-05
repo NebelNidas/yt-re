@@ -1,2 +1,2 @@
-CLASS aghl DoubleList
-	METHOD d mutableCopyWithCapacity (I)Laghl;
+CLASS agje DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lagje;

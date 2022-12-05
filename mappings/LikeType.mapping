@@ -1,3 +1,3 @@
-CLASS aksa LikeType
+CLASS aktx LikeType
 	FIELD e ordinal I
-	METHOD b fromOrdinal (I)Laksa;
+	METHOD b fromOrdinal (I)Laktx;

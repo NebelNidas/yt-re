@@ -1,0 +1,2 @@
+CLASS oan
+	FIELD c touchLocation Ljava/util/concurrent/atomic/AtomicReference;

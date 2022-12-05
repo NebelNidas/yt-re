@@ -1,2 +1,0 @@
-CLASS doq
-	FIELD b stacktrace Ljava/lang/Throwable;

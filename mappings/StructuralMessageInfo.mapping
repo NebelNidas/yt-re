@@ -1,2 +1,2 @@
-CLASS agnc StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Lagmk;Z[I[Lagjz;Ljava/lang/Object;)V
+CLASS agor StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Lagnz;Z[I[Laglo;Ljava/lang/Object;)V

@@ -1,4 +1,4 @@
-CLASS dlj DebugComponent
-	METHOD b getComponent ()Ldkn;
-	METHOD f getLithoView ()Ldno;
-	METHOD n getLayoutNode ()Lcpt;
+CLASS dll DebugComponent
+	METHOD b getComponent ()Ldkp;
+	METHOD f getLithoView ()Ldnp;
+	METHOD n getLayoutNode ()Lazx;

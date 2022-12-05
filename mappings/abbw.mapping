@@ -1,4 +1,3 @@
 CLASS abbw
-	FIELD B speedMult F
-	FIELD C duration J
-	FIELD q playbackPosition J
+	METHOD J (F)V
+		ARG 1 speed

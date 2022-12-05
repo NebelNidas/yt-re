@@ -1,0 +1,2 @@
+CLASS abhu
+	METHOD J setPlaybackSpeed (F)V

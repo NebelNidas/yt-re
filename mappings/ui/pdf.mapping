@@ -1,2 +1,2 @@
-CLASS pyf ui/pdf
+CLASS pzc ui/pdf
 	METHOD b getIconResourceId ()I

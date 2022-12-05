@@ -1,5 +1,5 @@
-CLASS rxh AdReengagementState
-	FIELD a renderer Lahlh;
+CLASS rxw AdReengagementState
+	FIELD a renderer Lahna;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

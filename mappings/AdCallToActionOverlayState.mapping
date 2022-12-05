@@ -1,8 +1,8 @@
-CLASS rxb AdCallToActionOverlayState
-	FIELD b renderer Laejg;
-	FIELD c onClickedRenderer Laejg;
-	FIELD d trackingParams Lagjh;
-	FIELD e visualStateChangeTriggers Laeoh;
+CLASS rxq AdCallToActionOverlayState
+	FIELD b renderer Laekt;
+	FIELD c onClickedRenderer Laekt;
+	FIELD d trackingParams Lagkw;
+	FIELD e visualStateChangeTriggers Laepu;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

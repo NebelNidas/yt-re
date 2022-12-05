@@ -1,2 +1,0 @@
-CLASS abgf
-	METHOD J setPlaybackSpeed (F)V

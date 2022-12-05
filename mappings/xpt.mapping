@@ -1,2 +1,0 @@
-CLASS xpt
-	METHOD L isInMainthread ()Z

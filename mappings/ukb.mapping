@@ -1,3 +1,0 @@
-CLASS ukb
-	METHOD be isHttps (Landroid/net/Uri;)Z
-	METHOD bg isLocalhost (Landroid/net/Uri;)Z

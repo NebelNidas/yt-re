@@ -1,3 +1,0 @@
-CLASS dmw
-	METHOD b getLayoutOutput (Ldxl;)Ldmw;
-	METHOD d isAccessible ()Z

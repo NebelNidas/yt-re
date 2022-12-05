@@ -1,2 +1,2 @@
-CLASS agkp BooleanList
-	METHOD d withCapacity (I)Lagkp;
+CLASS agme BooleanList
+	METHOD d withCapacity (I)Lagme;

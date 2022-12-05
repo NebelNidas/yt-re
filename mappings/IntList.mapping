@@ -1,2 +1,2 @@
-CLASS agkv IntList
-	METHOD f mutableCopyWithCapacity (I)Lagkv;
+CLASS agmk IntList
+	METHOD f mutableCopyWithCapacity (I)Lagmk;

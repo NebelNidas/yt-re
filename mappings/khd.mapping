@@ -1,2 +1,2 @@
 CLASS khd
-	METHOD b reset ()V
+	FIELD h reelDismissalInfo Ljava/util/List;

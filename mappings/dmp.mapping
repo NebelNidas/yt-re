@@ -1,2 +1,0 @@
-CLASS dmp
-	METHOD a collectChildren (Ljava/util/List;)V

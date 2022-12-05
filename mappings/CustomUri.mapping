@@ -1,9 +1,9 @@
-CLASS tib CustomUri
+CLASS tiw CustomUri
 	FIELD c params Ljava/util/HashMap;
 	METHOD a buildQueryParams ()Landroid/net/Uri;
-	METHOD b fromUri (Landroid/net/Uri;)Ltib;
-	METHOD c fromCustomUri (Ltib;)Ltib;
+	METHOD b fromUri (Landroid/net/Uri;)Ltiw;
+	METHOD c fromCustomUri (Ltiw;)Ltiw;
 	METHOD h setParam (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 key
 		ARG 2 value
-	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Ltia;
+	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Ltiv;

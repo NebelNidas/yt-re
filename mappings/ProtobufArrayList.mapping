@@ -1,2 +1,2 @@
-CLASS agmm ProtobufArrayList
-	FIELD b emptyList Lagmm;
+CLASS agob ProtobufArrayList
+	FIELD b emptyList Lagob;

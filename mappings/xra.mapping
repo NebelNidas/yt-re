@@ -1,0 +1,2 @@
+CLASS xra
+	METHOD E isInMainthread ()Z

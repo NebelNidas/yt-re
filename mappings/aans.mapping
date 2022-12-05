@@ -1,0 +1,2 @@
+CLASS aans
+	METHOD mk hasView ()Z

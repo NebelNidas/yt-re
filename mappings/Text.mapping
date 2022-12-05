@@ -1,4 +1,4 @@
-CLASS dwf Text
+CLASS dwj Text
 	FIELD A maxLines I
 	FIELD B shadowColor I
 	FIELD G tmpText Ljava/lang/CharSequence;

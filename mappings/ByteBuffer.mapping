@@ -1,3 +1,3 @@
-CLASS agdv ByteBuffer
-	METHOD l newCodedInput ()Lagea;
+CLASS aggb ByteBuffer
+	METHOD l newCodedInput ()Laggg;
 	METHOD q isValidUtf8 ()Z

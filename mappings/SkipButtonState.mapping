@@ -1,12 +1,12 @@
-CLASS rtu SkipButtonState
-	FIELD a skipAdRenderer Lanha;
-	FIELD b contentMetadata Lrtz;
-	FIELD c adCountMetadata Lrmc;
+CLASS rvf SkipButtonState
+	FIELD a skipAdRenderer Lanjq;
+	FIELD b contentMetadata Lrvk;
+	FIELD c adCountMetadata Lrno;
 	FIELD d skipState I
 	FIELD e hidden Z
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
-	FIELD h breakType Lrps;
+	FIELD h breakType Lrre;
 	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
 	FIELD k countdownNextToThumbnail Z

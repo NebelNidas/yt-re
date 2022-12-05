@@ -1,5 +1,5 @@
-CLASS rtm AdReengagementState
-	FIELD a renderer Lahft;
+CLASS rux AdReengagementState
+	FIELD a renderer Lahia;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

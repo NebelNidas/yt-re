@@ -1,2 +1,2 @@
-CLASS agdm BooleanArrayList
-	FIELD b emptyList Lagdm;
+CLASS agfs BooleanArrayList
+	FIELD b emptyList Lagfs;

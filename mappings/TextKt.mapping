@@ -1,5 +1,5 @@
-CLASS dvr TextKt
-	FIELD a text Ldvt;
+CLASS dvs TextKt
+	FIELD a text Ldvu;
 	FIELD d mRequired Ljava/util/BitSet;
-	METHOD c getText ()Ldvt;
+	METHOD c getText ()Ldvu;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

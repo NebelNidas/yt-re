@@ -1,4 +1,4 @@
-CLASS dkx DebugComponent
-	METHOD b getComponent ()Ldkb;
-	METHOD f getLithoView ()Ldnc;
-	METHOD n getLayoutNode ()Lcph;
+CLASS dky DebugComponent
+	METHOD b getComponent ()Ldkc;
+	METHOD f getLithoView ()Ldnd;
+	METHOD n getLayoutNode ()Lcpi;

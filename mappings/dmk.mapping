@@ -1,3 +1,0 @@
-CLASS dmk
-	METHOD b getLayoutOutput (Ldwz;)Ldmk;
-	METHOD d isAccessible ()Z

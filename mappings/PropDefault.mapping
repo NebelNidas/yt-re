@@ -1,2 +1,2 @@
-CLASS dps PropDefault
+CLASS dpt PropDefault
 	METHOD a resId ()I

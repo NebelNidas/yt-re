@@ -1,2 +1,2 @@
-CLASS djq util/AccessibilityUtil
+CLASS djr util/AccessibilityUtil
 	METHOD b isAccessibilityEnabled (Landroid/content/Context;)Z

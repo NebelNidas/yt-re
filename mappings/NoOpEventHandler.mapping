@@ -1,2 +1,2 @@
-CLASS dnk NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldnk;
+CLASS dnl NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldnl;

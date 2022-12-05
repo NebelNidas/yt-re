@@ -1,0 +1,3 @@
+CLASS dml
+	METHOD b getLayoutOutput (Ldxa;)Ldml;
+	METHOD d isAccessible ()Z

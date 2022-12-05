@@ -1,2 +1,2 @@
-CLASS puk ui/pdf
+CLASS pvw ui/pdf
 	METHOD b getIconResourceId ()I

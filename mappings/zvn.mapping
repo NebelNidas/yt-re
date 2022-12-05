@@ -1,0 +1,2 @@
+CLASS zvn
+	METHOD c getPlayingState ()Laarw;

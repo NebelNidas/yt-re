@@ -1,4 +1,4 @@
-CLASS rtl AdProgressTextState
+CLASS ruw AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Lrmc;
+	FIELD c adCountMetadata Lrno;

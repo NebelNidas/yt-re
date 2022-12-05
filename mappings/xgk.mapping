@@ -1,2 +1,0 @@
-CLASS xgk
-	METHOD C isInMainthread ()Z

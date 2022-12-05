@@ -1,2 +1,0 @@
-CLASS dns
-	METHOD b markerPoint (Ljava/lang/String;)V

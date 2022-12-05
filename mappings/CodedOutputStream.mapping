@@ -1,5 +1,5 @@
-CLASS agfa CodedOutputStream
+CLASS agef CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lagfa;
+	METHOD ak getCodedOutput ([B)Lagef;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

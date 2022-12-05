@@ -1,2 +1,2 @@
-CLASS agfu MessageType
+CLASS agez MessageType
 	FIELD a containingTypeDefaultInstance Lcom/google/protobuf/MessageLite;

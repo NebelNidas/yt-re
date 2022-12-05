@@ -1,4 +1,4 @@
-CLASS fwy AccessibilityLikeDislike
+CLASS fuz AccessibilityLikeDislike
 	FIELD a likeTexts [I
 	FIELD b dislikeTexts [I
 	FIELD d view Landroid/view/View;

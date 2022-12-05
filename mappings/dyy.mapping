@@ -1,3 +1,0 @@
-CLASS dyy
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldzb;

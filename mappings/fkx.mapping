@@ -1,2 +1,0 @@
-CLASS fkx
-	FIELD b menuItems Ljava/util/Map;

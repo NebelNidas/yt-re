@@ -1,3 +1,0 @@
-CLASS dol
-	METHOD b getLayoutOutput (Ldzb;)Ldol;
-	METHOD d isAccessible ()Z

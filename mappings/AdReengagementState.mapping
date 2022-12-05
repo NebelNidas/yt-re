@@ -1,5 +1,5 @@
-CLASS rvk AdReengagementState
-	FIELD a renderer Lahgn;
+CLASS rtm AdReengagementState
+	FIELD a renderer Lahft;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

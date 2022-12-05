@@ -1,0 +1,2 @@
+CLASS umi
+	METHOD d toByteArray ()[B

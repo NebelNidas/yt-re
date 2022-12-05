@@ -1,0 +1,2 @@
+CLASS ysb
+	METHOD m createError204Uri (Lyrv;Lyru;Ljava/lang/String;)Lten;

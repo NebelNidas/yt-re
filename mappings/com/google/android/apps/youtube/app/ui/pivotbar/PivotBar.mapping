@@ -1,5 +1,5 @@
 CLASS com/google/android/apps/youtube/app/ui/pivotbar/PivotBar
 	FIELD a resources Landroid/content/res/Resources;
 	FIELD d scaledTouchSlop I
-	METHOD b getView (Landroid/graphics/drawable/Drawable;Ljava/lang/CharSequence;ZILjava/util/Map;Lamcy;Lj$/util/Optional;)Landroid/view/View;
+	METHOD b getView (Landroid/graphics/drawable/Drawable;Ljava/lang/CharSequence;ZILjava/util/Map;Lamch;Lj$/util/Optional;)Landroid/view/View;
 		ARG 2 tabName

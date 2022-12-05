@@ -1,4 +1,4 @@
-CLASS aggn Internal
+CLASS agfs Internal
 	FIELD a UTF_8 Ljava/nio/charset/Charset;
 	METHOD a hashBoolean (Z)I
 	METHOD b hashCode ([B)I

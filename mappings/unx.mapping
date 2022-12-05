@@ -1,2 +1,0 @@
-CLASS unx
-	METHOD d toByteArray ()[B

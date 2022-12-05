@@ -1,3 +1,3 @@
-CLASS dyw ComponentsReporter
-	FIELD a sInstance Ldyx;
-	METHOD a getInstance ()Ldyx;
+CLASS dwu ComponentsReporter
+	FIELD a sInstance Ldwv;
+	METHOD a getInstance ()Ldwv;

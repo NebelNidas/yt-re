@@ -1,2 +1,2 @@
-CLASS ajft SomeEnum
-	METHOD b fromValue (I)Lajft;
+CLASS ajfa SomeEnum
+	METHOD b fromValue (I)Lajfa;

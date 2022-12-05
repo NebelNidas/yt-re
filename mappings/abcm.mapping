@@ -1,2 +1,0 @@
-CLASS abcm
-	METHOD M setPlaybackSpeed (F)V

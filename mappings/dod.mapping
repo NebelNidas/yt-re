@@ -1,2 +1,0 @@
-CLASS dod
-	METHOD a collectChildren (Ljava/util/List;)V

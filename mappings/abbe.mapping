@@ -1,0 +1,2 @@
+CLASS abbe
+	METHOD M setPlaybackSpeed (F)V

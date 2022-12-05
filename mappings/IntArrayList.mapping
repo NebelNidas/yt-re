@@ -1,2 +1,2 @@
-CLASS agfx IntArrayList
-	FIELD b emptyList Lagfx;
+CLASS agfc IntArrayList
+	FIELD b emptyList Lagfc;

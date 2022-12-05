@@ -1,5 +1,5 @@
-CLASS agev CodedInputStream
+CLASS agea CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lagev;
-	METHOD P newInstance (Ljava/io/InputStream;I)Lagev;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lagea;
+	METHOD P newInstance (Ljava/io/InputStream;I)Lagea;

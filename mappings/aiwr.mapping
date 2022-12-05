@@ -1,0 +1,2 @@
+CLASS aiwr
+	FIELD c displayString Ljava/lang/String;

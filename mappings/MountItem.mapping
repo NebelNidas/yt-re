@@ -1,2 +1,2 @@
-CLASS dzb MountItem
+CLASS dwz MountItem
 	FIELD a content Ljava/lang/Object;

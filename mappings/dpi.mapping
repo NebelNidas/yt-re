@@ -1,5 +1,0 @@
-CLASS dpi
-	METHOD c getClickListener (Landroid/view/View;)Ldme;
-	METHOD d getFocusChangeListener (Landroid/view/View;)Ldmg;
-	METHOD e getLongClickListener (Landroid/view/View;)Ldmm;
-	METHOD f getTouchListener (Landroid/view/View;)Ldmn;

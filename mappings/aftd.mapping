@@ -1,0 +1,4 @@
+CLASS aftd
+	METHOD F assertTrue (Z)V
+	METHOD G assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD H assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

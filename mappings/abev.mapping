@@ -1,2 +1,0 @@
-CLASS abev
-	METHOD J setPlaybackSpeed (F)V

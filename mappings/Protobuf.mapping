@@ -1,3 +1,3 @@
-CLASS agkz Protobuf
-	FIELD a instance Lagkz;
-	METHOD b schemaFor (Ljava/lang/Object;)Laglh;
+CLASS agml Protobuf
+	FIELD a instance Lagml;
+	METHOD b schemaFor (Ljava/lang/Object;)Lagmt;

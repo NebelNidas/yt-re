@@ -1,2 +1,2 @@
-CLASS agif DoubleArrayList
-	FIELD b emptyList Lagif;
+CLASS agjs DoubleArrayList
+	FIELD b emptyList Lagjs;

@@ -1,3 +1,3 @@
-CLASS dxe ComponentsReporter
-	FIELD a sInstance Ldxf;
-	METHOD a getInstance ()Ldxf;
+CLASS dxg ComponentsReporter
+	FIELD a sInstance Ldxh;
+	METHOD a getInstance ()Ldxh;

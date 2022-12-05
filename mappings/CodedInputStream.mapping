@@ -1,5 +1,5 @@
-CLASS aghz CodedInputStream
+CLASS agjm CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Laghz;
-	METHOD P newInstance (Ljava/io/InputStream;I)Laghz;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lagjm;
+	METHOD P newInstance (Ljava/io/InputStream;I)Lagjm;

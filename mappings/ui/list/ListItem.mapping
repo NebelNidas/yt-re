@@ -1,4 +1,4 @@
-CLASS pxm ui/list/ListItem
+CLASS pyg ui/list/ListItem
 	FIELD c text Ljava/lang/String;
 	FIELD e iconDrawable Landroid/graphics/drawable/Drawable;
 	METHOD <init> (Ljava/lang/String;)V

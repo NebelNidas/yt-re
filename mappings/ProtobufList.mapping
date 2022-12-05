@@ -1,2 +1,2 @@
-CLASS agjr ProtobufList
-	METHOD e mutableCopyWithCapacity (I)Lagjr;
+CLASS agld ProtobufList
+	METHOD e mutableCopyWithCapacity (I)Lagld;

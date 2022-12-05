@@ -1,2 +1,2 @@
-CLASS dwk TextInput
+CLASS dwm TextInput
 	FIELD f hint Ljava/lang/CharSequence;

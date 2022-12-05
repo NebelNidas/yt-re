@@ -1,2 +1,2 @@
-CLASS pxl ui/pdf
+CLASS pyf ui/pdf
 	METHOD b getIconResourceId ()I

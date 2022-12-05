@@ -1,2 +1,0 @@
-CLASS upj
-	METHOD d toByteArray ()[B

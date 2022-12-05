@@ -1,2 +1,2 @@
-CLASS agji FloatList
-	METHOD g mutableCopyWithCapacity (I)Lagji;
+CLASS agku FloatList
+	METHOD g mutableCopyWithCapacity (I)Lagku;

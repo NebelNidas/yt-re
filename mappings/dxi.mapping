@@ -1,0 +1,3 @@
+CLASS dxi
+	METHOD a getMountItemCount ()I
+	METHOD b getMountItemAt (I)Ldxl;

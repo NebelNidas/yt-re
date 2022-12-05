@@ -1,2 +1,2 @@
-CLASS agkg LongArrayList
-	FIELD b emptyList Lagkg;
+CLASS agls LongArrayList
+	FIELD b emptyList Lagls;

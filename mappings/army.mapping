@@ -1,0 +1,4 @@
+CLASS army
+	METHOD a (Larpi;Larpi;Larpc;Larpc;Larpc;Larpc;)Larmy;
+		ARG 3 onComplete
+		ARG 6 onDispose

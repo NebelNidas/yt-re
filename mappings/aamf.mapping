@@ -1,0 +1,2 @@
+CLASS aamf
+	METHOD mh hasView ()Z

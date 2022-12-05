@@ -1,0 +1,2 @@
+CLASS abkw
+	METHOD b getDisplayString (Lajch;)Landroid/text/Spanned;

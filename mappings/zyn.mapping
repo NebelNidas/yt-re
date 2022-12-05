@@ -1,0 +1,2 @@
+CLASS zyn
+	METHOD c getPlayingState ()Laaux;

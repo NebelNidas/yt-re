@@ -1,3 +1,0 @@
-CLASS bxc
-	FIELD x viewMap Landroid/util/SparseArray;
-	METHOD E findViewById (I)Landroid/view/View;

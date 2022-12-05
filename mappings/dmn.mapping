@@ -1,2 +1,0 @@
-CLASS dmn
-	METHOD a collectChildren (Ljava/util/List;)V

@@ -1,0 +1,2 @@
+CLASS uqq
+	METHOD d toByteArray ()[B

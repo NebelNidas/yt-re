@@ -1,3 +1,0 @@
-CLASS dmu
-	METHOD b getLayoutOutput (Ldxj;)Ldmu;
-	METHOD d isAccessible ()Z

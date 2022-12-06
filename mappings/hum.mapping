@@ -1,3 +1,0 @@
-CLASS hum
-	FIELD a obj Ljava/lang/Object;
-	FIELD b type I

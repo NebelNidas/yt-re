@@ -1,6 +1,6 @@
-CLASS agou UnknownFieldSetLite
-	FIELD a defaultInstance Lagou;
-	METHOD b mutableCopyOf (Lagou;Lagou;)Lagou;
-	METHOD c newInstance ()Lagou;
-	METHOD f mergeVarintField (ILjava/lang/Object;)V
-	METHOD g mergeFieldFrom (ILaglb;)Z
+CLASS agqq UnknownFieldSetLite
+	FIELD a defaultInstance Lagqq;
+	METHOD b mutableCopyOf (Lagqq;Lagqq;)Lagqq;
+	METHOD c newInstance ()Lagqq;
+	METHOD g mergeVarintField (ILjava/lang/Object;)V
+	METHOD h mergeFieldFrom (ILagmw;)Z

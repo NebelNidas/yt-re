@@ -1,0 +1,5 @@
+CLASS eva
+	FIELD c watchWhileActivity Lbq;
+	METHOD f someDislikeMethod (Laici;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD g someLikeMethod (Laici;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD h someIndifferentMethod (Laici;)Lcom/google/common/util/concurrent/ListenableFuture;

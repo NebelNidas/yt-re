@@ -1,4 +1,0 @@
-CLASS aizm
-	METHOD Q assertTrue (Z)V
-	METHOD R assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD S assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

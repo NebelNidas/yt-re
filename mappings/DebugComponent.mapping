@@ -1,4 +1,4 @@
-CLASS dll DebugComponent
-	METHOD b getComponent ()Ldkp;
-	METHOD f getLithoView ()Ldnp;
-	METHOD n getLayoutNode ()Lazx;
+CLASS dly DebugComponent
+	METHOD b getComponent ()Ldlc;
+	METHOD f getLithoView ()Ldof;
+	METHOD n getLayoutNode ()Lbak;

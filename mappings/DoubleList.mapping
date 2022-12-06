@@ -1,2 +1,2 @@
-CLASS agmf DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lagmf;
+CLASS agoa DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lagoa;

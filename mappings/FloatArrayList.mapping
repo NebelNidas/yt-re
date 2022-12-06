@@ -1,2 +1,2 @@
-CLASS agls FloatArrayList
-	FIELD b emptyList Lagls;
+CLASS agnn FloatArrayList
+	FIELD b emptyList Lagnn;

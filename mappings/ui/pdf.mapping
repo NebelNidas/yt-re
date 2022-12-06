@@ -1,2 +1,2 @@
-CLASS pzc ui/pdf
+CLASS qap ui/pdf
 	METHOD b getIconResourceId ()I

@@ -1,2 +1,2 @@
-CLASS agmj FloatList
-	METHOD g mutableCopyWithCapacity (I)Lagmj;
+CLASS agoe FloatList
+	METHOD g mutableCopyWithCapacity (I)Lagoe;

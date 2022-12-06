@@ -1,0 +1,2 @@
+CLASS aqty
+	METHOD aK isItalic ()Z

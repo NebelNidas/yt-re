@@ -1,2 +1,2 @@
-CLASS klp PlaybackSpeedItem
+CLASS kmu PlaybackSpeedItem
 	FIELD a speedMultiplier F

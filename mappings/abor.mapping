@@ -1,0 +1,2 @@
+CLASS abor
+	METHOD b getDisplayString (Lajgo;)Landroid/text/Spanned;

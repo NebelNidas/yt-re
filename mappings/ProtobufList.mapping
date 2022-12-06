@@ -1,2 +1,2 @@
-CLASS agms ProtobufList
-	METHOD e mutableCopyWithCapacity (I)Lagms;
+CLASS agon ProtobufList
+	METHOD e mutableCopyWithCapacity (I)Lagon;

@@ -1,5 +1,0 @@
-CLASS dnu
-	METHOD c getClickListener (Landroid/view/View;)Ldks;
-	METHOD d getFocusChangeListener (Landroid/view/View;)Ldku;
-	METHOD e getLongClickListener (Landroid/view/View;)Ldla;
-	METHOD f getTouchListener (Landroid/view/View;)Ldlb;

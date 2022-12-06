@@ -1,0 +1,3 @@
+CLASS dno
+	METHOD b getLayoutOutput (Ldyl;)Ldno;
+	METHOD d isAccessible ()Z

@@ -1,2 +1,2 @@
-CLASS agmd IntArrayList
-	FIELD b emptyList Lagmd;
+CLASS agny IntArrayList
+	FIELD b emptyList Lagny;

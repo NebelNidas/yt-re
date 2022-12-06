@@ -1,0 +1,2 @@
+CLASS dph
+	FIELD b stacktrace Ljava/lang/Throwable;

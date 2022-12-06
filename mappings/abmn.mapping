@@ -1,2 +1,0 @@
-CLASS abmn
-	METHOD b getDisplayString (Lajec;)Landroid/text/Spanned;

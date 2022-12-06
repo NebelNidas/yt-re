@@ -1,0 +1,4 @@
+CLASS arst
+	METHOD a (Larvd;Larvd;Larux;Larux;Larux;Larux;)Larst;
+		ARG 3 onComplete
+		ARG 6 onDispose

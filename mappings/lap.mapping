@@ -1,3 +1,0 @@
-CLASS lap
-	FIELD aS accountId Lcom/google/apps/tiktok/account/AccountId;
-	FIELD aT accountChangedCalledKey Z

@@ -1,4 +1,0 @@
-CLASS arql
-	METHOD a (Larsv;Larsv;Larsp;Larsp;Larsp;Larsp;)Larql;
-		ARG 3 onComplete
-		ARG 6 onDispose

@@ -1,0 +1,2 @@
+CLASS cva
+	FIELD a context Ljava/lang/Object;

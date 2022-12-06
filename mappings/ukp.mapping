@@ -1,3 +1,0 @@
-CLASS ukp
-	METHOD aX isHttps (Landroid/net/Uri;)Z
-	METHOD aZ isLocalhost (Landroid/net/Uri;)Z

@@ -1,0 +1,2 @@
+CLASS lck
+	FIELD m hasHandledIntent Z

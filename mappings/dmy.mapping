@@ -1,3 +1,0 @@
-CLASS dmy
-	METHOD b getLayoutOutput (Ldxp;)Ldmy;
-	METHOD d isAccessible ()Z

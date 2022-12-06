@@ -1,5 +1,5 @@
-CLASS een TextKt
-	FIELD a text Leep;
+CLASS eer TextKt
+	FIELD a text Leet;
 	FIELD d mRequired Ljava/util/BitSet;
-	METHOD c getText ()Leep;
+	METHOD c getText ()Leet;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

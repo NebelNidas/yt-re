@@ -1,3 +1,0 @@
-CLASS liv
-	FIELD aU accountId Lcom/google/apps/tiktok/account/AccountId;
-	FIELD aV accountChangedCalledKey Z

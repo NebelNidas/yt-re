@@ -1,2 +1,2 @@
-CLASS agyw LongArrayList
-	FIELD b emptyList Lagyw;
+CLASS ahan LongArrayList
+	FIELD b emptyList Lahan;

@@ -1,3 +1,3 @@
-CLASS olg TextComponentSpec
-	METHOD e create (Ldss;Larfa;Loqb;Loss;Lorl;Loqh;Ljava/util/Map;Loqo;ZFFFLjava/lang/Integer;ZZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Ldso;
-	METHOD f getHint (Loqh;Landroid/content/Context;Laree;Loqb;Loss;Lorl;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS omg TextComponentSpec
+	METHOD e create (Ldsw;Larhp;Lort;Louk;Lotd;Lorz;Ljava/util/Map;Losg;ZFFFLjava/lang/Integer;ZZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Ldss;
+	METHOD f getHint (Lorz;Landroid/content/Context;Largt;Lort;Louk;Lotd;Ljava/util/Map;Z)Ljava/lang/CharSequence;

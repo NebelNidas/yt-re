@@ -1,0 +1,2 @@
+CLASS kps
+	METHOD b reset ()V

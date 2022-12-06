@@ -1,10 +1,10 @@
-CLASS aaim SpeedGenerator
-	FIELD a emptySpeeds [Lapev;
-	FIELD c speeds [Lapev;
+CLASS aakh SpeedGenerator
+	FIELD a emptySpeeds [Laphk;
+	FIELD c speeds [Laphk;
 	FIELD d speedMult F
 	METHOD <init> (ZLcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;F)V
 		ARG 3 speedMult
 	METHOD a getSpeedMult ()F
 	METHOD b getSelectedDisplayString ()Ljava/lang/String;
-	METHOD c getSpeeds ()[Lapev;
-	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Lapev;
+	METHOD c getSpeeds ()[Laphk;
+	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Laphk;

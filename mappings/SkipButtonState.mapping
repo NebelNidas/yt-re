@@ -1,12 +1,12 @@
-CLASS sgx SkipButtonState
-	FIELD a skipAdRenderer Laoda;
-	FIELD b contentMetadata Lshc;
-	FIELD c adCountMetadata Lrze;
+CLASS sim SkipButtonState
+	FIELD a skipAdRenderer Laofp;
+	FIELD b contentMetadata Lsir;
+	FIELD c adCountMetadata Lsav;
 	FIELD d skipState I
 	FIELD e hidden Z
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
-	FIELD h breakType Lscu;
+	FIELD h breakType Lsek;
 	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
 	FIELD k countdownNextToThumbnail Z

@@ -1,0 +1,4 @@
+CLASS agot
+	METHOD D assertTrue (Z)V
+	METHOD G assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD z assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V

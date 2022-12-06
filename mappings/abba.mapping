@@ -1,0 +1,2 @@
+CLASS abba
+	METHOD c changeSpeed ([Laphk;I)V

@@ -1,0 +1,2 @@
+CLASS abta
+	METHOD M setPlaybackSpeed (F)V

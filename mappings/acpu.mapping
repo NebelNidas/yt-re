@@ -1,0 +1,2 @@
+CLASS acpu
+	METHOD f setSelectedText (Ljava/lang/String;)V

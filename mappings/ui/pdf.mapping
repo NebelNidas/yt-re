@@ -1,2 +1,2 @@
-CLASS qhm ui/pdf
+CLASS qjf ui/pdf
 	METHOD b getIconResourceId ()I

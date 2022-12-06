@@ -1,0 +1,3 @@
+CLASS liu
+	FIELD aT accountId Lcom/google/apps/tiktok/account/AccountId;
+	FIELD aU accountChangedCalledKey Z

@@ -1,2 +1,0 @@
-CLASS dur
-	METHOD a collectChildren (Ljava/util/List;)V

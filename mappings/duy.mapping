@@ -1,3 +1,0 @@
-CLASS duy
-	METHOD b getLayoutOutput (Lefv;)Lduy;
-	METHOD d isAccessible ()Z

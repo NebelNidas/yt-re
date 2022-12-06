@@ -1,0 +1,2 @@
+CLASS meo
+	METHOD E isInMainthread ()Z

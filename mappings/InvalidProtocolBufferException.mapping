@@ -1,2 +1,2 @@
-CLASS agyk InvalidProtocolBufferException
+CLASS ahab InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

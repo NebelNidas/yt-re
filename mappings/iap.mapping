@@ -1,2 +1,0 @@
-CLASS iap
-	FIELD d likeEndpoint Ljava/lang/Object;

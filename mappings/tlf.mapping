@@ -1,3 +1,0 @@
-CLASS tlf
-	METHOD bi isHttps (Landroid/net/Uri;)Z
-	METHOD bk isLocalhost (Landroid/net/Uri;)Z

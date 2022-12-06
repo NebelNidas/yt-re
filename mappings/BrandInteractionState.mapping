@@ -1,8 +1,8 @@
-CLASS sgs BrandInteractionState
+CLASS sih BrandInteractionState
 	FIELD a hidden Z
 	FIELD b enabled Z
 	FIELD c annotationEnabled Z
 	FIELD d appPromoEnabled Z
 	FIELD e fullscreen Z
-	FIELD f renderer Lahyf;
+	FIELD f renderer Laiah;
 	FIELD g likeOrdinal I

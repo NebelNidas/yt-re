@@ -1,0 +1,3 @@
+CLASS dvc
+	METHOD b getLayoutOutput (Lefz;)Ldvc;
+	METHOD d isAccessible ()Z

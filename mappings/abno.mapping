@@ -1,0 +1,3 @@
+CLASS abno
+	METHOD L (F)V
+		ARG 1 speed

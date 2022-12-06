@@ -2,6 +2,6 @@ CLASS ise PlaybackSpeedSelectMenu
 	FIELD b isUnavailable Z
 	FIELD c watchWhileActivity Lbu;
 	FIELD g selectedText Ljava/lang/String;
-	METHOD c ([Lapev;I)V
+	METHOD c ([Laphk;I)V
 		ARG 1 speeds
 		ARG 2 selectedIndex

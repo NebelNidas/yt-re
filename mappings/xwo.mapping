@@ -1,2 +1,0 @@
-CLASS xwo
-	METHOD G isInMainthread ()Z

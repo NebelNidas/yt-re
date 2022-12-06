@@ -1,0 +1,3 @@
+CLASS doc
+	METHOD b getLayoutOutput (Ldza;)Ldoc;
+	METHOD d isAccessible ()Z

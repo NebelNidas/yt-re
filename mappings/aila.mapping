@@ -1,0 +1,4 @@
+CLASS aila
+	METHOD I assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD M assertTrue (Z)V
+	METHOD P assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V

@@ -1,6 +1,0 @@
-CLASS ldh
-	FIELD c playerViewModeMonitor Lfby;
-	FIELD n tabNames Ljava/util/Set;
-	FIELD o flags Laerp;
-	FIELD p config Landroid/content/res/Configuration;
-	FIELD r pivotBar Lj$/util/Optional;

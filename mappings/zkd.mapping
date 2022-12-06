@@ -1,0 +1,2 @@
+CLASS zkd
+	METHOD o isInMainthread ()Z

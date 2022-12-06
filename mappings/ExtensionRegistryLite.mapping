@@ -1,1 +1,1 @@
-CLASS agnh ExtensionRegistryLite
+CLASS com/google/protobuf/ExtensionRegistryLite ExtensionRegistryLite

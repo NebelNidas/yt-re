@@ -1,2 +1,0 @@
-CLASS acgf
-	METHOD f setSelectedText (Ljava/lang/String;)V

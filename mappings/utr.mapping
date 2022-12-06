@@ -1,2 +1,0 @@
-CLASS utr
-	METHOD d toByteArray ()[B

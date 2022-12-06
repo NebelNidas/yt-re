@@ -1,2 +1,2 @@
-CLASS agnm com/google/protobuf/FieldType
-	FIELD aa collection Lagnl;
+CLASS agom com/google/protobuf/FieldType
+	FIELD aa collection Lagol;

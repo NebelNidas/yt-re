@@ -1,5 +1,5 @@
-CLASS dxd TextKt
-	FIELD a text Ldxf;
+CLASS dxs TextKt
+	FIELD a text Ldxu;
 	FIELD d mRequired Ljava/util/BitSet;
-	METHOD c getText ()Ldxf;
+	METHOD c getText ()Ldxu;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

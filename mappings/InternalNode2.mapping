@@ -1,2 +1,2 @@
-CLASS dnw InternalNode2
+CLASS dok InternalNode2
 	METHOD au getTestKey ()Ljava/lang/String;

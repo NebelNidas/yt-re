@@ -1,0 +1,2 @@
+CLASS uue
+	METHOD d toByteArray ()[B

@@ -1,0 +1,2 @@
+CLASS cvn
+	FIELD a context Ljava/lang/Object;

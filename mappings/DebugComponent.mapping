@@ -1,4 +1,4 @@
-CLASS dly DebugComponent
-	METHOD b getComponent ()Ldlc;
-	METHOD f getLithoView ()Ldof;
-	METHOD n getLayoutNode ()Lbak;
+CLASS dmm DebugComponent
+	METHOD b getComponent ()Ldlq;
+	METHOD f getLithoView ()Ldot;
+	METHOD n getLayoutNode ()Lbav;

@@ -1,0 +1,2 @@
+CLASS kif
+	METHOD b reset ()V

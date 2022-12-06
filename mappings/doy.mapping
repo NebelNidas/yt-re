@@ -1,0 +1,5 @@
+CLASS doy
+	METHOD c getClickListener (Landroid/view/View;)Ldlt;
+	METHOD d getFocusChangeListener (Landroid/view/View;)Ldlv;
+	METHOD e getLongClickListener (Landroid/view/View;)Ldmb;
+	METHOD f getTouchListener (Landroid/view/View;)Ldmc;

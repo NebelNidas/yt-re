@@ -1,0 +1,2 @@
+CLASS dnu
+	METHOD a collectChildren (Ljava/util/List;)V

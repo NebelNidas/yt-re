@@ -1,4 +1,0 @@
-CLASS aoig
-	METHOD aA assertTrue (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD ay assertTrue (Z)V
-	METHOD az assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V

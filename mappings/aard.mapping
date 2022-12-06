@@ -1,2 +1,0 @@
-CLASS aard
-	METHOD c changeSpeed ([Laoup;I)V

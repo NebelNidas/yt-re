@@ -1,2 +1,0 @@
-CLASS yjb
-	METHOD bH isInMainthread ()Z

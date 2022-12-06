@@ -1,2 +1,2 @@
-CLASS agof IntList
-	METHOD f mutableCopyWithCapacity (I)Lagof;
+CLASS agpf IntList
+	METHOD f mutableCopyWithCapacity (I)Lagpf;

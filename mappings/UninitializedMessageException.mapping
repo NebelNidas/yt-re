@@ -1,2 +1,2 @@
-CLASS agqp UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lagoq;
+CLASS agrp UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lagpq;

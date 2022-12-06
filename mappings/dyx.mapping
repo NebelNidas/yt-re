@@ -1,3 +1,0 @@
-CLASS dyx
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Ldza;

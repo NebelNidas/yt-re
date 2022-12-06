@@ -1,0 +1,2 @@
+CLASS znc
+	METHOD h findXop (Ljava/lang/String;)Lzmz;

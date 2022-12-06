@@ -1,0 +1,2 @@
+CLASS qhl
+	FIELD at list Landroid/widget/ListAdapter;

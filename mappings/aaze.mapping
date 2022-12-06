@@ -1,0 +1,2 @@
+CLASS aaze
+	METHOD c changeSpeed ([Lapev;I)V

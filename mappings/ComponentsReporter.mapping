@@ -1,3 +1,3 @@
-CLASS dyv ComponentsReporter
-	FIELD a sInstance Ldyw;
-	METHOD a getInstance ()Ldyw;
+CLASS efq ComponentsReporter
+	FIELD a sInstance Lefr;
+	METHOD a getInstance ()Lefr;

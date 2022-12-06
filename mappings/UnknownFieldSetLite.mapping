@@ -1,6 +1,6 @@
-CLASS agrq UnknownFieldSetLite
-	FIELD a defaultInstance Lagrq;
-	METHOD b mutableCopyOf (Lagrq;Lagrq;)Lagrq;
-	METHOD c newInstance ()Lagrq;
+CLASS ahak UnknownFieldSetLite
+	FIELD a defaultInstance Lahak;
+	METHOD b mutableCopyOf (Lahak;Lahak;)Lahak;
+	METHOD c newInstance ()Lahak;
 	METHOD g mergeVarintField (ILjava/lang/Object;)V
-	METHOD h mergeFieldFrom (ILagnx;)Z
+	METHOD h mergeFieldFrom (ILagwq;)Z

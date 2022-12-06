@@ -1,4 +1,0 @@
-CLASS kba
-	FIELD e notificationText Landroid/widget/TextView;
-	FIELD f undoText Landroid/widget/TextView;
-	FIELD g adSettingsText Landroid/widget/TextView;

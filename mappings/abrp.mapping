@@ -1,0 +1,4 @@
+CLASS abrp
+	FIELD c speedMultiplier F
+	FIELD d interstititialRequested Z
+	METHOD v resetSpeed ()V

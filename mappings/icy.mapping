@@ -1,0 +1,12 @@
+CLASS icy
+	METHOD b setChannelThumbnailDetails (Laoox;)V
+	METHOD c setChannelTitle (Ljava/lang/String;)V
+	METHOD d setDescription (Lajql;)V
+	METHOD e setDislikeCountText (Ljava/lang/String;)V
+	METHOD f setId (Ljava/lang/String;)V
+	METHOD g setLengthSeconds (I)V
+	METHOD h setLikeCountText (Ljava/lang/String;)V
+	METHOD i setPublishedTimestampMs (J)V
+	METHOD j setThumbnailDetails (Laoox;)V
+	METHOD k setTitle (Ljava/lang/String;)V
+	METHOD l setViewCount (J)V

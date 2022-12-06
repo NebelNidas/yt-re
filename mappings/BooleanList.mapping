@@ -1,2 +1,2 @@
-CLASS agoz BooleanList
-	METHOD d withCapacity (I)Lagoz;
+CLASS agxt BooleanList
+	METHOD d withCapacity (I)Lagxt;

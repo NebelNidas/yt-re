@@ -1,0 +1,3 @@
+CLASS zow
+	FIELD c subscribers Ljava/util/Set;
+	FIELD h subscribedOrdinal I

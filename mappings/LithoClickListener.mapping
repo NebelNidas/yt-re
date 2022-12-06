@@ -1,2 +1,2 @@
-CLASS dlt LithoClickListener
-	FIELD a handler Ldnk;
+CLASS dsr LithoClickListener
+	FIELD a handler Ldui;

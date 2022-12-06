@@ -1,3 +1,3 @@
-CLASS dpp Size
+CLASS dwl Size
 	FIELD a width I
 	FIELD b height I

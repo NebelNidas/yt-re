@@ -1,0 +1,2 @@
+CLASS vbq
+	METHOD d toByteArray ()[B

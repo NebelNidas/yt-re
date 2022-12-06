@@ -1,2 +1,2 @@
-CLASS dlf util/AccessibilityUtil
+CLASS dsd util/AccessibilityUtil
 	METHOD b isAccessibilityEnabled (Landroid/content/Context;)Z

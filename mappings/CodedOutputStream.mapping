@@ -1,5 +1,5 @@
-CLASS agoc CodedOutputStream
+CLASS agwv CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lagoc;
+	METHOD ak getCodedOutput ([B)Lagwv;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

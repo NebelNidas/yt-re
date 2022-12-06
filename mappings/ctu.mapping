@@ -1,0 +1,2 @@
+CLASS ctu
+	FIELD a context Ljava/lang/Object;

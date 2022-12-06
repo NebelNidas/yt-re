@@ -1,0 +1,2 @@
+CLASS dwf
+	METHOD b markerPoint (Ljava/lang/String;)V

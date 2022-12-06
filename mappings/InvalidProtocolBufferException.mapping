@@ -1,2 +1,2 @@
-CLASS agpq InvalidProtocolBufferException
+CLASS agyk InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

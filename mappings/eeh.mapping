@@ -1,0 +1,3 @@
+CLASS eeh
+	FIELD k lithoView Ldvp;
+	FIELD l recyclerView Landroid/support/v7/widget/RecyclerView;

@@ -1,2 +1,2 @@
-CLASS agpe FloatList
-	METHOD g mutableCopyWithCapacity (I)Lagpe;
+CLASS agxy FloatList
+	METHOD g mutableCopyWithCapacity (I)Lagxy;

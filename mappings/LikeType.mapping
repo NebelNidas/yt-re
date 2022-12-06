@@ -1,3 +1,3 @@
-CLASS alax LikeType
+CLASS aljx LikeType
 	FIELD e ordinal I
-	METHOD b fromOrdinal (I)Lalax;
+	METHOD b fromOrdinal (I)Laljx;

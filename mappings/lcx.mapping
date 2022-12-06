@@ -1,6 +1,0 @@
-CLASS lcx
-	FIELD c playerViewModeMonitor Lfco;
-	FIELD o tabNames Ljava/util/Set;
-	FIELD p flags Laesq;
-	FIELD q config Landroid/content/res/Configuration;
-	FIELD s pivotBar Lj$/util/Optional;

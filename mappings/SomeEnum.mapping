@@ -1,2 +1,2 @@
-CLASS ajqb SomeEnum
-	METHOD b fromValue (I)Lajqb;
+CLASS ajyz SomeEnum
+	METHOD b fromValue (I)Lajyz;

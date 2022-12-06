@@ -1,5 +1,0 @@
-CLASS evo
-	FIELD c watchWhileActivity Lbu;
-	METHOD f someDislikeMethod (Laidh;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Laidh;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Laidh;)Lcom/google/common/util/concurrent/ListenableFuture;

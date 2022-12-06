@@ -1,2 +1,2 @@
-CLASS ajho DescriptionProtobuf
+CLASS ajql DescriptionProtobuf
 	FIELD d clipText Ljava/lang/String;

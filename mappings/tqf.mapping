@@ -1,0 +1,3 @@
+CLASS tqf
+	METHOD cN isHttps (Landroid/net/Uri;)Z
+	METHOD cP isLocalhost (Landroid/net/Uri;)Z

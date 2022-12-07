@@ -1,3 +1,0 @@
-CLASS efx
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Lega;

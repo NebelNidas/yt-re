@@ -1,0 +1,2 @@
+CLASS abwn
+	METHOD M setPlaybackSpeed (F)V

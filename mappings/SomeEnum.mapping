@@ -1,2 +1,2 @@
-CLASS akdh SomeEnum
-	METHOD b fromValue (I)Lakdh;
+CLASS akfi SomeEnum
+	METHOD b fromValue (I)Lakfi;

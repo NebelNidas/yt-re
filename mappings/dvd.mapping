@@ -1,3 +1,0 @@
-CLASS dvd
-	METHOD b getLayoutOutput (Lega;)Ldvd;
-	METHOD d isAccessible ()Z

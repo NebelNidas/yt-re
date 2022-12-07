@@ -1,0 +1,2 @@
+CLASS duz
+	METHOD a collectChildren (Ljava/util/List;)V

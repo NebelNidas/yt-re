@@ -1,2 +1,0 @@
-CLASS acry
-	METHOD f setSelectedText (Ljava/lang/String;)V

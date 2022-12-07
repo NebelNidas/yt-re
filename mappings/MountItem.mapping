@@ -1,2 +1,2 @@
-CLASS ega MountItem
+CLASS egd MountItem
 	FIELD a content Ljava/lang/Object;

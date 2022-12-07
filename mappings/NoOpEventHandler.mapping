@@ -1,2 +1,2 @@
-CLASS dwc NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldwc;
+CLASS dwf NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldwf;

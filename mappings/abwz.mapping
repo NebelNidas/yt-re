@@ -1,0 +1,2 @@
+CLASS abwz
+	METHOD L setPlaybackSpeed (F)V

@@ -1,5 +1,5 @@
-CLASS skk AdReengagementState
-	FIELD a renderer Laicz;
+CLASS slk AdReengagementState
+	FIELD a renderer Laies;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

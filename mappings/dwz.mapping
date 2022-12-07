@@ -1,0 +1,2 @@
+CLASS dwz
+	FIELD b stacktrace Ljava/lang/Throwable;

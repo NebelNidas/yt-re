@@ -1,2 +1,2 @@
-CLASS ahdz UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lahca;
+CLASS ahfr UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lahds;

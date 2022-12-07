@@ -1,6 +1,6 @@
-CLASS dsr Component
-	METHOD b setContent (Ldst;)V
-	METHOD m clone ()Ldsr;
+CLASS dsu Component
+	METHOD b setContent (Ldsw;)V
+	METHOD m clone ()Ldsu;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

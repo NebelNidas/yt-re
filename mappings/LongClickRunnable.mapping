@@ -1,4 +1,4 @@
-CLASS eew LongClickRunnable
-	FIELD a longClickableSpan Lecy;
-	FIELD b textDrawable Leey;
+CLASS eez LongClickRunnable
+	FIELD a longClickableSpan Ledb;
+	FIELD b textDrawable Lefb;
 	FIELD c longClickableSpanView Landroid/view/View;

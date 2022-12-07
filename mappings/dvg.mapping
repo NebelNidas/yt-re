@@ -1,0 +1,3 @@
+CLASS dvg
+	METHOD b getLayoutOutput (Legd;)Ldvg;
+	METHOD d isAccessible ()Z

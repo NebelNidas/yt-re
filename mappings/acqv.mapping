@@ -1,0 +1,2 @@
+CLASS acqv
+	METHOD a getButtonId (Lakfi;)I

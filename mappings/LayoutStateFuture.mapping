@@ -1,17 +1,17 @@
-CLASS dti LayoutStateFuture
-	FIELD b root Ldst;
-	FIELD c widthSpec I
-	FIELD d heightSpec I
-	FIELD e diffingEnabled Z
-	FIELD f refCount Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD g isFromSyncLayout Z
-	FIELD i source I
-	FIELD j extraAttribution Ljava/lang/String;
-	FIELD k released Z
-	FIELD l tree Lcom/facebook/litho/ComponentTree;
-	FIELD m treeProps Lcya;
-	FIELD n runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldsx;Ldst;IIZLcya;ILjava/lang/String;[B[B[B)V
+CLASS dtl LayoutStateFuture
+	FIELD a runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD c root Ldsw;
+	FIELD d widthSpec I
+	FIELD e heightSpec I
+	FIELD f diffingEnabled Z
+	FIELD h refCount Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD i isFromSyncLayout Z
+	FIELD k source I
+	FIELD l extraAttribution Ljava/lang/String;
+	FIELD o released Z
+	FIELD p tree Lcom/facebook/litho/ComponentTree;
+	FIELD q treeProps Lcyd;
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldta;Ldsw;IIZLcyd;ILjava/lang/String;[B[B[B)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec

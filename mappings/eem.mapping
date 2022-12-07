@@ -1,3 +1,0 @@
-CLASS eem
-	FIELD k lithoView Ldvu;
-	FIELD l recyclerView Landroid/support/v7/widget/RecyclerView;

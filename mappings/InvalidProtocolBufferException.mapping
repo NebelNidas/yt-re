@@ -1,2 +1,2 @@
-CLASS ahca InvalidProtocolBufferException
+CLASS ahds InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

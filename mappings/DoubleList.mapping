@@ -1,2 +1,2 @@
-CLASS ahbk DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lahbk;
+CLASS ahdc DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lahdc;

@@ -1,0 +1,4 @@
+CLASS adme
+	METHOD P assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD T assertTrue (Z)V
+	METHOD W assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V

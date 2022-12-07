@@ -1,0 +1,4 @@
+CLASS asjy
+	METHOD a (Lasmi;Lasmi;Lasmc;Lasmc;Lasmc;Lasmc;)Lasjy;
+		ARG 3 onComplete
+		ARG 6 onDispose

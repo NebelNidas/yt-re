@@ -1,2 +1,2 @@
-CLASS dsi util/AccessibilityUtil
+CLASS dsl util/AccessibilityUtil
 	METHOD b isAccessibilityEnabled (Landroid/content/Context;)Z

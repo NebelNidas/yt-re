@@ -1,3 +1,3 @@
-CLASS kvg BottomSheetListMenu
+CLASS kvp BottomSheetListMenu
 	FIELD e watchWhileActivity Landroid/content/Context;
 	FIELD t menuItemToBoolean Ljava/util/Map;

@@ -1,3 +1,2 @@
 CLASS zso
-	FIELD c subscribers Ljava/util/Set;
-	FIELD h subscribedOrdinal I
+	METHOD h findXop (Ljava/lang/String;)Lzsm;

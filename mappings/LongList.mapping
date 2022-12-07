@@ -1,2 +1,2 @@
-CLASS ahbs LongList
-	METHOD d mutableCopyWithCapacity (I)Lahbs;
+CLASS ahdk LongList
+	METHOD d mutableCopyWithCapacity (I)Lahdk;

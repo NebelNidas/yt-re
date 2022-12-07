@@ -1,0 +1,2 @@
+CLASS iby
+	FIELD d likeEndpoint Ljava/lang/Object;

@@ -1,2 +1,2 @@
-CLASS ahbj BooleanList
-	METHOD d withCapacity (I)Lahbj;
+CLASS ahdb BooleanList
+	METHOD d withCapacity (I)Lahdb;

@@ -1,4 +1,4 @@
-CLASS dwz Touchable
+CLASS dxc Touchable
 	METHOD d onTouchEvent (Landroid/view/MotionEvent;Landroid/view/View;)Z
 		ARG 2 host
 	METHOD e shouldHandleTouchEvent (Landroid/view/MotionEvent;)Z

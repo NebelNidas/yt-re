@@ -1,5 +1,0 @@
-CLASS abbb
-	FIELD b prm Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
-	FIELD c emptySpeeds [Laphk;
-	METHOD c ([Laphk;)V
-		ARG 1 speeds

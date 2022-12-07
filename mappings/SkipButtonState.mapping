@@ -1,12 +1,12 @@
-CLASS sim SkipButtonState
-	FIELD a skipAdRenderer Laofp;
-	FIELD b contentMetadata Lsir;
-	FIELD c adCountMetadata Lsav;
+CLASS sks SkipButtonState
+	FIELD a skipAdRenderer Laohs;
+	FIELD b contentMetadata Lskx;
+	FIELD c adCountMetadata Lsda;
 	FIELD d skipState I
 	FIELD e hidden Z
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
-	FIELD h breakType Lsek;
+	FIELD h breakType Lsgp;
 	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
 	FIELD k countdownNextToThumbnail Z

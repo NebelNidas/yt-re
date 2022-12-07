@@ -1,4 +1,4 @@
-CLASS sid AdProgressTextState
+CLASS skj AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Lsav;
+	FIELD c adCountMetadata Lsda;

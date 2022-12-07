@@ -1,3 +1,0 @@
-CLASS tmy
-	METHOD cJ isHttps (Landroid/net/Uri;)Z
-	METHOD cL isLocalhost (Landroid/net/Uri;)Z

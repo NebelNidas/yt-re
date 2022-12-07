@@ -1,3 +1,3 @@
-CLASS almd LikeType
+CLASS alog LikeType
 	FIELD e ordinal I
-	METHOD b fromOrdinal (I)Lalmd;
+	METHOD b fromOrdinal (I)Lalog;

@@ -1,9 +1,9 @@
-CLASS ahbp Schema
+CLASS ahdo Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;Lahbk;Lcom/google/protobuf/ExtensionRegistryLite;)V
-	METHOD i mergeFrom (Ljava/lang/Object;[BIILagxq;)V
+	METHOD h mergeFrom (Ljava/lang/Object;Lahdj;Lcom/google/protobuf/ExtensionRegistryLite;)V
+	METHOD i mergeFrom (Ljava/lang/Object;[BIILagzp;)V
 	METHOD j equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD k isInitialized (Ljava/lang/Object;)Z
-	METHOD l writeTo (Ljava/lang/Object;Laglk;)V
+	METHOD l writeTo (Ljava/lang/Object;Lagnj;)V

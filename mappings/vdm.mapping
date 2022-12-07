@@ -1,2 +1,0 @@
-CLASS vdm
-	METHOD d toByteArray ()[B

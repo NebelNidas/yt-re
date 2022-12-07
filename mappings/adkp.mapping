@@ -1,0 +1,4 @@
+CLASS adkp
+	METHOD M assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD Q assertTrue (Z)V
+	METHOD T assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V

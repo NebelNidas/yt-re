@@ -1,5 +1,5 @@
-CLASS agym CodedOutputStream
+CLASS ahal CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lagym;
+	METHOD ak getCodedOutput ([B)Lahal;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

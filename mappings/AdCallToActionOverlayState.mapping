@@ -1,8 +1,8 @@
-CLASS shy AdCallToActionOverlayState
-	FIELD b renderer Laexq;
-	FIELD c onClickedRenderer Laexq;
-	FIELD d trackingParams Lagyc;
-	FIELD e visualStateChangeTriggers Lafcr;
+CLASS ske AdCallToActionOverlayState
+	FIELD b renderer Laezp;
+	FIELD c onClickedRenderer Laezp;
+	FIELD d trackingParams Lahab;
+	FIELD e visualStateChangeTriggers Lafeq;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

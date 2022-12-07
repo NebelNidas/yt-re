@@ -1,0 +1,2 @@
+CLASS ibp
+	FIELD d likeEndpoint Ljava/lang/Object;

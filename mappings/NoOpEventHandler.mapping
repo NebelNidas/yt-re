@@ -1,2 +1,2 @@
-CLASS dwb NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldwb;
+CLASS dwc NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldwc;

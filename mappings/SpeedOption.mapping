@@ -1,4 +1,4 @@
-CLASS aphk SpeedOption
+CLASS apjo SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Lagzh;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Lahbg;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

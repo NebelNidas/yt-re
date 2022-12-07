@@ -1,0 +1,2 @@
+CLASS dww
+	FIELD b stacktrace Ljava/lang/Throwable;

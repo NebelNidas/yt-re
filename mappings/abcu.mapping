@@ -1,0 +1,2 @@
+CLASS abcu
+	METHOD c changeSpeed ([Lapjo;I)V

@@ -1,2 +1,0 @@
-CLASS abtn
-	METHOD L setPlaybackSpeed (F)V

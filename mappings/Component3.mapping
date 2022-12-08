@@ -1,4 +1,4 @@
-CLASS dsu Component
+CLASS dsu Component3
 	METHOD b setContent (Ldsw;)V
 	METHOD m clone ()Ldsu;
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V

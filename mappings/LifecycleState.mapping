@@ -1,0 +1,2 @@
+CLASS auj LifecycleState
+	METHOD a isEquallyOrFurtherAdvancedThan (Lauj;)Z

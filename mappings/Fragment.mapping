@@ -1,0 +1,38 @@
+CLASS br Fragment
+	FIELD A host Lbz;
+	FIELD C parentFragment Lbr;
+	FIELD F tag Ljava/lang/String;
+	FIELD G hidden Z
+	FIELD H detached Z
+	FIELD I retainInstance Z
+	FIELD K hasMenu Z
+	FIELD L menuVisible Z
+	FIELD N container Landroid/view/ViewGroup;
+	FIELD O view Landroid/view/View;
+	FIELD Q userVisibleHint Z
+	FIELD g state I
+	FIELD h savedFragmentState Landroid/os/Bundle;
+	FIELD i savedViewState Landroid/util/SparseArray;
+	FIELD j savedViewRegistryState Landroid/os/Bundle;
+	FIELD l who Ljava/lang/String;
+	FIELD m arguments Landroid/os/Bundle;
+	FIELD p targetRequestCode I
+	FIELD r added Z
+	FIELD s removing Z
+	FIELD u fromLayout Z
+	FIELD v inLayout Z
+	FIELD y backStackNesting I
+	FIELD z fragmentManager Lcl;
+	METHOD aC create (Landroid/content/Context;Ljava/lang/String;)Lbr;
+		ARG 1 name
+	METHOD U (IILandroid/content/Intent;)V
+		ARG 1 requestCode
+		ARG 2 resultCode
+		ARG 3 data
+	METHOD aA onGetLayoutInflater ()Landroid/view/LayoutInflater;
+	METHOD aq getPopDirection ()Z
+	METHOD av isSaved ()Z
+	METHOD nJ getPopExitAnimation ()I
+	METHOD nT getExitAnimation ()I
+	METHOD nU getPopEnterAnimation ()I
+	METHOD nh getEnterAnimation ()I

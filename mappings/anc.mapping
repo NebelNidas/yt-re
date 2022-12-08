@@ -23,3 +23,17 @@ CLASS anc
 	METHOD as performAccessibilityAction (Landroid/view/View;ILandroid/os/Bundle;)Z
 	METHOD at isReceiveContentMimeTypes (Landroid/view/View;)[Ljava/lang/String;
 	METHOD aw setAccessibilityLiveRegionToPolite (Landroid/view/View;)V
+	METHOD az startDragAndDrop (Landroid/view/View;Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;)Z
+	METHOD b getZ (Landroid/view/View;)F
+	METHOD c generateViewId ()I
+	METHOD d getImportantForAccessibility (Landroid/view/View;)I
+	METHOD f getLayoutDirection (Landroid/view/View;)I
+	METHOD g getMinimumHeight (Landroid/view/View;)I
+	METHOD h getMinimumWidth (Landroid/view/View;)I
+	METHOD i getPaddingEnd (Landroid/view/View;)I
+	METHOD j getPaddingStart (Landroid/view/View;)I
+	METHOD k getWindowSystemUiVisibility (Landroid/view/View;)I
+	METHOD l getBackgroundTintList (Landroid/view/View;)Landroid/content/res/ColorStateList;
+	METHOD m getBackgroundTintMode (Landroid/view/View;)Landroid/graphics/PorterDuff$Mode;
+	METHOD n getClipBounds (Landroid/view/View;)Landroid/graphics/Rect;
+	METHOD o getDisplay (Landroid/view/View;)Landroid/view/Display;

@@ -1,0 +1,7 @@
+CLASS ams ViewDragAndDropUtil
+	METHOD a cancelDragAndDrop (Landroid/view/View;)V
+	METHOD b dispatchFinishTemporaryDetach (Landroid/view/View;)V
+	METHOD c dispatchStartTemporaryDetach (Landroid/view/View;)V
+	METHOD d setPointerIcon (Landroid/view/View;Landroid/view/PointerIcon;)V
+	METHOD e updateDragShadow (Landroid/view/View;Landroid/view/View$DragShadowBuilder;)V
+	METHOD f startDragAndDrop (Landroid/view/View;Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z

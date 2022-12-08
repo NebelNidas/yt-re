@@ -1,0 +1,3 @@
+CLASS awe LoaderListenerRegistrar
+	FIELD e id I
+	FIELD f loader Lawl;

@@ -1,0 +1,5 @@
+CLASS awl Loader
+	FIELD d id I
+	FIELD e listener Lawk;
+	FIELD g started Z
+	FIELD j contentChanged Z

@@ -1,4 +1,4 @@
 CLASS dvx LithoView
-	FIELD s OWN_CLASS_NAME Ljava/lang/String;
-	FIELD t sLayoutSize [I
-	FIELD z mAccessibilityManager Landroid/view/accessibility/AccessibilityManager;
+	FIELD s CLASS_NAME Ljava/lang/String;
+	FIELD t LAYOUT_SIZE [I
+	FIELD z accessibilityManager Landroid/view/accessibility/AccessibilityManager;

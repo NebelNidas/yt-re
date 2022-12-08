@@ -1,7 +1,7 @@
 CLASS dsw Component2
-	FIELD a sIdGenerator Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD j mId I
-	FIELD v sEmptyArray [Lhzv;
+	FIELD a idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD j id I
+	FIELD v EMPTY_ARRAY [Lhzv;
 	METHOD G makeShallowCopyWithNewId (Ldta;)Ldsw;
 	METHOD H generateKey (Ldta;)Ldta;
 	METHOD f isEquivalentTo (Ldsw;)Z

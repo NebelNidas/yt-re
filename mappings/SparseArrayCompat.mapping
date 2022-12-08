@@ -1,7 +1,7 @@
 CLASS abq SparseArrayCompat
-	FIELD a mGarbage Z
-	FIELD b mKeys [I
-	FIELD c mValues [Ljava/lang/Object;
+	FIELD a garbage Z
+	FIELD b keys [I
+	FIELD c values [Ljava/lang/Object;
 	METHOD c size ()I
 	METHOD e valueAt (I)Ljava/lang/Object;
 	METHOD g gc ()V

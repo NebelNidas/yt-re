@@ -1,2 +1,2 @@
 CLASS com/facebook/litho/widget/LithoScrollView
-	FIELD e mOnPreDrawListener Landroid/view/ViewTreeObserver$OnPreDrawListener;
+	FIELD e onPreDrawListener Landroid/view/ViewTreeObserver$OnPreDrawListener;

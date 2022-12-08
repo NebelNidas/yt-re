@@ -1,0 +1,20 @@
+CLASS amk ViewUtil
+	METHOD a getImportantForAccessibility (Landroid/view/View;)I
+	METHOD b getMinimumHeight (Landroid/view/View;)I
+	METHOD c getMinimumWidth (Landroid/view/View;)I
+	METHOD d getWindowSystemUiVisibility (Landroid/view/View;)I
+	METHOD e getParentForAccessibility (Landroid/view/View;)Landroid/view/ViewParent;
+	METHOD f getAccessibilityNodeProvider (Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider;
+	METHOD g postInvalidateOnAnimation (Landroid/view/View;)V
+	METHOD h postInvalidateOnAnimation (Landroid/view/View;IIII)V
+	METHOD i postOnAnimation (Landroid/view/View;Ljava/lang/Runnable;)V
+	METHOD j postOnAnimationDelayed (Landroid/view/View;Ljava/lang/Runnable;J)V
+	METHOD k removeOnGlobalLayoutListener (Landroid/view/ViewTreeObserver;Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+	METHOD l requestFitSystemWindows (Landroid/view/View;)V
+	METHOD m setBackground (Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+	METHOD n setHasTransientState (Landroid/view/View;Z)V
+	METHOD o setImportantForAccessibility (Landroid/view/View;I)V
+	METHOD p getFitsSystemWindows (Landroid/view/View;)Z
+	METHOD q hasOverlappingRendering (Landroid/view/View;)Z
+	METHOD r hasTransientState (Landroid/view/View;)Z
+	METHOD s performAccessibilityAction (Landroid/view/View;ILandroid/os/Bundle;)Z

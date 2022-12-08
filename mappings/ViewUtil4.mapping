@@ -1,0 +1,13 @@
+CLASS aml ViewUtil4
+	METHOD a generateViewId ()I
+	METHOD b getLabelFor (Landroid/view/View;)I
+	METHOD c getLayoutDirection (Landroid/view/View;)I
+	METHOD d getPaddingEnd (Landroid/view/View;)I
+	METHOD e getPaddingStart (Landroid/view/View;)I
+	METHOD f getDisplay (Landroid/view/View;)Landroid/view/Display;
+	METHOD g setLabelFor (Landroid/view/View;I)V
+	METHOD h setLayerPaint (Landroid/view/View;Landroid/graphics/Paint;)V
+	METHOD i setLayoutDirection (Landroid/view/View;I)V
+		ARG 1 direction
+	METHOD j setPaddingRelative (Landroid/view/View;IIII)V
+	METHOD k isPaddingRelative (Landroid/view/View;)Z

@@ -1,0 +1,8 @@
+CLASS amn ViewUtil2
+	METHOD a getAccessibilityLiveRegion (Landroid/view/View;)I
+	METHOD b notifySubtreeAccessibilityStateChanged (Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;I)V
+	METHOD c setAccessibilityLiveRegion (Landroid/view/View;I)V
+	METHOD d setContentChangeTypes (Landroid/view/accessibility/AccessibilityEvent;I)V
+	METHOD e isAttachedToWindow (Landroid/view/View;)Z
+	METHOD f isLaidOut (Landroid/view/View;)Z
+	METHOD g isLayoutDirectionResolved (Landroid/view/View;)Z

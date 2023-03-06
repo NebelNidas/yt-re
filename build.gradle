@@ -39,10 +39,6 @@ repositories {
 		url 'https://maven.fabricmc.net'
 	}
 	maven {
-		name "Quilt"
-		url 'https://maven.quiltmc.org/repository/release/'
-	}
-	maven {
 		name "JitPack"
 		url 'https://jitpack.io'
 	}
@@ -58,7 +54,6 @@ configurations {
 	jadxRuntime
 	matcherClasspath
 	javadocClasspath
-	decompileClasspath
 	mappingPoetJar {
 		transitive = false
 	}
@@ -79,8 +74,6 @@ dependencies {
 	matcherClasspath "com.github.NebelNidas:Matcher:${project.matcher_version}:all"
 	javadocClasspath "org.jetbrains:annotations:${project.jetbrains_annotations_version}"
 	javadocClasspath "com.google.code.findbugs:jsr305:3.0.2" // for some other jsr annotations
-	decompileClasspath "net.fabricmc:cfr:${project.cfr_version}"
-	decompileClasspath "org.quiltmc:quiltflower:${project.quiltflower_version}"
 	mappingPoetJar "net.fabricmc:mappingpoet:${project.mappingpoet_version}"
 	asm "org.ow2.asm:asm:${project.asm_version}"
 	asm "org.ow2.asm:asm-tree:${project.asm_version}"
@@ -432,37 +425,6 @@ task buildNamedJar(dependsOn: [buildTinyMappingFiles, convertApkToJar]) {
 				}
 			}
 		}
-	}
-}
-
-
-
-// **************************
-//   Decompile named code
-// **************************
-
-// Slower, but better quality
-task decompileWithCfr(dependsOn: buildNamedJar, type: JavaExec) {
-	mainClass = "org.benf.cfr.reader.Main"
-
-	args youtubeJarNamed.getAbsolutePath(), "--outputdir", file("namedSrc").absolutePath
-
-	doFirst {
-		file("namedSrc").deleteDir()
-		classpath = configurations.decompileClasspath
-	}
-}
-
-
-// Faster, but less accurate
-task decompileWithQuiltflower(dependsOn: buildNamedJar, type: JavaExec) {
-	mainClass = "org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler"
-
-	args "-log=WARN", youtubeJarNamed.getAbsolutePath(), file("namedSrc").absolutePath
-
-	doFirst {
-		file("namedSrc").deleteDir()
-		classpath = configurations.decompileClasspath
 	}
 }
 

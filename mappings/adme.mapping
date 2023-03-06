@@ -4,4 +4,4 @@ CLASS adme
 	METHOD V assertTrue (ZLjava/lang/String;I)V
 	METHOD P assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
 	METHOD T assertTrue (Z)V
-	METHOD W assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD W assertTrue2 (ZLjava/lang/String;Ljava/lang/Object;)V

@@ -40,12 +40,6 @@ Build Tiny and Tiny v2 mapping files between official (obfuscated) names and our
 ### `buildNamedJar`
 Builds a deobfuscated jar with YT-Mappings applied, called `youtube-<yt-version>-named.jar`.
 
-### `decompileWithCfr`
-Decompile the mapped source code with [CFR](https://github.com/leibnitz27/cfr) (quite slow, but has the best quality).
-
-### `decompileWithQuiltflower`
-Decompile the mapped source code with [QuiltFlower](https://github.com/QuiltMC/quiltflower) (faster, but produces more errors).
-
 ### `matcher`
 Run [Matcher](https://github.com/NebelNidas/Matcher) with the provided `youtube.apk` and `youtube-new.apk` as inputs, so you can update the mappings to a newer YT version.
 

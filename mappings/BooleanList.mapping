@@ -1,2 +1,3 @@
 CLASS ahdb BooleanList
-	METHOD d withCapacity (I)Lahdb;
+	METHOD d mutableCopyWithCapacity (I)Lahdb;
+		ARG 1 capacity

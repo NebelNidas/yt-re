@@ -1,0 +1,2 @@
+CLASS dzy
+	METHOD n newEventHandler (Ljava/lang/Class;Ldzx;I[Ljava/lang/Object;)Lduq;

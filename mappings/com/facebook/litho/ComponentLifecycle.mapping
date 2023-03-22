@@ -1,5 +1,12 @@
-CLASS dtg Component1
+CLASS dtg com/facebook/litho/ComponentLifecycle
+	FIELD a typeIdByComponentType Ljava/util/Map;
 	METHOD M newEventHandler (Ljava/lang/Class;Ljava/lang/String;Ldta;I[Ljava/lang/Object;)Lduq;
+		ARG 0 reference
+		ARG 1 className
+		ARG 2 c
+		ARG 3 id
+		ARG 4 params
+	METHOD Q dispatchOnEventImpl (Lduq;Ljava/lang/Object;)Ljava/lang/Object;
 	METHOD R onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
 	METHOD V mount (Ldta;Ljava/lang/Object;)V
 	METHOD Z onMeasure (Ldta;Ldte;IILdwt;)V

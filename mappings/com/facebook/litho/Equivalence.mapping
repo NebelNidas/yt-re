@@ -1,0 +1,3 @@
+CLASS dum com/facebook/litho/Equivalence
+	METHOD a isEquivalentTo (Ljava/lang/Object;)Z
+		ARG 1 other

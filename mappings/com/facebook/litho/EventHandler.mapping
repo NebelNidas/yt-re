@@ -1,0 +1,15 @@
+CLASS duq com/facebook/litho/EventHandler
+	FIELD b hasEventDispatcher Lduy;
+	FIELD c id I
+	FIELD d params [Ljava/lang/Object;
+	METHOD <init> (Lduy;I)V
+		ARG 1 hasEventDispatcher
+		ARG 2 id
+	METHOD <init> (Lduy;I[Ljava/lang/Object;)V
+		ARG 1 hasEventDispatcher
+		ARG 2 id
+		ARG 3 params
+	METHOD c isEquivalentTo (Lduq;)Z
+		ARG 1 other
+	METHOD ls dispatchEvent (Ljava/lang/Object;)V
+		ARG 1 event

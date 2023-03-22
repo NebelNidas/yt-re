@@ -1,0 +1,2 @@
+CLASS dwf com/facebook/litho/NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldwf;

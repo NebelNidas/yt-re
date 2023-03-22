@@ -1,0 +1,2 @@
+CLASS dun com/facebook/litho/ErrorEvent
+	FIELD a exception Ljava/lang/Exception;

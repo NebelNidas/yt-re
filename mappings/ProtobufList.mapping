@@ -1,2 +1,0 @@
-CLASS ahdp ProtobufList
-	METHOD e mutableCopyWithCapacity (I)Lahdp;

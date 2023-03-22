@@ -1,0 +1,14 @@
+CLASS dyn com/facebook/litho/annotations/ResType
+	FIELD a NONE Ldyn;
+	FIELD b STRING Ldyn;
+	FIELD c STRING_ARRAY Ldyn;
+	FIELD d INT Ldyn;
+	FIELD e INT_ARRAY Ldyn;
+	FIELD f BOOL Ldyn;
+	FIELD g COLOR Ldyn;
+	FIELD h DIMEN_SIZE Ldyn;
+	FIELD i DIMEN_OFFSET Ldyn;
+	FIELD j DIMEN_TEXT Ldyn;
+	FIELD k FLOAT Ldyn;
+	FIELD l DRAWABLE Ldyn;
+	FIELD m $VALUES [Ldyn;

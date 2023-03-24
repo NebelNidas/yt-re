@@ -1,0 +1,3 @@
+CLASS abta
+	METHOD L (F)V
+		ARG 1 speed

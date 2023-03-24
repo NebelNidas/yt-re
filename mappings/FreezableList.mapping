@@ -1,5 +1,5 @@
-CLASS ahdp FreezableList
+CLASS ahfp FreezableList
 	METHOD b freeze ()V
 	METHOD c isMutable ()Z
-	METHOD e mutableCopyWithCapacity (I)Lahdp;
+	METHOD e mutableCopyWithCapacity (I)Lahfp;
 		ARG 1 capacity

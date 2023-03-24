@@ -1,4 +1,4 @@
-CLASS aml ViewUtil4
+CLASS amm ViewUtil4
 	METHOD a generateViewId ()I
 	METHOD b getLabelFor (Landroid/view/View;)I
 	METHOD c getLayoutDirection (Landroid/view/View;)I

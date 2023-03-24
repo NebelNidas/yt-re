@@ -1,6 +1,0 @@
-CLASS adzw
-	METHOD J assertTrue (Z)V
-	METHOD K assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD H assertPositive (ILjava/lang/String;)V
-	METHOD I assertNotNull (Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD L assertNotNull (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

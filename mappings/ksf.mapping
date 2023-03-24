@@ -1,0 +1,2 @@
+CLASS ksf
+	METHOD b reset ()V

@@ -1,3 +1,3 @@
-CLASS efy com/facebook/rendercore/ErrorReporter
-	FIELD a INSTANCE Lefz;
-	METHOD a getInstance ()Lefz;
+CLASS ega com/facebook/rendercore/ErrorReporter
+	FIELD a INSTANCE Legb;
+	METHOD a getInstance ()Legb;

@@ -1,0 +1,2 @@
+CLASS kmf
+	FIELD c view Landroid/view/View;

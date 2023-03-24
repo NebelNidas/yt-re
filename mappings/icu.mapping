@@ -1,0 +1,2 @@
+CLASS icu
+	FIELD d likeEndpoint Ljava/lang/Object;

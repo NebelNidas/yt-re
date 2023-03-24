@@ -1,0 +1,2 @@
+CLASS abyz
+	METHOD L setPlaybackSpeed (F)V

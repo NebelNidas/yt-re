@@ -1,4 +1,4 @@
-CLASS dwt Size
+CLASS dwu Size
 	FIELD a width I
 	FIELD b height I
 	METHOD <init> (II)V

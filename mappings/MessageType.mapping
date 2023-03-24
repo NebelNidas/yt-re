@@ -1,2 +1,2 @@
-CLASS ahcx MessageType
+CLASS ahex MessageType
 	FIELD a containingTypeDefaultInstance Lcom/google/protobuf/MessageLite;

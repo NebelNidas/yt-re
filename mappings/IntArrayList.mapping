@@ -1,2 +1,2 @@
-CLASS ahda IntArrayList
-	FIELD b emptyList Lahda;
+CLASS ahfa IntArrayList
+	FIELD b emptyList Lahfa;

@@ -1,4 +1,4 @@
-CLASS apma SpeedOption
+CLASS apoy SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Lahcy;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Lahey;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

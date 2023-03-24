@@ -1,0 +1,2 @@
+CLASS abyn
+	METHOD M setPlaybackSpeed (F)V

@@ -1,0 +1,2 @@
+CLASS vix
+	METHOD d toByteArray ()[B

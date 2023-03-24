@@ -1,0 +1,4 @@
+CLASS asnf
+	METHOD a (Laspp;Laspp;Laspj;Laspj;Laspj;Laspj;)Lasnf;
+		ARG 3 onComplete
+		ARG 6 onDispose

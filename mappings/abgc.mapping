@@ -1,0 +1,2 @@
+CLASS abgc
+	METHOD c changeSpeed ([Lapoy;I)V

@@ -1,4 +1,4 @@
-CLASS eex Text
+CLASS eez Text
 	FIELD A maxLines I
 	FIELD B shadowColor I
 	FIELD G tmpText Ljava/lang/CharSequence;

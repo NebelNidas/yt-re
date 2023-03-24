@@ -1,5 +1,5 @@
-CLASS com/facebook/litho/ComponentTree com/facebook/litho/ComponentTree
-	FIELD t mainThreadLayoutState Ldvi;
+CLASS com/facebook/litho/ComponentTree
+	FIELD t mainThreadLayoutState Ldvj;
 	METHOD C mountComponentInternal (Landroid/graphics/Rect;Z)V
 		ARG 1 currentVisibleArea
 		ARG 2 processVisibilityOutputs

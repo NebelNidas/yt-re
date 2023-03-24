@@ -1,0 +1,2 @@
+CLASS aarp
+	METHOD c getPlayingState ()Labnm;

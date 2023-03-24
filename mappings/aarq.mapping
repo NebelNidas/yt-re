@@ -1,0 +1,2 @@
+CLASS aarq
+	METHOD e getProgress ()J

@@ -1,4 +1,4 @@
-CLASS dts DebugComponent
-	METHOD b getComponent ()Ldsw;
-	METHOD f getLithoView ()Ldvx;
-	METHOD n getLayoutNode ()Lbhy;
+CLASS dtt DebugComponent
+	METHOD b getComponent ()Ldsx;
+	METHOD f getLithoView ()Ldvy;
+	METHOD n getLayoutNode ()Lbhz;

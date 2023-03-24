@@ -1,4 +1,4 @@
-CLASS efz com/facebook/rendercore/ErrorReporterDelegate
+CLASS egb com/facebook/rendercore/ErrorReporterDelegate
 	METHOD a report (ILjava/lang/String;Ljava/lang/String;)V
 		ARG 1 level
 		ARG 2 categoryKey

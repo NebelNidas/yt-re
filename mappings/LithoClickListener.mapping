@@ -1,2 +1,2 @@
-CLASS dsz LithoClickListener
-	FIELD a handler Lduq;
+CLASS dta LithoClickListener
+	FIELD a handler Ldur;

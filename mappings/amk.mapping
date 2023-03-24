@@ -1,0 +1,2 @@
+CLASS amk
+	METHOD a hasOnClickListeners (Landroid/view/View;)Z

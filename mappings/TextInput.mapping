@@ -1,2 +1,2 @@
-CLASS efg TextInput
+CLASS efk TextInput
 	FIELD f hint Ljava/lang/CharSequence;

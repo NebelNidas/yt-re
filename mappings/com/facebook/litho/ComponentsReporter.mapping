@@ -1,4 +1,0 @@
-CLASS cpd com/facebook/litho/ComponentsReporter
-	METHOD b map (I)I
-		ARG 0 logLevel
-	METHOD c emitMessage (ILjava/lang/String;Ljava/lang/String;)V

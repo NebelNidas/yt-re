@@ -1,15 +1,15 @@
-CLASS dth com/facebook/litho/ComponentLifecycle
+CLASS dtl com/facebook/litho/ComponentLifecycle
 	FIELD a typeIdByComponentType Ljava/util/Map;
-	METHOD M newEventHandler (Ljava/lang/Class;Ljava/lang/String;Ldtb;I[Ljava/lang/Object;)Ldur;
+	METHOD M newEventHandler (Ljava/lang/Class;Ljava/lang/String;Ldtf;I[Ljava/lang/Object;)Lduv;
 		ARG 0 reference
 		ARG 1 className
 		ARG 2 c
 		ARG 3 id
 		ARG 4 params
-	METHOD Q dispatchOnEventImpl (Ldur;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD Q dispatchOnEventImpl (Lduv;Ljava/lang/Object;)Ljava/lang/Object;
 	METHOD R onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD V mount (Ldtb;Ljava/lang/Object;)V
-	METHOD Z onMeasure (Ldtb;Ldtf;IILdwu;)V
-	METHOD aa onMount (Ldtb;Ljava/lang/Object;)V
-	METHOD c getThis (Ldtb;)Ldsx;
-	METHOD d resolve (Ldtb;)Ldve;
+	METHOD V mount (Ldtf;Ljava/lang/Object;)V
+	METHOD Z onMeasure (Ldtf;Ldtj;IILdwy;)V
+	METHOD aa onMount (Ldtf;Ljava/lang/Object;)V
+	METHOD c getThis (Ldtf;)Ldtb;
+	METHOD d resolve (Ldtf;)Ldvi;

@@ -1,2 +1,2 @@
-CLASS akhx SomeEnum
-	METHOD b fromValue (I)Lakhx;
+CLASS aklz SomeEnum
+	METHOD b fromValue (I)Laklz;

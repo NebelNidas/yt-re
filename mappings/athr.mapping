@@ -1,0 +1,4 @@
+CLASS athr
+	METHOD a (Latkb;Latkb;Latjv;Latjv;Latjv;Latjv;)Lathr;
+		ARG 3 onComplete
+		ARG 6 onDispose

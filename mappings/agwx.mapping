@@ -1,0 +1,5 @@
+CLASS agwx
+	METHOD A assertNotNull (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD B assertTrue (Z)V
+	METHOD C assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
+	METHOD D assertNotNull (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V

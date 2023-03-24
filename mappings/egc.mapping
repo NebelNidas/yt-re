@@ -1,3 +1,0 @@
-CLASS egc
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Legf;

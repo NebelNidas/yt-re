@@ -1,2 +1,2 @@
-CLASS qnc ui/pdf
+CLASS qps ui/pdf
 	METHOD b getIconResourceId ()I

@@ -1,3 +1,0 @@
-CLASS aqi
-	METHOD n invalidateRoot ()V
-	METHOD s dispatchHoverEvent (Landroid/view/MotionEvent;)Z

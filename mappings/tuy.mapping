@@ -1,0 +1,3 @@
+CLASS tuy
+	METHOD as isHttps (Landroid/net/Uri;)Z
+	METHOD au isLocalhost (Landroid/net/Uri;)Z

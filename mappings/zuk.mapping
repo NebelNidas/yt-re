@@ -1,2 +1,0 @@
-CLASS zuk
-	METHOD h findXop (Ljava/lang/String;)Lzui;

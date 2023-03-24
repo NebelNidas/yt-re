@@ -3,5 +3,4 @@ CLASS abr SparseArrayCompat
 	FIELD b keys [I
 	FIELD c values [Ljava/lang/Object;
 	METHOD c size ()I
-	METHOD e valueAt (I)Ljava/lang/Object;
-	METHOD g gc ()V
+	METHOD d valueAt (I)Ljava/lang/Object;

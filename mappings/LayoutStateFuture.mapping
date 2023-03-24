@@ -1,6 +1,6 @@
-CLASS dtm LayoutStateFuture
+CLASS dtq LayoutStateFuture
 	FIELD a runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD c root Ldsx;
+	FIELD c root Ldtb;
 	FIELD d widthSpec I
 	FIELD e heightSpec I
 	FIELD f diffingEnabled Z
@@ -10,8 +10,8 @@ CLASS dtm LayoutStateFuture
 	FIELD l extraAttribution Ljava/lang/String;
 	FIELD o released Z
 	FIELD p tree Lcom/facebook/litho/ComponentTree;
-	FIELD q treeProps Lcye;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldtb;Ldsx;IIZLcye;ILjava/lang/String;[B[B[B)V
+	FIELD q treeProps Lcyj;
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldtf;Ldtb;IIZLcyj;ILjava/lang/String;[B[B[B)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec

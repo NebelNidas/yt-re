@@ -1,0 +1,2 @@
+CLASS eae
+	METHOD n newEventHandler (Ljava/lang/Class;Lead;I[Ljava/lang/Object;)Lduv;

@@ -1,2 +1,2 @@
-CLASS duz com/facebook/litho/HasEventDispatcher
-	METHOD l getEventDispatcher ()Lduq;
+CLASS dvd com/facebook/litho/HasEventDispatcher
+	METHOD l getEventDispatcher ()Lduu;

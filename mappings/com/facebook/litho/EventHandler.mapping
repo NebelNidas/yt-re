@@ -1,15 +1,15 @@
-CLASS dur com/facebook/litho/EventHandler
-	FIELD b hasEventDispatcher Lduz;
+CLASS duv com/facebook/litho/EventHandler
+	FIELD b hasEventDispatcher Ldvd;
 	FIELD c id I
 	FIELD d params [Ljava/lang/Object;
-	METHOD <init> (Lduz;I)V
+	METHOD <init> (Ldvd;I)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
-	METHOD <init> (Lduz;I[Ljava/lang/Object;)V
+	METHOD <init> (Ldvd;I[Ljava/lang/Object;)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
 		ARG 3 params
-	METHOD c isEquivalentTo (Ldur;)Z
+	METHOD c isEquivalentTo (Lduv;)Z
 		ARG 1 other
 	METHOD ls dispatchEvent (Ljava/lang/Object;)V
 		ARG 1 event

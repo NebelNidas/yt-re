@@ -1,3 +1,0 @@
-CLASS dvh
-	METHOD b getLayoutOutput (Legf;)Ldvh;
-	METHOD d isAccessible ()Z

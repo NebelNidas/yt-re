@@ -1,2 +1,0 @@
-CLASS dzz
-	METHOD n newEventHandler (Ljava/lang/Class;Ldzy;I[Ljava/lang/Object;)Ldur;

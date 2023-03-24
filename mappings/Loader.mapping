@@ -1,5 +1,5 @@
-CLASS awl Loader
+CLASS awo Loader
 	FIELD d id I
-	FIELD e listener Lawk;
+	FIELD e listener Lawn;
 	FIELD g started Z
 	FIELD j contentChanged Z

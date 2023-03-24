@@ -1,3 +1,3 @@
-CLASS ahfb BooleanList
-	METHOD d mutableCopyWithCapacity (I)Lahfb;
+CLASS ahiy BooleanList
+	METHOD d mutableCopyWithCapacity (I)Lahiy;
 		ARG 1 capacity

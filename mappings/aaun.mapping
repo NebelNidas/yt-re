@@ -1,0 +1,2 @@
+CLASS aaun
+	METHOD c getPlayingState ()Labql;

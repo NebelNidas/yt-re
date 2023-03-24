@@ -1,9 +1,9 @@
-CLASS kwu PlaybackSpeedAdapterView
-	FIELD ae speeds [Lapoy;
+CLASS kxo PlaybackSpeedAdapterView
+	FIELD ae speeds [Laptg;
 	FIELD af selectedIndex I
-	METHOD aQ (Landroid/content/Context;Lacvd;[Lapoy;I)V
+	METHOD aQ (Landroid/content/Context;Lacyi;[Laptg;I)V
 		ARG 2 speeds
 		ARG 3 selectedIndex
-	METHOD b ([Lapoy;I)V
+	METHOD b ([Laptg;I)V
 		ARG 1 speeds
 		ARG 2 selectedIndex

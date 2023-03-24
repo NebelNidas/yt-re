@@ -1,0 +1,2 @@
+CLASS cui
+	FIELD a context Ljava/lang/Object;

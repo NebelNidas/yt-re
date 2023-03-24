@@ -1,2 +1,2 @@
-CLASS dyn com/facebook/litho/annotations/Prop
-	METHOD a resType ()Ldyo;
+CLASS dys com/facebook/litho/annotations/Prop
+	METHOD a resType ()Ldyt;

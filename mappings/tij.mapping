@@ -1,3 +1,0 @@
-CLASS tij
-	METHOD ag isHttps (Landroid/net/Uri;)Z
-	METHOD ai isLocalhost (Landroid/net/Uri;)Z

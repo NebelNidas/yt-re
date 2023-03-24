@@ -1,3 +1,3 @@
-CLASS snw AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lzml;
+CLASS sqs AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lvnq;
 	FIELD c title Ljava/lang/String;

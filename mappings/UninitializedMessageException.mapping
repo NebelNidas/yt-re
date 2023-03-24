@@ -1,2 +1,2 @@
-CLASS ahhr UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lahfs;
+CLASS ahlo UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lahjp;

@@ -1,4 +1,4 @@
-CLASS duq com/facebook/litho/EventDispatcher
-	METHOD P dispatchOnEvent (Ldur;Ljava/lang/Object;)Ljava/lang/Object;
+CLASS duu com/facebook/litho/EventDispatcher
+	METHOD P dispatchOnEvent (Lduv;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 eventHandler
 		ARG 2 eventState

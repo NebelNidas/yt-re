@@ -1,2 +1,2 @@
-CLASS dwg com/facebook/litho/NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldwg;
+CLASS dwk com/facebook/litho/NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldwk;

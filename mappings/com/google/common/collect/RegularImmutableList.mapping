@@ -1,0 +1,7 @@
+CLASS aflx com/google/common/collect/RegularImmutableList
+	FIELD a EMPTY Lafih;
+	FIELD b array [Ljava/lang/Object;
+	FIELD c size I
+	METHOD <init> ([Ljava/lang/Object;I)V
+		ARG 1 array
+		ARG 2 size

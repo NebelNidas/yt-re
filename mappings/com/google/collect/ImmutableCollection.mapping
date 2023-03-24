@@ -1,0 +1,8 @@
+CLASS afhy com/google/collect/ImmutableCollection
+	METHOD c copyIntoArray ([Ljava/lang/Object;I)I
+		ARG 1 dst
+		ARG 2 dstOff
+	METHOD e internalArrayEnd ()I
+	METHOD f internalArrayStart ()I
+	METHOD k iterator ()Lafnv;
+	METHOD m internalArray ()[Ljava/lang/Object;

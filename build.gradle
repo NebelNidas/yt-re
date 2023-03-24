@@ -42,6 +42,10 @@ repositories {
 		name "JitPack"
 		url 'https://jitpack.io'
 	}
+	maven {
+		name "Quilt"
+		url 'https://maven.quiltmc.org/repository/release/'
+	}
 	google()
 	mavenLocal()
 }

@@ -4,25 +4,14 @@ The intention is to let everyone mod YouTube freely and openly, while also being
 
 To see the current version being targeted, check the branch name!
 
-
-## Contributing
-Please remember that copying and pasting mappings from alternate projects under more restrictive licenses is **completely forbidden** without explicit permission from the owners of said mappings to distribute the names under the CC0 license.
-This includes using the names from those mappings for inspiration.
-Discussing the naming approaches used in said projects is also not welcome - you have been warned.
-However, it is a good idea to consult name changes with other people - use pull requests or our community spaces to ask questions!
-
-Please have a look at the [naming conventions](/CONVENTIONS.md) before submitting mappings.
-
-
 ## Getting Started
-1. Clone the repo
-2. Download the correct version (see branch name) of the YouTube APK, preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/) (`nodpi` is the default)
-3. Place the APK at the root of this directory and rename it to `youtube.apk`
-4. Run `./gradlew enigma` or `/gradlew jadx` to use and/or edit the mappings (see the tasks' descriptions below)
-5. If you want to, commit and push your work to a fork and open a PR with your changes
+1. Clone the repo.
+2. Download the correct version (see current branch name) of the YouTube APK, preferably from [APKMirror](https://www.apkmirror.com/apk/google-inc/youtube/) (`nodpi` is the default).
+3. Place the APK at the root of this directory and rename it to `youtube.apk`.
+4. Run `./gradlew enigma` or `/gradlew jadx` to use and/or edit the mappings (see the tasks' descriptions below).
+5. If you want to, commit and push your work to a fork and open a PR with your changes. Please have a look at the [naming conventions](/CONVENTIONS.md) before submitting one.
 
-
-## Gradle
+## Gradle Tasks
 YT-Mappings uses Gradle to provide a number of utility tasks for working with the mappings.
 Please note, to run our build script **Java 17** is required!
 

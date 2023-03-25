@@ -1,0 +1,8 @@
+CLASS tjp TimestampedEvent
+	FIELD c timestamp J
+	METHOD <init> (J)V
+		ARG 1 timestamp
+	METHOD h getTimestamp ()J
+	METHOD i setTimestamp (J)V
+		ARG 1 timestamp
+	METHOD j hasTimestamp ()Z

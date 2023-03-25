@@ -1,0 +1,18 @@
+CLASS abdt TimedMarkerDecoratorModelBuilder
+	FIELD a decorationVisibilityStartMillis J
+	FIELD b decorationVisibilityEndMillis J
+	FIELD c decorationTimeMillis J
+	FIELD d label Ljava/lang/CharSequence;
+	FIELD e icon Lakhx;
+	FIELD f flags B
+	METHOD a build ()Labdu;
+	METHOD b setDecorationTimeMillis (J)V
+		ARG 1 decorationTimeMillis
+	METHOD c setDecorationVisibilityEndMillis (J)V
+		ARG 1 decorationVisibilityEndMillis
+	METHOD d setDecorationVisibilityStartMillis (J)V
+		ARG 1 decorationVisibilityStartMillis
+	METHOD e setIcon (Lakhx;)V
+		ARG 1 icon
+	METHOD f setLabel (Ljava/lang/CharSequence;)V
+		ARG 1 label

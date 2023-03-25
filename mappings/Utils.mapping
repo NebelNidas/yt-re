@@ -1,5 +1,10 @@
-CLASS agrh
+CLASS agrh Utils
+	METHOD A (Ljava/lang/Object;)Lafei;
+		ARG 0 instance
+	METHOD B lenientFormat (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 	METHOD v assertNotNull (Ljava/lang/Object;)Ljava/lang/Object;
 	METHOD w assertTrue (Z)V
 	METHOD x assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
 	METHOD y assertNotNull (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD z memoize (Lafei;)Lafei;
+		ARG 0 delegate

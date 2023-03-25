@@ -1,0 +1,8 @@
+CLASS abdg DefaultMarkerDecoration
+	FIELD a text Ljava/lang/CharSequence;
+	FIELD b icon Lakhx;
+	METHOD <init> (Ljava/lang/CharSequence;Lakhx;)V
+		ARG 1 text
+		ARG 2 icon
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,36 @@
+CLASS xqs MdxPlaybackDescriptor
+	FIELD b videoId Ljava/lang/String;
+	FIELD c videoEntry Lj$/util/Optional;
+	FIELD e currentPositionMillis J
+	FIELD f subtitleTrack Lcom/google/android/libraries/youtube/player/subtitles/model/SubtitleTrack;
+	FIELD g playlistId Ljava/lang/String;
+	FIELD h playlistIndex I
+	FIELD i watchParams Ljava/lang/String;
+	FIELD j playerParams Ljava/lang/String;
+	FIELD k forceReloadPlayback Z
+	FIELD l clickTrackingParams [B
+	FIELD m queueContextParams Lahdt;
+	FIELD n csn Ljava/lang/String;
+	FIELD o videoEntries Lafih;
+	METHOD <init> (Ljava/lang/String;Lj$/util/Optional;JLcom/google/android/libraries/youtube/player/subtitles/model/SubtitleTrack;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Z[BLahdt;Ljava/lang/String;Lafih;)V
+		ARG 1 videoId
+		ARG 2 videoEntry
+		ARG 3 currentPositionMillis
+		ARG 5 subtitleTrack
+		ARG 6 playlistId
+		ARG 7 playlistIndex
+		ARG 8 watchParams
+		ARG 9 playerParams
+		ARG 10 forceReloadPlayback
+		ARG 11 clickTrackingParams
+		ARG 12 queueContextParams
+		ARG 13 csn
+		ARG 14 videoEntries
+	METHOD c builder ()Lxqr;
+	METHOD e hasPlaylistId ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f hasVideoId ()Z
+	METHOD i isOfVideo (Ljava/lang/String;)Z
+		ARG 1 otherVideoId
+	METHOD j emptyBuilder ()Lxqr;

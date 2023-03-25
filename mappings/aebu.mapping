@@ -1,0 +1,2 @@
+CLASS aebu
+	METHOD M equals (Ljava/lang/Object;Ljava/lang/Object;)Z

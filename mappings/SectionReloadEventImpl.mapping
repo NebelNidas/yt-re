@@ -1,0 +1,8 @@
+CLASS fdw SectionReloadEventImpl
+	FIELD a sectionId Ljava/lang/String;
+	FIELD b reloadContinuationData Lanzl;
+	METHOD <init> (Ljava/lang/String;Lanzl;)V
+		ARG 1 sectionId
+		ARG 2 reloadContinuationData
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

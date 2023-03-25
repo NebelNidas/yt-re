@@ -1,2 +1,3 @@
 CLASS acss
 	METHOD a getButtonId (Lakhx;)I
+		ARG 1 icon

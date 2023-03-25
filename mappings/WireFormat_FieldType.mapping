@@ -1,19 +1,1 @@
 CLASS ahic WireFormat_FieldType
-	FIELD a DOUBLE Lahic;
-	FIELD b FLOAT Lahic;
-	FIELD c INT64 Lahic;
-	FIELD d UINT64 Lahic;
-	FIELD e INT32 Lahic;
-	FIELD f FIXED64 Lahic;
-	FIELD g FIXED32 Lahic;
-	FIELD h BOOL Lahic;
-	FIELD i STRING Lahic;
-	FIELD j GROUP Lahic;
-	FIELD k MESSAGE Lahic;
-	FIELD l BYTES Lahic;
-	FIELD m UINT32 Lahic;
-	FIELD n ENUM Lahic;
-	FIELD o SFIXED32 Lahic;
-	FIELD p SFIXED64 Lahic;
-	FIELD q SINT32 Lahic;
-	FIELD r SINT64 Lahic;

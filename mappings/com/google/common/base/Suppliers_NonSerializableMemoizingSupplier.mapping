@@ -1,4 +1,4 @@
-CLASS afej com/google/common/base/Suppliers$MemoizingSupplier
+CLASS afek com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
 	FIELD a delegate Lafei;
 	FIELD b initialized Z
 	FIELD c value Ljava/lang/Object;

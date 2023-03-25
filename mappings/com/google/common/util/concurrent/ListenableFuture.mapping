@@ -1,4 +1,4 @@
 CLASS com/google/common/util/concurrent/ListenableFuture
-	METHOD addListener addListener (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+	METHOD addListener (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 		ARG 1 listener
 		ARG 2 executor

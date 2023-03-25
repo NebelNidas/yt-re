@@ -1,4 +1,1 @@
 CLASS ahgx ProtoSyntax
-	FIELD a PROTO2 Lahgx;
-	FIELD b PROTO3 Lahgx;
-	FIELD c $VALUES [Lahgx;

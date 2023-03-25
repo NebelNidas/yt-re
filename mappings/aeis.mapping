@@ -5,4 +5,5 @@ CLASS aeis
 	METHOD G assertTrue (ZLjava/lang/Object;)V
 	METHOD H assertTrue (ZLjava/lang/String;I)V
 	METHOD I assertTrue2 (ZLjava/lang/String;Ljava/lang/Object;)V
-	METHOD x checkArgument (ZLjava/lang/Object;)V
+	METHOD x assertTrue2 (ZLjava/lang/Object;)V
+		ARG 1 errorMessageIfFalse

@@ -1,0 +1,4 @@
+CLASS xvi StringStartsWithRqChecker
+	FIELD a rqPattern Ljava/util/regex/Pattern;
+	METHOD a startsWithRq (Ljava/lang/String;)Z
+	METHOD b areEqualOrStartWithRq (Ljava/lang/String;Ljava/lang/String;)Z

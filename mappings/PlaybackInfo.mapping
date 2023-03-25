@@ -1,0 +1,7 @@
+CLASS amkh PlaybackInfo
+	FIELD e currentPositionMillis I
+	FIELD g playlistIndex I
+	FIELD i forceReloadPlayback Z
+	FIELD d videoId Ljava/lang/String;
+	FIELD f playlistId Ljava/lang/String;
+	FIELD h playerParams Ljava/lang/String;

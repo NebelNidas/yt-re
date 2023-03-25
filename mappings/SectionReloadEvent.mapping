@@ -1,3 +1,4 @@
 CLASS fdz SectionReloadEvent
+	METHOD c of (Ljava/lang/String;Lanzl;)Lfdz;
 	METHOD a getReloadContinuationData ()Lanzl;
 	METHOD b getSectionId ()Ljava/lang/String;

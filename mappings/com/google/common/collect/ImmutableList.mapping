@@ -1,3 +1,5 @@
 CLASS afih com/google/common/collect/ImmutableList
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafih;
+		ARG 1 length
 	METHOD i asImmutableList ([Ljava/lang/Object;)Lafih;
 	METHOD q of ()Lafih;

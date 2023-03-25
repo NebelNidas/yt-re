@@ -1,4 +1,5 @@
 CLASS afhy com/google/collect/ImmutableCollection
+	METHOD g asList ()Lafih;
 	METHOD c copyIntoArray ([Ljava/lang/Object;I)I
 		ARG 1 dst
 		ARG 2 dstOff

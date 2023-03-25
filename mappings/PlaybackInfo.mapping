@@ -1,0 +1,7 @@
+CLASS amom PlaybackInfo
+	FIELD d videoId Ljava/lang/String;
+	FIELD e currentPositionMillis I
+	FIELD f playlistId Ljava/lang/String;
+	FIELD g playlistIndex I
+	FIELD h playerParams Ljava/lang/String;
+	FIELD i forceReloadPlayback Z

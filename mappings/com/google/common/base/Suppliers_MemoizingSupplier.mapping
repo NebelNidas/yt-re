@@ -1,0 +1,6 @@
+CLASS afhq com/google/common/base/Suppliers_MemoizingSupplier
+	FIELD a delegate Lafhp;
+	FIELD b initialized Z
+	FIELD c value Ljava/lang/Object;
+	METHOD <init> (Lafhp;)V
+		ARG 1 delegate

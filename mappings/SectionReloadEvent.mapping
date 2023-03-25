@@ -1,0 +1,4 @@
+CLASS fej SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laodt;
+	METHOD b getSectionId ()Ljava/lang/String;
+	METHOD c of (Ljava/lang/String;Laodt;)Lfej;

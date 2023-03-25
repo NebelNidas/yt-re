@@ -1,5 +1,9 @@
-CLASS agwx
+CLASS agwx Utils
 	METHOD A assertNotNull (Ljava/lang/Object;)Ljava/lang/Object;
 	METHOD B assertTrue (Z)V
 	METHOD C assertTrue (ZLjava/lang/String;Ljava/lang/Object;)V
 	METHOD D assertNotNull (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD E memoize (Lafhp;)Lafhp;
+		ARG 0 delegate
+	METHOD F newSupplierOfInstance (Ljava/lang/Object;)Lafhp;
+		ARG 0 instance

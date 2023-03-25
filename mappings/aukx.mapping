@@ -1,0 +1,2 @@
+CLASS aukx
+	METHOD a get ()Ljava/lang/Object;

@@ -1,0 +1,2 @@
+CLASS askw
+	METHOD a get ()Ljava/lang/Object;

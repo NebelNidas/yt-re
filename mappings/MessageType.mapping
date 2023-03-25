@@ -1,2 +1,5 @@
 CLASS ahiu MessageType
 	FIELD a containingTypeDefaultInstance Lcom/google/protobuf/MessageLite;
+	METHOD <init> (Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Lahit;)V
+		ARG 1 containingTypeDefaultInstance
+		ARG 3 messageDefaultInstance

@@ -1,2 +1,2 @@
-CLASS aklz SomeEnum
+CLASS aklz Icon
 	METHOD b fromValue (I)Laklz;

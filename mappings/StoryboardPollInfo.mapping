@@ -1,0 +1,8 @@
+CLASS lou StoryboardPollInfo
+	FIELD a storyboardLevelInfo Lloq;
+	FIELD b frameLookupTimeMs J
+	METHOD <init> (Lloq;J)V
+		ARG 1 storyboardLevelInfo
+		ARG 2 frameLookupTimems
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

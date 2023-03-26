@@ -1,0 +1,53 @@
+CLASS jen MidUiModelBuilder
+	FIELD a isControlsOverlayVisible Z
+	FIELD b isMagicWindowMidUiEduVisible Z
+	FIELD c videoState Labny;
+	FIELD d isFullscreen Z
+	FIELD e hasNext Z
+	FIELD f hasPrevious Z
+	FIELD g isUserScrubbing Z
+	FIELD h isSeekEDUVisible Z
+	FIELD i isQuickSeekVisible Z
+	FIELD j isFineScrubbingEDUVisible Z
+	FIELD k isFullscreenEngagementViewVisible Z
+	FIELD l isStickyControlsEnabled Z
+	FIELD m isAutonavToggleEnabled Z
+	FIELD n style Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;
+	FIELD o isSingletonVod Z
+	FIELD p isClip Z
+	FIELD q flags S
+	METHOD <init> (Ljeo;)V
+		ARG 1 from
+	METHOD a build ()Ljeo;
+	METHOD b setHasNext (Z)V
+		ARG 1 hasNext
+	METHOD c setHasPrevious (Z)V
+		ARG 1 hasPrevious
+	METHOD d setAutonavToggleEnabled (Z)V
+		ARG 1 isAutonavToggleEnabled
+	METHOD e setClip (Z)V
+		ARG 1 isClip
+	METHOD f setControlsOverlayVisible (Z)V
+		ARG 1 isControlsOverlayVisible
+	METHOD g (Z)V
+		ARG 1 isFineScrubbingEDUVisible
+	METHOD h setFullscreen (Z)V
+		ARG 1 isFullscreen
+	METHOD i setFullscreenEngagementViewVisible (Z)V
+		ARG 1 isFullscreenEngagementViewVisible
+	METHOD j setMagicWindowMidUiEduVisible (Z)V
+		ARG 1 isMagicWindowMidUiEduVisible
+	METHOD k setQuickSeekVisible (Z)V
+		ARG 1 isQuickSeekVisible
+	METHOD l setSeekEDUVisible (Z)V
+		ARG 1 isSeekEDUVisible
+	METHOD m setSingletonVod (Z)V
+		ARG 1 isSingletonVod
+	METHOD n setStickyControlsEnabled (Z)V
+		ARG 1 isStickyControlsEnabled
+	METHOD o setUserScrubbing (Z)V
+		ARG 1 isUserScrubbing
+	METHOD p setStyle (Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;)V
+		ARG 1 stlye
+	METHOD q setVideoState (Labny;)V
+		ARG 1 videoState

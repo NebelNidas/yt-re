@@ -1,0 +1,15 @@
+CLASS giy RenderableTransitionAnimationFrame
+	FIELD a progress F
+	FIELD b startSource Lj$/util/Optional;
+	FIELD c endSource Lj$/util/Optional;
+	METHOD <init> (FLj$/util/Optional;Lj$/util/Optional;)V
+		ARG 1 progress
+		ARG 2 startSource
+		ARG 3 endSource
+	METHOD a create ()Lgiy;
+	METHOD b create (FLj$/util/Optional;Lj$/util/Optional;)Lgiy;
+		ARG 0 progress
+		ARG 1 startSource
+		ARG 2 endSource
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

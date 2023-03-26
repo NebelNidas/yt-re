@@ -1,0 +1,6 @@
+CLASS ascz
+	FIELD a applicablePeriod J
+	METHOD b buildSyncConstraint ()Lafed;
+	METHOD c setApplicablePeriod (JLjava/util/concurrent/TimeUnit;)V
+		ARG 1 period
+		ARG 3 unit

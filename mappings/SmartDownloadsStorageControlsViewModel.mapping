@@ -1,0 +1,18 @@
+CLASS jyc SmartDownloadsStorageControlsViewModel
+	FIELD a forSdCard Z
+	FIELD b userSavedMaxStorageMb J
+	FIELD c manualDownloadSpaceUsedMb J
+	FIELD d storageAvailableMb J
+	FIELD e offlineabilityFormatType Lanob;
+	FIELD f sliderMinimumValueMb F
+	FIELD g sliderMaximumValueMb J
+	METHOD <init> (ZJJJLanob;FJ)V
+		ARG 1 forSdCard
+		ARG 2 userSavedMaxStorageMb
+		ARG 4 manualDownloadSpaceUsedMb
+		ARG 6 storageAvailableMb
+		ARG 8 offlineabilityFormatType
+		ARG 9 sliderMinimumValueMb
+		ARG 10 sliderMaximumValueMb
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

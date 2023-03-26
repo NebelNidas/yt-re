@@ -1,0 +1,9 @@
+CLASS aanu OfflineHash
+	METHOD a getBlockIndex ()I
+	METHOD b getItag ()I
+	METHOD c getMerkeLevel ()I
+	METHOD d getStorageId ()Ljava/lang/String;
+	METHOD e getVideoId ()Ljava/lang/String;
+	METHOD f matchesBytesOnDisk ()Z
+	METHOD g getDigest ()[B
+	METHOD h getHashState ()[B

@@ -1,0 +1,8 @@
+CLASS yu CameraThreadConfig
+	FIELD a cameraExecutor Ljava/util/concurrent/Executor;
+	FIELD b schedulerHandler Landroid/os/Handler;
+	METHOD <init> (Ljava/util/concurrent/Executor;Landroid/os/Handler;)V
+		ARG 1 cameraExecutor
+		ARG 2 schedulerHandler
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

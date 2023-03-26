@@ -1,0 +1,14 @@
+CLASS svw LearnMoreOverlayStateBuilder
+	FIELD a learnMoreCtaHidden Z
+	FIELD b learnMoreCtaEnabled Z
+	FIELD c learnMoteText Ljava/lang/CharSequence;
+	FIELD d flags B
+	METHOD a build ()Lsvx;
+	METHOD b setLearnMoreCtaEnabled (Z)V
+		ARG 1 learnMoreCtaEnabled
+	METHOD c setLearnMoreCtaHidden (Z)V
+		ARG 1 learnMoreCtaHidden
+	METHOD d setLearnMoreText (Ljava/lang/CharSequence;)V
+		ARG 1 learnMoreText
+	METHOD e setLearnMoreCtaHidden2 (Z)V
+		ARG 1 learnMoreCtaHidden

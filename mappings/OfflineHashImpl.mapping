@@ -1,0 +1,20 @@
+CLASS aanm OfflineHashImpl
+	FIELD a blockIndex I
+	FIELD b digest [B
+	FIELD c hashState [B
+	FIELD d videoId Ljava/lang/String;
+	FIELD e itag I
+	FIELD f storageId Ljava/lang/String;
+	FIELD g merkleLevel I
+	FIELD h matchesBytesOnDisk Z
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;II[B[BZ)V
+		ARG 1 videoId
+		ARG 2 itag
+		ARG 3 storageId
+		ARG 4 merkleLevel
+		ARG 5 blockIndex
+		ARG 6 digest
+		ARG 7 hashState
+		ARG 8 matchesBytesOnDisk
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,10 @@
+CLASS kbt HiddenItem
+	FIELD a eventTag Ljava/lang/Object;
+	FIELD b undoIndex I
+	FIELD c seperatorRemoved Z
+	METHOD <init> (Ljava/lang/Object;IZ)V
+		ARG 1 eventTag
+		ARG 2 undoIndex
+		ARG 3 seperatorRemoved
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

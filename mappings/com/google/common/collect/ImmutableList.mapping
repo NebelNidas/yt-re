@@ -1,5 +1,9 @@
 CLASS afsk com/google/common/collect/ImmutableList
+	METHOD F construct ([Ljava/lang/Object;)Lafsk;
+		ARG 0 elements
 	METHOD i asImmutableList ([Ljava/lang/Object;)Lafsk;
 	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafsk;
 		ARG 1 length
+	METHOD o copyOf (Ljava/util/Collection;)Lafsk;
+		ARG 0 elements
 	METHOD q of ()Lafsk;

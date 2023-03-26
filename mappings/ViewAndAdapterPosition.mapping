@@ -1,0 +1,11 @@
+CLASS gpr ViewAndAdapterPosition
+	FIELD a view Landroid/view/View;
+	FIELD b adapterPosition I
+	METHOD <init> (Landroid/view/View;I)V
+		ARG 1 view
+		ARG 2 adapterPosition
+	METHOD a create (Landroid/view/View;I)Lgpr;
+		ARG 0 view
+		ARG 1 adapterPosition
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

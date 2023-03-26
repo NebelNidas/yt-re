@@ -1,0 +1,16 @@
+CLASS ssh OrganicPlaybackContextModel
+	FIELD a contentCpn Ljava/lang/String;
+	FIELD b isLivePlayback Z
+	FIELD c isDaiContent Z
+	FIELD d isOfflinePlayback Z
+	FIELD e isMdxPlayback Z
+	FIELD f isPrefetchedPlayback Z
+	METHOD <init> OrganicPlaybackContextModel (Ljava/lang/String;ZZZZZ)V
+		ARG 1 contentCpn
+		ARG 2 isLivePlayback
+		ARG 3 isDaiContent
+		ARG 4 isOfflinePlayback
+		ARG 5 isMdxPlayback
+		ARG 6 isPrefetchedPlayback
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

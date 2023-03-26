@@ -1,0 +1,8 @@
+CLASS kax VideoEntityKeyAndDisplayStateData
+	FIELD a videoEntityKey Ljava/lang/String;
+	FIELD b videoDisplayState Liqn;
+	METHOD <init> (Ljava/lang/String;Liqn;)V
+		ARG 1 videoEntityKey
+		ARG 2 videoDisplayState
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

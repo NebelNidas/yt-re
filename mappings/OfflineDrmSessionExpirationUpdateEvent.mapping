@@ -1,0 +1,4 @@
+CLASS aayx OfflineDrmSessionExpirationUpdateEvent
+	METHOD a getVideoId ()Ljava/lang/String;
+	METHOD b create (Ljava/lang/String;)Laayx;
+		ARG 0 videoId

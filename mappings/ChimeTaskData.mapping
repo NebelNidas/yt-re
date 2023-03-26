@@ -1,0 +1,10 @@
+CLASS pxf ChimeTaskData
+	FIELD a id Ljava/lang/Long;
+	FIELD b payload [B
+	FIELD c jobType Ljava/lang/Integer;
+	METHOD <init> (Ljava/lang/Long;Ljava/lang/Integer;[B)V
+		ARG 1 id
+		ARG 2 jobType
+		ARG 3 payload
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

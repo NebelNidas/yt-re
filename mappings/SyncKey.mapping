@@ -1,0 +1,7 @@
+CLASS afef SyncKey
+	FIELD a message Laffe;
+	METHOD a (Ljava/lang/String;)Lafef;
+		ARG 0 name
+	METHOD b getName ()Ljava/lang/String;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

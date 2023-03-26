@@ -1,0 +1,11 @@
+CLASS abyy WatchResponsePartModel
+	FIELD a responsePart Ljava/lang/Object;
+	FIELD b layer I
+	METHOD <init> (Ljava/lang/Object;I)V
+		ARG 1 responsePart
+		ARG 2 layer
+	METHOD a create (Ljava/lang/Object;I)Labyy;
+		ARG 0 responsePart
+		ARG 1 layer
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

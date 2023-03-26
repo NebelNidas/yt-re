@@ -1,0 +1,11 @@
+CLASS loi LoggingInputStates
+	FIELD a loggingState Labka;
+	FIELD b containerState Lloo;
+	METHOD <init> (Labka;Lloo;)V
+		ARG 1 loggingState
+		ARG 2 containerState
+	METHOD a create (Labka;Lloo;)Lloi;
+		ARG 0 loggingState
+		ARG 1 containerState
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,6 @@
+CLASS aayo OfflineDrmSessionExpirationUpdateEventImpl
+	FIELD a videoId Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 videoId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

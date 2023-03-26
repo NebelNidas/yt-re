@@ -1,0 +1,9 @@
+CLASS afed SyncConstraint
+	FIELD a constraintType Lafee;
+	FIELD b applicablePeriod J
+	METHOD <init> (Lafee;J)V
+		ARG 1 constraintType
+		ARG 2 applicablePeriod
+	METHOD a builder ()Lascz;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,25 @@
+CLASS san AdsModuleConfigBuilder
+	FIELD a getAppVersionForAds Ljava/lang/String;
+	FIELD b getMidrollAdsFreqCapMillis J
+	FIELD c getImmediateAdExpireTimeMillis J
+	FIELD d getAdsTimeoutMillis J
+	FIELD e getMidrollPrefetchMillis J
+	FIELD f shouldSendAdsClientMonitoringLogsAsync Z
+	FIELD g getAdsClientMonitoringDelayLogMs I
+	FIELD h flags S
+	FIELD i trackUserPresence Z
+	FIELD j shouldAllowInnertubeCaching Z
+	FIELD k shouldEmitAdClickthroughReportedEvent Z
+	FIELD l shouldPreventYoutubeHeaders Z
+	FIELD m shouldPreventAdsHeaders Z
+	METHOD a build ()Lsao;
+	METHOD b setShouldAllowInnertubeCaching (Z)V
+		ARG 1 shouldAllowInnertubeCaching
+	METHOD c setShouldEmitAdClickthroughReportedEvent (Z)V
+		ARG 1 shouldEmitAdClickthroughReportedEvent
+	METHOD d setShouldPreventAdsHeaders (Z)V
+		ARG 1 shouldPreventAdsHeaders
+	METHOD e setShouldPreventYoutubeHeaders (Z)V
+		ARG 1 shouldPreventYoutubeHeaders
+	METHOD f setTrackUserPresence (Z)V
+		ARG 1 trackUserPresence

@@ -1,0 +1,8 @@
+CLASS iaz ThumbnailModel
+	FIELD a filePath Landroid/net/Uri;
+	FIELD b videoDuration Ljava/lang/String;
+	METHOD <init> (Landroid/net/Uri;Ljava/lang/String;)V
+		ARG 1 filePath
+		ARG 2 videoDuration
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

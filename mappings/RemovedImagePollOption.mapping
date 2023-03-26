@@ -1,0 +1,8 @@
+CLASS tdx RemovedImagePollOption
+	FIELD a imagePollOption Ltdo;
+	FIELD b index I
+	METHOD <init> (Ltdo;I)V
+		ARG 1 imagePollOption
+		ARG 2 index
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

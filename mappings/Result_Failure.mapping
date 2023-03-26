@@ -1,0 +1,6 @@
+CLASS afbv Result_Failure
+	FIELD a error Ljava/lang/Throwable;
+	METHOD <init> (Ljava/lang/Throwable;)V
+		ARG 1 error
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

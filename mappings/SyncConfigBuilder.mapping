@@ -1,0 +1,10 @@
+CLASS afeb SyncConfigBuilder
+	FIELD a minSyncInterval J
+	FIELD b timeout J
+	FIELD c constraints Ljava/util/List;
+	METHOD a build ()Lafec;
+	METHOD b addConstraint (Lafed;)V
+		ARG 1 constraint
+	METHOD c setMinSyncInterval (JLjava/util/concurrent/TimeUnit;)V
+		ARG 1 interval
+		ARG 3 unit

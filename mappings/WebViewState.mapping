@@ -1,0 +1,8 @@
+CLASS lvq WebViewState
+	FIELD a url Ljava/lang/String;
+	FIELD b canGoBack Z
+	METHOD <init> (Ljava/lang/String;Z)V
+		ARG 1 url
+		ARG 2 canGoBack
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

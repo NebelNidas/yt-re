@@ -1,0 +1,42 @@
+CLASS xwu MdxUserContext
+	FIELD a mdxConnectionCountDay I
+	FIELD b mdxConnectionCountWeek I
+	FIELD c mdxConnectionCountMonth I
+	FIELD d castAvailableSessionCountDay I
+	FIELD e castAvailableSessionCountWeek I
+	FIELD f castAvailableSessionCountMonth I
+	FIELD g pageType Lxwt;
+	FIELD h currentVideoDuration I
+	FIELD i fullScreen Z
+	FIELD j hd Z
+	FIELD k sd Z
+	FIELD l playlistPlayback Z
+	FIELD m videoControlsVisible Z
+	FIELD n uncastedVideoCount I
+	FIELD o videoId Ljava/lang/String;
+	FIELD p playlistId Ljava/lang/String;
+	FIELD q currentTime J
+	FIELD r casterCategory I
+	METHOD <init> (IIIIIILxwt;IZZZZZILjava/lang/String;Ljava/lang/String;JI)V
+		ARG 1 mdxConnectionCountDay
+		ARG 2 mdxConnectionCountWeek
+		ARG 3 mdxConnectionCountMonth
+		ARG 4 castAvailableSessionCountDay
+		ARG 5 castAvailableSessionCountWeek
+		ARG 6 castAvailableSessionCountMonth
+		ARG 7 pageType
+		ARG 8 currentVideoDuration
+		ARG 9 fullScreen
+		ARG 10 hd
+		ARG 11 sd
+		ARG 12 playlistPlayback
+		ARG 13 videoControlsVisible
+		ARG 14 uncastedVideoCount
+		ARG 15 videoId
+		ARG 16 playlistId
+		ARG 17 currentTime
+		ARG 19 casterCategory
+	METHOD a defaultBuilder ()Lxws;
+	METHOD b emptyBuilder ()Lxws;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

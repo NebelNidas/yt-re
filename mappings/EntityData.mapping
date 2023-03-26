@@ -1,0 +1,10 @@
+CLASS fqv EntityData
+	FIELD a entityKey Ljava/lang/String;
+	FIELD b fieldNumber I
+	FIELD c contentId Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 1 entityKey
+		ARG 2 fieldNumber
+		ARG 3 contentId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,10 @@
+CLASS zr SurfaceSizeDefinition
+	FIELD a analysisSize Landroid/util/Size;
+	FIELD b previewSize Landroid/util/Size;
+	FIELD c recordSize Landroid/util/Size;
+	METHOD <init> (Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;)V
+		ARG 1 analysisSize
+		ARG 2 previewSize
+		ARG 3 recordSize
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

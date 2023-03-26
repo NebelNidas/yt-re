@@ -8,4 +8,4 @@ CLASS dtb Component2
 	METHOD j makeShallowCopy ()Ldtb;
 	METHOD q getSimpleName ()Ljava/lang/String;
 	METHOD t measure (Ldtf;IILdwy;)V
-	METHOD v isHostSpec (Ldtb;)Z
+	METHOD v isHostComponent (Ldtb;)Z

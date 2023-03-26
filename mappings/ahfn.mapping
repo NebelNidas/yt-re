@@ -1,5 +1,4 @@
 CLASS ahfn
-	COMMENT
 	METHOD ar mapEqualsImpl (Ljava/util/Map;Ljava/lang/Object;)Z
 		ARG 0 map
 		ARG 1 object

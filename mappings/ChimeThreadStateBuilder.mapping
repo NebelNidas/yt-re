@@ -1,0 +1,29 @@
+CLASS pwz ChimeThreadStateBuilder
+	FIELD a id J
+	FIELD b threadId Ljava/lang/String;
+	FIELD c lastUpdatedVersion J
+	FIELD d modifiedTimestamp J
+	FIELD e flags B
+	FIELD f readState I
+	FIELD g deletionStatus I
+	FIELD h countBehavior I
+	FIELD i systemTrayBehavior I
+	METHOD <init> (Lpxi;)V
+		ARG 1 from
+	METHOD a build ()Lpxi;
+	METHOD b setId (J)V
+		ARG 1 id
+	METHOD c setLastUpdatedVersion (Ljava/lang/Long;)V
+		ARG 1 lastUpdatedVersion
+	METHOD d setModifiedTimestamp (J)V
+		ARG 1 modifiedTimestamp
+	METHOD e setThreadId (Ljava/lang/String;)V
+		ARG 1 threadId
+	METHOD f setCountBehavior (I)V
+		ARG 1 countBehavior
+	METHOD g setDeletionStatus (I)V
+		ARG 1 deletionStatus
+	METHOD h setReadState (I)V
+		ARG 1 readState
+	METHOD i setSystemTrayBehavior (I)V
+		ARG 1 systemTrayBehavior

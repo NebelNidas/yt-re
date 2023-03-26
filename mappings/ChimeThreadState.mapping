@@ -1,0 +1,22 @@
+CLASS pxi ChimeThreadState
+	FIELD a id J
+	FIELD b threadId Ljava/lang/String;
+	FIELD c lastUpdatedVersion J
+	FIELD d modifiedTimestamp J
+	FIELD e readState I
+	FIELD f deletionStatus I
+	FIELD g countBehavior I
+	FIELD h systemTrayBehavior I
+	METHOD <init> (JLjava/lang/String;JIIIIJ)V
+		ARG 1 id
+		ARG 3 threadId
+		ARG 4 lastUpdatedVersion
+		ARG 6 readState
+		ARG 7 deletionStatus
+		ARG 8 countBehavior
+		ARG 9 systemTrayBehavior
+		ARG 10 modifiedTimestamp
+	METHOD a defaultBuilder ()Lpwz;
+	METHOD b emptyBuilder ()Lpwz;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

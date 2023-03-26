@@ -1,0 +1,8 @@
+CLASS lvk CustomViewSession
+	FIELD a customView Landroid/view/View;
+	FIELD b callback Landroid/webkit/WebChromeClient$CustomViewCallback;
+	METHOD <init> (Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V
+		ARG 1 customView
+		ARG 2 callback
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

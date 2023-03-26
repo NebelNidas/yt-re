@@ -1,0 +1,15 @@
+CLASS hdf SpeedElement
+	FIELD a speed F
+	FIELD b animationTitle Ljava/lang/String;
+	FIELD c text Ljava/lang/String;
+	FIELD d icon I
+	FIELD e contentDescription Ljava/lang/String;
+	METHOD <init> (FLjava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+		ARG 1 speed
+		ARG 2 animationTitle
+		ARG 3 text
+		ARG 4 icon
+		ARG 5 contentDescription
+	METHOD a builder ()Lhde;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

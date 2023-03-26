@@ -6,4 +6,5 @@ CLASS afrz com/google/collect/ImmutableCollection
 	METHOD f internalArrayStart ()I
 	METHOD g asList ()Lafsk;
 	METHOD k iterator ()Lafyf;
+	METHOD l isPartialView ()Z
 	METHOD m internalArray ()[Ljava/lang/Object;

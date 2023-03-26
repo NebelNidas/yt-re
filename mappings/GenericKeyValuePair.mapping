@@ -1,0 +1,8 @@
+CLASS zal GenericKeyValuePair
+	FIELD a key Ljava/lang/String;
+	FIELD b value Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,9 @@
+CLASS tdo ImagePollOption
+	FIELD a image Lj$/util/Optional;
+	FIELD b text Lj$/util/Optional;
+	FIELD c placeholderText Ljava/lang/String;
+	METHOD <init> (Lj$/util/Optional;Lj$/util/Optional;Ljava/lang/String;)V
+		ARG 1 image
+		ARG 2 text
+		ARG 3 placeholderText
+	METHOD a isEmpty ()Z

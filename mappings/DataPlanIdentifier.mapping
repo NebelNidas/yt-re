@@ -1,0 +1,8 @@
+CLASS uvp DataPlanIdentifier
+	FIELD a carrierId J
+	FIELD b cpid Ljava/lang/String;
+	METHOD <init> (JLjava/lang/String;)V
+		ARG 1 carrierId
+		ARG 3 cpid
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

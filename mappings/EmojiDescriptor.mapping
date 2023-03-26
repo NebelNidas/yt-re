@@ -1,0 +1,11 @@
+CLASS usl EmojiDescriptor
+	FIELD a string Ljava/lang/String;
+	FIELD b codePoint Ljava/lang/String;
+	FIELD c parentCodePoint Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 string
+		ARG 2 codePoint
+		ARG 3 parentCodePoint
+	METHOD a hasParent ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

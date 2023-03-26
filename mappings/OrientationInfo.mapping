@@ -1,0 +1,8 @@
+CLASS gng OrientationInfo
+	FIELD a deviceOrientation Lajtv;
+	FIELD b interfaceOrientation Lajtv;
+	METHOD <init> (Lajtv;Lajtv;)V
+		ARG 1 deviceOrientation
+		ARG 2 interfaceOrientation
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

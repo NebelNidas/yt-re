@@ -1,0 +1,2 @@
+CLASS mzf
+	METHOD a getAccount ()Landroid/accounts/Account;

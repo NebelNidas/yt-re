@@ -1,0 +1,10 @@
+CLASS aavx OfflinePlayerRequestParams
+	FIELD a videoId Ljava/lang/String;
+	FIELD b identityId Ljava/lang/String;
+	FIELD c trackingParams [B
+	FIELD d offlineSharingWrappedKey [B
+	FIELD e offlineModeType I
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;I[B)V
+		ARG 2 videoId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

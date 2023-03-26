@@ -1,0 +1,55 @@
+CLASS xws MdxUserContextBuilder
+	FIELD a videoId Ljava/lang/String;
+	FIELD b playlistId Ljava/lang/String;
+	FIELD c mdxConnectionCountDay I
+	FIELD d mdxConnectionCountWeek I
+	FIELD e mdxConnectionCountMonth I
+	FIELD f castAvailableSessionCountDay I
+	FIELD g castAvailableSessionCountWeek I
+	FIELD h castAvailableSessionCountMonth I
+	FIELD i pageType Lxwt;
+	FIELD j currentVideoDuration I
+	FIELD k fullScreen Z
+	FIELD l hd Z
+	FIELD m sd Z
+	FIELD n playlistPlayback Z
+	FIELD o videoControlsVisible Z
+	FIELD p uncastedVideoCount I
+	FIELD q currentTime J
+	FIELD r casterCategory I
+	FIELD s flags S
+	METHOD <init> (Lxwu;)V
+		ARG 1 from
+	METHOD a build ()Lxwu;
+	METHOD b setCastAvailableSessionCountDay (I)V
+		ARG 1 castAvailableSessionCountDay
+	METHOD c setCastAvailableSessionCountMonth (I)V
+		ARG 1 castAvailableSessionCountMonth
+	METHOD d setCastAvailableSessionCountWeek (I)V
+		ARG 1 castAvailableSessionCountWeek
+	METHOD e setCasterCategory (I)V
+		ARG 1 casterCategory
+	METHOD f setCurrentTime (J)V
+		ARG 1 currentTime
+	METHOD g setCurrentVideoDuration (I)V
+		ARG 1 currentVideoDuration
+	METHOD h setFullScreen (Z)V
+		ARG 1 fullScreen
+	METHOD i setHd (Z)V
+		ARG 1 hd
+	METHOD j setMdxConnectionCountDay (I)V
+		ARG 1 mdxConnectionCountDay
+	METHOD k setMdxConnectionCountMonth (I)V
+		ARG 1 mdxConnectionCountMonth
+	METHOD l setMdxConnectionCountWeek (I)V
+		ARG 1 mdxConnectionCountWeek
+	METHOD m setPageType (Lxwt;)V
+		ARG 1 pageType
+	METHOD n setPlaylistPlayback (Z)V
+		ARG 1 playlistPlayback
+	METHOD o setSd (Z)V
+		ARG 1 sd
+	METHOD p setUncastedVideoCount (I)V
+		ARG 1 uncastedVideoCount
+	METHOD q setVideoControlsVisible (Z)V
+		ARG 1 videoControlsVisible

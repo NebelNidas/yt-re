@@ -1,0 +1,7 @@
+CLASS com/google/android/play/core/install/InstallState
+	COMMENT Taken from <a href="https://developer.android.com/reference/com/google/android/play/core/install/InstallState">https://developer.android.com/reference/com/google/android/play/core/install/InstallState</a>
+	METHOD a installErrorCode ()I
+	METHOD b installStatus ()I
+	METHOD c bytesDownloaded ()J
+	METHOD d totalBytesToDownload ()J
+	METHOD e packageName ()Ljava/lang/String;

@@ -1,0 +1,25 @@
+CLASS ahap PersistedInstallationEntry
+	FIELD a firebaseInstallationId Ljava/lang/String;
+	FIELD b authToken Ljava/lang/String;
+	FIELD c refreshToken Ljava/lang/String;
+	FIELD d expiresInSecs J
+	FIELD e tokenCreationEpochInSecs J
+	FIELD f fisError Ljava/lang/String;
+	FIELD g registrationStatus I
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;JJLjava/lang/String;)V
+		ARG 1 firebaseInstallationId
+		ARG 2 registrationStatus
+		ARG 3 authToken
+		ARG 4 refreshToken
+		ARG 5 expiresInSecs
+		ARG 7 tokenCreationEpochInSecs
+		ARG 9 fisError
+	METHOD a builder ()Lahao;
+	METHOD b isRegisterError ()Z
+	METHOD c isOther ()Z
+	METHOD d isRegistered ()Z
+	METHOD e isUnregistered ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f asBuilder ()Lahao;
+	METHOD g withBadConfig ()Lahap;

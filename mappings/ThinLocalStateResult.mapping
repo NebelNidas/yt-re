@@ -1,0 +1,8 @@
+CLASS aefc ThinLocalStateResult
+	FIELD a state Ljava/lang/Object;
+	FIELD b metadata Ljava/lang/Object;
+	METHOD <init> (Ljava/lang/Object;Ljava/lang/Object;)V
+		ARG 1 state
+		ARG 2 metadata
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

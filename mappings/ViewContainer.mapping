@@ -1,0 +1,17 @@
+CLASS lox ViewContainer
+	FIELD a cinematicContainerLayout Landroid/widget/FrameLayout;
+	FIELD b backgroundView Lcom/google/android/apps/youtube/app/common/ui/cinematics/CinematicImageView;
+	FIELD c scrimView Lcom/google/android/apps/youtube/app/common/ui/cinematics/CinematicImageView;
+	FIELD d parentContainer Landroid/view/View;
+	METHOD <init> (Landroid/widget/FrameLayout;Lcom/google/android/apps/youtube/app/common/ui/cinematics/CinematicImageView;Lcom/google/android/apps/youtube/app/common/ui/cinematics/CinematicImageView;Landroid/view/View;)V
+		ARG 1 cinematicContainerLayout
+		ARG 2 backgroundView
+		ARG 3 scrimView
+		ARG 4 parentContainer
+	METHOD a create (Landroid/widget/FrameLayout;Lcom/google/android/apps/youtube/app/common/ui/cinematics/CinematicImageView;Lcom/google/android/apps/youtube/app/common/ui/cinematics/CinematicImageView;Landroid/view/View;)Llox;
+		ARG 0 cinematicContainerLayout
+		ARG 1 backgroundView
+		ARG 2 scrimView
+		ARG 3 parentContainer
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

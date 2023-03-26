@@ -1,4 +1,4 @@
-CLASS dxs Touchable
-	METHOD e onTouchEvent (Landroid/view/MotionEvent;Landroid/view/View;)Z
+CLASS ebo Touchable
+	METHOD d onTouchEvent (Landroid/view/MotionEvent;Landroid/view/View;)Z
 		ARG 2 host
-	METHOD f shouldHandleTouchEvent (Landroid/view/MotionEvent;)Z
+	METHOD e shouldHandleTouchEvent (Landroid/view/MotionEvent;)Z

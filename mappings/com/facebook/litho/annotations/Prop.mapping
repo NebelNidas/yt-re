@@ -1,2 +1,2 @@
-CLASS dzf com/facebook/litho/annotations/Prop
-	METHOD a resType ()Ldzg;
+CLASS ecy com/facebook/litho/annotations/Prop
+	METHOD a resType ()Lecz;

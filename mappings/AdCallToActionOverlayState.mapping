@@ -1,8 +1,8 @@
-CLASS sro AdCallToActionOverlayState
-	FIELD b renderer Lafjl;
-	FIELD c onClickedRenderer Lafjl;
-	FIELD d trackingParams Lahko;
-	FIELD e visualStateChangeTriggers Lafol;
+CLASS svm AdCallToActionOverlayState
+	FIELD b renderer Lafni;
+	FIELD c onClickedRenderer Lafni;
+	FIELD d trackingParams Lahow;
+	FIELD e visualStateChangeTriggers Lafsk;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

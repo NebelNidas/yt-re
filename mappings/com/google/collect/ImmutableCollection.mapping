@@ -1,9 +1,9 @@
-CLASS afoc com/google/collect/ImmutableCollection
+CLASS afrz com/google/collect/ImmutableCollection
 	METHOD c copyIntoArray ([Ljava/lang/Object;I)I
 		ARG 1 dst
 		ARG 2 dstOff
 	METHOD e internalArrayEnd ()I
 	METHOD f internalArrayStart ()I
-	METHOD g asList ()Lafol;
-	METHOD k iterator ()Laftz;
+	METHOD g asList ()Lafsk;
+	METHOD k iterator ()Lafyf;
 	METHOD m internalArray ()[Ljava/lang/Object;

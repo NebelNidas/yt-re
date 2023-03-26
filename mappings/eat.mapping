@@ -1,2 +1,0 @@
-CLASS eat
-	METHOD o newEventHandler (Ljava/lang/Class;Leas;I[Ljava/lang/Object;)Ldux;

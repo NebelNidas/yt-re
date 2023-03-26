@@ -1,6 +1,0 @@
-CLASS adna
-	METHOD D assertTrue (ZLjava/lang/String;)V
-	METHOD E assertOnMainThread (Ljava/lang/String;)V
-		ARG 0 methodName
-	METHOD F assertNotNull (Ljava/lang/Object;Ljava/lang/String;)V
-	METHOD G getCompomentName (Landroid/app/Activity;)Ljava/lang/String;

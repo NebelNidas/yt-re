@@ -1,4 +1,4 @@
-CLASS tod TimestampedEvent
+CLASS tsl TimestampedEvent
 	FIELD c timestamp J
 	METHOD <init> (J)V
 		ARG 1 timestamp

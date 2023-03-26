@@ -1,0 +1,3 @@
+CLASS adcb
+	METHOD a getButtonId (Lakti;)I
+		ARG 1 icon

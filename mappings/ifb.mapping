@@ -1,2 +1,0 @@
-CLASS ifb
-	FIELD d likeEndpoint Ljava/lang/Object;

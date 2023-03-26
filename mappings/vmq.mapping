@@ -1,2 +1,0 @@
-CLASS vmq
-	METHOD a createSnapshot ()Lcom/google/android/libraries/elements/interfaces/Snapshot;

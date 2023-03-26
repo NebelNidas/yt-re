@@ -1,5 +1,5 @@
-CLASS afko com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Lafkm;
+CLASS afol com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lafoj;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafkm;)V
+	METHOD <init> (Lafoj;)V
 		ARG 1 delegate

@@ -1,5 +1,5 @@
-CLASS afol com/google/common/collect/ImmutableList
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lafol;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafol;
+CLASS afsk com/google/common/collect/ImmutableList
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lafsk;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafsk;
 		ARG 1 length
-	METHOD q of ()Lafol;
+	METHOD q of ()Lafsk;

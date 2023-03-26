@@ -1,2 +1,2 @@
-CLASS srv AdTitleOverlayState
-	FIELD a adOverlayMetadata Lsrp;
+CLASS svt AdTitleOverlayState
+	FIELD a adOverlayMetadata Lsvn;

@@ -1,2 +1,2 @@
-CLASS kyu PlaybackSpeedItem
+CLASS lca PlaybackSpeedItem
 	FIELD a speedMultiplier F

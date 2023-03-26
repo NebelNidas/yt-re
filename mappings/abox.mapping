@@ -1,0 +1,2 @@
+CLASS abox
+	METHOD c changeSpeed ([Laqbq;I)V

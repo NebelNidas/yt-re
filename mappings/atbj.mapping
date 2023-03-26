@@ -1,0 +1,4 @@
+CLASS atbj
+	METHOD a (Latds;Latds;Latdn;Latdn;Latdn;Latdn;)Latbj;
+		ARG 3 onComplete
+		ARG 6 onDispose

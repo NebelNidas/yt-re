@@ -1,4 +1,0 @@
-CLASS aswb
-	METHOD a (Lasyl;Lasyl;Lasyf;Lasyf;Lasyf;Lasyf;)Laswb;
-		ARG 3 onComplete
-		ARG 6 onDispose

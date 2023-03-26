@@ -1,2 +1,0 @@
-CLASS voq
-	METHOD d toByteArray ()[B

@@ -1,5 +1,0 @@
-CLASS fen
-	FIELD c watchWhileActivity Lbu;
-	METHOD f someDislikeMethod (Lajba;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Lajba;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Lajba;)Lcom/google/common/util/concurrent/ListenableFuture;

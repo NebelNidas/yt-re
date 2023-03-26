@@ -1,26 +1,24 @@
-CLASS dtx LayoutStateFuture
-	FIELD a context Ldtn;
-	FIELD b root Ldtj;
-	FIELD c widthSpec I
-	FIELD d heightSpec I
-	FIELD e diffingEnabled Z
-	FIELD f treeProps Ldyh;
-	FIELD g refCount Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD h isFromSyncLayout Z
-	FIELD j source I
-	FIELD k extraAttribution Ljava/lang/String;
-	FIELD l released Z
-	FIELD m tree Lcom/facebook/litho/ComponentTree;
-	FIELD n runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD p continuationToken Ljava/lang/Object;
-	FIELD q interruptToken Ljava/lang/Object;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldtn;Ldtj;IIZLdyh;ILjava/lang/String;)V
+CLASS dxw LayoutStateFuture
+	FIELD a runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD b context Ldxl;
+	FIELD c root Ldxh;
+	FIELD d widthSpec I
+	FIELD e heightSpec I
+	FIELD f diffingEnabled Z
+	FIELD h refCount Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD i isFromSyncLayout Z
+	FIELD k source I
+	FIELD l extraAttribution Ljava/lang/String;
+	FIELD o released Z
+	FIELD p tree Lcom/facebook/litho/ComponentTree;
+	FIELD q treeProps Ldcm;
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldxl;Ldxh;IIZLdcm;ILjava/lang/String;[B[B[B)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec
 		ARG 6 diffingEnabled
 		ARG 8 source
 		ARG 9 extraAttribution
-	METHOD b release ()V
+	METHOD a release ()V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

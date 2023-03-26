@@ -1,4 +1,4 @@
-CLASS dwg LithoView
-	FIELD D accessibilityManager Landroid/view/accessibility/AccessibilityManager;
-	FIELD u CLASS_NAME Ljava/lang/String;
-	FIELD v LAYOUT_SIZE [I
+CLASS eaj LithoView
+	FIELD s CLASS_NAME Ljava/lang/String;
+	FIELD t LAYOUT_SIZE [I
+	FIELD z accessibilityManager Landroid/view/accessibility/AccessibilityManager;

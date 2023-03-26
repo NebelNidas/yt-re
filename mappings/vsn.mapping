@@ -1,0 +1,2 @@
+CLASS vsn
+	METHOD d toByteArray ()[B

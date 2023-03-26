@@ -1,3 +1,0 @@
-CLASS acym
-	METHOD a getButtonId (Lakox;)I
-		ARG 1 icon

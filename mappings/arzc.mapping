@@ -1,2 +1,0 @@
-CLASS arzc
-	METHOD a get ()Ljava/lang/Object;

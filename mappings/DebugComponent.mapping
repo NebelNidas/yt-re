@@ -1,4 +1,4 @@
-CLASS dub DebugComponent
-	METHOD c getComponent ()Ldtj;
-	METHOD h getLithoView ()Ldwg;
-	METHOD o getLayoutNode ()Ldym;
+CLASS dyd DebugComponent
+	METHOD b getComponent ()Ldxh;
+	METHOD f getLithoView ()Leaj;
+	METHOD n getLayoutNode ()Lbjw;

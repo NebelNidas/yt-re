@@ -1,2 +1,0 @@
-CLASS amo
-	METHOD a hasOnClickListeners (Landroid/view/View;)Z

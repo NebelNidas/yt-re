@@ -1,2 +1,2 @@
-CLASS dut com/facebook/litho/ErrorEvent
-	FIELD b exception Ljava/lang/Exception;
+CLASS dyy com/facebook/litho/ErrorEvent
+	FIELD a exception Ljava/lang/Exception;

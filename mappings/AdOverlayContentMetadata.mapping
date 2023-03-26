@@ -1,3 +1,3 @@
-CLASS ssh AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lvqd;
+CLASS swf AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lzvv;
 	FIELD c title Ljava/lang/String;

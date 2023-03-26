@@ -1,19 +1,10 @@
-CLASS dtj com/facebook/litho/Component
+CLASS dxh com/facebook/litho/Component
 	COMMENT At least <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java</a>
-	FIELD a sTypeIdByComponentType Ljava/util/Map;
-	FIELD b sComponentTypeId Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD c idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD g mTypeId I
-	FIELD h id I
-	FIELD o EMPTY_ARRAY [Lgxl;
-	METHOD A onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD G measure (Ldtn;IILdxi;)V
-	METHOD M onMeasure (Ldtn;Ldts;IILdxi;Ldvi;)V
-	METHOD N onMount (Ldtn;Ljava/lang/Object;Ldvi;)V
-	METHOD aa isHostComponent (Ldtj;)Z
-	METHOD g isEquivalentTo (Ldtj;)Z
+	FIELD a idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD j id I
+	FIELD v EMPTY_ARRAY [Ligh;
+	METHOD f isEquivalentTo (Ldxh;)Z
 		ARG 1 o
-	METHOD h poolSize ()I
-	METHOD l makeShallowCopy ()Ldtj;
-	METHOD v createMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD y dispatchOnEventImpl (Ldux;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD j makeShallowCopy ()Ldxh;
+	METHOD t measure (Ldxl;IILebf;)V
+	METHOD v isHostComponent (Ldxh;)Z

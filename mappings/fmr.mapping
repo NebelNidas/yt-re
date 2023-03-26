@@ -1,3 +1,0 @@
-CLASS fmr
-	METHOD e isInlineMinimal ()Z
-	METHOD f isPIP ()Z

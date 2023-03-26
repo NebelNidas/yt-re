@@ -1,3 +1,0 @@
-CLASS dvk
-	METHOD a getLayoutOutput (Lehc;)Ldvk;
-	METHOD c isAccessible ()Z

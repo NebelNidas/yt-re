@@ -1,2 +1,2 @@
-CLASS ahmc IntList
-	METHOD f mutableCopyWithCapacity (I)Lahmc;
+CLASS ahql IntList
+	METHOD f mutableCopyWithCapacity (I)Lahql;

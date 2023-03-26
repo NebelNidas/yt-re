@@ -1,0 +1,3 @@
+CLASS ejc
+	FIELD k lithoView Leaj;
+	FIELD l recyclerView Landroid/support/v7/widget/RecyclerView;

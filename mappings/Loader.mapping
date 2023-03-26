@@ -1,5 +1,4 @@
 CLASS awr Loader
 	FIELD d id I
-	FIELD e listener Lawq;
-	FIELD g started Z
-	FIELD j contentChanged Z
+	FIELD f started Z
+	FIELD i contentChanged Z

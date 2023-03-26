@@ -1,4 +1,4 @@
-CLASS ams ViewUtil2
+CLASS amt ViewUtil2
 	METHOD a getAccessibilityLiveRegion (Landroid/view/View;)I
 	METHOD b notifySubtreeAccessibilityStateChanged (Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;I)V
 	METHOD c setAccessibilityLiveRegion (Landroid/view/View;I)V

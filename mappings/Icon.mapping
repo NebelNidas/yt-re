@@ -1,2 +1,2 @@
-CLASS akox Icon
-	METHOD b fromValue (I)Lakox;
+CLASS akti Icon
+	METHOD b fromValue (I)Lakti;

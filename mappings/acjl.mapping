@@ -1,2 +1,0 @@
-CLASS acjl
-	METHOD b getDisplayString (Lakgd;)Landroid/text/Spanned;

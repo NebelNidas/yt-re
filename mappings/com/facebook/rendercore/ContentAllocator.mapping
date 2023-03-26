@@ -1,7 +1,0 @@
-CLASS ehh com/facebook/rendercore/ContentAllocator
-	COMMENT At least <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-rendercore/src/main/java/com/facebook/rendercore/ContentAllocator.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-rendercore/src/main/java/com/facebook/rendercore/ContentAllocator.java</a>
-	METHOD ag isRecyclingDisabled ()Z
-	METHOD u createRecyclingPool ()Lehe;
-	METHOD w createPoolableContent (Landroid/content/Context;)Ljava/lang/Object;
-		ARG 1 context
-	METHOD z getPoolableContentType ()Ljava/lang/Object;

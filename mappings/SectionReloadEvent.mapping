@@ -1,4 +1,4 @@
-CLASS ffm SectionReloadEvent
-	METHOD a getReloadContinuationData ()Laogu;
+CLASS fil SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laols;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Laogu;)Lffm;
+	METHOD c of (Ljava/lang/String;Laols;)Lfil;

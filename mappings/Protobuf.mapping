@@ -1,3 +1,3 @@
-CLASS ahnt Protobuf
-	FIELD a instance Lahnt;
-	METHOD b schemaFor (Ljava/lang/Object;)Lahob;
+CLASS ahsc Protobuf
+	FIELD a instance Lahsc;
+	METHOD b schemaFor (Ljava/lang/Object;)Lahsk;

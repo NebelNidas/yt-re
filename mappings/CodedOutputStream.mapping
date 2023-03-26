@@ -1,5 +1,5 @@
-CLASS ahky CodedOutputStream
+CLASS ahpg CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lahky;
+	METHOD ak getCodedOutput ([B)Lahpg;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

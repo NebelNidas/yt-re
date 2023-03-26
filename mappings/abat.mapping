@@ -1,0 +1,2 @@
+CLASS abat
+	METHOD e getProgress ()J

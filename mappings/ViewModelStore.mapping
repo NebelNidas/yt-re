@@ -1,1 +1,13 @@
 CLASS awb ViewModelStore
+	METHOD U decryptDiscoKey ([B[BLjava/security/Key;)[B
+		ARG 0 ivBytes
+		ARG 1 discoKeyBytes
+	METHOD V encryptDiscoKey ([B[BLjava/security/Key;)[B
+		ARG 0 ivBytes
+		ARG 1 discoKeyBytes
+	METHOD ay ([BILjava/security/Key;Ljavax/crypto/spec/IvParameterSpec;I)V
+		ARG 0 bytes
+		ARG 1 inputBytes
+		ARG 2 key
+		ARG 3 ivBuffer
+		ARG 4 mode

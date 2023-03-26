@@ -1,4 +1,5 @@
 CLASS dtx LayoutStateFuture
+	FIELD a context Ldtn;
 	FIELD b root Ldtj;
 	FIELD c widthSpec I
 	FIELD d heightSpec I
@@ -11,6 +12,8 @@ CLASS dtx LayoutStateFuture
 	FIELD l released Z
 	FIELD m tree Lcom/facebook/litho/ComponentTree;
 	FIELD n runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD p continuationToken Ljava/lang/Object;
+	FIELD q interruptToken Ljava/lang/Object;
 	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldtn;Ldtj;IIZLdyh;ILjava/lang/String;)V
 		ARG 3 root
 		ARG 4 widthSpec
@@ -18,3 +21,6 @@ CLASS dtx LayoutStateFuture
 		ARG 6 diffingEnabled
 		ARG 8 source
 		ARG 9 extraAttribution
+	METHOD b release ()V
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

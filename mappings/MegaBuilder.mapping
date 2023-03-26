@@ -1,13 +1,13 @@
-CLASS asvl MegaBuilder
+CLASS atgy MegaBuilder
 	FIELD a param1 Ljava/lang/Object;
 	FIELD b param2 Ljava/lang/Object;
 	FIELD c param3 Ljava/lang/Object;
-	METHOD <init> (Ltdo;)V
+	METHOD <init> (Ltmq;)V
 		ARG 1 pollOption
-	METHOD p buildImagePollOption ()Ltdo;
+	METHOD p buildImagePollOption ()Ltmq;
 	METHOD q setImage (Lj$/util/Optional;)V
 		ARG 1 image
 	METHOD r setPlaceholderText (Ljava/lang/String;)V
 		ARG 1 placeholderText
-	METHOD s buildChimeTaskData ()Lpxf;
+	METHOD s buildChimeTaskData ()Lqff;
 	METHOD t setPayload ([B)V

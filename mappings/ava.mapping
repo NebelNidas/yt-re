@@ -1,0 +1,3 @@
+CLASS ava
+	METHOD b setOnReceiveContentListener (Landroid/view/View;[Ljava/lang/String;Laua;)V
+	METHOD c getReceiveContentMimeTypes (Landroid/view/View;)[Ljava/lang/String;

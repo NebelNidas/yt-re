@@ -1,4 +1,4 @@
-CLASS vry MasterTableRow
+CLASS wat MasterTableRow
 	FIELD a name Ljava/lang/String;
 	FIELD b type Ljava/lang/String;
 	FIELD c sql Ljava/lang/String;

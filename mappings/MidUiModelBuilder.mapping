@@ -1,7 +1,7 @@
-CLASS jen MidUiModelBuilder
+CLASS jmu MidUiModelBuilder
 	FIELD a isControlsOverlayVisible Z
 	FIELD b isMagicWindowMidUiEduVisible Z
-	FIELD c videoState Labny;
+	FIELD c videoState Labxv;
 	FIELD d isFullscreen Z
 	FIELD e hasNext Z
 	FIELD f hasPrevious Z
@@ -16,9 +16,9 @@ CLASS jen MidUiModelBuilder
 	FIELD o isSingletonVod Z
 	FIELD p isClip Z
 	FIELD q flags S
-	METHOD <init> (Ljeo;)V
+	METHOD <init> (Ljmv;)V
 		ARG 1 from
-	METHOD a build ()Ljeo;
+	METHOD a build ()Ljmv;
 	METHOD b setHasNext (Z)V
 		ARG 1 hasNext
 	METHOD c setHasPrevious (Z)V
@@ -49,5 +49,5 @@ CLASS jen MidUiModelBuilder
 		ARG 1 isUserScrubbing
 	METHOD p setStyle (Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;)V
 		ARG 1 stlye
-	METHOD q setVideoState (Labny;)V
+	METHOD q setVideoState (Labxv;)V
 		ARG 1 videoState

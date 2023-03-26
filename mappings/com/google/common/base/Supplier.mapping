@@ -1,2 +1,2 @@
-CLASS afoj com/google/common/base/Supplier
+CLASS afyq com/google/common/base/Supplier
 	METHOD a get ()Ljava/lang/Object;

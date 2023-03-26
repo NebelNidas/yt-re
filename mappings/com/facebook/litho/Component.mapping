@@ -1,10 +1,10 @@
-CLASS dxh com/facebook/litho/Component
+CLASS efh com/facebook/litho/Component
 	COMMENT At least <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java</a>
 	FIELD a idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD j id I
-	FIELD v EMPTY_ARRAY [Ligh;
-	METHOD f isEquivalentTo (Ldxh;)Z
+	FIELD h EMPTY_ARRAY [Legw;
+	FIELD k id I
+	METHOD f isEquivalentTo (Lefh;)Z
 		ARG 1 o
-	METHOD j makeShallowCopy ()Ldxh;
-	METHOD t measure (Ldxl;IILebf;)V
-	METHOD v isHostComponent (Ldxh;)Z
+	METHOD j makeShallowCopy ()Lefh;
+	METHOD t measure (Lefl;IILejf;)V
+	METHOD v isHostComponent (Lefh;)Z

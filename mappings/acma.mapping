@@ -1,0 +1,3 @@
+CLASS acma
+	METHOD M (F)V
+		ARG 1 speed

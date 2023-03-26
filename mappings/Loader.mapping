@@ -1,4 +1,4 @@
-CLASS awr Loader
+CLASS beo Loader
 	FIELD d id I
 	FIELD f started Z
 	FIELD i contentChanged Z

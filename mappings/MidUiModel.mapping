@@ -1,7 +1,7 @@
-CLASS jeo MidUiModel
+CLASS jmv MidUiModel
 	FIELD a isControlsOverlayVisible Z
 	FIELD b isMagicWindowMidUiEduVisible Z
-	FIELD c videoState Labny;
+	FIELD c videoState Labxv;
 	FIELD d isFullscreen Z
 	FIELD e hasNext Z
 	FIELD f hasPrevious Z
@@ -15,7 +15,7 @@ CLASS jeo MidUiModel
 	FIELD n style Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;
 	FIELD o isSingletonVod Z
 	FIELD p isClip Z
-	METHOD <init> (ZZLabny;ZZZZZZZZZZLcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;ZZ)V
+	METHOD <init> (ZZLabxv;ZZZZZZZZZZLcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;ZZ)V
 		ARG 1 isControlsOverlayVisible
 		ARG 2 isMagicWindowMidUiEduVisible
 		ARG 3 videoState

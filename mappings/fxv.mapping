@@ -1,0 +1,3 @@
+CLASS fxv
+	METHOD e isInlineMinimal ()Z
+	METHOD f isPIP ()Z

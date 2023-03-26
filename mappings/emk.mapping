@@ -1,0 +1,2 @@
+CLASS emk
+	METHOD n newEventHandler (Ljava/lang/Class;Lemj;I[Ljava/lang/Object;)Lehc;

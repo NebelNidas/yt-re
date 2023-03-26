@@ -1,6 +1,6 @@
-CLASS afok com/google/common/base/Suppliers_MemoizingSupplier
-	FIELD a delegate Lafoj;
+CLASS afyr com/google/common/base/Suppliers_MemoizingSupplier
+	FIELD a delegate Lafyq;
 	FIELD b initialized Z
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafoj;)V
+	METHOD <init> (Lafyq;)V
 		ARG 1 delegate

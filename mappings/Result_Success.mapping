@@ -1,4 +1,4 @@
-CLASS afbw Result_Success
+CLASS afma Result_Success
 	FIELD a data Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/Object;)V
 		ARG 1 data

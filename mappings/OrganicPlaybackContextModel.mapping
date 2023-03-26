@@ -1,4 +1,4 @@
-CLASS ssh OrganicPlaybackContextModel
+CLASS tbm OrganicPlaybackContextModel
 	FIELD a contentCpn Ljava/lang/String;
 	FIELD b isLivePlayback Z
 	FIELD c isDaiContent Z

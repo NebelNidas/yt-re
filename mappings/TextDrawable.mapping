@@ -1,4 +1,4 @@
-CLASS ejp TextDrawable
+CLASS erq TextDrawable
 	FIELD a layout Landroid/text/Layout;
 	FIELD c layoutTranslationY F
 	FIELD d clipToBounds Z
@@ -15,7 +15,7 @@ CLASS ejp TextDrawable
 	FIELD s selectionPath Landroid/graphics/Path;
 	FIELD t selectionPathNeedsUpdate Z
 	FIELD u highlightPaint Landroid/graphics/Paint;
-	FIELD v longClickRunnable Lejn;
+	FIELD v longClickRunnable Lero;
 	METHOD a clearSelection ()V
 	METHOD b getTextOffsetAt (II)I
 	METHOD c getClickableSpanInCoords (II)Landroid/text/style/ClickableSpan;

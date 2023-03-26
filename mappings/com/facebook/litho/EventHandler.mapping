@@ -1,15 +1,15 @@
-CLASS dzb com/facebook/litho/EventHandler
-	FIELD b hasEventDispatcher Ldzj;
+CLASS ehc com/facebook/litho/EventHandler
+	FIELD b hasEventDispatcher Lehk;
 	FIELD c id I
 	FIELD d params [Ljava/lang/Object;
-	METHOD <init> (Ldzj;I)V
+	METHOD <init> (Lehk;I)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
-	METHOD <init> (Ldzj;I[Ljava/lang/Object;)V
+	METHOD <init> (Lehk;I[Ljava/lang/Object;)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
 		ARG 3 params
-	METHOD c isEquivalentTo (Ldzb;)Z
+	METHOD c isEquivalentTo (Lehc;)Z
 		ARG 1 other
 	METHOD ly dispatchEvent (Ljava/lang/Object;)V
 		ARG 1 event

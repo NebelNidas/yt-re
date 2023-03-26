@@ -1,4 +1,4 @@
-CLASS ejz TextSpec
+CLASS esa TextSpec
 	FIELD b typefaceStyle I
 	FIELD c DEFAULT_TYPEFACE Landroid/graphics/Typeface;
 	FIELD e typeface Landroid/graphics/Typeface;
@@ -7,6 +7,6 @@ CLASS ejz TextSpec
 	FIELD h tempPath Landroid/graphics/Path;
 	FIELD i tempRect Landroid/graphics/Rect;
 	FIELD j tempRectF Landroid/graphics/RectF;
-	METHOD c newTextDrawable ()Lejp;
-	METHOD h onMeasure (Ldxl;Ldxp;IILebf;Ljava/lang/CharSequence;Landroid/text/TextUtils$TruncateAt;ZIFFFILandroid/content/res/ColorStateList;IILjava/lang/CharSequence;FILandroid/graphics/Typeface;IILeqo;Leqo;Leqo;Leqo;Leqo;)V
-	METHOD o createTextLayout (Ldxl;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILelo;FI)Landroid/text/Layout;
+	METHOD c newTextDrawable ()Lerq;
+	METHOD h onMeasure (Lefl;Lefp;IILejf;Ljava/lang/CharSequence;Landroid/text/TextUtils$TruncateAt;ZIFFFILandroid/content/res/ColorStateList;IILjava/lang/CharSequence;FILandroid/graphics/Typeface;IILeyo;Leyo;Leyo;Leyo;Leyo;)V
+	METHOD o createTextLayout (Lefl;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILetp;FI)Landroid/text/Layout;

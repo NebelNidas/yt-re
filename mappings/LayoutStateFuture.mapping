@@ -1,7 +1,7 @@
-CLASS dxw LayoutStateFuture
+CLASS efw LayoutStateFuture
 	FIELD a runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD b context Ldxl;
-	FIELD c root Ldxh;
+	FIELD b context Lefl;
+	FIELD c root Lefh;
 	FIELD d widthSpec I
 	FIELD e heightSpec I
 	FIELD f diffingEnabled Z
@@ -11,8 +11,8 @@ CLASS dxw LayoutStateFuture
 	FIELD l extraAttribution Ljava/lang/String;
 	FIELD o released Z
 	FIELD p tree Lcom/facebook/litho/ComponentTree;
-	FIELD q treeProps Ldcm;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Ldxl;Ldxh;IIZLdcm;ILjava/lang/String;[B[B[B)V
+	FIELD q treeProps Ldkl;
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Lefl;Lefh;IIZLdkl;ILjava/lang/String;[B[B[B)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec

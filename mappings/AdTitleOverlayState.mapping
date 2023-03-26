@@ -1,2 +1,2 @@
-CLASS svt AdTitleOverlayState
-	FIELD a adOverlayMetadata Lsvn;
+CLASS tex AdTitleOverlayState
+	FIELD a adOverlayMetadata Lter;

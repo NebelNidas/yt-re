@@ -1,0 +1,2 @@
+CLASS eiz
+	METHOD b markerPoint (Ljava/lang/String;)V

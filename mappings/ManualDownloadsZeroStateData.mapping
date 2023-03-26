@@ -1,6 +1,6 @@
-CLASS ixw ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Laine;
-	METHOD <init> (Laine;)V
+CLASS jgd ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Laixs;
+	METHOD <init> (Laixs;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

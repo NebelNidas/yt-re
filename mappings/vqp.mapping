@@ -1,2 +1,0 @@
-CLASS vqp
-	METHOD a createSnapshot ()Lcom/google/android/libraries/elements/interfaces/Snapshot;

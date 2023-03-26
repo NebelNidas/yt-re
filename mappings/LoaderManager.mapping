@@ -1,6 +1,6 @@
-CLASS awk LoaderManager
-	FIELD a lifecycleOwner Lauw;
-	METHOD a create (Lauw;)Lawk;
+CLASS beh LoaderManager
+	FIELD a lifecycleOwner Lbcs;
+	METHOD a create (Lbcs;)Lbeh;
 	METHOD b isLoggable (I)Z
 		ARG 0 level
 	METHOD c toString (Ljava/lang/String;Ljava/io/PrintWriter;)V

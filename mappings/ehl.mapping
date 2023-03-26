@@ -1,0 +1,2 @@
+CLASS ehl
+	METHOD a collectChildren (Ljava/util/List;)V

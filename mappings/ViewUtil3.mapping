@@ -1,4 +1,0 @@
-CLASS ams ViewUtil3
-	METHOD a getClipBounds (Landroid/view/View;)Landroid/graphics/Rect;
-	METHOD b setClipBounds (Landroid/view/View;Landroid/graphics/Rect;)V
-	METHOD c isInLayout (Landroid/view/View;)Z

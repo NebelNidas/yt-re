@@ -1,3 +1,3 @@
-CLASS swf AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lzvv;
+CLASS tfj AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lzsh;
 	FIELD c title Ljava/lang/String;

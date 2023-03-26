@@ -1,2 +1,2 @@
-CLASS ahqo LongList
-	METHOD d mutableCopyWithCapacity (I)Lahqo;
+CLASS aiba LongList
+	METHOD d mutableCopyWithCapacity (I)Laiba;

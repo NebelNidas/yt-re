@@ -1,3 +1,3 @@
-CLASS ekm com/facebook/rendercore/ErrorReporter
-	FIELD a INSTANCE Lekn;
-	METHOD a getInstance ()Lekn;
+CLASS esn com/facebook/rendercore/ErrorReporter
+	FIELD a INSTANCE Leso;
+	METHOD a getInstance ()Leso;

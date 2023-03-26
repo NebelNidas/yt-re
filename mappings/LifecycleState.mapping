@@ -1,2 +1,2 @@
-CLASS auq LifecycleState
-	METHOD a isEquallyOrFurtherAdvancedThan (Lauq;)Z
+CLASS bcm LifecycleState
+	METHOD a isEquallyOrFurtherAdvancedThan (Lbcm;)Z

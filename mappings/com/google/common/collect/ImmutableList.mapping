@@ -1,9 +1,9 @@
-CLASS afsk com/google/common/collect/ImmutableList
-	METHOD F construct ([Ljava/lang/Object;)Lafsk;
+CLASS agcr com/google/common/collect/ImmutableList
+	METHOD F construct ([Ljava/lang/Object;)Lagcr;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lafsk;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafsk;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lagcr;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagcr;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lafsk;
+	METHOD o copyOf (Ljava/util/Collection;)Lagcr;
 		ARG 0 elements
-	METHOD q of ()Lafsk;
+	METHOD q of ()Lagcr;

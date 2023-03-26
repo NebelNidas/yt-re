@@ -1,6 +1,6 @@
-CLASS ahsx UnknownFieldSetLite
-	FIELD a defaultInstance Lahsx;
-	METHOD b mutableCopyOf (Lahsx;Lahsx;)Lahsx;
-	METHOD c newInstance ()Lahsx;
+CLASS aidj UnknownFieldSetLite
+	FIELD a defaultInstance Laidj;
+	METHOD b mutableCopyOf (Laidj;Laidj;)Laidj;
+	METHOD c newInstance ()Laidj;
 	METHOD g mergeVarintField (ILjava/lang/Object;)V
-	METHOD h mergeFieldFrom (ILahpb;)Z
+	METHOD h mergeFieldFrom (ILahzn;)Z

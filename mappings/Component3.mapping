@@ -1,5 +1,5 @@
-CLASS dxf Component3
+CLASS eff Component3
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames
-	METHOD w key (Ljava/lang/String;)V
+	METHOD x key (Ljava/lang/String;)V

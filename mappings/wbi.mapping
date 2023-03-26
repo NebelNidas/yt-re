@@ -1,0 +1,2 @@
+CLASS wbi
+	METHOD d toByteArray ()[B

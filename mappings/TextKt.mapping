@@ -1,5 +1,5 @@
-CLASS ejj TextKt
-	FIELD a text Lejl;
+CLASS erk TextKt
+	FIELD a text Lerm;
 	FIELD d required Ljava/util/BitSet;
-	METHOD c getText ()Lejl;
+	METHOD c getText ()Lerm;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

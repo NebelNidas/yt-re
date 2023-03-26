@@ -1,4 +1,4 @@
-CLASS aefc ThinLocalStateResult
+CLASS aeph ThinLocalStateResult
 	FIELD a state Ljava/lang/Object;
 	FIELD b metadata Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/Object;Ljava/lang/Object;)V

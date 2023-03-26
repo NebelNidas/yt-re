@@ -1,14 +1,14 @@
-CLASS ecz com/facebook/litho/annotations/ResType
-	FIELD a NONE Lecz;
-	FIELD b STRING Lecz;
-	FIELD c STRING_ARRAY Lecz;
-	FIELD d INT Lecz;
-	FIELD e INT_ARRAY Lecz;
-	FIELD f BOOL Lecz;
-	FIELD g COLOR Lecz;
-	FIELD h DIMEN_SIZE Lecz;
-	FIELD i DIMEN_OFFSET Lecz;
-	FIELD j DIMEN_TEXT Lecz;
-	FIELD k FLOAT Lecz;
-	FIELD l DRAWABLE Lecz;
-	FIELD m $VALUES [Lecz;
+CLASS ekz com/facebook/litho/annotations/ResType
+	FIELD a NONE Lekz;
+	FIELD b STRING Lekz;
+	FIELD c STRING_ARRAY Lekz;
+	FIELD d INT Lekz;
+	FIELD e INT_ARRAY Lekz;
+	FIELD f BOOL Lekz;
+	FIELD g COLOR Lekz;
+	FIELD h DIMEN_SIZE Lekz;
+	FIELD i DIMEN_OFFSET Lekz;
+	FIELD j DIMEN_TEXT Lekz;
+	FIELD k FLOAT Lekz;
+	FIELD l DRAWABLE Lekz;
+	FIELD m $VALUES [Lekz;

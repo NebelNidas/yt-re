@@ -1,8 +1,8 @@
-CLASS svm AdCallToActionOverlayState
-	FIELD b renderer Lafni;
-	FIELD c onClickedRenderer Lafni;
-	FIELD d trackingParams Lahow;
-	FIELD e visualStateChangeTriggers Lafsk;
+CLASS teq AdCallToActionOverlayState
+	FIELD b renderer Lafxp;
+	FIELD c onClickedRenderer Lafxp;
+	FIELD d trackingParams Lahzi;
+	FIELD e visualStateChangeTriggers Lagcr;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

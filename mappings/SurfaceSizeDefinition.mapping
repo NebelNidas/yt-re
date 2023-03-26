@@ -1,4 +1,4 @@
-CLASS zr SurfaceSizeDefinition
+CLASS afz SurfaceSizeDefinition
 	FIELD a analysisSize Landroid/util/Size;
 	FIELD b previewSize Landroid/util/Size;
 	FIELD c recordSize Landroid/util/Size;

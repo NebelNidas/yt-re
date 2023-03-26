@@ -1,0 +1,2 @@
+CLASS ador
+	METHOD f setSelectedText (Ljava/lang/String;)V

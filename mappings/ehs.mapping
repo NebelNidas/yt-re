@@ -1,0 +1,3 @@
+CLASS ehs
+	METHOD b getLayoutOutput (Less;)Lehs;
+	METHOD d isAccessible ()Z

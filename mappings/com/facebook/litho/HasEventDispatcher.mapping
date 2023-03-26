@@ -1,2 +1,2 @@
-CLASS dzj com/facebook/litho/HasEventDispatcher
-	METHOD l getEventDispatcher ()Ldza;
+CLASS ehk com/facebook/litho/HasEventDispatcher
+	METHOD l getEventDispatcher ()Lehb;

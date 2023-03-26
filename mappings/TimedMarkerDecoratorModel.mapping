@@ -1,15 +1,14 @@
-CLASS abgr TimedMarkerDecoratorModel
+CLASS abjd TimedMarkerDecoratorModel
 	FIELD a decorationVisibilityStartMillis J
 	FIELD b decorationVisibilityEndMillis J
 	FIELD c label Ljava/lang/CharSequence;
-	FIELD d icon Laklz;
+	FIELD d icon Lakox;
 	FIELD e decorationTimeMillis J
-	METHOD <init> (JJJLjava/lang/CharSequence;Laklz;)V
+	METHOD <init> (JJJLjava/lang/CharSequence;Lakox;)V
 		ARG 1 decorationVisibilityStartMillis
 		ARG 3 decorationVisibilityEndMillis
 		ARG 5 decorationTimeMillis
 		ARG 7 label
 		ARG 8 icon
-	METHOD a builder ()Labgq;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

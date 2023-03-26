@@ -1,3 +1,0 @@
-CLASS dvl
-	METHOD b getLayoutOutput (Legj;)Ldvl;
-	METHOD d isAccessible ()Z

@@ -1,0 +1,3 @@
+CLASS tmx
+	METHOD af isHttps (Landroid/net/Uri;)Z
+	METHOD ah isLocalhost (Landroid/net/Uri;)Z

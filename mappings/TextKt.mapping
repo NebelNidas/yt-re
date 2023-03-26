@@ -1,5 +1,5 @@
-CLASS efb TextKt
-	FIELD a text Lefd;
+CLASS efu TextKt
+	FIELD a text Lefw;
 	FIELD d required Ljava/util/BitSet;
-	METHOD c getText ()Lefd;
-	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V
+	METHOD b getText ()Lefw;
+	METHOD d setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

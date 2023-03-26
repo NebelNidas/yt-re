@@ -1,2 +1,2 @@
-CLASS sql MdxAdOverlayState
+CLASS ssa MdxAdOverlayState
 	FIELD a remotePlayback Z

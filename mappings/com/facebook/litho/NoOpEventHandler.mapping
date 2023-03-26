@@ -1,2 +1,2 @@
-CLASS dwk com/facebook/litho/NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Ldwk;
+CLASS dws com/facebook/litho/NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Ldws;

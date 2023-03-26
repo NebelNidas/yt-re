@@ -1,0 +1,4 @@
+CLASS dwm
+	METHOD c getFocusChangeListener (Landroid/view/View;)Ldto;
+	METHOD d getClickListener (Landroid/view/View;)Ldtt;
+	METHOD e getLongClickListener (Landroid/view/View;)Ldtu;

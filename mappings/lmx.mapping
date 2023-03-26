@@ -1,3 +1,0 @@
-CLASS lmx
-	FIELD aV accountId Lcom/google/apps/tiktok/account/AccountId;
-	FIELD aW accountChangedCalledKey Z

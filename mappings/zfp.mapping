@@ -1,0 +1,4 @@
+CLASS zfp
+	FIELD d trackRendererType I
+	METHOD <init> (IILayn;Ljava/lang/String;)V
+		ARG 1 trackRendererType

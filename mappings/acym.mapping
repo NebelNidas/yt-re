@@ -1,2 +1,3 @@
 CLASS acym
-	METHOD f setSelectedText (Ljava/lang/String;)V
+	METHOD a getButtonId (Lakox;)I
+		ARG 1 icon

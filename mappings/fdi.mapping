@@ -1,5 +1,0 @@
-CLASS fdi
-	FIELD c watchWhileActivity Lbu;
-	METHOD f someDislikeMethod (Laiyd;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Laiyd;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Laiyd;)Lcom/google/common/util/concurrent/ListenableFuture;

@@ -1,2 +1,2 @@
 CLASS dvd com/facebook/litho/HasEventDispatcher
-	METHOD l getEventDispatcher ()Lduu;
+	METHOD n getEventDispatcher ()Lduv;

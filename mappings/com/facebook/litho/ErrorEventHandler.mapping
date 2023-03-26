@@ -1,3 +1,1 @@
-CLASS dut com/facebook/litho/ErrorEventHandler
-	METHOD b onError (Ljava/lang/Exception;)V
-		ARG 1 error
+CLASS duu com/facebook/litho/ErrorEventHandler

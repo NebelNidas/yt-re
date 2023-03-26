@@ -1,6 +1,6 @@
-CLASS awg LoaderManager
-	FIELD a lifecycleOwner Laus;
-	METHOD a create (Laus;)Lawg;
+CLASS awj LoaderManager
+	FIELD a lifecycleOwner Lauv;
+	METHOD a create (Lauv;)Lawj;
 	METHOD b isLoggable (I)Z
 		ARG 0 level
 	METHOD c toString (Ljava/lang/String;Ljava/io/PrintWriter;)V

@@ -1,8 +1,8 @@
-CLASS spz AdCallToActionOverlayState
-	FIELD b renderer Lafgo;
-	FIELD c onClickedRenderer Lafgo;
-	FIELD d trackingParams Lahhq;
-	FIELD e visualStateChangeTriggers Laflo;
+CLASS sro AdCallToActionOverlayState
+	FIELD b renderer Lafjl;
+	FIELD c onClickedRenderer Lafjl;
+	FIELD d trackingParams Lahko;
+	FIELD e visualStateChangeTriggers Lafol;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

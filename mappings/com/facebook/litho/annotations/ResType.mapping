@@ -1,14 +1,14 @@
-CLASS dyt com/facebook/litho/annotations/ResType
-	FIELD a NONE Ldyt;
-	FIELD b STRING Ldyt;
-	FIELD c STRING_ARRAY Ldyt;
-	FIELD d INT Ldyt;
-	FIELD e INT_ARRAY Ldyt;
-	FIELD f BOOL Ldyt;
-	FIELD g COLOR Ldyt;
-	FIELD h DIMEN_SIZE Ldyt;
-	FIELD i DIMEN_OFFSET Ldyt;
-	FIELD j DIMEN_TEXT Ldyt;
-	FIELD k FLOAT Ldyt;
-	FIELD l DRAWABLE Ldyt;
-	FIELD m $VALUES [Ldyt;
+CLASS dzg com/facebook/litho/annotations/ResType
+	FIELD a NONE Ldzg;
+	FIELD b STRING Ldzg;
+	FIELD c STRING_ARRAY Ldzg;
+	FIELD d INT Ldzg;
+	FIELD e INT_ARRAY Ldzg;
+	FIELD f BOOL Ldzg;
+	FIELD g COLOR Ldzg;
+	FIELD h DIMEN_SIZE Ldzg;
+	FIELD i DIMEN_OFFSET Ldzg;
+	FIELD j DIMEN_TEXT Ldzg;
+	FIELD k FLOAT Ldzg;
+	FIELD l DRAWABLE Ldzg;
+	FIELD m $VALUES [Ldzg;

@@ -1,5 +1,5 @@
-CLASS ahia CodedOutputStream
+CLASS ahky CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Lahia;
+	METHOD ak getCodedOutput ([B)Lahky;
 	METHOD an checkNoSpaceLeft ()V
 	METHOD i flush ()V

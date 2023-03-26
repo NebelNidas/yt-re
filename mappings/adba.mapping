@@ -1,0 +1,2 @@
+CLASS adba
+	METHOD f setSelectedText (Ljava/lang/String;)V

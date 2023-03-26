@@ -1,0 +1,3 @@
+CLASS aenh
+	FIELD a moduleNames Ljava/util/List;
+	FIELD b languages Ljava/util/List;

@@ -1,10 +1,10 @@
-CLASS aasw SpeedGenerator
-	FIELD a emptySpeeds [Laptg;
-	FIELD c speeds [Laptg;
+CLASS aavg SpeedGenerator
+	FIELD a emptySpeeds [Lapwp;
+	FIELD c speeds [Lapwp;
 	FIELD d speedMult F
 	METHOD <init> (ZLcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;F)V
 		ARG 3 speedMult
 	METHOD a getSpeedMult ()F
 	METHOD b getSelectedDisplayString ()Ljava/lang/String;
-	METHOD c getSpeeds ()[Laptg;
-	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Laptg;
+	METHOD c getSpeeds ()[Lapwp;
+	METHOD d generateSpeeds (Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;)[Lapwp;

@@ -1,7 +1,7 @@
-CLASS feg SectionReloadEventImpl
+CLASS ffk SectionReloadEventImpl
 	FIELD a sectionId Ljava/lang/String;
-	FIELD b reloadContinuationData Laodt;
-	METHOD <init> (Ljava/lang/String;Laodt;)V
+	FIELD b reloadContinuationData Laogu;
+	METHOD <init> (Ljava/lang/String;Laogu;)V
 		ARG 1 sectionId
 		ARG 2 reloadContinuationData
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,8 +1,8 @@
-CLASS efd Text
-	FIELD A maxLines I
-	FIELD B shadowColor I
-	FIELD G tmpText Ljava/lang/CharSequence;
-	FIELD J typefaceStyle I
-	FIELD L typeface Landroid/graphics/Typeface;
+CLASS efw Text
+	FIELD B typefaceStyle I
+	FIELD D typeface Landroid/graphics/Typeface;
 	FIELD b minLines I
 	FIELD e ellipsize Landroid/text/TextUtils$TruncateAt;
+	FIELD s maxLines I
+	FIELD t shadowColor I
+	FIELD y tmpText Ljava/lang/CharSequence;

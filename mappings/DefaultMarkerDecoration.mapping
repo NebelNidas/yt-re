@@ -1,7 +1,7 @@
-CLASS abgd DefaultMarkerDecoration
+CLASS abiq DefaultMarkerDecoration
 	FIELD a text Ljava/lang/CharSequence;
-	FIELD b icon Laklz;
-	METHOD <init> (Ljava/lang/CharSequence;Laklz;)V
+	FIELD b icon Lakox;
+	METHOD <init> (Ljava/lang/CharSequence;Lakox;)V
 		ARG 1 text
 		ARG 2 icon
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,4 +1,4 @@
-CLASS ggv AccessibilityLikeDislike
+CLASS gic AccessibilityLikeDislike
 	FIELD a likeTexts [I
 	FIELD b dislikeTexts [I
 	FIELD d view Landroid/view/View;

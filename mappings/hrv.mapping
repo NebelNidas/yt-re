@@ -1,4 +1,0 @@
-CLASS hrv
-	METHOD B setText (Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-	METHOD y setText (Landroid/widget/TextView;I)V
-		ARG 1 resid

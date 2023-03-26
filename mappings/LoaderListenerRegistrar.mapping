@@ -1,3 +1,3 @@
-CLASS awh LoaderListenerRegistrar
+CLASS awk LoaderListenerRegistrar
 	FIELD e id I
-	FIELD f loader Lawo;
+	FIELD f loader Lawr;

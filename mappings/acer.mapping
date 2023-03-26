@@ -1,0 +1,2 @@
+CLASS acer
+	METHOD L setPlaybackSpeed (F)V

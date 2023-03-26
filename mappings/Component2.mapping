@@ -1,11 +1,12 @@
-CLASS dtb Component2
-	FIELD a idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD j id I
-	FIELD v EMPTY_ARRAY [Lgwk;
-	METHOD G makeShallowCopyWithNewId (Ldtf;)Ldtb;
-	METHOD H generateKey (Ldtf;)Ldtf;
-	METHOD f isEquivalentTo (Ldtb;)Z
-	METHOD j makeShallowCopy ()Ldtb;
-	METHOD q getSimpleName ()Ljava/lang/String;
-	METHOD t measure (Ldtf;IILdwy;)V
-	METHOD v isHostComponent (Ldtb;)Z
+CLASS dtj Component2
+	FIELD c idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD h id I
+	FIELD o EMPTY_ARRAY [Lgxl;
+	METHOD A onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
+	METHOD G measure (Ldtn;IILdxi;)V
+	METHOD M onMeasure (Ldtn;Ldts;IILdxi;Ldvi;)V
+	METHOD N onMount (Ldtn;Ljava/lang/Object;Ldvi;)V
+	METHOD aa isHostComponent (Ldtj;)Z
+	METHOD g isEquivalentTo (Ldtj;)Z
+	METHOD l makeShallowCopy ()Ldtj;
+	METHOD y dispatchOnEventImpl (Ldux;Ljava/lang/Object;)Ljava/lang/Object;

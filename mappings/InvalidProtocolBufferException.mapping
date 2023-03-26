@@ -1,2 +1,2 @@
-CLASS ahjp InvalidProtocolBufferException
+CLASS ahmn InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

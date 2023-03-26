@@ -1,5 +1,5 @@
-CLASS sqf AdReengagementState
-	FIELD a renderer Laikt;
+CLASS sru AdReengagementState
+	FIELD a renderer Lainq;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

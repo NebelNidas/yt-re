@@ -1,0 +1,2 @@
+CLASS tjg
+	METHOD e getPackageInfo (Landroid/content/Context;)Landroid/content/pm/PackageInfo;

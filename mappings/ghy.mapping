@@ -1,0 +1,7 @@
+CLASS ghy
+	FIELD a buttonsMap Ljava/util/EnumMap;
+	FIELD b pivotTabsMap Ljava/util/EnumMap;
+	METHOD b getIconId (Lakox;Z)I
+		ARG 1 icon
+		ARG 2 usePivotTabs
+	METHOD c generateButtonsMap ()Ljava/util/EnumMap;

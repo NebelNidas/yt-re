@@ -1,2 +1,0 @@
-CLASS dvt InternalNode2
-	METHOD au getTestKey ()Ljava/lang/String;

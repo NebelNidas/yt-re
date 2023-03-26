@@ -1,6 +1,0 @@
-CLASS egd com/facebook/rendercore/DefaultErrorReporter
-	METHOD c report (ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
-		ARG 0 level
-		ARG 1 categoryKey
-		ARG 2 message
-		ARG 3 cause

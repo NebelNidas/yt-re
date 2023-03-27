@@ -1,2 +1,2 @@
-CLASS ahtu BooleanArrayList
-	FIELD b emptyList Lahtu;
+CLASS ahym BooleanArrayList
+	FIELD b emptyList Lahym;

@@ -1,4 +1,4 @@
-CLASS ehb DebugComponent
+CLASS eha DebugComponent
 	METHOD b getComponent ()Lege;
-	METHOD f getLithoView ()Lejh;
-	METHOD m getLayoutNode ()Ldlh;
+	METHOD f getLithoView ()Lejg;
+	METHOD n getLayoutNode ()Ldli;

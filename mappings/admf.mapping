@@ -1,0 +1,2 @@
+CLASS admf
+	METHOD f setSelectedText (Ljava/lang/String;)V

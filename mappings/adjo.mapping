@@ -1,0 +1,3 @@
+CLASS adjo
+	METHOD a getButtonId (Lalea;)I
+		ARG 1 icon

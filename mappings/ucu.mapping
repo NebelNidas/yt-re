@@ -1,3 +1,0 @@
-CLASS ucu
-	METHOD aJ isHttps (Landroid/net/Uri;)Z
-	METHOD aL isLocalhost (Landroid/net/Uri;)Z

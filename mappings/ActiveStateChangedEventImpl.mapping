@@ -1,7 +1,7 @@
-CLASS gss ActiveStateChangedEventImpl
-	FIELD a currentState Lgsp;
-	FIELD b toState Lgsp;
-	METHOD <init> (Lgsp;Lgsp;)V
+CLASS gsv ActiveStateChangedEventImpl
+	FIELD a currentState Lgss;
+	FIELD b toState Lgss;
+	METHOD <init> (Lgss;Lgss;)V
 		ARG 1 currentState
 		ARG 2 toState
 	METHOD equals (Ljava/lang/Object;)Z

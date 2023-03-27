@@ -1,0 +1,2 @@
+CLASS aspq
+	METHOD ar isItalic ()Z

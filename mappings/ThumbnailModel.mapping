@@ -1,4 +1,4 @@
-CLASS iko ThumbnailModel
+CLASS iks ThumbnailModel
 	FIELD a filePath Landroid/net/Uri;
 	FIELD b videoDuration Ljava/lang/String;
 	METHOD <init> (Landroid/net/Uri;Ljava/lang/String;)V

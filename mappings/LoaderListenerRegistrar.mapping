@@ -1,3 +1,3 @@
-CLASS ben LoaderListenerRegistrar
+CLASS bep LoaderListenerRegistrar
 	FIELD e id I
-	FIELD f loader Lbet;
+	FIELD f loader Lbev;

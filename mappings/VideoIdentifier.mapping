@@ -1,10 +1,10 @@
-CLASS lny VideoIdentifier
+CLASS lox VideoIdentifier
 	FIELD a videoId Ljava/lang/String;
 	FIELD b playlistSetVideoId Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 videoId
 		ARG 2 playlistSetVideoId
-	METHOD a create (Ljava/lang/String;Ljava/lang/String;)Llny;
+	METHOD a create (Ljava/lang/String;Ljava/lang/String;)Llox;
 		ARG 0 videoId
 		ARG 1 playlistSetVideoid
 	METHOD equals (Ljava/lang/Object;)Z

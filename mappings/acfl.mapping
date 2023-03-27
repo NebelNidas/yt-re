@@ -1,3 +1,0 @@
-CLASS acfl
-	METHOD M (F)V
-		ARG 1 speed

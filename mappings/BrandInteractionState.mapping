@@ -1,8 +1,8 @@
-CLASS thr BrandInteractionState
+CLASS tka BrandInteractionState
 	FIELD a hidden Z
 	FIELD b enabled Z
 	FIELD c annotationEnabled Z
 	FIELD d appPromoEnabled Z
 	FIELD e fullscreen Z
-	FIELD f renderer Laiwo;
+	FIELD f renderer Lajbd;
 	FIELD g likeOrdinal I

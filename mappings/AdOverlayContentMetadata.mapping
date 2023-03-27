@@ -1,3 +1,3 @@
-CLASS tib AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lzdj;
+CLASS tkk AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lzgj;
 	FIELD c title Ljava/lang/String;

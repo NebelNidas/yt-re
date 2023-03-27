@@ -1,7 +1,7 @@
-CLASS osw FaceViewerModel
-	FIELD a experienceRequestProto Lahbe;
+CLASS oud FaceViewerModel
+	FIELD a experienceRequestProto Lahfw;
 	FIELD b theme I
-	METHOD <init> (Lahbe;I)V
+	METHOD <init> (Lahfw;I)V
 		ARG 1 experienceRequestproto
 		ARG 2 theme
 	METHOD equals (Ljava/lang/Object;)Z

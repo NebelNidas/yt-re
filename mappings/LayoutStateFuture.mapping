@@ -1,4 +1,4 @@
-CLASS egu LayoutStateFuture
+CLASS egt LayoutStateFuture
 	FIELD a runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD b context Legi;
 	FIELD c root Lege;
@@ -11,8 +11,8 @@ CLASS egu LayoutStateFuture
 	FIELD l extraAttribution Ljava/lang/String;
 	FIELD o released Z
 	FIELD p tree Lcom/facebook/litho/ComponentTree;
-	FIELD q treeProps Ldli;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Legi;Lege;IIZLdli;ILjava/lang/String;[B[B[B)V
+	FIELD q treeProps Ldlj;
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Legi;Lege;IIZLdlj;ILjava/lang/String;[B[B[B)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec

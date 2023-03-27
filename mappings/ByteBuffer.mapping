@@ -1,3 +1,3 @@
-CLASS ahud ByteBuffer
-	METHOD l newCodedInput ()Lahui;
+CLASS ahyv ByteBuffer
+	METHOD l newCodedInput ()Lahza;
 	METHOD q isValidUtf8 ()Z

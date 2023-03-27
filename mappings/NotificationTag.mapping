@@ -1,4 +1,4 @@
-CLASS aahu NotificationTag
+CLASS aamg NotificationTag
 	FIELD a notificationTag Ljava/lang/String;
 	FIELD b notificationId I
 	FIELD c clientId Ljava/lang/String;

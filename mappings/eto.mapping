@@ -1,3 +1,0 @@
-CLASS eto
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Letr;

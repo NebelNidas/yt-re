@@ -1,3 +1,0 @@
-CLASS esb
-	FIELD k lithoView Lejh;
-	FIELD l recyclerView Landroid/support/v7/widget/RecyclerView;

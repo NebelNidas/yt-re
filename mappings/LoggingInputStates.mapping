@@ -1,10 +1,10 @@
-CLASS lyk LoggingInputStates
-	FIELD a loggingState Labni;
-	FIELD b containerState Llyq;
-	METHOD <init> (Labni;Llyq;)V
+CLASS lze LoggingInputStates
+	FIELD a loggingState Labrj;
+	FIELD b containerState Llzo;
+	METHOD <init> (Labrj;Llzo;)V
 		ARG 1 loggingState
 		ARG 2 containerState
-	METHOD a create (Labni;Llyq;)Llyk;
+	METHOD a create (Labrj;Llzo;)Llze;
 		ARG 0 loggingState
 		ARG 1 containerState
 	METHOD equals (Ljava/lang/Object;)Z

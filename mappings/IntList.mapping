@@ -1,2 +1,2 @@
-CLASS ahvs IntList
-	METHOD f mutableCopyWithCapacity (I)Lahvs;
+CLASS aiak IntList
+	METHOD f mutableCopyWithCapacity (I)Laiak;

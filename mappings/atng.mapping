@@ -1,0 +1,4 @@
+CLASS atng
+	METHOD a (Latpp;Latpp;Latpk;Latpk;Latpk;Latpk;)Latng;
+		ARG 3 onComplete
+		ARG 6 onDispose

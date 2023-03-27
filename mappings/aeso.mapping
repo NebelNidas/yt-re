@@ -1,8 +1,0 @@
-CLASS aeso
-	FIELD a installStatus I
-	FIELD b bytesDownloaded J
-	FIELD c totalBytesToDownload J
-	FIELD d installErrorCode I
-	FIELD e packageName Ljava/lang/String;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

@@ -1,4 +1,4 @@
-CLASS bet Loader
+CLASS bev Loader
 	FIELD d id I
 	FIELD f started Z
 	FIELD i contentChanged Z

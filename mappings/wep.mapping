@@ -1,2 +1,0 @@
-CLASS wep
-	METHOD d toByteArray ()[B

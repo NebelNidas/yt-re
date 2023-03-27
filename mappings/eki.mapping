@@ -1,0 +1,2 @@
+CLASS eki
+	FIELD b stacktrace Ljava/lang/Throwable;

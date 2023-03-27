@@ -1,6 +1,6 @@
-CLASS jhm ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Laisq;
-	METHOD <init> (Laisq;)V
+CLASS jhz ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Laixf;
+	METHOD <init> (Laixf;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

@@ -1,5 +1,5 @@
-CLASS afsw com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Lafsu;
+CLASS afxj com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lafxh;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafsu;)V
+	METHOD <init> (Lafxh;)V
 		ARG 1 delegate

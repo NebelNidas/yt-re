@@ -1,4 +1,0 @@
-CLASS atin
-	METHOD a (Latkw;Latkw;Latkr;Latkr;Latkr;Latkr;)Latin;
-		ARG 3 onComplete
-		ARG 6 onDispose

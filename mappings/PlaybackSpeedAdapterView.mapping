@@ -1,9 +1,9 @@
-CLASS lmr PlaybackSpeedAdapterView
-	FIELD ae speeds [Laqir;
+CLASS lnp PlaybackSpeedAdapterView
+	FIELD ae speeds [Laqnm;
 	FIELD af selectedIndex I
-	METHOD aR (Landroid/content/Context;Ladhy;[Laqir;I)V
+	METHOD aR (Landroid/content/Context;Ladmb;[Laqnm;I)V
 		ARG 2 speeds
 		ARG 3 selectedIndex
-	METHOD b ([Laqir;I)V
+	METHOD b ([Laqnm;I)V
 		ARG 1 speeds
 		ARG 2 selectedIndex

@@ -1,0 +1,3 @@
+CLASS uax
+	METHOD ac isHttps (Landroid/net/Uri;)Z
+	METHOD ae isLocalhost (Landroid/net/Uri;)Z

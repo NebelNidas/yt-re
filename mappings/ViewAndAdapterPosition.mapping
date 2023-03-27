@@ -1,10 +1,10 @@
-CLASS gyw ViewAndAdapterPosition
+CLASS gzc ViewAndAdapterPosition
 	FIELD a view Landroid/view/View;
 	FIELD b adapterPosition I
 	METHOD <init> (Landroid/view/View;I)V
 		ARG 1 view
 		ARG 2 adapterPosition
-	METHOD a create (Landroid/view/View;I)Lgyw;
+	METHOD a create (Landroid/view/View;I)Lgzc;
 		ARG 0 view
 		ARG 1 adapterPosition
 	METHOD equals (Ljava/lang/Object;)Z

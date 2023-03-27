@@ -1,7 +1,7 @@
 CLASS ego
-	METHOD J poolSize ()I
-	METHOD P dispatchOnEventImpl (Leia;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD Q onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD X onMeasure (Legi;Legm;IILekd;)V
-	METHOD Y onMount (Legi;Ljava/lang/Object;)V
+	METHOD K poolSize ()I
+	METHOD Q dispatchOnEventImpl (Lehz;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD R onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
+	METHOD Z onMeasure (Legi;Legm;IILekc;)V
+	METHOD aa onMount (Legi;Ljava/lang/Object;)V
 	METHOD c getThis (Legi;)Lege;

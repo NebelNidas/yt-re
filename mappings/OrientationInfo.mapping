@@ -1,7 +1,7 @@
-CLASS gwl OrientationInfo
-	FIELD a deviceOrientation Lajzr;
-	FIELD b interfaceOrientation Lajzr;
-	METHOD <init> (Lajzr;Lajzr;)V
+CLASS gwr OrientationInfo
+	FIELD a deviceOrientation Lakeg;
+	FIELD b interfaceOrientation Lakeg;
+	METHOD <init> (Lakeg;Lakeg;)V
 		ARG 1 deviceOrientation
 		ARG 2 interfaceOrientation
 	METHOD equals (Ljava/lang/Object;)Z

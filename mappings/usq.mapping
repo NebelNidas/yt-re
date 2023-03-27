@@ -1,2 +1,0 @@
-CLASS usq
-	METHOD c stringToNonNull (Ljava/lang/CharSequence;)Ljava/lang/CharSequence;

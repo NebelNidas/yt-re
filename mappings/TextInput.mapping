@@ -1,2 +1,2 @@
-CLASS esr TextInput
+CLASS esq TextInput
 	FIELD f hint Ljava/lang/CharSequence;

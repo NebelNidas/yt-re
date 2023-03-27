@@ -1,2 +1,0 @@
-CLASS gib
-	FIELD b menuItems Ljava/util/Map;

@@ -1,3 +1,3 @@
-CLASS ahvm BooleanList
-	METHOD d mutableCopyWithCapacity (I)Lahvm;
+CLASS aiae BooleanList
+	METHOD d mutableCopyWithCapacity (I)Laiae;
 		ARG 1 capacity

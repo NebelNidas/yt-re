@@ -1,2 +1,2 @@
-CLASS ahvv LongList
-	METHOD d mutableCopyWithCapacity (I)Lahvv;
+CLASS aian LongList
+	METHOD d mutableCopyWithCapacity (I)Laian;

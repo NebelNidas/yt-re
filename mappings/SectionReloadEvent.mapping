@@ -1,4 +1,4 @@
-CLASS frm SectionReloadEvent
-	METHOD a getReloadContinuationData ()Laosq;
+CLASS frl SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laoxm;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Laosq;)Lfrm;
+	METHOD c of (Ljava/lang/String;Laoxm;)Lfrl;

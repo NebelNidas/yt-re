@@ -1,2 +1,2 @@
-CLASS ahtm com/google/protobuf/AbstractMessageLite
+CLASS ahye com/google/protobuf/AbstractMessageLite
 	COMMENT https://github.com/protocolbuffers/protobuf/blob/main/java/core/src/main/java/com/google/protobuf/AbstractMessageLite.java

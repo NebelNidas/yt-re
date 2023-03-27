@@ -1,0 +1,2 @@
+CLASS lit
+	METHOD b reset ()V

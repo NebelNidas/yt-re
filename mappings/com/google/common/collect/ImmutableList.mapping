@@ -1,8 +1,8 @@
-CLASS afwv com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Lafwv;
+CLASS agbi com/google/common/collect/ImmutableList
+	METHOD F construct ([Ljava/lang/Object;)Lagbi;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lafwv;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafwv;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lagbi;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagbi;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lafwv;
+	METHOD o copyOf (Ljava/util/Collection;)Lagbi;
 		ARG 0 elements

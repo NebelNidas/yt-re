@@ -1,6 +1,6 @@
-CLASS afsv com/google/common/base/Suppliers_MemoizingSupplier
-	FIELD a delegate Lafsu;
+CLASS afxi com/google/common/base/Suppliers_MemoizingSupplier
+	FIELD a delegate Lafxh;
 	FIELD b initialized Z
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafsu;)V
+	METHOD <init> (Lafxh;)V
 		ARG 1 delegate

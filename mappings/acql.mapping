@@ -1,2 +1,0 @@
-CLASS acql
-	METHOD b getDisplayString (Lakql;)Landroid/text/Spanned;

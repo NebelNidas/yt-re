@@ -1,0 +1,2 @@
+CLASS udv
+	METHOD f getPackageInfo (Landroid/content/Context;)Landroid/content/pm/PackageInfo;

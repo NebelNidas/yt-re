@@ -1,4 +1,4 @@
-CLASS ted OrganicPlaybackContextModel
+CLASS tgk OrganicPlaybackContextModel
 	FIELD a contentCpn Ljava/lang/String;
 	FIELD b isLivePlayback Z
 	FIELD c isDaiContent Z

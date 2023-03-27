@@ -1,2 +1,2 @@
-CLASS elq com/facebook/litho/annotations/Prop
-	METHOD a resType ()Lelr;
+CLASS elw com/facebook/litho/annotations/Prop
+	METHOD a resType ()Lelx;

@@ -1,0 +1,3 @@
+CLASS eiq
+	METHOD b getLayoutOutput (Letr;)Leiq;
+	METHOD d isAccessible ()Z

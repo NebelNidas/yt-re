@@ -1,6 +1,0 @@
-CLASS mdp
-	FIELD c playerViewModeMonitor Lfxu;
-	FIELD o tabNames Ljava/util/Set;
-	FIELD p flags Laggf;
-	FIELD q config Landroid/content/res/Configuration;
-	FIELD s pivotBar Lj$/util/Optional;

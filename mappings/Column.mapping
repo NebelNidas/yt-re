@@ -1,4 +1,4 @@
-CLASS eft Column
+CLASS efy Column
 	FIELD a children Ljava/util/List;
 	FIELD d reverse Z
-	METHOD b create (Legd;)Lefs;
+	METHOD b create (Legi;)Lefx;

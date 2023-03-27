@@ -1,2 +1,2 @@
-CLASS bcp LifecycleState
-	METHOD a isEquallyOrFurtherAdvancedThan (Lbcp;)Z
+CLASS bcs LifecycleState
+	METHOD a isEquallyOrFurtherAdvancedThan (Lbcs;)Z

@@ -1,5 +1,5 @@
-CLASS aide CodedOutputStream
+CLASS ahun CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ak getCodedOutput ([B)Laide;
-	METHOD an checkNoSpaceLeft ()V
+	METHOD ai getCodedOutput ([B)Lahun;
+	METHOD al checkNoSpaceLeft ()V
 	METHOD i flush ()V

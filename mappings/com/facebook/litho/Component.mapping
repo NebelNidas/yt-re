@@ -1,10 +1,9 @@
-CLASS efz com/facebook/litho/Component
+CLASS ege com/facebook/litho/Component
 	COMMENT At least <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java</a>
 	FIELD a idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD h EMPTY_ARRAY [Leho;
+	FIELD h EMPTY_ARRAY [Lehu;
 	FIELD k id I
-	METHOD f isEquivalentTo (Lefz;)Z
+	METHOD f isEquivalentTo (Lege;)Z
 		ARG 1 o
-	METHOD j makeShallowCopy ()Lefz;
-	METHOD t measure (Legd;IILejx;)V
-	METHOD v isHostComponent (Lefz;)Z
+	METHOD l makeShallowCopy ()Lege;
+	METHOD v measure (Legi;IILekd;)V

@@ -1,0 +1,3 @@
+CLASS adfk
+	METHOD a getButtonId (Lakzh;)I
+		ARG 1 icon

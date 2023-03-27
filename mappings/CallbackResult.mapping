@@ -1,7 +1,7 @@
-CLASS afpe CallbackResult
-	FIELD a callbacks Lafos;
-	FIELD b result Lafpk;
-	METHOD <init> (Lafos;Lafpk;)V
+CLASS afft CallbackResult
+	FIELD a callbacks Laffh;
+	FIELD b result Laffz;
+	METHOD <init> (Laffh;Laffz;)V
 		ARG 1 callbacks
 		ARG 2 result
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,7 +1,7 @@
-CLASS afka SelectorContext
+CLASS afap SelectorContext
 	FIELD a intent Landroid/content/Intent;
 	METHOD <init> (Landroid/content/Intent;)V
 		ARG 1 intent
-	METHOD a create (Landroid/content/Intent;)Lafka;
+	METHOD a create (Landroid/content/Intent;)Lafap;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

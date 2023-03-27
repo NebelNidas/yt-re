@@ -1,4 +1,4 @@
-CLASS ejx Size
+CLASS ekd Size
 	FIELD a width I
 	FIELD b height I
 	METHOD <init> (II)V

@@ -1,0 +1,6 @@
+CLASS aewa
+	METHOD f assertTrue (ZLjava/lang/String;)V
+	METHOD g assertOnMainThread (Ljava/lang/String;)V
+		ARG 0 methodName
+	METHOD h assertNotNull (Ljava/lang/Object;Ljava/lang/String;)V
+	METHOD i getCompomentName (Landroid/app/Activity;)Ljava/lang/String;

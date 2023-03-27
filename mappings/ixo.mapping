@@ -1,0 +1,2 @@
+CLASS ixo
+	FIELD a context Landroid/content/Context;

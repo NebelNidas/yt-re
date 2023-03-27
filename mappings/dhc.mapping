@@ -1,2 +1,0 @@
-CLASS dhc
-	FIELD a context Ljava/lang/Object;

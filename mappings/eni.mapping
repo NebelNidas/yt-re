@@ -1,0 +1,2 @@
+CLASS eni
+	METHOD m newEventHandler (Ljava/lang/Class;Lenh;I[Ljava/lang/Object;)Leia;

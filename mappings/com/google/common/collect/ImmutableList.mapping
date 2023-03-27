@@ -1,9 +1,8 @@
-CLASS agfz com/google/common/collect/ImmutableList
-	METHOD F construct ([Ljava/lang/Object;)Lagfz;
+CLASS afwv com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Lafwv;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lagfz;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagfz;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lafwv;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafwv;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lagfz;
+	METHOD o copyOf (Ljava/util/Collection;)Lafwv;
 		ARG 0 elements
-	METHOD q of ()Lagfz;

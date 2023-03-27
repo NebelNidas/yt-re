@@ -1,13 +1,13 @@
-CLASS atku MegaBuilder
-	FIELD a param1 Ljava/lang/Object;
-	FIELD b param2 Ljava/lang/Object;
-	FIELD c param3 Ljava/lang/Object;
-	METHOD <init> (Ltov;)V
+CLASS atco MegaBuilder
+	FIELD a param2 Ljava/lang/Object;
+	FIELD b param3 Ljava/lang/Object;
+	FIELD c param1 Ljava/lang/Object;
+	METHOD <init> (Ltpi;)V
 		ARG 1 pollOption
-	METHOD p buildImagePollOption ()Ltov;
-	METHOD q setImage (Lj$/util/Optional;)V
+	METHOD o buildImagePollOption ()Ltpi;
+	METHOD p setImage (Lj$/util/Optional;)V
 		ARG 1 image
-	METHOD r setPlaceholderText (Ljava/lang/String;)V
+	METHOD q setPlaceholderText (Ljava/lang/String;)V
 		ARG 1 placeholderText
-	METHOD s buildChimeTaskData ()Lqhj;
-	METHOD t setPayload ([B)V
+	METHOD r buildChimeTaskData ()Lqic;
+	METHOD s setPayload ([B)V

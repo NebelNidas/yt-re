@@ -1,5 +1,5 @@
-CLASS thc AdReengagementState
-	FIELD a renderer Lajfx;
+CLASS tho AdReengagementState
+	FIELD a renderer Laixi;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

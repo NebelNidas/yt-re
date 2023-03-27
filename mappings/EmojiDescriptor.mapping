@@ -1,4 +1,4 @@
-CLASS vdq EmojiDescriptor
+CLASS vep EmojiDescriptor
 	FIELD a string Ljava/lang/String;
 	FIELD b codePoint Ljava/lang/String;
 	FIELD c parentCodePoint Ljava/lang/String;

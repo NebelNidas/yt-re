@@ -1,4 +1,4 @@
-CLASS efx Component3
+CLASS egc Component3
 	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

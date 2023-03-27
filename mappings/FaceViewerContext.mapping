@@ -1,11 +1,11 @@
-CLASS osc FaceViewerContext
-	FIELD a model Losg;
+CLASS oss FaceViewerContext
+	FIELD a model Losw;
 	FIELD b backgroundExecutor Ljava/util/concurrent/Executor;
 	FIELD c lightweightExecutor Ljava/util/concurrent/Executor;
 	FIELD d cronetEngine Lorg/chromium/net/CronetEngine;
-	FIELD e api Lascd;
+	FIELD e api Larub;
 	FIELD f mainExecutor Ljava/util/concurrent/Executor;
-	METHOD <init> (Lascd;Losg;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Lorg/chromium/net/CronetEngine;[B[B[B[B[B)V
+	METHOD <init> (Larub;Losw;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Lorg/chromium/net/CronetEngine;[B[B[B[B[B)V
 		ARG 1 api
 		ARG 2 model
 		ARG 3 mainExecutor

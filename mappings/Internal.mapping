@@ -1,10 +1,7 @@
-CLASS aies Internal
+CLASS ahwb Internal
 	FIELD a UTF_8 Ljava/nio/charset/Charset;
 	METHOD a hashBoolean (Z)I
-	METHOD b hashCode ([B)I
-	METHOD c hashLong (J)I
-	METHOD d partialHash (I[BII)I
-	METHOD e mergeMessage (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD f toStringUtf8 ([B)Ljava/lang/String;
-	METHOD g isValidUtf8 ([B)Z
-	METHOD i checkNotNull (Ljava/lang/Object;Ljava/lang/String;)V
+	METHOD b hashLong (J)I
+	METHOD c partialHash (I[BII)I
+	METHOD d toStringUtf8 ([B)Ljava/lang/String;
+	METHOD f checkNotNull (Ljava/lang/Object;Ljava/lang/String;)V

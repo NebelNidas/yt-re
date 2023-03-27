@@ -1,4 +1,0 @@
-CLASS ejg
-	METHOD d getFocusChangeListener (Landroid/view/View;)Lege;
-	METHOD e getClickListener (Landroid/view/View;)Legk;
-	METHOD f getLongClickListener (Landroid/view/View;)Legl;

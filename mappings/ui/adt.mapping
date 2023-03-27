@@ -1,4 +1,4 @@
-CLASS aws ui/adt
+CLASS awu ui/adt
 	FIELD a info Landroid/view/accessibility/AccessibilityNodeInfo;
 	METHOD A setHeading (Z)V
 	METHOD B setHintText (Ljava/lang/CharSequence;)V
@@ -19,7 +19,7 @@ CLASS aws ui/adt
 	METHOD e getContentDescription ()Ljava/lang/CharSequence;
 	METHOD f getText ()Ljava/lang/CharSequence;
 	METHOD h addAction (I)V
-	METHOD i addAction (Lawq;)V
+	METHOD i addAction (Laws;)V
 	METHOD j getBoundsInParent (Landroid/graphics/Rect;)V
 	METHOD k getBoundsInScreen (Landroid/graphics/Rect;)V
 	METHOD l setAccessibilityFocused (Z)V

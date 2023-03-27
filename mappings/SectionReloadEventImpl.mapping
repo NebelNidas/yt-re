@@ -1,7 +1,7 @@
-CLASS fre SectionReloadEventImpl
+CLASS frk SectionReloadEventImpl
 	FIELD a sectionId Ljava/lang/String;
-	FIELD b reloadContinuationData Lapar;
-	METHOD <init> (Ljava/lang/String;Lapar;)V
+	FIELD b reloadContinuationData Laosq;
+	METHOD <init> (Ljava/lang/String;Laosq;)V
 		ARG 1 sectionId
 		ARG 2 reloadContinuationData
 	METHOD equals (Ljava/lang/Object;)Z

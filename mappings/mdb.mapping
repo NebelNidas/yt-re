@@ -1,0 +1,2 @@
+CLASS mdb
+	FIELD n hasHandledIntent Z

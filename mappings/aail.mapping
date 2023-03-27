@@ -1,0 +1,3 @@
+CLASS aail
+	FIELD c subscribers Ljava/util/Set;
+	FIELD h subscribedOrdinal I

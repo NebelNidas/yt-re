@@ -1,2 +1,0 @@
-CLASS enc
-	METHOD n newEventHandler (Ljava/lang/Class;Lenb;I[Ljava/lang/Object;)Lehu;

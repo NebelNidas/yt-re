@@ -1,6 +1,6 @@
-CLASS gsh ActiveStateChangedEvent
-	METHOD a create (Lgsi;Lgsi;)Lgsh;
+CLASS gso ActiveStateChangedEvent
+	METHOD a create (Lgsp;Lgsp;)Lgso;
 		ARG 0 currentState
 		ARG 1 toState
-	METHOD b getCurrentState ()Lgsi;
-	METHOD c getToState ()Lgsi;
+	METHOD b getCurrentState ()Lgsp;
+	METHOD c getToState ()Lgsp;

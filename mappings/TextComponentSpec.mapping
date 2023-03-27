@@ -1,3 +1,2 @@
-CLASS pgr TextComponentSpec
-	METHOD g create (Legd;Lplc;Lpne;Lppt;Lpop;Lpnk;Ljava/util/Map;Lpnt;ZFFFLjava/lang/Integer;ZZLjava/lang/Boolean;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Lefz;
-	METHOD h getHint (Lpnk;Landroid/content/Context;Lpkb;Lpne;Lppt;Lpop;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS pha TextComponentSpec
+	METHOD g getHint (Lpny;Landroid/content/Context;Lpko;Lpns;Lpql;Lpph;Ljava/util/Map;Z)Ljava/lang/CharSequence;

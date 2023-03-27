@@ -1,2 +1,2 @@
-CLASS aidf DoubleArrayList
-	FIELD b emptyList Laidf;
+CLASS ahuo DoubleArrayList
+	FIELD b emptyList Lahuo;

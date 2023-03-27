@@ -1,0 +1,2 @@
+CLASS rgu
+	FIELD au list Landroid/widget/ListAdapter;

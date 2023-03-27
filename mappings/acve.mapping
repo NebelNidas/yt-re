@@ -1,2 +1,0 @@
-CLASS acve
-	METHOD M setPlaybackSpeed (F)V

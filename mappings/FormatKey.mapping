@@ -1,4 +1,4 @@
-CLASS zkt FormatKey
+CLASS zdy FormatKey
 	FIELD a videoId Ljava/lang/String;
 	FIELD b itag I
 	FIELD c xtags Ljava/lang/String;
@@ -6,7 +6,7 @@ CLASS zkt FormatKey
 		ARG 1 videoId
 		ARG 2 itag
 		ARG 3 xtags
-	METHOD a create (Ljava/lang/String;ILjava/lang/String;)Lzkt;
+	METHOD a create (Ljava/lang/String;ILjava/lang/String;)Lzdy;
 		ARG 0 videoId
 		ARG 1 itag
 		ARG 2 xtags

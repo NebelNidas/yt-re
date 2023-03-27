@@ -1,2 +1,0 @@
-CLASS acup
-	METHOD M setPlaybackSpeed (F)V

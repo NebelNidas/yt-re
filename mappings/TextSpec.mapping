@@ -1,12 +1,10 @@
-CLASS ess TextSpec
+CLASS esy TextSpec
 	FIELD b typefaceStyle I
 	FIELD c DEFAULT_TYPEFACE Landroid/graphics/Typeface;
-	FIELD e typeface Landroid/graphics/Typeface;
-	FIELD f DEFAULT_TEXT_COLOR_STATE_LIST_STATES [[I
-	FIELD g DEFAULT_TEXT_COLOR_STATE_LIST_COLORS [I
-	FIELD h tempPath Landroid/graphics/Path;
-	FIELD i tempRect Landroid/graphics/Rect;
-	FIELD j tempRectF Landroid/graphics/RectF;
-	METHOD c newTextDrawable ()Lesi;
-	METHOD h onMeasure (Legd;Legh;IILejx;Ljava/lang/CharSequence;Landroid/text/TextUtils$TruncateAt;ZIFFFILandroid/content/res/ColorStateList;IILjava/lang/CharSequence;FILandroid/graphics/Typeface;IILezh;Lezh;Lezh;Lezh;Lezh;)V
-	METHOD o createTextLayout (Legd;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILeuh;FI)Landroid/text/Layout;
+	FIELD d tempPath Landroid/graphics/Path;
+	FIELD e tempRect Landroid/graphics/Rect;
+	FIELD f tempRectF Landroid/graphics/RectF;
+	FIELD h typeface Landroid/graphics/Typeface;
+	FIELD i DEFAULT_TEXT_COLOR_STATE_LIST_STATES [[I
+	FIELD j DEFAULT_TEXT_COLOR_STATE_LIST_COLORS [I
+	METHOD f createTextLayout (Legi;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILeuo;FI)Landroid/text/Layout;

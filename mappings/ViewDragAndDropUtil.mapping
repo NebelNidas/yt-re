@@ -1,4 +1,4 @@
-CLASS aux ViewDragAndDropUtil
+CLASS auz ViewDragAndDropUtil
 	METHOD a cancelDragAndDrop (Landroid/view/View;)V
 	METHOD b dispatchFinishTemporaryDetach (Landroid/view/View;)V
 	METHOD c dispatchStartTemporaryDetach (Landroid/view/View;)V

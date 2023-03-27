@@ -1,4 +1,0 @@
-CLASS atqr
-	METHOD a (Lattb;Lattb;Latsw;Latsw;Latsw;Latsw;)Latqr;
-		ARG 3 onComplete
-		ARG 6 onDispose

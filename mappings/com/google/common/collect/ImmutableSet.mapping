@@ -1,6 +1,6 @@
-CLASS aghe com/google/common/collect/ImmutableSet
+CLASS afxz com/google/common/collect/ImmutableSet
 	COMMENT Taken from <a href="https://github.com/google/guava/blob/master/guava/src/com/google/common/collect/ImmutableSet.java">https://github.com/google/guava/blob/master/guava/src/com/google/common/collect/ImmutableSet.java</a>
 	COMMENT Apparently also merged with {@code ImmutableSet.CachingAsList}
-	FIELD a asList Lagfz;
+	FIELD a asList Lafwv;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

@@ -33,6 +33,6 @@ CLASS br Fragment
 	METHOD ar getPopDirection ()Z
 	METHOD aw isSaved ()Z
 	METHOD nH getEnterAnimation ()I
-	METHOD oi getExitAnimation ()I
-	METHOD oj getPopEnterAnimation ()I
-	METHOD ok getPopExitAnimation ()I
+	METHOD oh getExitAnimation ()I
+	METHOD oi getPopEnterAnimation ()I
+	METHOD oj getPopExitAnimation ()I

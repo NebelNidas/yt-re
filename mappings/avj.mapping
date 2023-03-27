@@ -1,0 +1,5 @@
+CLASS avj
+	FIELD a accessibilityActions [I
+	FIELD b views Ljava/util/WeakHashMap;
+	METHOD v isReceiveContentMimeTypes (Landroid/view/View;)[Ljava/lang/String;
+	METHOD x addView (Landroid/view/View;)Lbee;

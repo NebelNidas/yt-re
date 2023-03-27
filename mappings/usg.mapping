@@ -1,3 +1,0 @@
-CLASS usg
-	METHOD c parseLongOr (Ljava/lang/String;J)J
-	METHOD d stringToNonNull (Ljava/lang/CharSequence;)Ljava/lang/CharSequence;

@@ -1,2 +1,0 @@
-CLASS ejr
-	METHOD b markerPoint (Ljava/lang/String;)V

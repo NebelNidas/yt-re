@@ -1,2 +1,2 @@
-CLASS rgh ui/pdf
+CLASS rgv ui/pdf
 	METHOD b getIconResourceId ()I

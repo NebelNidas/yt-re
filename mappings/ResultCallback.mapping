@@ -1,4 +1,4 @@
-CLASS afos ResultCallback
+CLASS affh ResultCallback
 	METHOD a onFailure (Ljava/lang/Throwable;)V
 		ARG 1 error
 	METHOD b onSuccess (Ljava/lang/Object;)V

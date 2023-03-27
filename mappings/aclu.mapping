@@ -1,0 +1,2 @@
+CLASS aclu
+	METHOD M setPlaybackSpeed (F)V

@@ -1,5 +1,5 @@
-CLASS esc TextKt
-	FIELD a text Lese;
+CLASS esi TextKt
+	FIELD a text Lesk;
 	FIELD d required Ljava/util/BitSet;
-	METHOD c getText ()Lese;
+	METHOD c getText ()Lesk;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

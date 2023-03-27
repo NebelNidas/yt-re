@@ -1,2 +1,2 @@
-CLASS aigu UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Laieu;
+CLASS ahyd UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lahwd;

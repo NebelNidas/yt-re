@@ -1,10 +1,10 @@
-CLASS egd com/facebook/litho/ComponentContext
+CLASS egi com/facebook/litho/ComponentContext
 	FIELD b context Landroid/content/Context;
 	FIELD d noStateUpdatesMethod Ljava/lang/String;
-	FIELD e componentScope Lefz;
+	FIELD e componentScope Lege;
 	FIELD h componentTree Lcom/facebook/litho/ComponentTree;
 	FIELD l logTag Ljava/lang/String;
-	FIELD m logger Lmvl;
-	METHOD <init> (Landroid/content/Context;Ljava/lang/String;Lmvl;Ldle;[B[B[B)V
+	FIELD m logger Lmvy;
+	METHOD <init> (Landroid/content/Context;Ljava/lang/String;Lmvy;Ldli;[B[B[B)V
 		ARG 2 logTag
 	METHOD t checkIfNoStateUpdatesMethod ()V

@@ -1,4 +1,4 @@
-CLASS esg LongClickRunnable
-	FIELD a longClickableSpan Leqe;
-	FIELD b textDrawable Lesi;
+CLASS esm LongClickRunnable
+	FIELD a longClickableSpan Leqk;
+	FIELD b textDrawable Leso;
 	FIELD c longClickableSpanView Landroid/view/View;

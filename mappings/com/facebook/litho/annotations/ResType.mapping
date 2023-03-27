@@ -1,14 +1,14 @@
-CLASS elr com/facebook/litho/annotations/ResType
-	FIELD a NONE Lelr;
-	FIELD b STRING Lelr;
-	FIELD c STRING_ARRAY Lelr;
-	FIELD d INT Lelr;
-	FIELD e INT_ARRAY Lelr;
-	FIELD f BOOL Lelr;
-	FIELD g COLOR Lelr;
-	FIELD h DIMEN_SIZE Lelr;
-	FIELD i DIMEN_OFFSET Lelr;
-	FIELD j DIMEN_TEXT Lelr;
-	FIELD k FLOAT Lelr;
-	FIELD l DRAWABLE Lelr;
-	FIELD m $VALUES [Lelr;
+CLASS elx com/facebook/litho/annotations/ResType
+	FIELD a NONE Lelx;
+	FIELD b STRING Lelx;
+	FIELD c STRING_ARRAY Lelx;
+	FIELD d INT Lelx;
+	FIELD e INT_ARRAY Lelx;
+	FIELD f BOOL Lelx;
+	FIELD g COLOR Lelx;
+	FIELD h DIMEN_SIZE Lelx;
+	FIELD i DIMEN_OFFSET Lelx;
+	FIELD j DIMEN_TEXT Lelx;
+	FIELD k FLOAT Lelx;
+	FIELD l DRAWABLE Lelx;
+	FIELD m $VALUES [Lelx;

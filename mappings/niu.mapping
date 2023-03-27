@@ -1,2 +1,0 @@
-CLASS niu
-	METHOD a getAccount ()Landroid/accounts/Account;

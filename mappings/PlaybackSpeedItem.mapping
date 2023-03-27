@@ -1,2 +1,2 @@
-CLASS llk PlaybackSpeedItem
+CLASS llx PlaybackSpeedItem
 	FIELD a speedMultiplier F

@@ -1,4 +1,3 @@
-CLASS yqx StringStartsWithRqChecker
-	FIELD a rqPattern Ljava/util/regex/Pattern;
+CLASS yru StringStartsWithRqChecker
+	FIELD b rqPattern Ljava/util/regex/Pattern;
 	METHOD a startsWithRq (Ljava/lang/String;)Z
-	METHOD b areEqualOrStartWithRq (Ljava/lang/String;Ljava/lang/String;)Z

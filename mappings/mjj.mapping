@@ -1,4 +1,0 @@
-CLASS mjj
-	METHOD a getPriority ()Lmjk;
-	METHOD b getCode ()Ljava/lang/Integer;
-	METHOD c getPayload ()Ljava/lang/Object;

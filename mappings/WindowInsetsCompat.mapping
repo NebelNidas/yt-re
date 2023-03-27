@@ -1,4 +1,4 @@
-CLASS auv
+CLASS auv WindowInsetsCompat
 	METHOD a getElevation (Landroid/view/View;)F
 	METHOD c getZ (Landroid/view/View;)F
 	METHOD d getBackgroundTintList (Landroid/view/View;)Landroid/content/res/ColorStateList;

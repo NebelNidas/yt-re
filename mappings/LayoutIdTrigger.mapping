@@ -1,0 +1,2 @@
+CLASS tde LayoutIdTrigger
+	METHOD e getLayoutId ()Ljava/lang/String;

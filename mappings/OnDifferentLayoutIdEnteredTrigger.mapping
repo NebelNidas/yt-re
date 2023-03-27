@@ -1,0 +1,19 @@
+CLASS tdw OnDifferentLayoutIdEnteredTrigger
+	FIELD a nonMatchingLayoutId Ljava/lang/String;
+	FIELD b slotType Laijg;
+	FIELD c layoutType Laijd;
+	FIELD d triggerId Ljava/lang/String;
+	FIELD e triggerType Laiji;
+	METHOD <init> (Ljava/lang/String;Laiji;Ljava/lang/String;Laijg;Laijd;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 nonMatchingLayoutId
+		ARG 4 slotType
+		ARG 5 layoutType
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;Laijg;Laijd;)Ltdw;
+		ARG 0 triggerId
+		ARG 1 nonMatchingLayoutId
+		ARG 2 slotType
+		ARG 3 layoutType
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

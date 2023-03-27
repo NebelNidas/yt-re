@@ -1,0 +1,2 @@
+CLASS tee DisabledOnMutedTrigger
+	METHOD c shouldDisableIfVideoStartMuted ()Z

@@ -1,0 +1,13 @@
+CLASS tab ActiveViewGroupMViewableCriteriaSatisfiedTrigger
+	FIELD a layoutId Ljava/lang/String;
+	FIELD b triggerId Ljava/lang/String;
+	FIELD c triggerType Laiji;
+	METHOD <init> (Ljava/lang/String;Laiji;Ljava/lang/String;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 layoutId
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltab;
+		ARG 0 triggerId
+		ARG 1 layoutId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,11 @@
+CLASS tec OpportunityTypeReceivedTrigger
+	FIELD a opportunityType I
+	FIELD b triggerId Ljava/lang/String;
+	FIELD c triggerType Laiji;
+	FIELD d originatingSlotId Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Laiji;Ljava/lang/String;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 originatingSlotId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

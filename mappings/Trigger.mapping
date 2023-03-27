@@ -1,0 +1,4 @@
+CLASS tfj Trigger
+	METHOD a getTriggerType ()Laiji;
+	METHOD b getTriggerId ()Ljava/lang/String;
+	METHOD d shouldOnlyTriggerOnce ()Z

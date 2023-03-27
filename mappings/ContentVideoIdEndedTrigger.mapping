@@ -1,0 +1,16 @@
+CLASS tcx ContentVideoIdEndedTrigger
+	FIELD a contentVideoId Ljava/lang/String;
+	FIELD b shouldPreventActivationOnTriggerRegistration Z
+	FIELD c triggerId Ljava/lang/String;
+	FIELD d triggerType Laiji;
+	METHOD <init> (Ljava/lang/String;Laiji;Ljava/lang/String;Z)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 contentVideoId
+		ARG 4 shouldPreventActivationOnTriggerRegistration
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;Z)Ltcx;
+		ARG 0 triggerId
+		ARG 1 contentVideoId
+		ARG 2 shouldPreventActivationOnTriggerRegistration
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

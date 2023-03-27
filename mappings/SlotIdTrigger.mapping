@@ -1,0 +1,2 @@
+CLASS teq SlotIdTrigger
+	METHOD c getSlotId ()Ljava/lang/String;

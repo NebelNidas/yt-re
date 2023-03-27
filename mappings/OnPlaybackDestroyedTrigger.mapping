@@ -1,0 +1,13 @@
+CLASS tea OnPlaybackDestroyedTrigger
+	FIELD a contentVideoId Ljava/lang/String;
+	FIELD b triggerId Ljava/lang/String;
+	FIELD c triggerType Laiji;
+	METHOD <init> (Ljava/lang/String;Laiji;Ljava/lang/String;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 contentVideoId
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltea;
+		ARG 0 triggerId
+		ARG 1 contentVideoId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

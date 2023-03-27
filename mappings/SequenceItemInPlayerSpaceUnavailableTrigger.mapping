@@ -1,0 +1,12 @@
+CLASS ten SequenceItemInPlayerSpaceUnavailableTrigger
+	FIELD a reelAdMetadata Lafrt;
+	FIELD b reelImageAdMetadata Lafrt;
+	FIELD c triggerId Ljava/lang/String;
+	FIELD d triggerType Laiji;
+	METHOD <init> (Ljava/lang/String;Laiji;Lafrt;Lafrt;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 reelAdMetadata
+		ARG 4 reelImageAdMetadata
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

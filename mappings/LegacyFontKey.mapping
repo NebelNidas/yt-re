@@ -1,0 +1,8 @@
+CLASS pgz LegacyFontKey
+	FIELD a fontName Ljava/lang/String;
+	FIELD b weightAdjustment I
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 fontName
+		ARG 2 weightAdjustment
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

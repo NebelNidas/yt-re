@@ -1,0 +1,36 @@
+CLASS tdt MediaTimeRangeTrigger
+	FIELD a triggerId Ljava/lang/String;
+	FIELD b shouldOnlyTriggerOnce Z
+	FIELD c shouldDisableIfVideoStartMuted Z
+	FIELD d activatingMediaLayoutId Ljava/lang/String;
+	FIELD e timeRange Ltfg;
+	FIELD f shouldPreventActivationOnTriggerRestoration Z
+	FIELD g shouldActivateOnVideoTimeEvent Z
+	FIELD h shouldAttachActiveViewDataOnActivation Z
+	FIELD i shouldDisableOnSeek Z
+	FIELD j triggerType Laiji;
+	METHOD <init> (Ljava/lang/String;Laiji;ZZLjava/lang/String;Ltfg;ZZZZ)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 shouldOnlyTriggerOnce
+		ARG 4 shouldDisableIfVideoStartMuted
+		ARG 5 activatingMediaLayoutId
+		ARG 6 timeRange
+		ARG 7 shouldPreventActivationOnTriggerRestoration
+		ARG 8 shouldActivateOnVideoTimeEvent
+		ARG 9 shouldAttachActiveViewDataOnActivation
+		ARG 10 shouldDisableOnSeek
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;Ltfg;ZZZZ)Ltdt;
+		ARG 0 triggerId
+		ARG 1 activatingMediaLayout
+		ARG 2 timeRange
+		ARG 3 shouldOnlyTriggerOnce
+		ARG 4 shouldPreventActivationOnTriggerRestoration
+		ARG 5 shouldActivateOnVideoTimeEvent
+		ARG 6 shouldAttachActiveViewDataOnActivation
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f create (Ljava/lang/String;Ljava/lang/String;Ltfg;)Ltdt;
+		ARG 0 triggerId
+		ARG 1 activatingMediaLayout
+		ARG 2 timeRange

@@ -1,0 +1,18 @@
+CLASS ufv ConnectivityStatus
+	FIELD a connected Z
+	FIELD b temporarilyUnmetered Z
+	FIELD c chargeable Z
+	FIELD d connectionType I
+	FIELD e connectedOrConnecting Z
+	FIELD f dataSaverEnabled Z
+	FIELD g detailedNetworkType Lajzb;
+	METHOD <init> (ZZZZZILajzb;)V
+		ARG 1 connectedOrConnection
+		ARG 2 connected
+		ARG 3 temporarilyUnmetered
+		ARG 4 chargeable
+		ARG 5 dataSaverEnabled
+		ARG 6 connectionType
+		ARG 7 detailedNetworkType
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

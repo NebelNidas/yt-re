@@ -1,5 +1,0 @@
-CLASS fpo
-	FIELD c watchWhileActivity Lbu;
-	METHOD f someDislikeMethod (Lajpv;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Lajpv;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Lajpv;)Lcom/google/common/util/concurrent/ListenableFuture;

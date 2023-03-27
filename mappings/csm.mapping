@@ -1,2 +1,0 @@
-CLASS csm
-	METHOD a onRecreation (Lcsq;)V

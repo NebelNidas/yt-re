@@ -1,0 +1,2 @@
+CLASS abni
+	METHOD c getPlayingState ()Lacje;

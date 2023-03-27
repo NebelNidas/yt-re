@@ -1,2 +1,2 @@
-CLASS aiba LongList
-	METHOD d mutableCopyWithCapacity (I)Laiba;
+CLASS aiem LongList
+	METHOD d mutableCopyWithCapacity (I)Laiem;

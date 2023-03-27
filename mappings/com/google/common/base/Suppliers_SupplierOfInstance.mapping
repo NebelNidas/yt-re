@@ -1,4 +1,4 @@
-CLASS afyt com/google/common/base/Suppliers_SupplierOfInstance
+CLASS agcb com/google/common/base/Suppliers_SupplierOfInstance
 	FIELD a instance Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/Object;)V
 		ARG 1 instance

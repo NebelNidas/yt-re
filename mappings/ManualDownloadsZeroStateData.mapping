@@ -1,6 +1,6 @@
-CLASS jgd ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Laixs;
-	METHOD <init> (Laixs;)V
+CLASS jhc ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Lajbe;
+	METHOD <init> (Lajbe;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

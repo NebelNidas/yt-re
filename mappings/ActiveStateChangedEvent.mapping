@@ -1,6 +1,6 @@
-CLASS grm ActiveStateChangedEvent
-	METHOD a create (Lgrn;Lgrn;)Lgrm;
+CLASS gsh ActiveStateChangedEvent
+	METHOD a create (Lgsi;Lgsi;)Lgsh;
 		ARG 0 currentState
 		ARG 1 toState
-	METHOD b getCurrentState ()Lgrn;
-	METHOD c getToState ()Lgrn;
+	METHOD b getCurrentState ()Lgsi;
+	METHOD c getToState ()Lgsi;

@@ -1,0 +1,3 @@
+CLASS tya
+	METHOD J isHttps (Landroid/net/Uri;)Z
+	METHOD L isLocalhost (Landroid/net/Uri;)Z

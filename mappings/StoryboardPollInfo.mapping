@@ -1,7 +1,7 @@
-CLASS lxe StoryboardPollInfo
-	FIELD a storyboardLevelInfo Llxb;
+CLASS lyh StoryboardPollInfo
+	FIELD a storyboardLevelInfo Llye;
 	FIELD b frameLookupTimeMs J
-	METHOD <init> (Llxb;J)V
+	METHOD <init> (Llye;J)V
 		ARG 1 storyboardLevelInfo
 		ARG 2 frameLookupTimems
 	METHOD equals (Ljava/lang/Object;)Z

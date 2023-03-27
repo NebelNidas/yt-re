@@ -1,0 +1,3 @@
+CLASS eik
+	METHOD b getLayoutOutput (Letk;)Leik;
+	METHOD d isAccessible ()Z

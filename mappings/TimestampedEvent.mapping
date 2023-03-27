@@ -1,4 +1,4 @@
-CLASS ubk TimestampedEvent
+CLASS udo TimestampedEvent
 	FIELD c timestamp J
 	METHOD <init> (J)V
 		ARG 1 timestamp

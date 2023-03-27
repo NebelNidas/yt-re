@@ -1,4 +1,4 @@
-CLASS yfv MdxUserContextBuilder
+CLASS yii MdxUserContextBuilder
 	FIELD a videoId Ljava/lang/String;
 	FIELD b playlistId Ljava/lang/String;
 	FIELD c mdxConnectionCountDay I
@@ -7,7 +7,7 @@ CLASS yfv MdxUserContextBuilder
 	FIELD f castAvailableSessionCountDay I
 	FIELD g castAvailableSessionCountWeek I
 	FIELD h castAvailableSessionCountMonth I
-	FIELD i pageType Lyfw;
+	FIELD i pageType Lyij;
 	FIELD j currentVideoDuration I
 	FIELD k fullScreen Z
 	FIELD l hd Z
@@ -18,9 +18,9 @@ CLASS yfv MdxUserContextBuilder
 	FIELD q currentTime J
 	FIELD r casterCategory I
 	FIELD s flags S
-	METHOD <init> (Lyfx;)V
+	METHOD <init> (Lyik;)V
 		ARG 1 from
-	METHOD a build ()Lyfx;
+	METHOD a build ()Lyik;
 	METHOD b setCastAvailableSessionCountDay (I)V
 		ARG 1 castAvailableSessionCountDay
 	METHOD c setCastAvailableSessionCountMonth (I)V
@@ -43,7 +43,7 @@ CLASS yfv MdxUserContextBuilder
 		ARG 1 mdxConnectionCountMonth
 	METHOD l setMdxConnectionCountWeek (I)V
 		ARG 1 mdxConnectionCountWeek
-	METHOD m setPageType (Lyfw;)V
+	METHOD m setPageType (Lyij;)V
 		ARG 1 pageType
 	METHOD n setPlaylistPlayback (Z)V
 		ARG 1 playlistPlayback

@@ -1,2 +1,2 @@
-CLASS eew util/AccessibilityUtil
+CLASS efo util/AccessibilityUtil
 	METHOD b isAccessibilityEnabled (Landroid/content/Context;)Z

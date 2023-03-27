@@ -1,7 +1,0 @@
-CLASS arxm
-	METHOD bT mapEqualsImpl (Ljava/util/Map;Ljava/lang/Object;)Z
-		ARG 0 map
-		ARG 1 object
-	METHOD cb listEqualsImpl (Ljava/util/List;Ljava/lang/Object;)Z
-		ARG 0 list
-		ARG 1 other

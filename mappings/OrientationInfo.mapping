@@ -1,7 +1,7 @@
-CLASS gvi OrientationInfo
-	FIELD a deviceOrientation Lakej;
-	FIELD b interfaceOrientation Lakej;
-	METHOD <init> (Lakej;Lakej;)V
+CLASS gwd OrientationInfo
+	FIELD a deviceOrientation Lakhy;
+	FIELD b interfaceOrientation Lakhy;
+	METHOD <init> (Lakhy;Lakhy;)V
 		ARG 1 deviceOrientation
 		ARG 2 interfaceOrientation
 	METHOD equals (Ljava/lang/Object;)Z

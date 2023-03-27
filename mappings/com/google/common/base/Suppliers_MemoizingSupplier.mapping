@@ -1,6 +1,6 @@
-CLASS afyr com/google/common/base/Suppliers_MemoizingSupplier
-	FIELD a delegate Lafyq;
+CLASS agbz com/google/common/base/Suppliers_MemoizingSupplier
+	FIELD a delegate Lagby;
 	FIELD b initialized Z
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafyq;)V
+	METHOD <init> (Lagby;)V
 		ARG 1 delegate

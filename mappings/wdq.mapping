@@ -1,0 +1,2 @@
+CLASS wdq
+	METHOD d toByteArray ()[B

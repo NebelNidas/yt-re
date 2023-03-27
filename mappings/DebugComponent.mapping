@@ -1,4 +1,4 @@
-CLASS egd DebugComponent
-	METHOD b getComponent ()Lefh;
-	METHOD f getLithoView ()Leij;
-	METHOD n getLayoutNode ()Ldkk;
+CLASS egv DebugComponent
+	METHOD b getComponent ()Lefz;
+	METHOD f getLithoView ()Lejb;
+	METHOD n getLayoutNode ()Ldld;

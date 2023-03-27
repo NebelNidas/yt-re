@@ -1,2 +1,0 @@
-CLASS rdy
-	FIELD au list Landroid/widget/ListAdapter;

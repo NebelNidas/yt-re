@@ -1,2 +1,2 @@
-CLASS aldx Icon
-	METHOD b fromValue (I)Laldx;
+CLASS alhn Icon
+	METHOD b fromValue (I)Lalhn;

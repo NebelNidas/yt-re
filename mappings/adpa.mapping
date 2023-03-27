@@ -1,0 +1,3 @@
+CLASS adpa
+	METHOD a getButtonId (Lalhn;)I
+		ARG 1 icon

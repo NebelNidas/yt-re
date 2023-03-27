@@ -1,2 +1,2 @@
-CLASS ehk com/facebook/litho/HasEventDispatcher
-	METHOD l getEventDispatcher ()Lehb;
+CLASS eic com/facebook/litho/HasEventDispatcher
+	METHOD l getEventDispatcher ()Leht;

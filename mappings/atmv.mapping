@@ -1,4 +1,0 @@
-CLASS atmv
-	METHOD a (Latpe;Latpe;Latoz;Latoz;Latoz;Latoz;)Latmv;
-		ARG 3 onComplete
-		ARG 6 onDispose

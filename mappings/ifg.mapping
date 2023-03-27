@@ -1,4 +1,0 @@
-CLASS ifg
-	METHOD A setText (Landroid/widget/TextView;I)V
-		ARG 1 resid
-	METHOD D setText (Landroid/widget/TextView;Ljava/lang/CharSequence;)V

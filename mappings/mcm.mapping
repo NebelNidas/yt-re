@@ -1,6 +1,0 @@
-CLASS mcm
-	FIELD c playerViewModeMonitor Lfxa;
-	FIELD o tabNames Ljava/util/Set;
-	FIELD p flags Lagcx;
-	FIELD q config Landroid/content/res/Configuration;
-	FIELD s pivotBar Lj$/util/Optional;

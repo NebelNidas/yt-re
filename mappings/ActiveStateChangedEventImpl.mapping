@@ -1,7 +1,7 @@
-CLASS grq ActiveStateChangedEventImpl
-	FIELD a currentState Lgrn;
-	FIELD b toState Lgrn;
-	METHOD <init> (Lgrn;Lgrn;)V
+CLASS gsl ActiveStateChangedEventImpl
+	FIELD a currentState Lgsi;
+	FIELD b toState Lgsi;
+	METHOD <init> (Lgsi;Lgsi;)V
 		ARG 1 currentState
 		ARG 2 toState
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,2 +1,2 @@
-CLASS aidi UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Laibi;
+CLASS aigu UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Laieu;

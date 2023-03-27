@@ -1,9 +1,9 @@
-CLASS afok SyncConstraint
-	FIELD a constraintType Lafol;
+CLASS afrq SyncConstraint
+	FIELD a constraintType Lafrr;
 	FIELD b applicablePeriod J
-	METHOD <init> (Lafol;J)V
+	METHOD <init> (Lafrr;J)V
 		ARG 1 constraintType
 		ARG 2 applicablePeriod
-	METHOD a builder ()Lasok;
+	METHOD a builder ()Lasse;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

@@ -1,4 +1,0 @@
-CLASS mig
-	METHOD a getPriority ()Lmih;
-	METHOD b getCode ()Ljava/lang/Integer;
-	METHOD c getPayload ()Ljava/lang/Object;

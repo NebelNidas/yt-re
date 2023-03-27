@@ -1,3 +1,0 @@
-CLASS ujx
-	METHOD ax isHttps (Landroid/net/Uri;)Z
-	METHOD az isLocalhost (Landroid/net/Uri;)Z

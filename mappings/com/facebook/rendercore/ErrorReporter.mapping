@@ -1,3 +1,3 @@
-CLASS esn com/facebook/rendercore/ErrorReporter
-	FIELD a INSTANCE Leso;
-	METHOD a getInstance ()Leso;
+CLASS etf com/facebook/rendercore/ErrorReporter
+	FIELD a INSTANCE Letg;
+	METHOD a getInstance ()Letg;

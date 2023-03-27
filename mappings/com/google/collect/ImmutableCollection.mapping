@@ -1,10 +1,10 @@
-CLASS agcg com/google/collect/ImmutableCollection
+CLASS agfo com/google/collect/ImmutableCollection
 	METHOD c copyIntoArray ([Ljava/lang/Object;I)I
 		ARG 1 dst
 		ARG 2 dstOff
 	METHOD e internalArrayEnd ()I
 	METHOD f internalArrayStart ()I
-	METHOD g asList ()Lagcr;
-	METHOD k iterator ()Lagil;
+	METHOD g asList ()Lagfz;
+	METHOD k iterator ()Laglu;
 	METHOD l isPartialView ()Z
 	METHOD m internalArray ()[Ljava/lang/Object;

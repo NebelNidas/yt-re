@@ -1,3 +1,2 @@
 CLASS acah
-	METHOD e setOnClick (Landroid/view/View$OnClickListener;)V
-	METHOD g show ()V
+	METHOD mt hasView ()Z

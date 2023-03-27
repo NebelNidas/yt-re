@@ -1,0 +1,2 @@
+CLASS eid
+	METHOD a collectChildren (Ljava/util/List;)V

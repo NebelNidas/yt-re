@@ -1,4 +1,4 @@
-CLASS ize OfflineStoreDataAndLatenciesAndLatencyDiffUsec
+CLASS jae OfflineStoreDataAndLatenciesAndLatencyDiffUsec
 	FIELD a offlineStoreData Ljava/lang/Object;
 	FIELD b latencyDiffUsec J
 	FIELD c offlineStoreLatencyUsec J

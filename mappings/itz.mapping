@@ -1,0 +1,26 @@
+CLASS itz
+	FIELD a id Ljava/lang/String;
+	FIELD b title Ljava/lang/String;
+	FIELD c lengthSeconds J
+	FIELD d channelTitle Ljava/lang/String;
+	FIELD e channelThumbnailDetails Laqat;
+	FIELD f thumbnailDetails Laqat;
+	FIELD g description Lakyt;
+	FIELD h publishedTimestampMs Ljava/lang/Long;
+	FIELD i viewCount Ljava/lang/Long;
+	FIELD j likeCountText Ljava/lang/String;
+	METHOD b setChannelThumbnailDetails (Laqat;)V
+	METHOD c setChannelTitle (Ljava/lang/String;)V
+	METHOD d setDescription (Lakyt;)V
+	METHOD e setDislikeCountText (Ljava/lang/String;)V
+	METHOD h setId (Ljava/lang/String;)V
+	METHOD r setLengthSeconds (J)V
+	METHOD s setLikeCountText (Ljava/lang/String;)V
+		ARG 1 likeCountText
+	METHOD u setPublishedTimestampMs (J)V
+	METHOD w setThumbnailDetails (Laqat;)V
+		ARG 1 thumbnailDetails
+	METHOD x setTitle (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD y setViewCount (J)V
+		ARG 1 viewCount

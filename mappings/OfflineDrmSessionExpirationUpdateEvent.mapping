@@ -1,4 +1,4 @@
-CLASS abiq OfflineDrmSessionExpirationUpdateEvent
+CLASS ablm OfflineDrmSessionExpirationUpdateEvent
 	METHOD a getVideoId ()Ljava/lang/String;
-	METHOD b create (Ljava/lang/String;)Labiq;
+	METHOD b create (Ljava/lang/String;)Lablm;
 		ARG 0 videoId

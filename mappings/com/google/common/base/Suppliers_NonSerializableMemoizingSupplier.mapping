@@ -1,5 +1,5 @@
-CLASS afys com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Lafyq;
+CLASS agca com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lagby;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafyq;)V
+	METHOD <init> (Lagby;)V
 		ARG 1 delegate

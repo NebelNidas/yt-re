@@ -1,3 +1,0 @@
-CLASS admd
-	METHOD a getButtonId (Laldx;)I
-		ARG 1 icon

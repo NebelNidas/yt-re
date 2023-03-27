@@ -1,2 +1,2 @@
-CLASS tex AdTitleOverlayState
-	FIELD a adOverlayMetadata Lter;
+CLASS thd AdTitleOverlayState
+	FIELD a adOverlayMetadata Ltgx;

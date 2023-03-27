@@ -1,2 +1,0 @@
-CLASS acrw
-	METHOD M setPlaybackSpeed (F)V

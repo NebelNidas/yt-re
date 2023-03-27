@@ -1,4 +1,0 @@
-CLASS zsu
-	FIELD d trackRendererType I
-	METHOD <init> (IILbgr;Ljava/lang/String;)V
-		ARG 1 trackRendererType

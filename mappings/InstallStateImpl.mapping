@@ -1,0 +1,14 @@
+CLASS aexa InstallStateImpl
+	FIELD a installStatus I
+	FIELD b bytesDownloaded J
+	FIELD c totalBytesToDownload J
+	FIELD d installErrorCode I
+	FIELD e packageName Ljava/lang/String;
+	METHOD <init> (IJJILjava/lang/String;)V
+		ARG 1 installStatus
+		ARG 2 bytesDownloaded
+		ARG 4 totalBytesToDownload
+		ARG 6 installErrorCode
+		ARG 7 packageName
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,29 @@
+CLASS qwl GoogleOwner
+	FIELD a accountName Ljava/lang/String;
+	FIELD b isMetadataAvailable Z
+	FIELD c displayName Ljava/lang/String;
+	FIELD d givenName Ljava/lang/String;
+	FIELD e familyName Ljava/lang/String;
+	FIELD f obfuscatedGaiaId Ljava/lang/String;
+	FIELD g isG1User Z
+	FIELD h isDasherUser Z
+	FIELD i avatarUrl Ljava/lang/String;
+	FIELD j isUnicornUser I
+	FIELD k defaultAvatarUrl Ljava/lang/String;
+	FIELD l ageRange I
+	METHOD <init> (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZILjava/lang/String;Ljava/lang/String;I)V
+		ARG 1 accountName
+		ARG 2 isMetadataAvailable
+		ARG 3 displayName
+		ARG 4 givenName
+		ARG 5 familyName
+		ARG 6 obfuscatedGaiaId
+		ARG 7 isG1User
+		ARG 8 isDasherUser
+		ARG 9 isUnicornUser
+		ARG 10 avatarUrl
+		ARG 11 defaultAvatarUrl
+		ARG 12 ageRange
+	METHOD a build ()Lqwk;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

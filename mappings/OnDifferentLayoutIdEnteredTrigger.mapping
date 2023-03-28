@@ -1,0 +1,19 @@
+CLASS tgd OnDifferentLayoutIdEnteredTrigger
+	FIELD a nonMatchingLayoutId Ljava/lang/String;
+	FIELD b slotType Lainw;
+	FIELD c layoutType Laint;
+	FIELD d triggerId Ljava/lang/String;
+	FIELD e triggerType Lainy;
+	METHOD <init> (Ljava/lang/String;Lainy;Ljava/lang/String;Lainw;Laint;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 nonMatchingLayoutId
+		ARG 4 slotType
+		ARG 5 layoutType
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;Lainw;Laint;)Ltgd;
+		ARG 0 triggerId
+		ARG 1 nonMatchingLayoutId
+		ARG 2 slotType
+		ARG 3 layoutType
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,23 @@
+CLASS qwk GoogleOwnerBuilder
+	FIELD a displayName Ljava/lang/String;
+	FIELD b givenName Ljava/lang/String;
+	FIELD c familyName Ljava/lang/String;
+	FIELD d obfuscatedGaiaId Ljava/lang/String;
+	FIELD e avatarUrl Ljava/lang/String;
+	FIELD f defaultAvatarUrl Ljava/lang/String;
+	FIELD g ageRange I
+	FIELD h isUnicornUser I
+	FIELD i accountName Ljava/lang/String;
+	FIELD j isMetadataAvailable Z
+	FIELD k isG1User Z
+	FIELD l isDasherUser Z
+	FIELD m flags B
+	METHOD a build ()Lqwl;
+	METHOD b setAccountName (Ljava/lang/String;)V
+		ARG 1 accountName
+	METHOD c setDasherUser (Z)V
+		ARG 1 isDasherUser
+	METHOD d setG1User (Z)V
+		ARG 1 isG1User
+	METHOD e setMetadataAvailable (Z)V
+		ARG 1 isMetadataAvailable

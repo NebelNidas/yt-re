@@ -1,0 +1,12 @@
+CLASS tfo LayoutIdEnteredAndSlotFilledTrigger
+	FIELD a associatedLayoutId Ljava/lang/String;
+	FIELD b associatedSlotId Ljava/lang/String;
+	FIELD c triggerId Ljava/lang/String;
+	FIELD d triggerType Lainy;
+	METHOD <init> (Ljava/lang/String;Lainy;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 associatedLayoutId
+		ARG 4 associatedSlotId
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

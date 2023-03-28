@@ -1,0 +1,12 @@
+CLASS tgt SequenceItemInPlayerSpaceAvailableTrigger
+	FIELD a triggerId Ljava/lang/String;
+	FIELD b reelAdMetadata Lafwg;
+	FIELD c reelImageAdMetadata Lafwg;
+	FIELD d triggerType Lainy;
+	METHOD <init> (Ljava/lang/String;Lainy;Lafwg;Lafwg;)V
+		ARG 1 triggerid
+		ARG 2 triggerType
+		ARG 3 reelAdMetadata
+		ARG 4 reelImageAdMetadata
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,9 @@
+CLASS qrp GaiaAccountDataBuilder
+	COMMENT @see qtv#buildGaiaAccountData(Object) detached build method
+	FIELD a isG1User Z
+	FIELD b flags B
+	FIELD c isUnicornUser I
+	METHOD a setG1User (Z)V
+		ARG 1 isG1User
+	METHOD b setUnicornUser (I)V
+		ARG 1 isUnicornUser

@@ -1,0 +1,2 @@
+CLASS tgl DisabledOnMutedTrigger
+	METHOD c shouldDisableIfVideoStartMuted ()Z

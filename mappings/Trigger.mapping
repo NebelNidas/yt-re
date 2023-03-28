@@ -1,0 +1,4 @@
+CLASS thr Trigger
+	METHOD a getTriggerType ()Lainy;
+	METHOD b getTriggerId ()Ljava/lang/String;
+	METHOD d shouldOnlyTriggerOnce ()Z

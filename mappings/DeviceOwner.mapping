@@ -1,0 +1,24 @@
+CLASS qtk DeviceOwner
+	FIELD a isMetadataAvailable Z
+	FIELD b displayName Ljava/lang/String;
+	FIELD c accountName Ljava/lang/String;
+	FIELD d givenName Ljava/lang/String;
+	FIELD e familyName Ljava/lang/String;
+	FIELD f isG1User Z
+	FIELD g avatarUrl Ljava/lang/String;
+	FIELD h isUnicornUser I
+	FIELD i isDasherUser Z
+	FIELD j obfuscatedGaiaId Ljava/lang/String;
+	METHOD <init> (ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;Ljava/lang/String;I)V
+		ARG 1 isMetadataAvailable
+		ARG 2 displayName
+		ARG 3 accountName
+		ARG 4 givenName
+		ARG 5 familyName
+		ARG 6 isG1User
+		ARG 7 isDasherUser
+		ARG 8 obfuscatedGaiaId
+		ARG 9 avatarUrl
+		ARG 10 isUnicornUser
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

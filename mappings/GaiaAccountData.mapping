@@ -1,0 +1,8 @@
+CLASS qrr GaiaAccountData
+	FIELD a isG1User Z
+	FIELD b isUnicornUser I
+	METHOD <init> (ZI)V
+		ARG 1 isG1User
+		ARG 2 isUnicornUser
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

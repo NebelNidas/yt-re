@@ -1,0 +1,10 @@
+CLASS pih FontKey2
+	FIELD a fontName Ljava/lang/String;
+	FIELD b weight I
+	FIELD c italic Z
+	METHOD <init> (Ljava/lang/String;IZ)V
+		ARG 1 fontName
+		ARG 2 weight
+		ARG 3 italic
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

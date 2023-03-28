@@ -1,0 +1,18 @@
+CLASS tgv SkipRequestedTrigger
+	FIELD a shouldDisableIfVideoStartMuted Z
+	FIELD b layoutId Ljava/lang/String;
+	FIELD c mediaCpn Ljava/lang/String;
+	FIELD d triggerId Ljava/lang/String;
+	FIELD e triggerType Lainy;
+	METHOD <init> (Ljava/lang/String;Lainy;ZLjava/lang/String;Ljava/lang/String;)V
+		ARG 1 triggerId
+		ARG 2 triggerType
+		ARG 3 shouldDisableIfVideoStartMuted
+		ARG 4 layoutId
+		ARG 5 mediaCpn
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f create (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ltgv;
+		ARG 0 triggerId
+		ARG 1 layoutId
+		ARG 2 mediaCpn

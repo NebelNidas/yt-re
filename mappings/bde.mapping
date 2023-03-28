@@ -1,0 +1,8 @@
+CLASS bde
+	FIELD x savedStateTags Ljava/util/Map;
+	FIELD y closables Ljava/util/Set;
+	FIELD z closeAfterAdding Z
+	METHOD s add (Ljava/io/Closeable;)V
+	METHOD t close (Ljava/lang/Object;)V
+	METHOD u addSaveStateIfMissing (Ljava/lang/Object;)V
+		ARG 1 saveState

@@ -1,4 +1,4 @@
-CLASS qtk DeviceOwner
+CLASS qen DeviceOwner
 	FIELD a isMetadataAvailable Z
 	FIELD b displayName Ljava/lang/String;
 	FIELD c accountName Ljava/lang/String;

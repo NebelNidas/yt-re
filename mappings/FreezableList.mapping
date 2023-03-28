@@ -1,5 +1,5 @@
-CLASS aias FreezableList
+CLASS agrh FreezableList
 	METHOD b freeze ()V
 	METHOD c isMutable ()Z
-	METHOD e mutableCopyWithCapacity (I)Laias;
+	METHOD e mutableCopyWithCapacity (I)Lagrh;
 		ARG 1 capacity

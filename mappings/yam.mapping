@@ -1,5 +1,0 @@
-CLASS yam
-	FIELD a flags Ljava/lang/String;
-	FIELD b logClick Ljava/lang/String;
-	FIELD c clickClientData Ljava/lang/String;
-	FIELD d csn Ljava/lang/String;

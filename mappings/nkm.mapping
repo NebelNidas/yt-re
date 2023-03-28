@@ -1,2 +1,0 @@
-CLASS nkm
-	METHOD a getAccount ()Landroid/accounts/Account;

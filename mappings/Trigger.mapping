@@ -1,4 +1,4 @@
-CLASS thr Trigger
-	METHOD a getTriggerType ()Lainy;
+CLASS spb Trigger
+	METHOD a getTriggerType ()Laheo;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

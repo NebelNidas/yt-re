@@ -1,2 +1,2 @@
-CLASS eih com/facebook/litho/HasEventDispatcher
-	METHOD l getEventDispatcher ()Lehy;
+CLASS egr com/facebook/litho/HasEventDispatcher
+	METHOD n getEventDispatcher ()Legi;

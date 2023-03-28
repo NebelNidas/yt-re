@@ -1,9 +1,9 @@
-CLASS aici Schema
+CLASS agsw Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;Laicd;Lcom/google/protobuf/ExtensionRegistryLite;)V
-	METHOD i mergeFrom (Ljava/lang/Object;[BIILahyj;)V
-	METHOD j equals (Ljava/lang/Object;Ljava/lang/Object;)Z
-	METHOD k isInitialized (Ljava/lang/Object;)Z
-	METHOD l writeTo (Ljava/lang/Object;Lahlx;)V
+	METHOD h mergeFrom (Ljava/lang/Object;[BIILagoy;)V
+	METHOD i equals (Ljava/lang/Object;Ljava/lang/Object;)Z
+	METHOD j isInitialized (Ljava/lang/Object;)Z
+	METHOD k mergeFrom (Ljava/lang/Object;Lagpq;Lcom/google/protobuf/ExtensionRegistryLite;)V
+	METHOD l writeTo (Ljava/lang/Object;Lagcm;)V

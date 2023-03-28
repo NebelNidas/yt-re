@@ -1,6 +1,6 @@
-CLASS gsr ActiveStateChangedEvent
-	METHOD a create (Lgss;Lgss;)Lgsr;
+CLASS gpb ActiveStateChangedEvent
+	METHOD a create (Lgpc;Lgpc;)Lgpb;
 		ARG 0 currentState
 		ARG 1 toState
-	METHOD b getCurrentState ()Lgss;
-	METHOD c getToState ()Lgss;
+	METHOD b getCurrentState ()Lgpc;
+	METHOD c getToState ()Lgpc;

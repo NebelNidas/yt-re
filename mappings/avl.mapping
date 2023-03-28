@@ -1,4 +1,0 @@
-CLASS avl
-	FIELD a accessibilityActions [I
-	FIELD b views Ljava/util/WeakHashMap;
-	METHOD aB addView (Landroid/view/View;)Lbeg;

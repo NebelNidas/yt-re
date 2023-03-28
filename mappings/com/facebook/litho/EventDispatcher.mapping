@@ -1,4 +1,4 @@
-CLASS ehy com/facebook/litho/EventDispatcher
-	METHOD P dispatchOnEvent (Lehz;Ljava/lang/Object;)Ljava/lang/Object;
+CLASS egi com/facebook/litho/EventDispatcher
+	METHOD O dispatchOnEvent (Legj;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 eventHandler
 		ARG 2 eventState

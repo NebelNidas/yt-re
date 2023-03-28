@@ -1,0 +1,2 @@
+CLASS lsv
+	FIELD o hasHandledIntent Z

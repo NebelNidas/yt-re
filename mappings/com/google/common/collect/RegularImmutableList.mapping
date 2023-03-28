@@ -1,5 +1,5 @@
-CLASS agff com/google/common/collect/RegularImmutableList
-	FIELD a EMPTY Lagbi;
+CLASS aevu com/google/common/collect/RegularImmutableList
+	FIELD a EMPTY Laerx;
 	FIELD b array [Ljava/lang/Object;
 	FIELD c size I
 	METHOD <init> ([Ljava/lang/Object;I)V

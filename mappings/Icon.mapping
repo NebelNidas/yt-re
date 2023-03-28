@@ -1,2 +1,2 @@
-CLASS alea Icon
-	METHOD b fromValue (I)Lalea;
+CLASS ajuo Icon
+	METHOD a fromValue (I)Lajuo;

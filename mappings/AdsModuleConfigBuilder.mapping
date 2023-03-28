@@ -1,4 +1,4 @@
-CLASS son AdsModuleConfigBuilder
+CLASS rxm AdsModuleConfigBuilder
 	FIELD a getAppVersionForAds Ljava/lang/String;
 	FIELD b getMidrollAdsFreqCapMillis J
 	FIELD c getImmediateAdExpireTimeMillis J
@@ -12,7 +12,7 @@ CLASS son AdsModuleConfigBuilder
 	FIELD k shouldEmitAdClickthroughReportedEvent Z
 	FIELD l shouldPreventYoutubeHeaders Z
 	FIELD m shouldPreventAdsHeaders Z
-	METHOD a build ()Lsoo;
+	METHOD a build ()Lrxn;
 	METHOD b setShouldAllowInnertubeCaching (Z)V
 		ARG 1 shouldAllowInnertubeCaching
 	METHOD c setShouldEmitAdClickthroughReportedEvent (Z)V

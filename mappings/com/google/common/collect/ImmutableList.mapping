@@ -1,8 +1,8 @@
-CLASS agbi com/google/common/collect/ImmutableList
-	METHOD F construct ([Ljava/lang/Object;)Lagbi;
+CLASS aerx com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Laerx;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lagbi;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagbi;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Laerx;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Laerx;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lagbi;
+	METHOD o copyOf (Ljava/util/Collection;)Laerx;
 		ARG 0 elements

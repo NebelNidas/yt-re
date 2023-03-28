@@ -1,17 +1,17 @@
-CLASS tgg OnNewPlaybackAfterContentVideoIdTrigger
+CLASS snr OnNewPlaybackAfterContentVideoIdTrigger
 	FIELD a contentVideoId Ljava/lang/String;
 	FIELD b onlyTriggersIfSlotNotEntered Z
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Lainy;
-	METHOD <init> (Ljava/lang/String;Lainy;Ljava/lang/String;Z)V
+	FIELD d triggerType Laheo;
+	METHOD <init> (Ljava/lang/String;Laheo;Ljava/lang/String;Z)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 contentVideoId
 		ARG 4 onlyTriggersIfSlotNotEntered
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltgg;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lsnr;
 		ARG 0 triggerId
 		ARG 1 contentVideoId
-	METHOD e createOnlySlotNotEntered (Ljava/lang/String;Ljava/lang/String;)Ltgg;
+	METHOD e createOnlySlotNotEntered (Ljava/lang/String;Ljava/lang/String;)Lsnr;
 		ARG 0 triggerId
 		ARG 1 contentVideoId
 	METHOD equals (Ljava/lang/Object;)Z

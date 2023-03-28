@@ -1,4 +1,4 @@
-CLASS afki Result
+CLASS aebg Result
 	METHOD a getData ()Ljava/lang/Object;
 	METHOD b isSuccess ()Z
 	METHOD c getError ()Ljava/lang/Throwable;

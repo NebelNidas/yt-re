@@ -1,4 +1,4 @@
-CLASS gsd RenderableTransitionAnimationFrame
+CLASS goo RenderableTransitionAnimationFrame
 	FIELD a progress F
 	FIELD b startSource Lj$/util/Optional;
 	FIELD c endSource Lj$/util/Optional;
@@ -6,8 +6,8 @@ CLASS gsd RenderableTransitionAnimationFrame
 		ARG 1 progress
 		ARG 2 startSource
 		ARG 3 endSource
-	METHOD a create ()Lgsd;
-	METHOD b create (FLj$/util/Optional;Lj$/util/Optional;)Lgsd;
+	METHOD a create ()Lgoo;
+	METHOD b create (FLj$/util/Optional;Lj$/util/Optional;)Lgoo;
 		ARG 0 progress
 		ARG 1 startSource
 		ARG 2 endSource

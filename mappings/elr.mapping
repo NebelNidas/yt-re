@@ -1,0 +1,2 @@
+CLASS elr
+	METHOD m newEventHandler (Ljava/lang/Class;Lelq;I[Ljava/lang/Object;)Legj;

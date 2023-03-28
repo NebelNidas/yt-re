@@ -1,14 +1,14 @@
-CLASS tju AdOverlayState
+CLASS sqt AdOverlayState
 	FIELD a adOverlayShown Z
 	FIELD b overflowMenuShown Z
-	FIELD c skipButtonState Ltkf;
-	FIELD e adProgressTextState Ltjw;
-	FIELD f learnMoreOverlayState Ltkc;
-	FIELD g adTitleOverlayState Ltjy;
-	FIELD h adReengagementState Ltjx;
-	FIELD i brandInteractionState Ltka;
-	FIELD j overlayTrackingParams Lahyv;
-	FIELD k interactionLoggingClientData Lamif;
+	FIELD c skipButtonState Lsre;
+	FIELD e adProgressTextState Lsqv;
+	FIELD f learnMoreOverlayState Lsrb;
+	FIELD g adTitleOverlayState Lsqx;
+	FIELD h adReengagementState Lsqw;
+	FIELD i brandInteractionState Lsqz;
+	FIELD j overlayTrackingParams Lagpk;
+	FIELD k interactionLoggingClientData Lakyw;
 	FIELD m currentPositionMillis I
 	FIELD n bufferedPositionMillis I
 	FIELD o durationMillis I

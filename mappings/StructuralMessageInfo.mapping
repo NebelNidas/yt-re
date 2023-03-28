@@ -1,2 +1,2 @@
-CLASS aicr StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Laibz;Z[I[Lahzn;Ljava/lang/Object;)V
+CLASS agtf StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Lagso;Z[I[Lagqc;Ljava/lang/Object;)V

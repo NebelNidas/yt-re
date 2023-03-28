@@ -1,9 +1,9 @@
-CLASS afmq SyncConstraint
-	FIELD a constraintType Lafmr;
+CLASS aedo SyncConstraint
+	FIELD a constraintType Laedp;
 	FIELD b applicablePeriod J
-	METHOD <init> (Lafmr;J)V
+	METHOD <init> (Laedp;J)V
 		ARG 1 constraintType
 		ARG 2 applicablePeriod
-	METHOD a builder ()Lascw;
+	METHOD a builder ()Laqtv;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

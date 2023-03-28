@@ -1,2 +1,0 @@
-CLASS lih
-	FIELD h reelDismissalInfo Ljava/util/List;

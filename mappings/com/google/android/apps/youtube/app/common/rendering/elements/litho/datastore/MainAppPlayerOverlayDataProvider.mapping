@@ -2,7 +2,7 @@ CLASS com/google/android/apps/youtube/app/common/rendering/elements/litho/datast
 	FIELD a rect Landroid/graphics/Rect;
 	FIELD d displayString Ljava/lang/String;
 	FIELD e listIndex I
-	FIELD k displayMetrics Landroid/util/DisplayMetrics;
-	FIELD l view Landroid/view/View;
-	FIELD m layoutListener Landroid/view/View$OnLayoutChangeListener;
+	FIELD j displayMetrics Landroid/util/DisplayMetrics;
+	FIELD k view Landroid/view/View;
+	FIELD l layoutListener Landroid/view/View$OnLayoutChangeListener;
 	METHOD g renderList ()V

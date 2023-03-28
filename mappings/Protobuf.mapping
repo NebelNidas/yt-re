@@ -1,3 +1,3 @@
-CLASS aica Protobuf
-	FIELD a instance Laica;
-	METHOD b schemaFor (Ljava/lang/Object;)Laici;
+CLASS agsp Protobuf
+	FIELD a instance Lagsp;
+	METHOD b schemaFor (Ljava/lang/Object;)Lagsw;

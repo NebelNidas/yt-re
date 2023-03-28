@@ -1,2 +1,2 @@
-CLASS aian LongList
-	METHOD d mutableCopyWithCapacity (I)Laian;
+CLASS agrc LongList
+	METHOD d mutableCopyWithCapacity (I)Lagrc;

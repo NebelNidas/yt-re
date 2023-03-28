@@ -1,7 +1,7 @@
-CLASS try RemovedImagePollOption
-	FIELD a imagePollOption Ltrs;
+CLASS syb RemovedImagePollOption
+	FIELD a imagePollOption Lsxv;
 	FIELD b index I
-	METHOD <init> (Ltrs;I)V
+	METHOD <init> (Lsxv;I)V
 		ARG 1 imagePollOption
 		ARG 2 index
 	METHOD equals (Ljava/lang/Object;)Z

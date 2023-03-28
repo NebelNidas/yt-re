@@ -1,2 +1,2 @@
-CLASS akvc DescriptionProtobuf
+CLASS ajlm DescriptionProtobuf
 	FIELD d clipText Ljava/lang/String;

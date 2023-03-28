@@ -1,3 +1,3 @@
-CLASS ampl LikeType
+CLASS algd LikeType
 	FIELD e ordinal I
-	METHOD b fromOrdinal (I)Lampl;
+	METHOD a fromOrdinal (I)Lalgd;

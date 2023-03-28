@@ -1,2 +1,0 @@
-CLASS eii
-	METHOD a collectChildren (Ljava/util/List;)V

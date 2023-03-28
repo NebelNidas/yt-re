@@ -1,2 +1,0 @@
-CLASS acpe
-	METHOD M setPlaybackSpeed (F)V

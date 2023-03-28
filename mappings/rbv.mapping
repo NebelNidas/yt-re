@@ -1,0 +1,3 @@
+CLASS rbv
+	METHOD S isHttps (Landroid/net/Uri;)Z
+	METHOD U isLocalhost (Landroid/net/Uri;)Z

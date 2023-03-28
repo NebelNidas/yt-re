@@ -1,4 +1,4 @@
-CLASS qwk GoogleOwnerBuilder
+CLASS qho GoogleOwnerBuilder
 	FIELD a displayName Ljava/lang/String;
 	FIELD b givenName Ljava/lang/String;
 	FIELD c familyName Ljava/lang/String;
@@ -12,7 +12,7 @@ CLASS qwk GoogleOwnerBuilder
 	FIELD k isG1User Z
 	FIELD l isDasherUser Z
 	FIELD m flags B
-	METHOD a build ()Lqwl;
+	METHOD a build ()Lqhp;
 	METHOD b setAccountName (Ljava/lang/String;)V
 		ARG 1 accountName
 	METHOD c setDasherUser (Z)V

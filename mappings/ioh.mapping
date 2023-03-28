@@ -1,0 +1,26 @@
+CLASS ioh
+	FIELD a id Ljava/lang/String;
+	FIELD b title Ljava/lang/String;
+	FIELD c lengthSeconds J
+	FIELD d channelTitle Ljava/lang/String;
+	FIELD e channelThumbnailDetails Laooj;
+	FIELD f thumbnailDetails Laooj;
+	FIELD g description Lajlm;
+	FIELD h publishedTimestampMs Ljava/lang/Long;
+	FIELD i viewCount Ljava/lang/Long;
+	FIELD j likeCountText Ljava/lang/String;
+	METHOD B setThumbnailDetails (Laooj;)V
+		ARG 1 thumbnailDetails
+	METHOD C setTitle (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD E setViewCount (J)V
+		ARG 1 viewCount
+	METHOD c setChannelThumbnailDetails (Laooj;)V
+	METHOD d setChannelTitle (Ljava/lang/String;)V
+	METHOD e setDescription (Lajlm;)V
+	METHOD f setDislikeCountText (Ljava/lang/String;)V
+	METHOD i setId (Ljava/lang/String;)V
+	METHOD v setLengthSeconds (J)V
+	METHOD w setLikeCountText (Ljava/lang/String;)V
+		ARG 1 likeCountText
+	METHOD z setPublishedTimestampMs (J)V

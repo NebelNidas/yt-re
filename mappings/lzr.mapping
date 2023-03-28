@@ -1,0 +1,10 @@
+CLASS lzr
+	FIELD a code Ljava/lang/Integer;
+	FIELD b payload Ljava/lang/Object;
+	FIELD c priority Llzu;
+	METHOD <init> (Ljava/lang/Integer;Ljava/lang/Object;Llzu;)V
+		ARG 1 code
+		ARG 2 payload
+		ARG 3 priority
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

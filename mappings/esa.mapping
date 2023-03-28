@@ -1,3 +1,0 @@
-CLASS esa
-	FIELD k lithoView Lejg;
-	FIELD l recyclerView Landroid/support/v7/widget/RecyclerView;

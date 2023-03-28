@@ -1,4 +1,4 @@
-CLASS aexa InstallStateImpl
+CLASS adoq InstallStateImpl
 	FIELD a installStatus I
 	FIELD b bytesDownloaded J
 	FIELD c totalBytesToDownload J

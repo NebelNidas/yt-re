@@ -1,13 +1,11 @@
-CLASS athg MegaBuilder
+CLASS aryf MegaBuilder
 	FIELD a param1 Ljava/lang/Object;
 	FIELD b param2 Ljava/lang/Object;
 	FIELD c param3 Ljava/lang/Object;
-	METHOD <init> (Ltrs;)V
+	METHOD <init> (Lsxv;)V
 		ARG 1 pollOption
-	METHOD p buildImagePollOption ()Ltrs;
+	METHOD p buildImagePollOption ()Lsxv;
 	METHOD q setImage (Lj$/util/Optional;)V
 		ARG 1 image
 	METHOD r setPlaceholderText (Ljava/lang/String;)V
 		ARG 1 placeholderText
-	METHOD s buildChimeTaskData ()Lqjk;
-	METHOD t setPayload ([B)V

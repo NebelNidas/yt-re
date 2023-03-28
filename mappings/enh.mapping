@@ -1,2 +1,0 @@
-CLASS enh
-	METHOD n newEventHandler (Ljava/lang/Class;Leng;I[Ljava/lang/Object;)Lehz;

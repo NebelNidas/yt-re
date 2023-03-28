@@ -1,2 +1,2 @@
-CLASS tkd MdxAdOverlayState
+CLASS src MdxAdOverlayState
 	FIELD a remotePlayback Z

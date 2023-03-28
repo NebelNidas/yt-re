@@ -1,9 +1,9 @@
-CLASS tfw MediaNonTerminalAbandonedTrigger
+CLASS snh MediaNonTerminalAbandonedTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b mediaCpn Ljava/lang/String;
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Lainy;
-	METHOD <init> (Ljava/lang/String;Lainy;ZLjava/lang/String;)V
+	FIELD d triggerType Laheo;
+	METHOD <init> (Ljava/lang/String;Laheo;ZLjava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggertype
 		ARG 3 shouldDisableIfVideoStartMuted

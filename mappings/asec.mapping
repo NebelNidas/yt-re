@@ -1,0 +1,4 @@
+CLASS asec
+	METHOD a (Lasgm;Lasgm;Lasgh;Lasgh;Lasgh;Lasgh;)Lasec;
+		ARG 3 onComplete
+		ARG 6 onDispose

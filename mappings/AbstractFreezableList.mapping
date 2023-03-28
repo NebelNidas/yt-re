@@ -1,3 +1,3 @@
-CLASS ahyh AbstractFreezableList
+CLASS agow AbstractFreezableList
 	FIELD a mutable Z
-	METHOD tN checkMutable ()V
+	METHOD ts checkMutable ()V

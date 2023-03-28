@@ -1,7 +1,7 @@
-CLASS afkc CallbackResult
-	FIELD a callbacks Lafjq;
-	FIELD b result Lafki;
-	METHOD <init> (Lafjq;Lafki;)V
+CLASS aeba CallbackResult
+	FIELD a callbacks Laean;
+	FIELD b result Laebg;
+	METHOD <init> (Laean;Laebg;)V
 		ARG 1 callbacks
 		ARG 2 result
 	METHOD equals (Ljava/lang/Object;)Z

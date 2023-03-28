@@ -1,6 +1,0 @@
-CLASS mfa
-	FIELD c playerViewModeMonitor Lfxz;
-	FIELD o tabNames Ljava/util/Set;
-	FIELD p flags Lagbo;
-	FIELD q config Landroid/content/res/Configuration;
-	FIELD s pivotBar Lj$/util/Optional;

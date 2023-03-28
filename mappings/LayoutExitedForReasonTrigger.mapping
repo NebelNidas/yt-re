@@ -1,11 +1,11 @@
-CLASS tfn LayoutExitedForReasonTrigger
+CLASS smy LayoutExitedForReasonTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b triggeringLayoutId Ljava/lang/String;
 	FIELD c mediaCpn Ljava/lang/String;
-	FIELD d layoutExitReason Lagpn;
+	FIELD d layoutExitReason Lafgd;
 	FIELD e triggerId Ljava/lang/String;
-	FIELD f triggerType Lainy;
-	METHOD <init> (Ljava/lang/String;Lainy;ZLjava/lang/String;Ljava/lang/String;Lagpn;)V
+	FIELD f triggerType Laheo;
+	METHOD <init> (Ljava/lang/String;Laheo;ZLjava/lang/String;Ljava/lang/String;Lafgd;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted
@@ -14,7 +14,7 @@ CLASS tfn LayoutExitedForReasonTrigger
 		ARG 6 layoutExitReason
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f create (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[I)Ltfn;
+	METHOD f create (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[I)Lsmy;
 		ARG 0 triggerId
 		ARG 1 triggeringLayoutId
 		ARG 2 mediaCpn

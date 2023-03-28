@@ -1,0 +1,2 @@
+CLASS ajlo
+	FIELD c displayString Ljava/lang/String;

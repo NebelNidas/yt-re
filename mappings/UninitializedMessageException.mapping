@@ -1,2 +1,2 @@
-CLASS aicu UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Laiav;
+CLASS agti UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lagrk;

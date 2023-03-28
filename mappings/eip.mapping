@@ -1,3 +1,0 @@
-CLASS eip
-	METHOD b getLayoutOutput (Letq;)Leip;
-	METHOD d isAccessible ()Z

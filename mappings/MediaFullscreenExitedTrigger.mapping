@@ -1,9 +1,9 @@
-CLASS tfv MediaFullscreenExitedTrigger
+CLASS sng MediaFullscreenExitedTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b mediaCpn Ljava/lang/String;
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Lainy;
-	METHOD <init> (Ljava/lang/String;Lainy;ZLjava/lang/String;)V
+	FIELD d triggerType Laheo;
+	METHOD <init> (Ljava/lang/String;Laheo;ZLjava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted

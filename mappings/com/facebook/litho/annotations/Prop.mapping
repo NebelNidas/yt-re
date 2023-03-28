@@ -1,2 +1,2 @@
-CLASS elv com/facebook/litho/annotations/Prop
-	METHOD a resType ()Lelw;
+CLASS ekf com/facebook/litho/annotations/Prop
+	METHOD a resType ()Lekg;

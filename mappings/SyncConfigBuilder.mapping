@@ -1,9 +1,9 @@
-CLASS afmo SyncConfigBuilder
+CLASS aedm SyncConfigBuilder
 	FIELD a minSyncInterval J
 	FIELD b timeout J
 	FIELD c constraints Ljava/util/List;
-	METHOD a build ()Lafmp;
-	METHOD b addConstraint (Lafmq;)V
+	METHOD a build ()Laedn;
+	METHOD b addConstraint (Laedo;)V
 		ARG 1 constraint
 	METHOD c setMinSyncInterval (JLjava/util/concurrent/TimeUnit;)V
 		ARG 1 interval

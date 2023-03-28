@@ -1,0 +1,5 @@
+CLASS aarg
+	FIELD b prm Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
+	FIELD c emptySpeeds [Lapel;
+	METHOD c ([Lapel;)V
+		ARG 1 speeds

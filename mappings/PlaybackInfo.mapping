@@ -1,4 +1,4 @@
-CLASS anho PlaybackInfo
+CLASS alyh PlaybackInfo
 	FIELD d videoId Ljava/lang/String;
 	FIELD e currentPositionMillis I
 	FIELD f playlistId Ljava/lang/String;

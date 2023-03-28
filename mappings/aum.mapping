@@ -1,0 +1,3 @@
+CLASS aum
+	METHOD b setOnReceiveContentListener (Landroid/view/View;[Ljava/lang/String;Latm;)V
+	METHOD c getReceiveContentMimeTypes (Landroid/view/View;)[Ljava/lang/String;

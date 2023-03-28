@@ -1,4 +1,4 @@
-CLASS lbb RegionEntry
+CLASS krp RegionEntry
 	FIELD a regionName Ljava/lang/String;
 	FIELD b regionCode Ljava/lang/String;
 	FIELD c callingCode I

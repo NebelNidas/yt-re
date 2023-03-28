@@ -1,10 +1,10 @@
-CLASS lze LoggingInputStates
-	FIELD a loggingState Labrj;
-	FIELD b containerState Llzo;
-	METHOD <init> (Labrj;Llzo;)V
+CLASS loj LoggingInputStates
+	FIELD a loggingState Laana;
+	FIELD b containerState Llos;
+	METHOD <init> (Laana;Llos;)V
 		ARG 1 loggingState
 		ARG 2 containerState
-	METHOD a create (Labrj;Llzo;)Llze;
+	METHOD a create (Laana;Llos;)Lloj;
 		ARG 0 loggingState
 		ARG 1 containerState
 	METHOD equals (Ljava/lang/Object;)Z

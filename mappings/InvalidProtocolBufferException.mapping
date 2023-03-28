@@ -1,2 +1,2 @@
-CLASS aiav InvalidProtocolBufferException
+CLASS agrk InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

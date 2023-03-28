@@ -1,4 +1,4 @@
-CLASS tjw AdProgressTextState
+CLASS sqv AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Ltcp;
+	FIELD c adCountMetadata Lskb;

@@ -1,0 +1,3 @@
+CLASS accr
+	METHOD a getButtonId (Lajuo;)I
+		ARG 1 icon

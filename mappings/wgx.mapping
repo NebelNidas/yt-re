@@ -1,2 +1,0 @@
-CLASS wgx
-	METHOD d toByteArray ()[B

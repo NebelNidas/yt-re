@@ -1,2 +1,2 @@
-CLASS tjy AdTitleOverlayState
-	FIELD a adOverlayMetadata Ltjs;
+CLASS sqx AdTitleOverlayState
+	FIELD a adOverlayMetadata Lsqr;

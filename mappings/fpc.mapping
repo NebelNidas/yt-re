@@ -1,5 +1,0 @@
-CLASS fpc
-	FIELD c watchWhileActivity Lbt;
-	METHOD f someDislikeMethod (Laijl;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Laijl;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Laijl;)Lcom/google/common/util/concurrent/ListenableFuture;

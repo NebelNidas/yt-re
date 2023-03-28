@@ -1,4 +1,0 @@
-CLASS asij
-	METHOD a (Lasks;Lasks;Laskn;Laskn;Laskn;Laskn;)Lasij;
-		ARG 3 onComplete
-		ARG 6 onDispose

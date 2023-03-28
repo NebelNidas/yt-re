@@ -1,4 +1,0 @@
-CLASS ejt
-	METHOD d getFocusChangeListener (Landroid/view/View;)Legp;
-	METHOD e getClickListener (Landroid/view/View;)Legv;
-	METHOD f getLongClickListener (Landroid/view/View;)Legw;

@@ -1,9 +1,9 @@
-CLASS squ SequenceItemInPlayerSpaceUnavailableTrigger
-	FIELD a reelAdMetadata Laeqn;
-	FIELD b reelImageAdMetadata Laeqn;
+CLASS sxf SequenceItemInPlayerSpaceUnavailableTrigger
+	FIELD a reelAdMetadata Laeyc;
+	FIELD b reelImageAdMetadata Laeyc;
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Lahib;
-	METHOD <init> (Ljava/lang/String;Lahib;Laeqn;Laeqn;)V
+	FIELD d triggerType Lahpy;
+	METHOD <init> (Ljava/lang/String;Lahpy;Laeyc;Laeyc;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 reelAdMetadata

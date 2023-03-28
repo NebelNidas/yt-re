@@ -1,0 +1,3 @@
+CLASS gdp
+	FIELD a mainAppPlayerOverlayDataProvider Ljava/lang/Object;
+	FIELD b type I

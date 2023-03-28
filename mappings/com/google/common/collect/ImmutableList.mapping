@@ -1,8 +1,8 @@
-CLASS aevn com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Laevn;
+CLASS afdc com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Lafdc;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Laevn;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Laevn;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lafdc;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafdc;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Laevn;
+	METHOD o copyOf (Ljava/util/Collection;)Lafdc;
 		ARG 0 elements

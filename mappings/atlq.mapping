@@ -1,2 +1,0 @@
-CLASS atlq
-	METHOD a get ()Ljava/lang/Object;

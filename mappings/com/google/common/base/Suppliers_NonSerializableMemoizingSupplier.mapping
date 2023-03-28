@@ -1,5 +1,5 @@
-CLASS aero com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Laerm;
+CLASS aezd com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Laezb;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Laerm;)V
+	METHOD <init> (Laezb;)V
 		ARG 1 delegate

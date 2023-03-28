@@ -1,4 +1,4 @@
-CLASS pyb ChimeThreadStateBuilder
+CLASS qem ChimeThreadStateBuilder
 	FIELD a id J
 	FIELD b threadId Ljava/lang/String;
 	FIELD c lastUpdatedVersion J
@@ -8,9 +8,9 @@ CLASS pyb ChimeThreadStateBuilder
 	FIELD g deletionStatus I
 	FIELD h countBehavior I
 	FIELD i systemTrayBehavior I
-	METHOD <init> (Lpyj;)V
+	METHOD <init> (Lqeu;)V
 		ARG 1 from
-	METHOD a build ()Lpyj;
+	METHOD a build ()Lqeu;
 	METHOD b setId (J)V
 		ARG 1 id
 	METHOD c setLastUpdatedVersion (Ljava/lang/Long;)V

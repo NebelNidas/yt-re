@@ -1,3 +1,0 @@
-CLASS rec
-	METHOD D isHttps (Landroid/net/Uri;)Z
-	METHOD F isLocalhost (Landroid/net/Uri;)Z

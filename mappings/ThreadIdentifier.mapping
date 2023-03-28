@@ -1,4 +1,4 @@
-CLASS oqp ThreadIdentifier
+CLASS owx ThreadIdentifier
 	FIELD a tid I
 	FIELD b id J
 	FIELD c name Ljava/lang/String;

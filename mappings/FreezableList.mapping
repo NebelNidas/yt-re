@@ -1,5 +1,5 @@
-CLASS aguu FreezableList
+CLASS ahcq FreezableList
 	METHOD b freeze ()V
 	METHOD c isMutable ()Z
-	METHOD e mutableCopyWithCapacity (I)Laguu;
+	METHOD e mutableCopyWithCapacity (I)Lahcq;
 		ARG 1 capacity

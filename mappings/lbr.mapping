@@ -1,0 +1,2 @@
+CLASS lbr
+	FIELD c view Landroid/view/View;

@@ -1,0 +1,4 @@
+CLASS mid
+	METHOD a getPriority ()Lmie;
+	METHOD b getCode ()Ljava/lang/Integer;
+	METHOD c getPayload ()Ljava/lang/Object;

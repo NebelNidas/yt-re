@@ -1,2 +1,0 @@
-CLASS nbd
-	METHOD a getAccount ()Landroid/accounts/Account;

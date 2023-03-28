@@ -1,6 +1,6 @@
-CLASS gqj ActiveStateChangedEvent
-	METHOD a create (Lgqk;Lgqk;)Lgqj;
+CLASS guy ActiveStateChangedEvent
+	METHOD a create (Lguz;Lguz;)Lguy;
 		ARG 0 currentState
 		ARG 1 toState
-	METHOD b getCurrentState ()Lgqk;
-	METHOD c getToState ()Lgqk;
+	METHOD b getCurrentState ()Lguz;
+	METHOD c getToState ()Lguz;

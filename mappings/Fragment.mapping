@@ -23,16 +23,16 @@ CLASS bq Fragment
 	FIELD v inLayout Z
 	FIELD y backStackNesting I
 	FIELD z fragmentManager Lck;
-	METHOD U (IILandroid/content/Intent;)V
+	METHOD V (IILandroid/content/Intent;)V
 		ARG 1 requestCode
 		ARG 2 resultCode
 		ARG 3 data
-	METHOD aA onGetLayoutInflater ()Landroid/view/LayoutInflater;
-	METHOD aC create (Landroid/content/Context;Ljava/lang/String;)Lbq;
+	METHOD aA create (Landroid/content/Context;Ljava/lang/String;)Lbq;
 		ARG 1 name
-	METHOD aq getPopDirection ()Z
-	METHOD av isSaved ()Z
-	METHOD mL getPopExitAnimation ()I
-	METHOD nW getEnterAnimation ()I
-	METHOD nX getExitAnimation ()I
-	METHOD nY getPopEnterAnimation ()I
+	METHOD ar getPopDirection ()Z
+	METHOD aw isSaved ()Z
+	METHOD az onGetLayoutInflater ()Landroid/view/LayoutInflater;
+	METHOD mL getPopEnterAnimation ()I
+	METHOD mM getPopExitAnimation ()I
+	METHOD oc getEnterAnimation ()I
+	METHOD od getExitAnimation ()I

@@ -1,4 +1,4 @@
-CLASS oye LegacyFontKey
+CLASS peo LegacyFontKey
 	FIELD a fontName Ljava/lang/String;
 	FIELD b weightAdjustment I
 	METHOD <init> (Ljava/lang/String;I)V

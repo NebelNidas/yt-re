@@ -1,4 +1,4 @@
-CLASS ekk Size
+CLASS eow Size
 	FIELD a width I
 	FIELD b height I
 	METHOD <init> (II)V

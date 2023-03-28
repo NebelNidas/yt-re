@@ -1,5 +1,5 @@
-CLASS agth CodedOutputStream
+CLASS ahbd CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ai getCodedOutput ([B)Lagth;
+	METHOD ai getCodedOutput ([B)Lahbd;
 	METHOD al checkNoSpaceLeft ()V
 	METHOD i flush ()V

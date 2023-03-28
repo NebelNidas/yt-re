@@ -1,4 +1,4 @@
-CLASS pyj ChimeThreadState
+CLASS qeu ChimeThreadState
 	FIELD a id J
 	FIELD b threadId Ljava/lang/String;
 	FIELD c lastUpdatedVersion J
@@ -16,7 +16,7 @@ CLASS pyj ChimeThreadState
 		ARG 8 countBehavior
 		ARG 9 systemTrayBehavior
 		ARG 10 modifiedTimestamp
-	METHOD a defaultBuilder ()Lpyb;
-	METHOD b emptyBuilder ()Lpyb;
+	METHOD a defaultBuilder ()Lqem;
+	METHOD b emptyBuilder ()Lqem;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

@@ -1,4 +1,2 @@
 CLASS mby
-	METHOD a getPriority ()Lmbz;
-	METHOD b getCode ()Ljava/lang/Integer;
-	METHOD c getPayload ()Ljava/lang/Object;
+	FIELD i recreateSignedInState I

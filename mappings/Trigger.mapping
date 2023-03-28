@@ -1,4 +1,4 @@
-CLASS srq Trigger
-	METHOD a getTriggerType ()Lahib;
+CLASS syb Trigger
+	METHOD a getTriggerType ()Lahpy;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

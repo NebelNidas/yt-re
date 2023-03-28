@@ -1,7 +1,0 @@
-CLASS gsd
-	FIELD a buttonsMap Ljava/util/EnumMap;
-	FIELD b pivotTabsMap Ljava/util/EnumMap;
-	METHOD b getIconId (Lajyc;Z)I
-		ARG 1 icon
-		ARG 2 usePivotTabs
-	METHOD c generateButtonsMap ()Ljava/util/EnumMap;

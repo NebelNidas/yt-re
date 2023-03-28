@@ -1,2 +1,2 @@
-CLASS agwv UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lagux;
+CLASS aher UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lahct;

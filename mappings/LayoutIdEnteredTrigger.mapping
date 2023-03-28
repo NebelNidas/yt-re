@@ -1,12 +1,12 @@
-CLASS spp LayoutIdEnteredTrigger
+CLASS swa LayoutIdEnteredTrigger
 	FIELD a triggeringLayoutId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Lahib;
-	METHOD <init> (Ljava/lang/String;Lahib;Ljava/lang/String;)V
+	FIELD c triggerType Lahpy;
+	METHOD <init> (Ljava/lang/String;Lahpy;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 triggeringLayoutId
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lspp;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lswa;
 		ARG 0 triggerId
 		ARG 1 triggeringLayoutId
 	METHOD equals (Ljava/lang/Object;)Z

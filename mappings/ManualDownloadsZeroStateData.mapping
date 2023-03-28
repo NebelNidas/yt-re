@@ -1,6 +1,6 @@
-CLASS jdd ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Lahri;
-	METHOD <init> (Lahri;)V
+CLASS jjh ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Lahzg;
+	METHOD <init> (Lahzg;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

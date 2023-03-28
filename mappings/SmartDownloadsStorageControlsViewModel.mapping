@@ -1,12 +1,12 @@
-CLASS kby SmartDownloadsStorageControlsViewModel
+CLASS kia SmartDownloadsStorageControlsViewModel
 	FIELD a forSdCard Z
 	FIELD b userSavedMaxStorageMb J
 	FIELD c manualDownloadSpaceUsedMb J
 	FIELD d storageAvailableMb J
-	FIELD e offlineabilityFormatType Lamtw;
+	FIELD e offlineabilityFormatType Lancc;
 	FIELD f sliderMinimumValueMb F
 	FIELD g sliderMaximumValueMb J
-	METHOD <init> (ZJJJLamtw;FJ)V
+	METHOD <init> (ZJJJLancc;FJ)V
 		ARG 1 forSdCard
 		ARG 2 userSavedMaxStorageMb
 		ARG 4 manualDownloadSpaceUsedMb

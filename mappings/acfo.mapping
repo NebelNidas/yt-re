@@ -1,3 +1,0 @@
-CLASS acfo
-	METHOD a getButtonId (Lajyc;)I
-		ARG 1 icon

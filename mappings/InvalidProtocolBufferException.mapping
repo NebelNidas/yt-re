@@ -1,2 +1,2 @@
-CLASS agux InvalidProtocolBufferException
+CLASS ahct InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

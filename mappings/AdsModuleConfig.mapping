@@ -1,4 +1,4 @@
-CLASS rzx AdsModuleConfig
+CLASS sgl AdsModuleConfig
 	FIELD a DEFAULT_MIDROLL_ADS_FREQUENCY_CAP J
 	FIELD b DEFAULT_IMMEDIATE_AD_EXPIRE_TIME J
 	FIELD c DEFAULT_ADS_TIMEOUT J
@@ -28,7 +28,7 @@ CLASS rzx AdsModuleConfig
 		ARG 14 shouldPreventAdsHeaders
 		ARG 15 shouldSendAdsClientMonitoringLogsAsync
 		ARG 16 getAdsClientMonitoringDelayLogMs
-	METHOD a builder (Ljava/lang/String;)Lrzw;
+	METHOD a builder (Ljava/lang/String;)Lsgk;
 		ARG 0 getAppVersionForAds
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

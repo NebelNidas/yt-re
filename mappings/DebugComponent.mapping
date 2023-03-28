@@ -1,4 +1,4 @@
-CLASS ehh DebugComponent
-	METHOD b getComponent ()Legk;
-	METHOD f getLithoView ()Lejo;
-	METHOD m getLayoutNode ()Ldls;
+CLASS elu DebugComponent
+	METHOD b getComponent ()Lekx;
+	METHOD f getLithoView ()Leoa;
+	METHOD m getLayoutNode ()Ldqi;

@@ -1,4 +1,4 @@
-CLASS gsh AccessibilityLikeDislike
+CLASS gwx AccessibilityLikeDislike
 	FIELD a likeTexts [I
 	FIELD b dislikeTexts [I
 	FIELD d view Landroid/view/View;

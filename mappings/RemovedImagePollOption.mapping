@@ -1,7 +1,7 @@
-CLASS tau RemovedImagePollOption
-	FIELD a imagePollOption Ltao;
+CLASS the RemovedImagePollOption
+	FIELD a imagePollOption Ltgy;
 	FIELD b index I
-	METHOD <init> (Ltao;I)V
+	METHOD <init> (Ltgy;I)V
 		ARG 1 imagePollOption
 		ARG 2 index
 	METHOD equals (Ljava/lang/Object;)Z

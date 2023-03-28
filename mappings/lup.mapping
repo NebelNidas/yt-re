@@ -1,3 +1,0 @@
-CLASS lup
-	FIELD aI accountId Lcom/google/apps/tiktok/account/AccountId;
-	FIELD aJ accountChangedCalledKey Z

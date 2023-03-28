@@ -1,6 +1,6 @@
-CLASS aern com/google/common/base/Suppliers_MemoizingSupplier
-	FIELD a delegate Laerm;
+CLASS aezc com/google/common/base/Suppliers_MemoizingSupplier
+	FIELD a delegate Laezb;
 	FIELD b initialized Z
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Laerm;)V
+	METHOD <init> (Laezb;)V
 		ARG 1 delegate

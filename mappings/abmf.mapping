@@ -1,2 +1,0 @@
-CLASS abmf
-	METHOD M setPlaybackSpeed (F)V

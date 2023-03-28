@@ -1,4 +1,4 @@
 CLASS android/support/v7/widget/RecyclerView
-	METHOD aC addItemEnd (Lhv;)V
-	METHOD aD insertItem (Lhv;I)V
-	METHOD aE addItem (Lhw;)V
+	METHOD aD addItemEnd (Lhv;)V
+	METHOD aE insertItem (Lhv;I)V
+	METHOD aF addItem (Lhw;)V

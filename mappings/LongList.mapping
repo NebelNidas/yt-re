@@ -1,2 +1,2 @@
-CLASS agup LongList
-	METHOD d mutableCopyWithCapacity (I)Lagup;
+CLASS ahcl LongList
+	METHOD d mutableCopyWithCapacity (I)Lahcl;

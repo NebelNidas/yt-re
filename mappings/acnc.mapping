@@ -1,0 +1,3 @@
+CLASS acnc
+	METHOD a getButtonId (Lakgh;)I
+		ARG 1 icon

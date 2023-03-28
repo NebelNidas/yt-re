@@ -1,4 +1,4 @@
-CLASS ejo LithoView
+CLASS eoa LithoView
 	FIELD A LAYOUT_SIZE [I
 	FIELD G accessibilityManager Landroid/view/accessibility/AccessibilityManager;
 	FIELD z CLASS_NAME Ljava/lang/String;

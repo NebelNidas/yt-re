@@ -1,0 +1,26 @@
+CLASS ivu
+	FIELD a id Ljava/lang/String;
+	FIELD b title Ljava/lang/String;
+	FIELD c lengthSeconds J
+	FIELD d channelTitle Ljava/lang/String;
+	FIELD e channelThumbnailDetails Lapam;
+	FIELD f thumbnailDetails Lapam;
+	FIELD g description Lajxf;
+	FIELD h publishedTimestampMs Ljava/lang/Long;
+	FIELD i viewCount Ljava/lang/Long;
+	FIELD j likeCountText Ljava/lang/String;
+	METHOD C setLengthSeconds (J)V
+	METHOD D setLikeCountText (Ljava/lang/String;)V
+		ARG 1 likeCountText
+	METHOD H setPublishedTimestampMs (J)V
+	METHOD J setThumbnailDetails (Lapam;)V
+		ARG 1 thumbnailDetails
+	METHOD K setTitle (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD M setViewCount (J)V
+		ARG 1 viewCount
+	METHOD c setChannelThumbnailDetails (Lapam;)V
+	METHOD d setChannelTitle (Ljava/lang/String;)V
+	METHOD e setDescription (Lajxf;)V
+	METHOD f setDislikeCountText (Ljava/lang/String;)V
+	METHOD k setId (Ljava/lang/String;)V

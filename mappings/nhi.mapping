@@ -1,0 +1,2 @@
+CLASS nhi
+	METHOD a getAccount ()Landroid/accounts/Account;

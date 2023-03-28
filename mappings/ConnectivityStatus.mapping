@@ -1,12 +1,12 @@
-CLASS tqn ConnectivityStatus
+CLASS twy ConnectivityStatus
 	FIELD a connected Z
 	FIELD b temporarilyUnmetered Z
 	FIELD c chargeable Z
 	FIELD d connectionType I
 	FIELD e connectedOrConnecting Z
 	FIELD f dataSaverEnabled Z
-	FIELD g detailedNetworkType Laixo;
-	METHOD <init> (ZZZZZILaixo;)V
+	FIELD g detailedNetworkType Lajfs;
+	METHOD <init> (ZZZZZILajfs;)V
 		ARG 1 connectedOrConnection
 		ARG 2 connected
 		ARG 3 temporarilyUnmetered

@@ -1,5 +1,5 @@
-CLASS agtc CodedInputStream
+CLASS ahay CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lagtc;
-	METHOD P newInstance (Ljava/io/InputStream;I)Lagtc;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lahay;
+	METHOD P newInstance (Ljava/io/InputStream;I)Lahay;

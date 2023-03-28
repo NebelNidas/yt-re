@@ -1,0 +1,2 @@
+CLASS artk
+	METHOD a get ()Ljava/lang/Object;

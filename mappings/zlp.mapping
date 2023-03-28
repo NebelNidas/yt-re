@@ -1,2 +1,0 @@
-CLASS zlp
-	METHOD h findXop (Ljava/lang/String;)Lzln;

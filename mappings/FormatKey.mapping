@@ -1,4 +1,4 @@
-CLASS yji FormatKey
+CLASS yqk FormatKey
 	FIELD a videoId Ljava/lang/String;
 	FIELD b itag I
 	FIELD c xtags Ljava/lang/String;
@@ -6,7 +6,7 @@ CLASS yji FormatKey
 		ARG 1 videoId
 		ARG 2 itag
 		ARG 3 xtags
-	METHOD a create (Ljava/lang/String;ILjava/lang/String;)Lyji;
+	METHOD a create (Ljava/lang/String;ILjava/lang/String;)Lyqk;
 		ARG 0 videoId
 		ARG 1 itag
 		ARG 2 xtags

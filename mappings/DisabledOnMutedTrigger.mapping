@@ -1,2 +1,2 @@
-CLASS sql DisabledOnMutedTrigger
+CLASS sww DisabledOnMutedTrigger
 	METHOD c shouldDisableIfVideoStartMuted ()Z

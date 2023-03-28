@@ -1,4 +1,4 @@
-CLASS fqa SectionReloadEvent
-	METHOD a getReloadContinuationData ()Lanrx;
+CLASS fur SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laoae;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Lanrx;)Lfqa;
+	METHOD c of (Ljava/lang/String;Laoae;)Lfur;

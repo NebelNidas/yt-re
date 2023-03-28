@@ -1,5 +1,5 @@
-CLASS qfc GaiaAccountDataBuilder
-	COMMENT @see qtv#buildGaiaAccountData(Object) detached build method
+CLASS qlo GaiaAccountDataBuilder
+	COMMENT @see qno#buildGaiaAccountData(Object) detached build method
 	FIELD a isG1User Z
 	FIELD b flags B
 	FIELD c isUnicornUser I

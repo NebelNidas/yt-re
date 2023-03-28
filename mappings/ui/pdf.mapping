@@ -1,2 +1,2 @@
-CLASS quu ui/pdf
+CLASS rbe ui/pdf
 	METHOD b getIconResourceId ()I

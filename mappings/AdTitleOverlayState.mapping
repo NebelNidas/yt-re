@@ -1,2 +1,2 @@
-CLASS sto AdTitleOverlayState
-	FIELD a adOverlayMetadata Lsti;
+CLASS szz AdTitleOverlayState
+	FIELD a adOverlayMetadata Lszt;

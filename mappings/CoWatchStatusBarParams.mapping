@@ -1,0 +1,10 @@
+CLASS ule CoWatchStatusBarParams
+	FIELD a isPip Z
+	FIELD b isFullscreen Z
+	FIELD c liveSharingState Lulh;
+	METHOD <init> (ZZLulh;)V
+		ARG 1 isPip
+		ARG 2 isFullscreen
+		ARG 3 liveSharingState
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

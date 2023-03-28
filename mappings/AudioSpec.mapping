@@ -1,0 +1,15 @@
+CLASS aku AudioSpec
+	FIELD a ALL_BITRATES Landroid/util/Range;
+	FIELD b ALL_SAMPLE_RATES Landroid/util/Range;
+	FIELD c bitrate Landroid/util/Range;
+	FIELD d sourceFormat I
+	FIELD e source I
+	FIELD f sampleRate Landroid/util/Range;
+	FIELD g channelCount I
+	METHOD <init> (Landroid/util/Range;Landroid/util/Range;I)V
+		ARG 1 bitrate
+		ARG 2 sampleRate
+		ARG 3 channelCount
+	METHOD a builder ()Lakt;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

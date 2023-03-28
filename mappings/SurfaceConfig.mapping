@@ -1,0 +1,15 @@
+CLASS agw SurfaceConfig
+	FIELD a configType I
+	FIELD b configSize I
+	METHOD <init> (II)V
+		ARG 1 configType
+		ARG 2 configSize
+	METHOD a (ILandroid/util/Size;Lagx;)Lagw;
+		ARG 2 definition
+	METHOD b convertVideoFormat (I)I
+		ARG 0 format
+	METHOD c create (II)Lagw;
+		ARG 0 configType
+		ARG 1 configSize
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

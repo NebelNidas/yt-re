@@ -1,0 +1,17 @@
+CLASS afe ImmutableEncoderProfilesProxy
+	FIELD a defaultDurationSeconds I
+	FIELD b recommendedFileFormat I
+	FIELD c audioProfiles Ljava/util/List;
+	FIELD d videoProfiles Ljava/util/List;
+	METHOD <init> (IILjava/util/List;Ljava/util/List;)V
+		ARG 1 defaultDurationSeconds
+		ARG 2 recommendedFileFormat
+		ARG 3 audioProfiles
+		ARG 4 videoProfiles
+	METHOD a create (IILjava/util/List;Ljava/util/List;)Lafe;
+		ARG 0 defaultDurationSeconds
+		ARG 1 recommendedFileFormat
+		ARG 2 audioProfiles
+		ARG 3 videoProfiles
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

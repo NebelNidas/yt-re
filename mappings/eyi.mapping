@@ -1,3 +1,0 @@
-CLASS eyi
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Leyl;

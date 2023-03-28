@@ -1,0 +1,2 @@
+CLASS dmq
+	FIELD a context Ljava/lang/Object;

@@ -1,4 +1,0 @@
-CLASS asrg
-	METHOD a (Lastp;Lastp;Lastk;Lastk;Lastk;Lastk;)Lasrg;
-		ARG 3 onComplete
-		ARG 6 onDispose

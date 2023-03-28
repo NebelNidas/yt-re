@@ -1,4 +1,4 @@
-CLASS qlp GaiaAccountData
+CLASS qme GaiaAccountData
 	FIELD a isG1User Z
 	FIELD b isUnicornUser I
 	METHOD <init> (ZI)V

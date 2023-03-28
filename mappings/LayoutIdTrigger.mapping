@@ -1,2 +1,2 @@
-CLASS svw LayoutIdTrigger
+CLASS swp LayoutIdTrigger
 	METHOD e getLayoutId ()Ljava/lang/String;

@@ -1,7 +1,7 @@
-CLASS jlg PlaybackSpeedSelectMenu
+CLASS jmb PlaybackSpeedSelectMenu
 	FIELD a isUnavailable Z
 	FIELD c watchWhileActivity Lbt;
 	FIELD g selectedText Ljava/lang/String;
-	METHOD c changeSpeed ([Lapqr;I)V
+	METHOD c changeSpeed ([Laptg;I)V
 		ARG 1 speeds
 		ARG 2 selectedIndex

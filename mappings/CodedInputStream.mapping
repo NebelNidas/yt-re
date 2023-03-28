@@ -1,5 +1,5 @@
-CLASS ahay CodedInputStream
+CLASS ahcr CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lahay;
-	METHOD P newInstance (Ljava/io/InputStream;I)Lahay;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lahcr;
+	METHOD P newInstance (Ljava/io/InputStream;I)Lahcr;

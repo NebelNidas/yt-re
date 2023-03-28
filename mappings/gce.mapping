@@ -1,0 +1,3 @@
+CLASS gce
+	METHOD d isInlineMinimal ()Z
+	METHOD e isPIP ()Z

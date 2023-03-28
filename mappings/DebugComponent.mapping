@@ -1,4 +1,4 @@
-CLASS elu DebugComponent
-	METHOD b getComponent ()Lekx;
-	METHOD f getLithoView ()Leoa;
-	METHOD m getLayoutNode ()Ldqi;
+CLASS emc DebugComponent
+	METHOD b getComponent ()Lelf;
+	METHOD f getLithoView ()Leoi;
+	METHOD m getLayoutNode ()Ldqr;

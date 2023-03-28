@@ -1,0 +1,4 @@
+CLASS abrc
+	FIELD B speedMult F
+	FIELD C duration J
+	FIELD q playbackPosition J

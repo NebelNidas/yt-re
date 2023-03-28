@@ -1,10 +1,10 @@
-CLASS aslb MegaBuilder
+CLASS asod MegaBuilder
 	FIELD a param1 Ljava/lang/Object;
 	FIELD b param2 Ljava/lang/Object;
 	FIELD c param3 Ljava/lang/Object;
-	METHOD <init> (Ltgy;)V
+	METHOD <init> (Ltho;)V
 		ARG 1 pollOption
-	METHOD p buildImagePollOption ()Ltgy;
+	METHOD p buildImagePollOption ()Ltho;
 	METHOD q setImage (Lj$/util/Optional;)V
 		ARG 1 image
 	METHOD r setPlaceholderText (Ljava/lang/String;)V

@@ -1,0 +1,2 @@
+CLASS arwg
+	METHOD ar isItalic ()Z

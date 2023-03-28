@@ -1,3 +1,3 @@
-CLASS emp com/facebook/litho/Equivalence
+CLASS emx com/facebook/litho/Equivalence
 	METHOD a isEquivalentTo (Ljava/lang/Object;)Z
 		ARG 1 other

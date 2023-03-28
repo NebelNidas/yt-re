@@ -1,4 +1,4 @@
-CLASS syb Trigger
-	METHOD a getTriggerType ()Lahpy;
+CLASS syu Trigger
+	METHOD a getTriggerType ()Lahrx;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

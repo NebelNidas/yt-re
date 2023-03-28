@@ -1,2 +1,0 @@
-CLASS agog
-	FIELD b byteBuffer Ljava/nio/ByteBuffer;

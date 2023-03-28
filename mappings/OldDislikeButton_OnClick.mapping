@@ -1,7 +1,7 @@
-CLASS lhg OldDislikeButton_OnClick
+CLASS lib OldDislikeButton_OnClick
 	FIELD c view Landroid/view/View;
 	FIELD d buttonIcon Landroid/widget/ImageView;
 	FIELD e buttonText Landroid/widget/TextView;
 	FIELD m textColors Landroid/content/res/ColorStateList;
-	METHOD <init> (Lvol;Lacnc;Landroid/content/Context;Landroid/view/ViewGroup;ILlia;)V
+	METHOD <init> (Lvpp;Lacoq;Landroid/content/Context;Landroid/view/ViewGroup;ILliu;)V
 		ARG 5 id

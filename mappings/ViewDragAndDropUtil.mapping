@@ -1,4 +1,4 @@
-CLASS baj ViewDragAndDropUtil
+CLASS bap ViewDragAndDropUtil
 	METHOD a cancelDragAndDrop (Landroid/view/View;)V
 	METHOD b dispatchFinishTemporaryDetach (Landroid/view/View;)V
 	METHOD c dispatchStartTemporaryDetach (Landroid/view/View;)V

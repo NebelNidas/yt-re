@@ -1,2 +1,2 @@
-CLASS sww DisabledOnMutedTrigger
+CLASS sxp DisabledOnMutedTrigger
 	METHOD c shouldDisableIfVideoStartMuted ()Z

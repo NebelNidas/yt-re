@@ -1,0 +1,2 @@
+CLASS sxj
+	METHOD e getMediaCpn ()Ljava/lang/String;

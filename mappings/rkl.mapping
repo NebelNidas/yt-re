@@ -1,3 +1,0 @@
-CLASS rkl
-	METHOD A isLocalhost (Landroid/net/Uri;)Z
-	METHOD y isHttps (Landroid/net/Uri;)Z

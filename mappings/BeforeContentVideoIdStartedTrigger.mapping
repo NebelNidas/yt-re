@@ -1,8 +1,8 @@
-CLASS stk BeforeContentVideoIdStartedTrigger
+CLASS sud BeforeContentVideoIdStartedTrigger
 	FIELD a contentVideoId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Lahpy;
-	METHOD <init> (Ljava/lang/String;Lahpy;Ljava/lang/String;)V
+	FIELD c triggerType Lahrx;
+	METHOD <init> (Ljava/lang/String;Lahrx;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 contentVideoId

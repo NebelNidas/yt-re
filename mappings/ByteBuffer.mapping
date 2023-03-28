@@ -1,3 +1,3 @@
-CLASS ahat ByteBuffer
-	METHOD l newCodedInput ()Lahay;
+CLASS ahcm ByteBuffer
+	METHOD l newCodedInput ()Lahcr;
 	METHOD q isValidUtf8 ()Z

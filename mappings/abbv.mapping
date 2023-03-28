@@ -1,0 +1,2 @@
+CLASS abbv
+	METHOD mq hasView ()Z

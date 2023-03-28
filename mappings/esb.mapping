@@ -1,2 +1,0 @@
-CLASS esb
-	METHOD m newEventHandler (Ljava/lang/Class;Lesa;I[Ljava/lang/Object;)Lemt;

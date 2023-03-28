@@ -1,0 +1,2 @@
+CLASS nia
+	METHOD a getAccount ()Landroid/accounts/Account;

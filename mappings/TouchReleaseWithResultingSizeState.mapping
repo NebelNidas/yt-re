@@ -1,10 +1,10 @@
-CLASS vmb TouchReleaseWithResultingSizeState
-	FIELD a touchReleaseType Lvmh;
-	FIELD b resultingSizeState Lvly;
-	METHOD <init> (Lvmh;Lvly;)V
+CLASS vnf TouchReleaseWithResultingSizeState
+	FIELD a touchReleaseType Lvnj;
+	FIELD b resultingSizeState Lvnc;
+	METHOD <init> (Lvnj;Lvnc;)V
 		ARG 1 touchReleaseType
 		ARG 2 resultingSizeState
-	METHOD a create (Lvmh;Lvly;)Lvmb;
+	METHOD a create (Lvnj;Lvnc;)Lvnf;
 		ARG 0 touchReleaseType
 		ARG 1 resultingSizeState
 	METHOD equals (Ljava/lang/Object;)Z

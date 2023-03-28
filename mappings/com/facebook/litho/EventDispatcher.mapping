@@ -1,4 +1,4 @@
-CLASS ems com/facebook/litho/EventDispatcher
-	METHOD O dispatchOnEvent (Lemt;Ljava/lang/Object;)Ljava/lang/Object;
+CLASS ena com/facebook/litho/EventDispatcher
+	METHOD O dispatchOnEvent (Lenb;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 eventHandler
 		ARG 2 eventState

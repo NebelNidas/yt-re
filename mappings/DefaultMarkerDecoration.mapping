@@ -1,7 +1,7 @@
-CLASS aaza DefaultMarkerDecoration
+CLASS abaq DefaultMarkerDecoration
 	FIELD a text Ljava/lang/CharSequence;
-	FIELD b icon Lakgh;
-	METHOD <init> (Ljava/lang/CharSequence;Lakgh;)V
+	FIELD b icon Lakii;
+	METHOD <init> (Ljava/lang/CharSequence;Lakii;)V
 		ARG 1 text
 		ARG 2 icon
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,2 +1,0 @@
-CLASS vtb
-	METHOD d toByteArray ()[B

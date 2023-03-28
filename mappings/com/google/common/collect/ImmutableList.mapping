@@ -1,8 +1,8 @@
-CLASS afdc com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Lafdc;
+CLASS afet com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Lafet;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lafdc;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafdc;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lafet;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafet;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lafdc;
+	METHOD o copyOf (Ljava/util/Collection;)Lafet;
 		ARG 0 elements

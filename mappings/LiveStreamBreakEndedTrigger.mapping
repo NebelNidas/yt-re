@@ -1,8 +1,8 @@
-CLASS swc LiveStreamBreakEndedTrigger
+CLASS swv LiveStreamBreakEndedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Lahpy;
+	FIELD b triggerType Lahrx;
 	FIELD c cuePointIdentifier Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Lahpy;Ljava/lang/String;)V
+	METHOD <init> (Ljava/lang/String;Lahrx;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 cuePointIdentifier

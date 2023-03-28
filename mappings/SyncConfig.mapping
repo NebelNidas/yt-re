@@ -1,4 +1,4 @@
-CLASS aeop SyncConfig
+CLASS aeqd SyncConfig
 	FIELD a minSyncInterval J
 	FIELD b timeout J
 	FIELD c constraints Ljava/util/Map;
@@ -6,6 +6,6 @@ CLASS aeop SyncConfig
 		ARG 1 minSyncInterval
 		ARG 3 timeout
 		ARG 5 constraints
-	METHOD a builder ()Laeoo;
+	METHOD a builder ()Laeqc;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

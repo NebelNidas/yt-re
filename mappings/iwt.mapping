@@ -1,0 +1,26 @@
+CLASS iwt
+	FIELD a id Ljava/lang/String;
+	FIELD b title Ljava/lang/String;
+	FIELD c lengthSeconds J
+	FIELD e channelTitle Ljava/lang/String;
+	FIELD f channelThumbnailDetails Lapcy;
+	FIELD g thumbnailDetails Lapcy;
+	FIELD h description Lajze;
+	FIELD i publishedTimestampMs Ljava/lang/Long;
+	FIELD j viewCount Ljava/lang/Long;
+	FIELD k likeCountText Ljava/lang/String;
+	METHOD D setLengthSeconds (J)V
+	METHOD F setLikeCountText (Ljava/lang/String;)V
+		ARG 1 likeCountText
+	METHOD J setPublishedTimestampMs (J)V
+	METHOD N setThumbnailDetails (Lapcy;)V
+		ARG 1 thumbnailDetails
+	METHOD O setTitle (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD R setViewCount (J)V
+		ARG 1 viewCount
+	METHOD c setChannelThumbnailDetails (Lapcy;)V
+	METHOD d setChannelTitle (Ljava/lang/String;)V
+	METHOD e setDescription (Lajze;)V
+	METHOD f setDislikeCountText (Ljava/lang/String;)V
+	METHOD k setId (Ljava/lang/String;)V

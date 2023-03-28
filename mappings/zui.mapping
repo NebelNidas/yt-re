@@ -1,0 +1,2 @@
+CLASS zui
+	METHOD h findXop (Ljava/lang/String;)Lzug;

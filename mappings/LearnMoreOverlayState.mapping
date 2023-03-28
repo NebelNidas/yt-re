@@ -1,4 +1,4 @@
-CLASS tad LearnMoreOverlayState
+CLASS tav LearnMoreOverlayState
 	FIELD a learnMoreCallToActionHidden Z
 	FIELD b learnMoreCallToActionEnabled Z
 	FIELD c learnMoreText Ljava/lang/CharSequence;
@@ -6,6 +6,6 @@ CLASS tad LearnMoreOverlayState
 		ARG 1 learnMoreCallToActionHidden
 		ARG 2 learnMoreCallToActionEnabled
 		ARG 3 learnMoreText
-	METHOD a builder ()Ltac;
+	METHOD a builder ()Ltau;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

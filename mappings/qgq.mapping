@@ -1,0 +1,3 @@
+CLASS qgq
+	METHOD z buildGaiaAccountData (Ljava/lang/Object;)Lqme;
+		ARG 0 owner

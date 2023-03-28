@@ -1,6 +1,6 @@
-CLASS aeos SyncKey
-	FIELD a message Laeps;
-	METHOD a (Ljava/lang/String;)Laeos;
+CLASS aeqg SyncKey
+	FIELD a message Laerh;
+	METHOD a (Ljava/lang/String;)Laeqg;
 		ARG 0 name
 	METHOD b getName ()Ljava/lang/String;
 	METHOD equals (Ljava/lang/Object;)Z

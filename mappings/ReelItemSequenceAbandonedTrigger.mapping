@@ -1,10 +1,10 @@
-CLASS sxc ReelItemSequenceAbandonedTrigger
+CLASS sxv ReelItemSequenceAbandonedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Lahpy;
-	METHOD <init> (Ljava/lang/String;Lahpy;)V
+	FIELD b triggerType Lahrx;
+	METHOD <init> (Ljava/lang/String;Lahrx;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
-	METHOD c create (Ljava/lang/String;)Lsxc;
+	METHOD c create (Ljava/lang/String;)Lsxv;
 		ARG 0 triggerId
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

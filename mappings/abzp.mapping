@@ -1,0 +1,2 @@
+CLASS abzp
+	METHOD b getDisplayString (Lajze;)Landroid/text/Spanned;

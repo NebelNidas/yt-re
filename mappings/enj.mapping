@@ -1,3 +1,0 @@
-CLASS enj
-	METHOD b getLayoutOutput (Leyl;)Lenj;
-	METHOD d isAccessible ()Z

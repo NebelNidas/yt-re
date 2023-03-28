@@ -1,5 +1,5 @@
-CLASS exc TextKt
-	FIELD a text Lexe;
+CLASS exk TextKt
+	FIELD a text Lexm;
 	FIELD d required Ljava/util/BitSet;
-	METHOD c getText ()Lexe;
+	METHOD c getText ()Lexm;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

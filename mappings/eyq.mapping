@@ -1,0 +1,3 @@
+CLASS eyq
+	METHOD a getMountItemCount ()I
+	METHOD b getMountItemAt (I)Leyt;

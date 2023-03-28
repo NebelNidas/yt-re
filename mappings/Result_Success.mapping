@@ -1,4 +1,4 @@
-CLASS aemg Result_Success
+CLASS aenv Result_Success
 	FIELD a data Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/Object;)V
 		ARG 1 data

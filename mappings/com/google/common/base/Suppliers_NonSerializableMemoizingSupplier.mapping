@@ -1,5 +1,5 @@
-CLASS aezd com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Laezb;
+CLASS afau com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lafas;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Laezb;)V
+	METHOD <init> (Lafas;)V
 		ARG 1 delegate

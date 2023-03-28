@@ -1,2 +1,2 @@
-CLASS szz AdTitleOverlayState
-	FIELD a adOverlayMetadata Lszt;
+CLASS tar AdTitleOverlayState
+	FIELD a adOverlayMetadata Ltal;

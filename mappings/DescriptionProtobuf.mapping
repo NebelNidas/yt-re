@@ -1,2 +1,2 @@
-CLASS ajxf DescriptionProtobuf
+CLASS ajze DescriptionProtobuf
 	FIELD d clipText Ljava/lang/String;

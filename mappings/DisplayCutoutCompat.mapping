@@ -1,16 +1,16 @@
-CLASS ueg DisplayCutoutCompat
-	FIELD a boundingRects Lafdc;
+CLASS ufb DisplayCutoutCompat
+	FIELD a boundingRects Lafet;
 	FIELD b safeInsets Landroid/graphics/Rect;
-	METHOD <init> (Landroid/graphics/Rect;Lafdc;)V
+	METHOD <init> (Landroid/graphics/Rect;Lafet;)V
 		ARG 1 safeInsets
 		ARG 2 boundingRects
 	METHOD a getBottom ()I
 	METHOD b getLeft ()I
 	METHOD c getRight ()I
 	METHOD d getTop ()I
-	METHOD e create (Landroid/graphics/Rect;Ljava/util/List;)Lueg;
+	METHOD e create (Landroid/graphics/Rect;Ljava/util/List;)Lufb;
 		ARG 0 safeInsets
 		ARG 1 boundingRects
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f create ()Lueg;
+	METHOD f create ()Lufb;

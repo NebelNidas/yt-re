@@ -1,2 +1,0 @@
-CLASS enc
-	METHOD a collectChildren (Ljava/util/List;)V

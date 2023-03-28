@@ -1,4 +1,4 @@
-CLASS qqe GoogleOwner
+CLASS qqu GoogleOwner
 	FIELD a accountName Ljava/lang/String;
 	FIELD b isMetadataAvailable Z
 	FIELD c displayName Ljava/lang/String;
@@ -24,6 +24,6 @@ CLASS qqe GoogleOwner
 		ARG 10 avatarUrl
 		ARG 11 defaultAvatarUrl
 		ARG 12 ageRange
-	METHOD a build ()Lqqd;
+	METHOD a build ()Lqqt;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

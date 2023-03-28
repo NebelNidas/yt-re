@@ -1,7 +1,7 @@
-CLASS aelb MonitorReport
-	FIELD a monitor Laekl;
+CLASS aemo MonitorReport
+	FIELD a monitor Laelz;
 	FIELD b startReport Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD <init> (Laekl;Lcom/google/common/util/concurrent/ListenableFuture;)V
+	METHOD <init> (Laelz;Lcom/google/common/util/concurrent/ListenableFuture;)V
 		ARG 1 monitor
 		ARG 2 startReport
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,2 +1,2 @@
-CLASS enb com/facebook/litho/HasEventDispatcher
-	METHOD n getEventDispatcher ()Lems;
+CLASS enj com/facebook/litho/HasEventDispatcher
+	METHOD n getEventDispatcher ()Lena;

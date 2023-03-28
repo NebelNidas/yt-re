@@ -1,9 +1,9 @@
-CLASS tac LearnMoreOverlayStateBuilder
+CLASS tau LearnMoreOverlayStateBuilder
 	FIELD a learnMoreCtaHidden Z
 	FIELD b learnMoreCtaEnabled Z
 	FIELD c learnMoteText Ljava/lang/CharSequence;
 	FIELD d flags B
-	METHOD a build ()Ltad;
+	METHOD a build ()Ltav;
 	METHOD b setLearnMoreCtaEnabled (Z)V
 		ARG 1 learnMoreCtaEnabled
 	METHOD c setLearnMoreCtaHidden (Z)V

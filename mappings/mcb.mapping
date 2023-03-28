@@ -1,0 +1,2 @@
+CLASS mcb
+	FIELD o hasHandledIntent Z

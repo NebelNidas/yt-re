@@ -1,2 +1,2 @@
-CLASS exl TextInput
+CLASS ext TextInput
 	FIELD f hint Ljava/lang/CharSequence;

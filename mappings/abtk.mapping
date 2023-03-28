@@ -1,2 +1,0 @@
-CLASS abtk
-	METHOD M setPlaybackSpeed (F)V

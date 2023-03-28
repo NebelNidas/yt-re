@@ -1,3 +1,0 @@
-CLASS egz
-	METHOD b getLayoutOutput (Lerz;)Legz;
-	METHOD d isAccessible ()Z

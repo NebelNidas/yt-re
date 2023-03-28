@@ -1,4 +1,4 @@
-CLASS eeh Column
+CLASS ege Column
 	FIELD a children Ljava/util/List;
 	FIELD d reverse Z
-	METHOD b create (Leer;)Leeg;
+	METHOD b create (Lego;)Legd;

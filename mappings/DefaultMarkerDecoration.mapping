@@ -1,7 +1,7 @@
-CLASS aaow DefaultMarkerDecoration
+CLASS aart DefaultMarkerDecoration
 	FIELD a text Ljava/lang/CharSequence;
-	FIELD b icon Lajuo;
-	METHOD <init> (Ljava/lang/CharSequence;Lajuo;)V
+	FIELD b icon Lajyc;
+	METHOD <init> (Ljava/lang/CharSequence;Lajyc;)V
 		ARG 1 text
 		ARG 2 icon
 	METHOD equals (Ljava/lang/Object;)Z

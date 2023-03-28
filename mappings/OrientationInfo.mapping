@@ -1,7 +1,7 @@
-CLASS gsr OrientationInfo
-	FIELD a deviceOrientation Laiuq;
-	FIELD b interfaceOrientation Laiuq;
-	METHOD <init> (Laiuq;Laiuq;)V
+CLASS gud OrientationInfo
+	FIELD a deviceOrientation Laiyd;
+	FIELD b interfaceOrientation Laiyd;
+	METHOD <init> (Laiyd;Laiyd;)V
 		ARG 1 deviceOrientation
 		ARG 2 interfaceOrientation
 	METHOD equals (Ljava/lang/Object;)Z

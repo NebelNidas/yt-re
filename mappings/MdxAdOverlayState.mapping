@@ -1,2 +1,2 @@
-CLASS src MdxAdOverlayState
+CLASS stt MdxAdOverlayState
 	FIELD a remotePlayback Z

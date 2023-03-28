@@ -1,3 +1,3 @@
-CLASS agpk ByteBuffer
-	METHOD l newCodedInput ()Lagpp;
+CLASS agsx ByteBuffer
+	METHOD l newCodedInput ()Lagtc;
 	METHOD q isValidUtf8 ()Z

@@ -1,4 +1,4 @@
-CLASS aebg Result
+CLASS aees Result
 	METHOD a getData ()Ljava/lang/Object;
 	METHOD b isSuccess ()Z
 	METHOD c getError ()Ljava/lang/Throwable;

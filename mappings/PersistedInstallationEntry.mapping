@@ -1,4 +1,4 @@
-CLASS agaw PersistedInstallationEntry
+CLASS agek PersistedInstallationEntry
 	FIELD a firebaseInstallationId Ljava/lang/String;
 	FIELD b authToken Ljava/lang/String;
 	FIELD c refreshToken Ljava/lang/String;
@@ -14,12 +14,12 @@ CLASS agaw PersistedInstallationEntry
 		ARG 5 expiresInSecs
 		ARG 7 tokenCreationEpochInSecs
 		ARG 9 fisError
-	METHOD a builder ()Lagav;
+	METHOD a builder ()Lagej;
 	METHOD b isRegisterError ()Z
 	METHOD c isOther ()Z
 	METHOD d isRegistered ()Z
 	METHOD e isUnregistered ()Z
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f asBuilder ()Lagav;
-	METHOD g withBadConfig ()Lagaw;
+	METHOD f asBuilder ()Lagej;
+	METHOD g withBadConfig ()Lagek;

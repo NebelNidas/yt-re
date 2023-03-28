@@ -1,9 +1,9 @@
-CLASS soe SequenceItemInPlayerSpaceAvailableTrigger
+CLASS sqt SequenceItemInPlayerSpaceAvailableTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b reelAdMetadata Laemu;
-	FIELD c reelImageAdMetadata Laemu;
-	FIELD d triggerType Laheo;
-	METHOD <init> (Ljava/lang/String;Laheo;Laemu;Laemu;)V
+	FIELD b reelAdMetadata Laeqn;
+	FIELD c reelImageAdMetadata Laeqn;
+	FIELD d triggerType Lahib;
+	METHOD <init> (Ljava/lang/String;Lahib;Laeqn;Laeqn;)V
 		ARG 1 triggerid
 		ARG 2 triggerType
 		ARG 3 reelAdMetadata

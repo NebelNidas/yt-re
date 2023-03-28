@@ -1,5 +1,5 @@
-CLASS aevu com/google/common/collect/RegularImmutableList
-	FIELD a EMPTY Laerx;
+CLASS aezk com/google/common/collect/RegularImmutableList
+	FIELD a EMPTY Laevn;
 	FIELD b array [Ljava/lang/Object;
 	FIELD c size I
 	METHOD <init> ([Ljava/lang/Object;I)V

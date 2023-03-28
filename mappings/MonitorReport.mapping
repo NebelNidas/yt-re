@@ -1,7 +1,7 @@
-CLASS adzz MonitorReport
-	FIELD a monitor Ladzk;
+CLASS aedm MonitorReport
+	FIELD a monitor Laecy;
 	FIELD b startReport Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD <init> (Ladzk;Lcom/google/common/util/concurrent/ListenableFuture;)V
+	METHOD <init> (Laecy;Lcom/google/common/util/concurrent/ListenableFuture;)V
 		ARG 1 monitor
 		ARG 2 startReport
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,0 +1,2 @@
+CLASS ggd
+	FIELD a menuItems Ljava/util/Map;

@@ -1,0 +1,3 @@
+CLASS eix
+	METHOD b getLayoutOutput (Letx;)Leix;
+	METHOD d isAccessible ()Z

@@ -1,5 +1,5 @@
-CLASS agpp CodedInputStream
+CLASS agtc CodedInputStream
 	METHOD B checkLastTagWas (I)V
 	METHOD K readRawVarint32 (ILjava/io/InputStream;)I
-	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lagpp;
-	METHOD P newInstance (Ljava/io/InputStream;I)Lagpp;
+	METHOD N newInstance (Ljava/nio/ByteBuffer;)Lagtc;
+	METHOD P newInstance (Ljava/io/InputStream;I)Lagtc;

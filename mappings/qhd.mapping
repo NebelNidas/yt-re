@@ -1,0 +1,3 @@
+CLASS qhd
+	METHOD l buildGaiaAccountData (Ljava/lang/Object;)Lqfd;
+		ARG 0 owner

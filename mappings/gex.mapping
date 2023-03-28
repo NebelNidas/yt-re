@@ -1,2 +1,0 @@
-CLASS gex
-	FIELD a menuItems Ljava/util/Map;

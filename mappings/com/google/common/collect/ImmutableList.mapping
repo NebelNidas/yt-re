@@ -1,8 +1,8 @@
-CLASS aerx com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Laerx;
+CLASS aevn com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Laevn;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Laerx;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Laerx;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Laevn;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Laevn;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Laerx;
+	METHOD o copyOf (Ljava/util/Collection;)Laevn;
 		ARG 0 elements

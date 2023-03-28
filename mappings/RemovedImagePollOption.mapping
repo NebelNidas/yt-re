@@ -1,7 +1,7 @@
-CLASS syb RemovedImagePollOption
-	FIELD a imagePollOption Lsxv;
+CLASS tau RemovedImagePollOption
+	FIELD a imagePollOption Ltao;
 	FIELD b index I
-	METHOD <init> (Lsxv;I)V
+	METHOD <init> (Ltao;I)V
 		ARG 1 imagePollOption
 		ARG 2 index
 	METHOD equals (Ljava/lang/Object;)Z

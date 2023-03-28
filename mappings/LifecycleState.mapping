@@ -1,2 +1,2 @@
-CLASS bbx LifecycleState
-	METHOD a isEquallyOrFurtherAdvancedThan (Lbbx;)Z
+CLASS bdp LifecycleState
+	METHOD a isEquallyOrFurtherAdvancedThan (Lbdp;)Z

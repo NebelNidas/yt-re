@@ -1,9 +1,9 @@
-CLASS sra LearnMoreOverlayStateBuilder
+CLASS str LearnMoreOverlayStateBuilder
 	FIELD a learnMoreCtaHidden Z
 	FIELD b learnMoreCtaEnabled Z
 	FIELD c learnMoteText Ljava/lang/CharSequence;
 	FIELD d flags B
-	METHOD a build ()Lsrb;
+	METHOD a build ()Lsts;
 	METHOD b setLearnMoreCtaEnabled (Z)V
 		ARG 1 learnMoreCtaEnabled
 	METHOD c setLearnMoreCtaHidden (Z)V

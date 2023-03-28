@@ -1,4 +1,4 @@
-CLASS pwc ChimeThreadState
+CLASS pyj ChimeThreadState
 	FIELD a id J
 	FIELD b threadId Ljava/lang/String;
 	FIELD c lastUpdatedVersion J
@@ -16,7 +16,7 @@ CLASS pwc ChimeThreadState
 		ARG 8 countBehavior
 		ARG 9 systemTrayBehavior
 		ARG 10 modifiedTimestamp
-	METHOD a defaultBuilder ()Lpvu;
-	METHOD b emptyBuilder ()Lpvu;
+	METHOD a defaultBuilder ()Lpyb;
+	METHOD b emptyBuilder ()Lpyb;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

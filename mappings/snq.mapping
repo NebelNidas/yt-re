@@ -1,2 +1,0 @@
-CLASS snq
-	METHOD e getMediaCpn ()Ljava/lang/String;

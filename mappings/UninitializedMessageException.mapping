@@ -1,2 +1,2 @@
-CLASS agti UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lagrk;
+CLASS agwv UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lagux;

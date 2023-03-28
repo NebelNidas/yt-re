@@ -1,4 +1,4 @@
-CLASS eqw TextDrawable
+CLASS esu TextDrawable
 	FIELD a layout Landroid/text/Layout;
 	FIELD c layoutTranslationY F
 	FIELD d clipToBounds Z
@@ -15,7 +15,7 @@ CLASS eqw TextDrawable
 	FIELD s selectionPath Landroid/graphics/Path;
 	FIELD t selectionPathNeedsUpdate Z
 	FIELD u highlightPaint Landroid/graphics/Paint;
-	FIELD v longClickRunnable Lequ;
+	FIELD v longClickRunnable Less;
 	METHOD a clearSelection ()V
 	METHOD b getTextOffsetAt (II)I
 	METHOD c getClickableSpanInCoords (II)Landroid/text/style/ClickableSpan;

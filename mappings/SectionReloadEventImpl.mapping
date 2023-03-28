@@ -1,7 +1,7 @@
-CLASS fot SectionReloadEventImpl
+CLASS fpy SectionReloadEventImpl
 	FIELD a sectionId Ljava/lang/String;
-	FIELD b reloadContinuationData Lanof;
-	METHOD <init> (Ljava/lang/String;Lanof;)V
+	FIELD b reloadContinuationData Lanrx;
+	METHOD <init> (Ljava/lang/String;Lanrx;)V
 		ARG 1 sectionId
 		ARG 2 reloadContinuationData
 	METHOD equals (Ljava/lang/Object;)Z

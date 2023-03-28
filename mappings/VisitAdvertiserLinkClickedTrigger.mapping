@@ -1,10 +1,10 @@
-CLASS spe VisitAdvertiserLinkClickedTrigger
+CLASS srt VisitAdvertiserLinkClickedTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b layoutId Ljava/lang/String;
 	FIELD c mediaCpn Ljava/lang/String;
 	FIELD d triggerId Ljava/lang/String;
-	FIELD e triggerType Laheo;
-	METHOD <init> (Ljava/lang/String;Laheo;ZLjava/lang/String;Ljava/lang/String;)V
+	FIELD e triggerType Lahib;
+	METHOD <init> (Ljava/lang/String;Lahib;ZLjava/lang/String;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted

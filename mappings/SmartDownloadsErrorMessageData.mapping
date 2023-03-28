@@ -1,4 +1,4 @@
-CLASS jbh SmartDownloadsErrorMessageData
+CLASS jde SmartDownloadsErrorMessageData
 	FIELD a title Ljava/lang/String;
 	FIELD b subtitle Ljava/lang/String;
 	FIELD c uiType Ljava/lang/Integer;

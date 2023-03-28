@@ -1,10 +1,10 @@
-CLASS lot StoryboardLevelInfo
-	FIELD a storyboardLevel Laawp;
+CLASS lqx StoryboardLevelInfo
+	FIELD a storyboardLevel Laazn;
 	FIELD b threeDLayout I
-	METHOD <init> (Laawp;I)V
+	METHOD <init> (Laazn;I)V
 		ARG 1 storyboardLevel
 		ARG 2 threeDLayout
-	METHOD a (Laawp;I)Llot;
+	METHOD a (Laazn;I)Llqx;
 		ARG 0 storyboardLevel
 		ARG 1 threeDLayout
 	METHOD equals (Ljava/lang/Object;)Z

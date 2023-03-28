@@ -1,2 +1,0 @@
-CLASS eis
-	FIELD b stacktrace Ljava/lang/Throwable;

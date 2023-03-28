@@ -1,4 +1,4 @@
-CLASS spb Trigger
-	METHOD a getTriggerType ()Laheo;
+CLASS srq Trigger
+	METHOD a getTriggerType ()Lahib;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

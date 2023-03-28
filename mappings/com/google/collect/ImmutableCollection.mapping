@@ -1,10 +1,10 @@
-CLASS aerm com/google/collect/ImmutableCollection
+CLASS aevc com/google/collect/ImmutableCollection
 	METHOD c copyIntoArray ([Ljava/lang/Object;I)I
 		ARG 1 dst
 		ARG 2 dstOff
 	METHOD e internalArrayEnd ()I
 	METHOD f internalArrayStart ()I
-	METHOD g asList ()Laerx;
-	METHOD k iterator ()Laexr;
+	METHOD g asList ()Laevn;
+	METHOD k iterator ()Lafbh;
 	METHOD l isPartialView ()Z
 	METHOD m internalArray ()[Ljava/lang/Object;

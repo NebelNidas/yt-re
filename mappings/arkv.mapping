@@ -1,0 +1,2 @@
+CLASS arkv
+	METHOD ar isItalic ()Z

@@ -1,8 +1,8 @@
 CLASS com/google/android/apps/youtube/app/common/rendering/elements/litho/datastore/MainAppPlayerOverlayDataProvider
-	FIELD a rect Landroid/graphics/Rect;
-	FIELD d displayString Ljava/lang/String;
-	FIELD e listIndex I
-	FIELD j displayMetrics Landroid/util/DisplayMetrics;
-	FIELD k view Landroid/view/View;
-	FIELD l layoutListener Landroid/view/View$OnLayoutChangeListener;
+	FIELD b rect Landroid/graphics/Rect;
+	FIELD g displayString Ljava/lang/String;
+	FIELD h listIndex I
+	FIELD l displayMetrics Landroid/util/DisplayMetrics;
+	FIELD m view Landroid/view/View;
+	FIELD n layoutListener Landroid/view/View$OnLayoutChangeListener;
 	METHOD g renderList ()V

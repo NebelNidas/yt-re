@@ -1,2 +1,2 @@
-CLASS erz MountItem
+CLASS etx MountItem
 	FIELD a content Ljava/lang/Object;

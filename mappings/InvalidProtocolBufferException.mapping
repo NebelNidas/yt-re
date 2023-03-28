@@ -1,2 +1,2 @@
-CLASS agrk InvalidProtocolBufferException
+CLASS agux InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

@@ -1,2 +1,2 @@
-CLASS agtf StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Lagso;Z[I[Lagqc;Ljava/lang/Object;)V
+CLASS agws StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Lagwb;Z[I[Lagtp;Ljava/lang/Object;)V

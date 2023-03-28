@@ -1,0 +1,2 @@
+CLASS enp
+	METHOD m newEventHandler (Ljava/lang/Class;Leno;I[Ljava/lang/Object;)Leig;

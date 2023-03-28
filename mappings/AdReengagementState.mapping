@@ -1,5 +1,5 @@
-CLASS sqw AdReengagementState
-	FIELD a renderer Lahsj;
+CLASS stn AdReengagementState
+	FIELD a renderer Lahvw;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

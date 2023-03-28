@@ -1,2 +1,2 @@
-CLASS soi SlotIdTrigger
+CLASS sqx SlotIdTrigger
 	METHOD c getSlotId ()Ljava/lang/String;

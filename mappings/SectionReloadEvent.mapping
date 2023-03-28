@@ -1,4 +1,4 @@
-CLASS fov SectionReloadEvent
-	METHOD a getReloadContinuationData ()Lanof;
+CLASS fqa SectionReloadEvent
+	METHOD a getReloadContinuationData ()Lanrx;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Lanof;)Lfov;
+	METHOD c of (Ljava/lang/String;Lanrx;)Lfqa;

@@ -1,4 +1,4 @@
-CLASS xlp MdxUserContextBuilder
+CLASS xok MdxUserContextBuilder
 	FIELD a videoId Ljava/lang/String;
 	FIELD b playlistId Ljava/lang/String;
 	FIELD c mdxConnectionCountDay I
@@ -7,7 +7,7 @@ CLASS xlp MdxUserContextBuilder
 	FIELD f castAvailableSessionCountDay I
 	FIELD g castAvailableSessionCountWeek I
 	FIELD h castAvailableSessionCountMonth I
-	FIELD i pageType Lxlq;
+	FIELD i pageType Lxol;
 	FIELD j currentVideoDuration I
 	FIELD k fullScreen Z
 	FIELD l hd Z
@@ -18,9 +18,9 @@ CLASS xlp MdxUserContextBuilder
 	FIELD q currentTime J
 	FIELD r casterCategory I
 	FIELD s flags S
-	METHOD <init> (Lxlr;)V
+	METHOD <init> (Lxom;)V
 		ARG 1 from
-	METHOD a build ()Lxlr;
+	METHOD a build ()Lxom;
 	METHOD b setCastAvailableSessionCountDay (I)V
 		ARG 1 castAvailableSessionCountDay
 	METHOD c setCastAvailableSessionCountMonth (I)V
@@ -43,7 +43,7 @@ CLASS xlp MdxUserContextBuilder
 		ARG 1 mdxConnectionCountMonth
 	METHOD l setMdxConnectionCountWeek (I)V
 		ARG 1 mdxConnectionCountWeek
-	METHOD m setPageType (Lxlq;)V
+	METHOD m setPageType (Lxol;)V
 		ARG 1 pageType
 	METHOD n setPlaylistPlayback (Z)V
 		ARG 1 playlistPlayback

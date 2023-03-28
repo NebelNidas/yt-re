@@ -1,6 +1,6 @@
-CLASS ldn PlaybackSpeedAdapterView
-	FIELD ae speeds [Lapel;
+CLASS lfs PlaybackSpeedAdapterView
+	FIELD ae speeds [Lapig;
 	FIELD af selectedIndex I
-	METHOD aQ (Landroid/content/Context;Lacey;[Lapel;I)V
+	METHOD aQ (Landroid/content/Context;Lachv;[Lapig;I)V
 		ARG 2 speeds
 		ARG 3 selectedIndex

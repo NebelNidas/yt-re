@@ -1,2 +1,2 @@
-CLASS sqx AdTitleOverlayState
-	FIELD a adOverlayMetadata Lsqr;
+CLASS sto AdTitleOverlayState
+	FIELD a adOverlayMetadata Lsti;

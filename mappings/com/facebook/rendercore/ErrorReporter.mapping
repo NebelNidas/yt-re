@@ -1,3 +1,3 @@
-CLASS ert com/facebook/rendercore/ErrorReporter
-	FIELD a INSTANCE Leru;
-	METHOD a getInstance ()Leru;
+CLASS etr com/facebook/rendercore/ErrorReporter
+	FIELD a INSTANCE Lets;
+	METHOD a getInstance ()Lets;

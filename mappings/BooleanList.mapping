@@ -1,3 +1,3 @@
-CLASS agqt BooleanList
-	METHOD d mutableCopyWithCapacity (I)Lagqt;
+CLASS agug BooleanList
+	METHOD d mutableCopyWithCapacity (I)Lagug;
 		ARG 1 capacity

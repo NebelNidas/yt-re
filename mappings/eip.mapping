@@ -1,0 +1,2 @@
+CLASS eip
+	METHOD a collectChildren (Ljava/util/List;)V

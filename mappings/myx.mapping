@@ -1,2 +1,0 @@
-CLASS myx
-	METHOD a getAccount ()Landroid/accounts/Account;

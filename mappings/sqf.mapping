@@ -1,0 +1,2 @@
+CLASS sqf
+	METHOD e getMediaCpn ()Ljava/lang/String;

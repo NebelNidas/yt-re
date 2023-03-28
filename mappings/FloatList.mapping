@@ -1,2 +1,2 @@
-CLASS agqy FloatList
-	METHOD g mutableCopyWithCapacity (I)Lagqy;
+CLASS agul FloatList
+	METHOD g mutableCopyWithCapacity (I)Lagul;

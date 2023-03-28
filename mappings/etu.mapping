@@ -1,0 +1,3 @@
+CLASS etu
+	METHOD a getMountItemCount ()I
+	METHOD b getMountItemAt (I)Letx;

@@ -1,10 +1,10 @@
-CLASS xly SessionMemberInternal
+CLASS xot SessionMemberInternal
 	FIELD a type Ljava/lang/String;
 	FIELD b id Ljava/lang/String;
 	FIELD c receiverIdentityMatchStatus Ljava/lang/String;
-	FIELD d capabilities Laetb;
+	FIELD d capabilities Laewr;
 	FIELD e encryptionKey Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Laetb;)V
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Laewr;)V
 		ARG 1 type
 		ARG 2 id
 		ARG 3 encryptionKey

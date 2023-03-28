@@ -1,10 +1,10 @@
-CLASS lok LoggingResult
-	FIELD a loggingAction Lloh;
-	FIELD b inputStates Lloj;
-	METHOD <init> (Lloh;Lloj;)V
+CLASS lqo LoggingResult
+	FIELD a loggingAction Llql;
+	FIELD b inputStates Llqn;
+	METHOD <init> (Llql;Llqn;)V
 		ARG 1 loggingAction
 		ARG 2 inputStates
-	METHOD a create (Lloh;Lloj;)Llok;
+	METHOD a create (Llql;Llqn;)Llqo;
 		ARG 0 loggingAction
 		ARG 1 inputStates
 	METHOD equals (Ljava/lang/Object;)Z

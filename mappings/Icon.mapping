@@ -1,2 +1,2 @@
-CLASS ajuo Icon
-	METHOD a fromValue (I)Lajuo;
+CLASS ajyc Icon
+	METHOD a fromValue (I)Lajyc;

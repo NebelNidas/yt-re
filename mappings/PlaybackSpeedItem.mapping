@@ -1,2 +1,2 @@
-CLASS lcu PlaybackSpeedItem
+CLASS lez PlaybackSpeedItem
 	FIELD a speedMultiplier F

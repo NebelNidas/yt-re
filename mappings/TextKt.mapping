@@ -1,5 +1,5 @@
-CLASS eqq TextKt
-	FIELD a text Leqs;
+CLASS eso TextKt
+	FIELD a text Lesq;
 	FIELD d required Ljava/util/BitSet;
-	METHOD c getText ()Leqs;
+	METHOD c getText ()Lesq;
 	METHOD f setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

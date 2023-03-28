@@ -1,0 +1,2 @@
+CLASS vmc
+	METHOD d toByteArray ()[B

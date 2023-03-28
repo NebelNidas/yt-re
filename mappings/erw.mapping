@@ -1,3 +1,0 @@
-CLASS erw
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Lerz;

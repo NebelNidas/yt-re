@@ -1,4 +1,0 @@
-CLASS lzt
-	METHOD a getPriority ()Llzu;
-	METHOD b getCode ()Ljava/lang/Integer;
-	METHOD c getPayload ()Ljava/lang/Object;

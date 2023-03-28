@@ -1,4 +1,4 @@
-CLASS apel SpeedOption
+CLASS apig SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Lagqq;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Lagud;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

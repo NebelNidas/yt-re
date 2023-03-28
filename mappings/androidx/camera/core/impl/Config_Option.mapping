@@ -1,0 +1,18 @@
+CLASS aev androidx/camera/core/impl/Config_Option
+	COMMENT Taken from <a href="https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171">https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171</a>
+	FIELD a id Ljava/lang/String;
+	FIELD b token Ljava/lang/Object;
+	FIELD c valueClass Ljava/lang/Class;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)V
+		ARG 1 id
+		ARG 2 valueClass
+		ARG 3 token
+	METHOD a create (Ljava/lang/String;Ljava/lang/Class;)Laev;
+		ARG 0 id
+		ARG 1 valueClass
+	METHOD b create (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Laev;
+		ARG 0 id
+		ARG 1 valueClass
+		ARG 2 token
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

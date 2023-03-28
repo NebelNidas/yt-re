@@ -1,0 +1,6 @@
+CLASS aexq com/google/common/base/Function
+	COMMENT Taken from <a href="https://github.com/google/guava/blob/master/guava/src/com/google/common/base/Function.java">https://github.com/google/guava/blob/master/guava/src/com/google/common/base/Function.java</a>
+	METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 input
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object

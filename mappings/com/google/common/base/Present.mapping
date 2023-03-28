@@ -1,0 +1,5 @@
+CLASS aeyi com/google/common/base/Present
+	COMMENT Taken from <a href="https://github.com/google/guava/blob/master/guava/src/com/google/common/base/Present.java#L27">https://github.com/google/guava/blob/master/guava/src/com/google/common/base/Present.java#L27</a>
+	FIELD a reference Ljava/lang/Object;
+	METHOD <init> (Ljava/lang/Object;)V
+		ARG 1 reference

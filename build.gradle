@@ -287,6 +287,7 @@ task convertApkToJar(dependsOn: validateApkChecksum, type: FileOutputInput) {
 
 		Dex2jar d2j = Dex2jar.from(youtubeApk)
 		d2j.to(youtubeJar.toPath())
+		d2j.resetRandom()
 	}
 }
 convertApkToJar.enabled = !youtubeJar.exists() || youtubeJar.length() < 30000000
@@ -610,6 +611,7 @@ task convertApkToMatchAgainstToJar(type: FileOutputInput) {
 
 		Dex2jar d2j = Dex2jar.from(youtubeApkToMatchAgainst)
 		d2j.to(youtubeJarToMatchAgainst.toPath())
+		d2j.resetRandom()
 	}
 }
 convertApkToMatchAgainstToJar.enabled = !youtubeJarToMatchAgainst.exists() || youtubeJarToMatchAgainst.length() < 30000000

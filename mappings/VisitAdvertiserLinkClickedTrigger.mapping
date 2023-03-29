@@ -1,10 +1,10 @@
-CLASS tbj VisitAdvertiserLinkClickedTrigger
+CLASS tlb VisitAdvertiserLinkClickedTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b layoutId Ljava/lang/String;
 	FIELD c mediaCpn Ljava/lang/String;
 	FIELD d triggerId Ljava/lang/String;
-	FIELD e triggerType Lahwi;
-	METHOD <init> (Ljava/lang/String;Lahwi;ZLjava/lang/String;Ljava/lang/String;)V
+	FIELD e triggerType Laihz;
+	METHOD <init> (Ljava/lang/String;Laihz;ZLjava/lang/String;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted

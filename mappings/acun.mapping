@@ -1,2 +1,0 @@
-CLASS acun
-	METHOD f setSelectedText (Ljava/lang/String;)V

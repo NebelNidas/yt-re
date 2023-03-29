@@ -1,2 +1,0 @@
-CLASS vxg
-	METHOD d toByteArray ()[B

@@ -1,0 +1,4 @@
+CLASS mmh
+	METHOD a getPriority ()Lmmi;
+	METHOD b getCode ()Ljava/lang/Integer;
+	METHOD c getPayload ()Ljava/lang/Object;

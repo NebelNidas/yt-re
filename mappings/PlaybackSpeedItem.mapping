@@ -1,2 +1,2 @@
-CLASS lmv PlaybackSpeedItem
+CLASS low PlaybackSpeedItem
 	FIELD a speedMultiplier F

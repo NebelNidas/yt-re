@@ -1,10 +1,10 @@
-CLASS tah ReelItemSequenceAbandonedTrigger
+CLASS tka ReelItemSequenceAbandonedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Lahwi;
-	METHOD <init> (Ljava/lang/String;Lahwi;)V
+	FIELD b triggerType Laihz;
+	METHOD <init> (Ljava/lang/String;Laihz;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
-	METHOD c create (Ljava/lang/String;)Ltah;
+	METHOD c create (Ljava/lang/String;)Ltka;
 		ARG 0 triggerId
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

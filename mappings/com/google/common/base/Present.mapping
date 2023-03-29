@@ -1,4 +1,4 @@
-CLASS afdn com/google/common/base/Present
+CLASS afol com/google/common/base/Present
 	COMMENT Taken from <a href="https://github.com/google/guava/blob/ab72eafff2c47ef02d9c1e13092b27880ed3c181/guava/src/com/google/common/base/Present.java#L27">https://github.com/google/guava/blob/ab72eafff2c47ef02d9c1e13092b27880ed3c181/guava/src/com/google/common/base/Present.java#L27</a>
 	FIELD a reference Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/Object;)V

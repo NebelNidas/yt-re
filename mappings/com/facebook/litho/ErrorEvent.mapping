@@ -1,2 +1,2 @@
-CLASS end com/facebook/litho/ErrorEvent
-	FIELD a exception Ljava/lang/Exception;
+CLASS eoa com/facebook/litho/ErrorEvent
+	FIELD b exception Ljava/lang/Exception;

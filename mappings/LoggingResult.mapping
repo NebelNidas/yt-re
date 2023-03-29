@@ -1,10 +1,10 @@
-CLASS lyj LoggingResult
-	FIELD a loggingAction Llyg;
-	FIELD b inputStates Llyi;
-	METHOD <init> (Llyg;Llyi;)V
+CLASS mas LoggingResult
+	FIELD a loggingAction Lmap;
+	FIELD b inputStates Lmar;
+	METHOD <init> (Lmap;Lmar;)V
 		ARG 1 loggingAction
 		ARG 2 inputStates
-	METHOD a create (Llyg;Llyi;)Llyj;
+	METHOD a create (Lmap;Lmar;)Lmas;
 		ARG 0 loggingAction
 		ARG 1 inputStates
 	METHOD equals (Ljava/lang/Object;)Z

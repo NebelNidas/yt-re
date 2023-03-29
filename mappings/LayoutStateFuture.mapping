@@ -1,24 +1,24 @@
-CLASS ema LayoutStateFuture
-	FIELD a runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD b context Lelo;
-	FIELD c root Lelk;
-	FIELD d widthSpec I
-	FIELD e heightSpec I
-	FIELD f diffingEnabled Z
-	FIELD h refCount Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD i isFromSyncLayout Z
-	FIELD k source I
-	FIELD l extraAttribution Ljava/lang/String;
-	FIELD o released Z
-	FIELD p tree Lcom/facebook/litho/ComponentTree;
-	FIELD q treeProps Ldqw;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Lelo;Lelk;IIZLdqw;ILjava/lang/String;)V
+CLASS end LayoutStateFuture
+	FIELD a context Lemt;
+	FIELD b root Lemp;
+	FIELD c widthSpec I
+	FIELD d heightSpec I
+	FIELD e diffingEnabled Z
+	FIELD f treeProps Lerq;
+	FIELD g runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD h isFromSyncLayout Z
+	FIELD j source I
+	FIELD k extraAttribution Ljava/lang/String;
+	FIELD l released Z
+	FIELD m tree Lcom/facebook/litho/ComponentTree;
+	FIELD n refCount Ljava/util/concurrent/atomic/AtomicInteger;
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Lemt;Lemp;IIZLerq;ILjava/lang/String;)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec
 		ARG 6 diffingEnabled
 		ARG 8 source
 		ARG 9 extraAttribution
-	METHOD a release ()V
+	METHOD b release ()V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

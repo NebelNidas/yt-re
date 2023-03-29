@@ -1,4 +1,4 @@
-CLASS mfq WebViewState
+CLASS mid WebViewState
 	FIELD a url Ljava/lang/String;
 	FIELD b canGoBack Z
 	METHOD <init> (Ljava/lang/String;Z)V

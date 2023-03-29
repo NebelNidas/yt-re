@@ -1,0 +1,6 @@
+CLASS mgp
+	FIELD b playerViewModeMonitor Lgdp;
+	FIELD l tabNames Ljava/util/Set;
+	FIELD m flags Laftr;
+	FIELD n config Landroid/content/res/Configuration;
+	FIELD p pivotBar Lj$/util/Optional;

@@ -1,4 +1,4 @@
-CLASS emh DebugComponent
-	METHOD b getComponent ()Lelk;
-	METHOD f getLithoView ()Leon;
-	METHOD m getLayoutNode ()Ldqv;
+CLASS enh DebugComponent
+	METHOD c getComponent ()Lemp;
+	METHOD h getLithoView ()Lepn;
+	METHOD o getLayoutNode ()Lgtt;

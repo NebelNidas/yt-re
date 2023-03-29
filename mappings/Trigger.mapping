@@ -1,4 +1,4 @@
-CLASS tbg Trigger
-	METHOD a getTriggerType ()Lahwi;
+CLASS tky Trigger
+	METHOD a getTriggerType ()Laihz;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

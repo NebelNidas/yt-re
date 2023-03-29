@@ -1,4 +1,4 @@
-CLASS aagg OfflineHashImpl
+CLASS aaqs OfflineHashImpl
 	FIELD a blockIndex I
 	FIELD b digest [B
 	FIELD c hashState [B

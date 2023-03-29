@@ -1,5 +1,5 @@
-CLASS eli Component3
-	METHOD n checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
+CLASS emm Component3
+	METHOD k checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames
-	METHOD x key (Ljava/lang/String;)V
+	METHOD t key (Ljava/lang/String;)V

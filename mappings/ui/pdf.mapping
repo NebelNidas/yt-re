@@ -1,2 +1,2 @@
-CLASS rdf ui/pdf
+CLASS rmx ui/pdf
 	METHOD b getIconResourceId ()I

@@ -1,4 +1,4 @@
-CLASS fvf SectionReloadEvent
-	METHOD a getReloadContinuationData ()Laohe;
+CLASS fxc SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laota;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Laohe;)Lfvf;
+	METHOD c of (Ljava/lang/String;Laota;)Lfxc;

@@ -1,5 +1,5 @@
-CLASS tdc AdReengagementState
-	FIELD a renderer Laikf;
+CLASS tmv AdReengagementState
+	FIELD a renderer Laivx;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

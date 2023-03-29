@@ -1,0 +1,3 @@
+CLASS aajm
+	FIELD c subscribers Ljava/util/Set;
+	FIELD g subscribedOrdinal I

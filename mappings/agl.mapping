@@ -1,0 +1,14 @@
+CLASS agl
+	FIELD a surface Landroid/view/Surface;
+	FIELD b size Landroid/util/Size;
+	FIELD c imageFormat I
+	METHOD <init> (Landroid/view/Surface;Landroid/util/Size;I)V
+		ARG 1 surface
+		ARG 2 size
+		ARG 3 imageFormat
+	METHOD a create (Landroid/view/Surface;Landroid/util/Size;I)V
+		ARG 0 surface
+		ARG 1 size
+		ARG 2 imageFormat
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

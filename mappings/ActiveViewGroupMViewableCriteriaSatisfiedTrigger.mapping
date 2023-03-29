@@ -1,12 +1,12 @@
-CLASS svz ActiveViewGroupMViewableCriteriaSatisfiedTrigger
+CLASS tfq ActiveViewGroupMViewableCriteriaSatisfiedTrigger
 	FIELD a layoutId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Lahwi;
-	METHOD <init> (Ljava/lang/String;Lahwi;Ljava/lang/String;)V
+	FIELD c triggerType Laihz;
+	METHOD <init> (Ljava/lang/String;Laihz;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 layoutId
-	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Lsvz;
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltfq;
 		ARG 0 triggerId
 		ARG 1 layoutId
 	METHOD equals (Ljava/lang/Object;)Z

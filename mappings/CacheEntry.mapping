@@ -1,10 +1,10 @@
-CLASS adgm CacheEntry
+CLASS adre CacheEntry
 	FIELD a value Ljava/lang/Object;
 	FIELD b state I
 	METHOD <init> (Ljava/lang/Object;I)V
 		ARG 1 value
 		ARG 2 state
-	METHOD a create (Ljava/lang/Object;I)Ladgm;
+	METHOD a create (Ljava/lang/Object;I)Ladre;
 		ARG 0 value
 		ARG 1 state
 	METHOD equals (Ljava/lang/Object;)Z

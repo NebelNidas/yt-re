@@ -1,15 +1,15 @@
-CLASS eng com/facebook/litho/EventHandler
-	FIELD b hasEventDispatcher Leno;
+CLASS eoe com/facebook/litho/EventHandler
+	FIELD b hasEventDispatcher Leok;
 	FIELD c id I
 	FIELD d params [Ljava/lang/Object;
-	METHOD <init> (Leno;I)V
+	METHOD <init> (Leok;I)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
-	METHOD <init> (Leno;I[Ljava/lang/Object;)V
+	METHOD <init> (Leok;I[Ljava/lang/Object;)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
 		ARG 3 params
-	METHOD c isEquivalentTo (Leng;)Z
+	METHOD c isEquivalentTo (Leoe;)Z
 		ARG 1 other
 	METHOD ly dispatchEvent (Ljava/lang/Object;)V
 		ARG 1 event

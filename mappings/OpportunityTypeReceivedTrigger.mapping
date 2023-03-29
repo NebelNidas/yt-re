@@ -1,9 +1,9 @@
-CLASS szz OpportunityTypeReceivedTrigger
+CLASS tjs OpportunityTypeReceivedTrigger
 	FIELD a opportunityType I
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Lahwi;
+	FIELD c triggerType Laihz;
 	FIELD d originatingSlotId Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Lahwi;Ljava/lang/String;)V
+	METHOD <init> (Ljava/lang/String;Laihz;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 originatingSlotId

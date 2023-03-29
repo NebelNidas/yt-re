@@ -1,2 +1,2 @@
-CLASS exy TextInput
+CLASS ezo TextInput
 	FIELD f hint Ljava/lang/CharSequence;

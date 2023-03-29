@@ -1,0 +1,11 @@
+CLASS adc
+	FIELD a resultCode I
+	FIELD b surface Landroid/view/Surface;
+	METHOD <init> (ILandroid/view/Surface;)V
+		ARG 1 resultCode
+		ARG 2 surface
+	METHOD a create (ILandroid/view/Surface;)Ladc;
+		ARG 0 resultCode
+		ARG 1 surface
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

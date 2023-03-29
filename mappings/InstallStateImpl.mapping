@@ -1,4 +1,4 @@
-CLASS aeej InstallStateImpl
+CLASS aepg InstallStateImpl
 	FIELD a installStatus I
 	FIELD b bytesDownloaded J
 	FIELD c totalBytesToDownload J

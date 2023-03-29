@@ -1,2 +1,2 @@
-CLASS ahiw InvalidProtocolBufferException
+CLASS ahui InvalidProtocolBufferException
 	FIELD a thrownFromInputStream Z

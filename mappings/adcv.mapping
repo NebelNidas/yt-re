@@ -1,0 +1,3 @@
+CLASS adcv
+	METHOD a getButtonId (Lakyu;)I
+		ARG 1 icon

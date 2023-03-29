@@ -1,2 +1,0 @@
-CLASS aati
-	METHOD c getPlayingState ()Labnk;

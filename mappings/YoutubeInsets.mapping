@@ -1,14 +1,14 @@
-CLASS uhq YoutubeInsets
+CLASS urk YoutubeInsets
 	FIELD a systemWindowInsets Landroid/graphics/Rect;
-	FIELD b displayCutout Luhk;
+	FIELD b displayCutout Lure;
 	FIELD c mandatorySystemGestureInsets Landroid/graphics/Rect;
 	FIELD d stableInsets Landroid/graphics/Rect;
-	METHOD <init> (Landroid/graphics/Rect;Luhk;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
+	METHOD <init> (Landroid/graphics/Rect;Lure;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 		ARG 1 systemWindowInsets
 		ARG 2 displayCutout
 		ARG 3 mandatorySystemGestureInsets
 		ARG 4 stableInsets
-	METHOD a create (Landroid/graphics/Rect;Luhk;Landroid/graphics/Rect;Landroid/graphics/Rect;)Luhq;
+	METHOD a create (Landroid/graphics/Rect;Lure;Landroid/graphics/Rect;Landroid/graphics/Rect;)Lurk;
 		ARG 0 systemWindowInsets
 		ARG 1 displayCutout
 		ARG 2 mandatorySystemGestureInsets

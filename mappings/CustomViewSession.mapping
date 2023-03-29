@@ -1,4 +1,4 @@
-CLASS mfk CustomViewSession
+CLASS mhx CustomViewSession
 	FIELD a customView Landroid/view/View;
 	FIELD b callback Landroid/webkit/WebChromeClient$CustomViewCallback;
 	METHOD <init> (Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V

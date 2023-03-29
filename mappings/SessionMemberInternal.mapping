@@ -1,10 +1,10 @@
-CLASS yao SessionMemberInternal
+CLASS yla SessionMemberInternal
 	FIELD a type Ljava/lang/String;
 	FIELD b id Ljava/lang/String;
 	FIELD c receiverIdentityMatchStatus Ljava/lang/String;
-	FIELD d capabilities Lafjr;
+	FIELD d capabilities Lafup;
 	FIELD e encryptionKey Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lafjr;)V
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lafup;)V
 		ARG 1 type
 		ARG 2 id
 		ARG 3 encryptionKey

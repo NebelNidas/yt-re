@@ -1,3 +1,3 @@
-CLASS alys LikeType
+CLASS amkp LikeType
 	FIELD e ordinal I
-	METHOD a fromOrdinal (I)Lalys;
+	METHOD a fromOrdinal (I)Lamkp;

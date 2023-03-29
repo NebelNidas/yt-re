@@ -1,8 +1,8 @@
-CLASS uog CoWatchStatusBarParams
+CLASS uyb CoWatchStatusBarParams
 	FIELD a isPip Z
 	FIELD b isFullscreen Z
-	FIELD c liveSharingState Luoj;
-	METHOD <init> (ZZLuoj;)V
+	FIELD c liveSharingState Luye;
+	METHOD <init> (ZZLuye;)V
 		ARG 1 isPip
 		ARG 2 isFullscreen
 		ARG 3 liveSharingState

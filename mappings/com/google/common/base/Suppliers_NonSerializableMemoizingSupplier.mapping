@@ -1,5 +1,5 @@
-CLASS afej com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Lafeh;
+CLASS afpi com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lafpg;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafeh;)V
+	METHOD <init> (Lafpg;)V
 		ARG 1 delegate

@@ -1,7 +1,7 @@
-CLASS aerb CallbackResult
-	FIELD a callbacks Laeqp;
-	FIELD b result Laerh;
-	METHOD <init> (Laeqp;Laerh;)V
+CLASS afbx CallbackResult
+	FIELD a callbacks Lafbl;
+	FIELD b result Lafcd;
+	METHOD <init> (Lafbl;Lafcd;)V
 		ARG 1 callbacks
 		ARG 2 result
 	METHOD equals (Ljava/lang/Object;)Z

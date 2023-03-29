@@ -1,2 +1,0 @@
-CLASS epd
-	METHOD b markerPoint (Ljava/lang/String;)V

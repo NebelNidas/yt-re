@@ -1,0 +1,2 @@
+CLASS whf
+	METHOD d toByteArray ()[B

@@ -1,6 +1,6 @@
-CLASS afei com/google/common/base/Suppliers_MemoizingSupplier
-	FIELD a delegate Lafeh;
+CLASS afph com/google/common/base/Suppliers_MemoizingSupplier
+	FIELD a delegate Lafpg;
 	FIELD b initialized Z
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafeh;)V
+	METHOD <init> (Lafpg;)V
 		ARG 1 delegate

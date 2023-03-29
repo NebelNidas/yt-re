@@ -1,4 +1,4 @@
-CLASS aerf Result_Failure
+CLASS afcb Result_Failure
 	FIELD a error Ljava/lang/Throwable;
 	METHOD <init> (Ljava/lang/Throwable;)V
 		ARG 1 error

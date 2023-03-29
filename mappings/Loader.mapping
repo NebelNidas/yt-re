@@ -1,4 +1,4 @@
-CLASS bkq Loader
+CLASS bkr Loader
 	FIELD d id I
 	FIELD f started Z
 	FIELD i contentChanged Z

@@ -1,10 +1,10 @@
-CLASS lyt StoryboardLevelInfo
-	FIELD a storyboardLevel Lablp;
+CLASS mbb StoryboardLevelInfo
+	FIELD a storyboardLevel Labwc;
 	FIELD b threeDLayout I
-	METHOD <init> (Lablp;I)V
+	METHOD <init> (Labwc;I)V
 		ARG 1 storyboardLevel
 		ARG 2 threeDLayout
-	METHOD a (Lablp;I)Llyt;
+	METHOD a (Labwc;I)Lmbb;
 		ARG 0 storyboardLevel
 		ARG 1 threeDLayout
 	METHOD equals (Ljava/lang/Object;)Z

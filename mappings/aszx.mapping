@@ -1,4 +1,0 @@
-CLASS aszx
-	METHOD a (Latcg;Latcg;Latcb;Latcb;Latcb;Latcb;)Laszx;
-		ARG 3 onComplete
-		ARG 6 onDispose

@@ -1,7 +1,7 @@
-CLASS fvd SectionReloadEventImpl
+CLASS fxa SectionReloadEventImpl
 	FIELD a sectionId Ljava/lang/String;
-	FIELD b reloadContinuationData Laohe;
-	METHOD <init> (Ljava/lang/String;Laohe;)V
+	FIELD b reloadContinuationData Laota;
+	METHOD <init> (Ljava/lang/String;Laota;)V
 		ARG 1 sectionId
 		ARG 2 reloadContinuationData
 	METHOD equals (Ljava/lang/Object;)Z

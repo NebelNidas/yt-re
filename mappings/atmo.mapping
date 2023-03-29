@@ -1,0 +1,4 @@
+CLASS atmo
+	METHOD a (Latox;Latox;Latos;Latos;Latos;Latos;)Latmo;
+		ARG 3 onComplete
+		ARG 6 onDispose

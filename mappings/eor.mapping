@@ -1,0 +1,3 @@
+CLASS eor
+	METHOD a getLayoutOutput (Lfan;)Leor;
+	METHOD c isAccessible ()Z

@@ -1,9 +1,9 @@
-CLASS qev ApplicationId
+CLASS qnn ApplicationId
 	FIELD a packageName Ljava/lang/String;
 	FIELD b instanceId Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 1 packageName
-	METHOD a fromContext (Landroid/content/Context;)Lqev;
+	METHOD a fromContext (Landroid/content/Context;)Lqnn;
 		ARG 0 context
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

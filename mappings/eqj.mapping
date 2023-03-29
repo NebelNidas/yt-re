@@ -1,0 +1,2 @@
+CLASS eqj
+	METHOD b release (Ljava/lang/Object;)V

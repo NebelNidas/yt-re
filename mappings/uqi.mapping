@@ -1,0 +1,3 @@
+CLASS uqi
+	METHOD av isHttps (Landroid/net/Uri;)Z
+	METHOD ax isLocalhost (Landroid/net/Uri;)Z

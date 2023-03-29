@@ -1,4 +1,0 @@
-CLASS eos
-	METHOD d getFocusChangeListener (Landroid/view/View;)Lelp;
-	METHOD e getClickListener (Landroid/view/View;)Lelv;
-	METHOD f getLongClickListener (Landroid/view/View;)Lelw;

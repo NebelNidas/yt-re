@@ -1,2 +1,0 @@
-CLASS accy
-	METHOD b getDisplayString (Lakdv;)Landroid/text/Spanned;

@@ -1,2 +1,0 @@
-CLASS szv
-	METHOD e getMediaCpn ()Ljava/lang/String;

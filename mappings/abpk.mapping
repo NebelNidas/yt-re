@@ -1,3 +1,0 @@
-CLASS abpk
-	METHOD H setPlaybackSpeed (F)V
-		ARG 1 speed

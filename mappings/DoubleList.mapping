@@ -1,3 +1,3 @@
-CLASS ahdw DoubleList
-	METHOD d mutableCopyWithCapacity (I)Lahdw;
+CLASS ahig DoubleList
+	METHOD d mutableCopyWithCapacity (I)Lahig;
 		ARG 1 capacity

@@ -1,4 +1,4 @@
-CLASS qmd GaiaAccountDataBuilder
+CLASS qnm GaiaAccountDataBuilder
 	COMMENT @see qno#buildGaiaAccountData(Object) detached build method
 	FIELD a isG1User Z
 	FIELD b flags B

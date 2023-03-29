@@ -1,9 +1,9 @@
-CLASS uko CustomUri
+CLASS umx CustomUri
 	FIELD c params Ljava/util/HashMap;
 	METHOD a buildQueryParams ()Landroid/net/Uri;
-	METHOD b fromUri (Landroid/net/Uri;)Luko;
-	METHOD c fromCustomUri (Luko;)Luko;
+	METHOD b fromUri (Landroid/net/Uri;)Lumx;
+	METHOD c fromCustomUri (Lumx;)Lumx;
 	METHOD h setParam (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 key
 		ARG 2 value
-	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lukn;
+	METHOD l addParam (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lumw;

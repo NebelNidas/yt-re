@@ -1,7 +1,7 @@
-CLASS gvp ActiveStateChangedEventImpl
-	FIELD a currentState Lgvm;
-	FIELD b toState Lgvm;
-	METHOD <init> (Lgvm;Lgvm;)V
+CLASS gvw ActiveStateChangedEventImpl
+	FIELD a currentState Lgvt;
+	FIELD b toState Lgvt;
+	METHOD <init> (Lgvt;Lgvt;)V
 		ARG 1 currentState
 		ARG 2 toState
 	METHOD equals (Ljava/lang/Object;)Z

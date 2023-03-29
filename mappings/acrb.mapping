@@ -1,2 +1,0 @@
-CLASS acrb
-	METHOD f setSelectedText (Ljava/lang/String;)V

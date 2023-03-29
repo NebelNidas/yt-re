@@ -1,9 +1,9 @@
-CLASS elf com/facebook/litho/Component
+CLASS elk com/facebook/litho/Component
 	COMMENT Taken from <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java</a>
 	FIELD a idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD h EMPTY_ARRAY [Lemv;
+	FIELD h EMPTY_ARRAY [Lena;
 	FIELD k id I
-	METHOD f isEquivalentTo (Lelf;)Z
+	METHOD f isEquivalentTo (Lelk;)Z
 		ARG 1 o
-	METHOD l makeShallowCopy ()Lelf;
-	METHOD v measure (Lelj;IILepe;)V
+	METHOD l makeShallowCopy ()Lelk;
+	METHOD v measure (Lelo;IILepj;)V

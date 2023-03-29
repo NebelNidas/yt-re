@@ -1,3 +1,0 @@
-CLASS acoq
-	METHOD a getButtonId (Lakii;)I
-		ARG 1 icon

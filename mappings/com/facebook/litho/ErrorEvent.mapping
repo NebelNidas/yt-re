@@ -1,2 +1,2 @@
-CLASS emy com/facebook/litho/ErrorEvent
+CLASS end com/facebook/litho/ErrorEvent
 	FIELD a exception Ljava/lang/Exception;

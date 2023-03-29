@@ -1,0 +1,4 @@
+CLASS mjs
+	METHOD a getPriority ()Lmjt;
+	METHOD b getCode ()Ljava/lang/Integer;
+	METHOD c getPayload ()Ljava/lang/Object;

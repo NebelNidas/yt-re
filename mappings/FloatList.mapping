@@ -1,2 +1,2 @@
-CLASS ahea FloatList
-	METHOD g mutableCopyWithCapacity (I)Lahea;
+CLASS ahik FloatList
+	METHOD g mutableCopyWithCapacity (I)Lahik;

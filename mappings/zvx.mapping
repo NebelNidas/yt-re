@@ -1,3 +1,0 @@
-CLASS zvx
-	FIELD c subscribers Ljava/util/Set;
-	FIELD g subscribedOrdinal I

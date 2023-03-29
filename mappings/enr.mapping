@@ -1,3 +1,0 @@
-CLASS enr
-	METHOD b getLayoutOutput (Leyt;)Lenr;
-	METHOD d isAccessible ()Z

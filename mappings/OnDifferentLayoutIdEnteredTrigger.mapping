@@ -1,16 +1,16 @@
-CLASS sxh OnDifferentLayoutIdEnteredTrigger
+CLASS szt OnDifferentLayoutIdEnteredTrigger
 	FIELD a nonMatchingLayoutId Ljava/lang/String;
-	FIELD b slotType Lahrv;
-	FIELD c layoutType Lahrs;
+	FIELD b slotType Lahwg;
+	FIELD c layoutType Lahwd;
 	FIELD d triggerId Ljava/lang/String;
-	FIELD e triggerType Lahrx;
-	METHOD <init> (Ljava/lang/String;Lahrx;Ljava/lang/String;Lahrv;Lahrs;)V
+	FIELD e triggerType Lahwi;
+	METHOD <init> (Ljava/lang/String;Lahwi;Ljava/lang/String;Lahwg;Lahwd;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 nonMatchingLayoutId
 		ARG 4 slotType
 		ARG 5 layoutType
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;Lahrv;Lahrs;)Lsxh;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;Lahwg;Lahwd;)Lszt;
 		ARG 0 triggerId
 		ARG 1 nonMatchingLayoutId
 		ARG 2 slotType

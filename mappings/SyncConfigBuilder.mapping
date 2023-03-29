@@ -1,9 +1,9 @@
-CLASS aeqc SyncConfigBuilder
+CLASS aetn SyncConfigBuilder
 	FIELD a minSyncInterval J
 	FIELD b timeout J
 	FIELD c constraints Ljava/util/List;
-	METHOD a build ()Laeqd;
-	METHOD b addConstraint (Laeqe;)V
+	METHOD a build ()Laeto;
+	METHOD b addConstraint (Laetp;)V
 		ARG 1 constraint
 	METHOD c setMinSyncInterval (JLjava/util/concurrent/TimeUnit;)V
 		ARG 1 interval

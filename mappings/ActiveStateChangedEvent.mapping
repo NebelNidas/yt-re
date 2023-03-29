@@ -1,6 +1,6 @@
-CLASS gvl ActiveStateChangedEvent
-	METHOD a create (Lgvm;Lgvm;)Lgvl;
+CLASS gvs ActiveStateChangedEvent
+	METHOD a create (Lgvt;Lgvt;)Lgvs;
 		ARG 0 currentState
 		ARG 1 toState
-	METHOD b getCurrentState ()Lgvm;
-	METHOD c getToState ()Lgvm;
+	METHOD b getCurrentState ()Lgvt;
+	METHOD c getToState ()Lgvt;

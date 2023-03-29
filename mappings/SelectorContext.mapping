@@ -1,7 +1,7 @@
-CLASS aeiq SelectorContext
+CLASS aema SelectorContext
 	FIELD a intent Landroid/content/Intent;
 	METHOD <init> (Landroid/content/Intent;)V
 		ARG 1 intent
-	METHOD a create (Landroid/content/Intent;)Laeiq;
+	METHOD a create (Landroid/content/Intent;)Laema;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

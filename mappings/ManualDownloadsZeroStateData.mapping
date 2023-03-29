@@ -1,6 +1,6 @@
-CLASS jke ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Laibf;
-	METHOD <init> (Laibf;)V
+CLASS jlb ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Laifq;
+	METHOD <init> (Laifq;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

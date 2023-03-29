@@ -1,9 +1,9 @@
-CLASS sxd MediaResumedTrigger
+CLASS szp MediaResumedTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b mediaCpn Ljava/lang/String;
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Lahrx;
-	METHOD <init> (Ljava/lang/String;Lahrx;ZLjava/lang/String;)V
+	FIELD d triggerType Lahwi;
+	METHOD <init> (Ljava/lang/String;Lahwi;ZLjava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted

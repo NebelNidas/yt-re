@@ -1,8 +1,8 @@
-CLASS afet com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Lafet;
+CLASS afin com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Lafin;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lafet;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafet;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lafin;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafin;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lafet;
+	METHOD o copyOf (Ljava/util/Collection;)Lafin;
 		ARG 0 elements

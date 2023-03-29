@@ -1,6 +1,6 @@
-CLASS adqy WatchingStateMetadata
-	FIELD a intentCounterMap Lafez;
-	METHOD <init> (Lafez;)V
+CLASS adui WatchingStateMetadata
+	FIELD a intentCounterMap Lafit;
+	METHOD <init> (Lafit;)V
 		ARG 1 intentCounterMap
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

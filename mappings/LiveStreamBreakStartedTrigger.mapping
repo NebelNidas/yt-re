@@ -1,12 +1,12 @@
-CLASS sww LiveStreamBreakStartedTrigger
+CLASS szi LiveStreamBreakStartedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Lahrx;
+	FIELD b triggerType Lahwi;
 	FIELD c cuePointIdentifier Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Lahrx;Ljava/lang/String;)V
+	METHOD <init> (Ljava/lang/String;Lahwi;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 cuePointIdentifier
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lsww;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lszi;
 		ARG 0 triggerId
 		ARG 1 cuePointIdentifier
 	METHOD equals (Ljava/lang/Object;)Z

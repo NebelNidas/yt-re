@@ -1,0 +1,2 @@
+CLASS akdx
+	FIELD c displayString Ljava/lang/String;

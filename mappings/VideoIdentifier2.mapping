@@ -1,10 +1,10 @@
-CLASS lvf VideoIdentifier2
+CLASS lwc VideoIdentifier2
 	FIELD a videoId Ljava/lang/String;
 	FIELD b playlistSetVideoId Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 videoId
 		ARG 2 playlistSetVideoId
-	METHOD a create (Ljava/lang/String;Ljava/lang/String;)Llvf;
+	METHOD a create (Ljava/lang/String;Ljava/lang/String;)Llwc;
 		ARG 0 videoId
 		ARG 1 playlistSetVideoId
 	METHOD equals (Ljava/lang/Object;)Z

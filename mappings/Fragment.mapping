@@ -32,7 +32,7 @@ CLASS bq Fragment
 	METHOD ar getPopDirection ()Z
 	METHOD aw isSaved ()Z
 	METHOD az onGetLayoutInflater ()Landroid/view/LayoutInflater;
-	METHOD mS getPopEnterAnimation ()I
-	METHOD mT getPopExitAnimation ()I
-	METHOD ok getEnterAnimation ()I
-	METHOD ol getExitAnimation ()I
+	METHOD mK getPopEnterAnimation ()I
+	METHOD mL getPopExitAnimation ()I
+	METHOD ob getEnterAnimation ()I
+	METHOD oc getExitAnimation ()I

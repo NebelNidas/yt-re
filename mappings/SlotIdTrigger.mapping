@@ -1,2 +1,2 @@
-CLASS syb SlotIdTrigger
+CLASS tan SlotIdTrigger
 	METHOD c getSlotId ()Ljava/lang/String;

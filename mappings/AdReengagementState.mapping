@@ -1,5 +1,5 @@
-CLASS taq AdReengagementState
-	FIELD a renderer Laifu;
+CLASS tdc AdReengagementState
+	FIELD a renderer Laikf;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

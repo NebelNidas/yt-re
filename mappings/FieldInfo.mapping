@@ -1,19 +1,19 @@
-CLASS ahde FieldInfo
+CLASS ahho FieldInfo
 	FIELD a field Ljava/lang/reflect/Field;
-	FIELD b type Lahdh;
+	FIELD b type Lahhr;
 	FIELD c messageClass Ljava/lang/Class;
 	FIELD d fieldNumber I
 	FIELD e presenceField Ljava/lang/reflect/Field;
 	FIELD f presenceMask I
 	FIELD g required Z
 	FIELD h enforceUtf8 Z
-	FIELD i oneof Lahfn;
+	FIELD i oneof Lahjx;
 	FIELD j oneofStoredType Ljava/lang/Class;
 	FIELD k mapDefaultEntry Ljava/lang/Object;
-	FIELD l enumVerifier Lahdz;
-	METHOD <init> (Ljava/lang/reflect/Field;ILahdh;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLahfn;Ljava/lang/Class;Ljava/lang/Object;Lahdz;)V
+	FIELD l enumVerifier Lahij;
+	METHOD <init> (Ljava/lang/reflect/Field;ILahhr;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLahjx;Ljava/lang/Class;Ljava/lang/Object;Lahij;)V
 		ARG 2 fieldNumber
-	METHOD a forOneofMemberField (ILahdh;Lahfn;Ljava/lang/Class;ZLahdz;)Lahde;
+	METHOD a forOneofMemberField (ILahhr;Lahjx;Ljava/lang/Class;ZLahij;)Lahho;
 		ARG 0 fieldNumber
 		ARG 1 fieldType
 		ARG 3 oneofStoredType

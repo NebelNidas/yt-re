@@ -1,4 +1,4 @@
-CLASS aaoh OfflineDrmSessionExpirationUpdateEvent
+CLASS aarm OfflineDrmSessionExpirationUpdateEvent
 	METHOD a getVideoId ()Ljava/lang/String;
-	METHOD b create (Ljava/lang/String;)Laaoh;
+	METHOD b create (Ljava/lang/String;)Laarm;
 		ARG 0 videoId

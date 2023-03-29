@@ -1,4 +1,4 @@
-CLASS aeb AttachedSurfaceInfo
+CLASS aea AttachedSurfaceInfo
 	FIELD a surfaceConfig Lahc;
 	FIELD b imageFormat I
 	FIELD c size Landroid/util/Size;

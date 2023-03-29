@@ -1,2 +1,0 @@
-CLASS rbt
-	FIELD av list Landroid/widget/ListAdapter;

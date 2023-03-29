@@ -1,4 +1,4 @@
-CLASS qfb ChimeThreadStateBuilder
+CLASS qgh ChimeThreadStateBuilder
 	FIELD a id J
 	FIELD b threadId Ljava/lang/String;
 	FIELD c lastUpdatedVersion J
@@ -8,9 +8,9 @@ CLASS qfb ChimeThreadStateBuilder
 	FIELD g deletionStatus I
 	FIELD h countBehavior I
 	FIELD i systemTrayBehavior I
-	METHOD <init> (Lqfj;)V
+	METHOD <init> (Lqgp;)V
 		ARG 1 from
-	METHOD a build ()Lqfj;
+	METHOD a build ()Lqgp;
 	METHOD b setId (J)V
 		ARG 1 id
 	METHOD c setLastUpdatedVersion (Ljava/lang/Long;)V

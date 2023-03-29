@@ -1,0 +1,3 @@
+CLASS scx
+	METHOD N isHttps (Landroid/net/Uri;)Z
+	METHOD P isLocalhost (Landroid/net/Uri;)Z

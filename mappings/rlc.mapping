@@ -1,3 +1,0 @@
-CLASS rlc
-	METHOD I isHttps (Landroid/net/Uri;)Z
-	METHOD K isLocalhost (Landroid/net/Uri;)Z

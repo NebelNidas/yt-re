@@ -1,12 +1,12 @@
-CLASS swt LayoutIdEnteredTrigger
+CLASS szf LayoutIdEnteredTrigger
 	FIELD a triggeringLayoutId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Lahrx;
-	METHOD <init> (Ljava/lang/String;Lahrx;Ljava/lang/String;)V
+	FIELD c triggerType Lahwi;
+	METHOD <init> (Ljava/lang/String;Lahwi;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 triggeringLayoutId
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lswt;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lszf;
 		ARG 0 triggerId
 		ARG 1 triggeringLayoutId
 	METHOD equals (Ljava/lang/Object;)Z

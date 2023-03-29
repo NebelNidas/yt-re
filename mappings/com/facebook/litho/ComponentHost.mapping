@@ -1,10 +1,10 @@
 CLASS com/facebook/litho/ComponentHost
 	FIELD a mountItems Lapj;
 	FIELD e drawableMountItems Lapj;
-	FIELD k clickListener Lelq;
+	FIELD k clickListener Lelv;
 	FIELD r contentDescription Ljava/lang/CharSequence;
 	FIELD u inLayout Z
-	FIELD v componentAccessibilityDelegate Lelh;
+	FIELD v componentAccessibilityDelegate Lelm;
 	FIELD w componentAccessibilityDelegateSet Z
 	METHOD i invalidateAccessibilityState ()V
 	METHOD n refreshAccessibilityDelegatesIfNeeded (Z)V

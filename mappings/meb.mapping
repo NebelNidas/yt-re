@@ -1,0 +1,6 @@
+CLASS meb
+	FIELD b playerViewModeMonitor Lgbq;
+	FIELD l tabNames Ljava/util/Set;
+	FIELD m flags Lafit;
+	FIELD n config Landroid/content/res/Configuration;
+	FIELD p pivotBar Lj$/util/Optional;

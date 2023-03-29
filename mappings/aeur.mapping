@@ -1,0 +1,2 @@
+CLASS aeur
+	FIELD c name Ljava/lang/String;

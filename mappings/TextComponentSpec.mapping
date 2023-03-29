@@ -1,2 +1,2 @@
-CLASS pfe TextComponentSpec
-	METHOD g getHint (Lpmh;Landroid/content/Context;Lpim;Lauk;Lpoh;Lpni;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS pgg TextComponentSpec
+	METHOD g getHint (Lpno;Landroid/content/Context;Lpjr;Lauk;Lppo;Lpop;Ljava/util/Map;Z)Ljava/lang/CharSequence;

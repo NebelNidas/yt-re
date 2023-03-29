@@ -1,4 +1,4 @@
-CLASS aadj OfflineHash
+CLASS aagn OfflineHash
 	METHOD a getBlockIndex ()I
 	METHOD b getItag ()I
 	METHOD c getMerkeLevel ()I

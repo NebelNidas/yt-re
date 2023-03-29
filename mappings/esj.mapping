@@ -1,2 +1,0 @@
-CLASS esj
-	METHOD m newEventHandler (Ljava/lang/Class;Lesi;I[Ljava/lang/Object;)Lenb;

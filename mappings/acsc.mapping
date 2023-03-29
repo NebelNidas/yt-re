@@ -1,0 +1,3 @@
+CLASS acsc
+	METHOD a getButtonId (Lakna;)I
+		ARG 1 icon

@@ -1,2 +1,2 @@
-CLASS tar AdTitleOverlayState
-	FIELD a adOverlayMetadata Ltal;
+CLASS tdd AdTitleOverlayState
+	FIELD a adOverlayMetadata Ltcx;

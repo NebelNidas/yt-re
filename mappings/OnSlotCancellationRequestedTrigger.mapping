@@ -1,12 +1,12 @@
-CLASS sxm OnSlotCancellationRequestedTrigger
+CLASS szy OnSlotCancellationRequestedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Lahrx;
+	FIELD b triggerType Lahwi;
 	FIELD c slotId Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Lahrx;Ljava/lang/String;)V
+	METHOD <init> (Ljava/lang/String;Lahwi;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 slotId
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lsxm;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Lszy;
 		ARG 0 triggerId
 		ARG 1 slotId
 	METHOD equals (Ljava/lang/Object;)Z

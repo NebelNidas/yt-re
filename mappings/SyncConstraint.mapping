@@ -1,9 +1,9 @@
-CLASS aeqe SyncConstraint
-	FIELD a constraintType Laeqf;
+CLASS aetp SyncConstraint
+	FIELD a constraintType Laetq;
 	FIELD b applicablePeriod J
-	METHOD <init> (Laeqf;J)V
+	METHOD <init> (Laetq;J)V
 		ARG 1 constraintType
 		ARG 2 applicablePeriod
-	METHOD a builder ()Larjh;
+	METHOD a builder ()Laroy;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

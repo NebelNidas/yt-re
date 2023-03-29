@@ -1,7 +1,7 @@
-CLASS elv LayoutStateFuture
+CLASS ema LayoutStateFuture
 	FIELD a runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD b context Lelj;
-	FIELD c root Lelf;
+	FIELD b context Lelo;
+	FIELD c root Lelk;
 	FIELD d widthSpec I
 	FIELD e heightSpec I
 	FIELD f diffingEnabled Z
@@ -11,8 +11,8 @@ CLASS elv LayoutStateFuture
 	FIELD l extraAttribution Ljava/lang/String;
 	FIELD o released Z
 	FIELD p tree Lcom/facebook/litho/ComponentTree;
-	FIELD q treeProps Ldqs;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Lelj;Lelf;IIZLdqs;ILjava/lang/String;)V
+	FIELD q treeProps Ldqw;
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Lelo;Lelk;IIZLdqw;ILjava/lang/String;)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec

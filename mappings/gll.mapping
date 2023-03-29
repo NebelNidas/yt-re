@@ -1,0 +1,2 @@
+CLASS gll
+	FIELD a menuItems Ljava/util/Map;

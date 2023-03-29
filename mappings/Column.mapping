@@ -1,4 +1,4 @@
-CLASS ekz Column
+CLASS ele Column
 	FIELD a children Ljava/util/List;
 	FIELD d reverse Z
-	METHOD b create (Lelj;)Leky;
+	METHOD b create (Lelo;)Leld;

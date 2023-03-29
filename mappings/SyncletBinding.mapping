@@ -1,13 +1,13 @@
-CLASS aeqi SyncletBinding
+CLASS aett SyncletBinding
 	FIELD a enabled Z
-	FIELD b syncKey Laeqg;
-	FIELD c syncletProvider Latxr;
-	FIELD d syncConfig Laeqd;
-	METHOD <init> (Laeqg;Laeqd;Latxr;)V
+	FIELD b syncKey Laetr;
+	FIELD c syncletProvider Laudj;
+	FIELD d syncConfig Laeto;
+	METHOD <init> (Laetr;Laeto;Laudj;)V
 		ARG 1 syncKey
 		ARG 2 syncConfig
 		ARG 3 syncletProvider
-	METHOD a getSyncConfig ()Laeqd;
-	METHOD b builder ()Lasod;
+	METHOD a getSyncConfig ()Laeto;
+	METHOD b builder ()Lastu;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

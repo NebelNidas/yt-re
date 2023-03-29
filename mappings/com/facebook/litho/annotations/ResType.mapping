@@ -1,14 +1,14 @@
-CLASS eqy com/facebook/litho/annotations/ResType
-	FIELD a NONE Leqy;
-	FIELD b STRING Leqy;
-	FIELD c STRING_ARRAY Leqy;
-	FIELD d INT Leqy;
-	FIELD e INT_ARRAY Leqy;
-	FIELD f BOOL Leqy;
-	FIELD g COLOR Leqy;
-	FIELD h DIMEN_SIZE Leqy;
-	FIELD i DIMEN_OFFSET Leqy;
-	FIELD j DIMEN_TEXT Leqy;
-	FIELD k FLOAT Leqy;
-	FIELD l DRAWABLE Leqy;
-	FIELD m $VALUES [Leqy;
+CLASS erd com/facebook/litho/annotations/ResType
+	FIELD a NONE Lerd;
+	FIELD b STRING Lerd;
+	FIELD c STRING_ARRAY Lerd;
+	FIELD d INT Lerd;
+	FIELD e INT_ARRAY Lerd;
+	FIELD f BOOL Lerd;
+	FIELD g COLOR Lerd;
+	FIELD h DIMEN_SIZE Lerd;
+	FIELD i DIMEN_OFFSET Lerd;
+	FIELD j DIMEN_TEXT Lerd;
+	FIELD k FLOAT Lerd;
+	FIELD l DRAWABLE Lerd;
+	FIELD m $VALUES [Lerd;

@@ -1,0 +1,3 @@
+CLASS enw
+	METHOD b getLayoutOutput (Leyy;)Lenw;
+	METHOD d isAccessible ()Z

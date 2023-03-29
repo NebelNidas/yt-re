@@ -1,12 +1,12 @@
-CLASS txv ConnectivityStatus
+CLASS uai ConnectivityStatus
 	FIELD a connected Z
 	FIELD b temporarilyUnmetered Z
 	FIELD c chargeable Z
 	FIELD d connectionType I
 	FIELD e connectedOrConnecting Z
 	FIELD f dataSaverEnabled Z
-	FIELD g detailedNetworkType Lajhr;
-	METHOD <init> (ZZZZZILajhr;)V
+	FIELD g detailedNetworkType Lajmg;
+	METHOD <init> (ZZZZZILajmg;)V
 		ARG 1 connectedOrConnection
 		ARG 2 connected
 		ARG 3 temporarilyUnmetered

@@ -1,7 +1,7 @@
-CLASS orj FaceViewerModel
-	FIELD a experienceRequestProto Lagjo;
+CLASS osl FaceViewerModel
+	FIELD a experienceRequestProto Lagny;
 	FIELD b theme I
-	METHOD <init> (Lagjo;I)V
+	METHOD <init> (Lagny;I)V
 		ARG 1 experienceRequestproto
 		ARG 2 theme
 	METHOD equals (Ljava/lang/Object;)Z

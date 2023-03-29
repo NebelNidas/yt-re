@@ -1,4 +1,4 @@
-CLASS pfc FontKey2
+CLASS pge FontKey2
 	FIELD a fontName Ljava/lang/String;
 	FIELD b weight I
 	FIELD c italic Z

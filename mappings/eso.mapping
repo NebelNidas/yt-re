@@ -1,0 +1,2 @@
+CLASS eso
+	METHOD m newEventHandler (Ljava/lang/Class;Lesn;I[Ljava/lang/Object;)Leng;

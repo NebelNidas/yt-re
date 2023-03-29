@@ -1,2 +1,2 @@
-CLASS ahee LongList
-	METHOD d mutableCopyWithCapacity (I)Lahee;
+CLASS ahio LongList
+	METHOD d mutableCopyWithCapacity (I)Lahio;

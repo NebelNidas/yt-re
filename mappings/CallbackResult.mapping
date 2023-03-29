@@ -1,7 +1,7 @@
-CLASS aenq CallbackResult
-	FIELD a callbacks Laene;
-	FIELD b result Laenw;
-	METHOD <init> (Laene;Laenw;)V
+CLASS aerb CallbackResult
+	FIELD a callbacks Laeqp;
+	FIELD b result Laerh;
+	METHOD <init> (Laeqp;Laerh;)V
 		ARG 1 callbacks
 		ARG 2 result
 	METHOD equals (Ljava/lang/Object;)Z

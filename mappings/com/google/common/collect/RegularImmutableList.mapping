@@ -1,5 +1,5 @@
-CLASS afiq com/google/common/collect/RegularImmutableList
-	FIELD a EMPTY Lafet;
+CLASS afmk com/google/common/collect/RegularImmutableList
+	FIELD a EMPTY Lafin;
 	FIELD b array [Ljava/lang/Object;
 	FIELD c size I
 	METHOD <init> ([Ljava/lang/Object;I)V

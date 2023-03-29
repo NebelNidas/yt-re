@@ -1,2 +1,0 @@
-CLASS atxr
-	METHOD a get ()Ljava/lang/Object;

@@ -1,0 +1,2 @@
+CLASS epp
+	FIELD b stacktrace Ljava/lang/Throwable;

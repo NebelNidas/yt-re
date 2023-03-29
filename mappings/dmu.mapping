@@ -1,0 +1,2 @@
+CLASS dmu
+	FIELD a context Ljava/lang/Object;

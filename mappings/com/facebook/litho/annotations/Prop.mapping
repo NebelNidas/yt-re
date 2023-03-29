@@ -1,2 +1,2 @@
-CLASS eqx com/facebook/litho/annotations/Prop
-	METHOD a resType ()Leqy;
+CLASS erc com/facebook/litho/annotations/Prop
+	METHOD a resType ()Lerd;

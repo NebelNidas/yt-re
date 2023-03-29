@@ -1,5 +1,5 @@
-CLASS ahej FreezableList
+CLASS ahit FreezableList
 	METHOD b freeze ()V
 	METHOD c isMutable ()Z
-	METHOD e mutableCopyWithCapacity (I)Lahej;
+	METHOD e mutableCopyWithCapacity (I)Lahit;
 		ARG 1 capacity

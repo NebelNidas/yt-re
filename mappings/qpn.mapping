@@ -1,0 +1,3 @@
+CLASS qpn
+	METHOD j buildGaiaAccountData (Ljava/lang/Object;)Lqnn;
+		ARG 0 owner

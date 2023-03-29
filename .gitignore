@@ -3,6 +3,7 @@
 /.gradle/
 /.jadx/
 /build/
+/enigma-plugin/build/
 /out/
 /namedSrc/
 /*.jar

@@ -1,0 +1,35 @@
+CLASS afl VideoProfileProxy
+	FIELD a mediaType Ljava/lang/String;
+	FIELD b bitrate I
+	FIELD c frameRate I
+	FIELD d width I
+	FIELD e height I
+	FIELD f codec I
+	FIELD g profile I
+	FIELD h bitDepth I
+	FIELD i chromaSubsampling I
+	FIELD j hdrFormat I
+	METHOD <init> (ILjava/lang/String;IIIIIIII)V
+		ARG 1 codec
+		ARG 2 mediaType
+		ARG 3 bitrate
+		ARG 4 frameRate
+		ARG 5 width
+		ARG 6 height
+		ARG 7 profile
+		ARG 8 bitDepth
+		ARG 9 chromaSubsampling
+		ARG 10 hdrFormat
+	METHOD a create (ILjava/lang/String;IIIIIIII)Lafl;
+		ARG 0 codec
+		ARG 1 mediaType
+		ARG 2 bitrate
+		ARG 3 frameRate
+		ARG 4 width
+		ARG 5 height
+		ARG 6 profile
+		ARG 7 bitDepth
+		ARG 8 chromaSubsampling
+		ARG 9 hdrFormat
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

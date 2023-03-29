@@ -1,2 +1,2 @@
 CLASS eme DebugComponentDescriptionHelper
-	COMMENT See https://github.com/facebook/litho/blob/5c33d6416e64911819c0bd75b207948ab1ef1067/litho-core/src/main/java/com/facebook/litho/DebugComponentDescriptionHelper.java.
+	COMMENT Taken from <a href="https://github.com/facebook/litho/blob/5c33d6416e64911819c0bd75b207948ab1ef1067/litho-core/src/main/java/com/facebook/litho/DebugComponentDescriptionHelper.java">https://github.com/facebook/litho/blob/5c33d6416e64911819c0bd75b207948ab1ef1067/litho-core/src/main/java/com/facebook/litho/DebugComponentDescriptionHelper.java</a>

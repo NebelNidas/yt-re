@@ -1,0 +1,20 @@
+CLASS pbf JavaScriptConfig
+	FIELD a initializationMode Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;
+	FIELD b enableVmContextLru Z
+	FIELD c vmContextLruSize I
+	FIELD d shouldLockVmIsolate Z
+	FIELD e shouldUseDirectJsObjectCreation Z
+	FIELD f skipLegacyFunctionBindings Z
+	FIELD g jsEngineSelection I
+	FIELD h platformDetails [B
+	METHOD <init> (Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;ZIZZZI[B)V
+		ARG 1 initializationMode
+		ARG 2 enableVmContextLru
+		ARG 3 vmContextLruSize
+		ARG 4 shouldLockVmIsolate
+		ARG 5 shouldUseDirectJsObjectCreation
+		ARG 6 skipLegacyFunctionBindings
+		ARG 7 jsEngineSelection
+		ARG 8 platformDetails
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -1,0 +1,23 @@
+CLASS afj AudioProfileProxy
+	FIELD a codec I
+	FIELD b mediaType Ljava/lang/String;
+	FIELD c bitrate I
+	FIELD d sampleRate I
+	FIELD e channels I
+	FIELD f profile I
+	METHOD <init> (ILjava/lang/String;IIII)V
+		ARG 1 codec
+		ARG 2 mediaType
+		ARG 3 bitrate
+		ARG 4 sampleRate
+		ARG 5 channels
+		ARG 6 profile
+	METHOD a create (ILjava/lang/String;IIII)Lafj;
+		ARG 0 codec
+		ARG 1 mediaType
+		ARG 2 bitrate
+		ARG 3 sampleRate
+		ARG 4 channels
+		ARG 5 profile
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

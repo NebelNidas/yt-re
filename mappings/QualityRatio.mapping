@@ -1,0 +1,11 @@
+CLASS alh QualityRatio
+	FIELD a quality Lalg;
+	FIELD b aspectRatio I
+	METHOD <init> (Lalg;I)V
+		ARG 1 quality
+		ARG 2 aspectRatio
+	METHOD a (Lalg;I)Lalh;
+		ARG 0 quality
+		ARG 1 aspectRatio
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

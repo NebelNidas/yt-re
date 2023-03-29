@@ -6,5 +6,9 @@ CLASS ahd SurfaceSizeDefinition
 		ARG 1 analysisSize
 		ARG 3 previewSize
 		ARG 5 recordSize
+	METHOD a create (Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;)Lahd;
+		ARG 0 analysisSize
+		ARG 1 previewSize
+		ARG 2 recordSize
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

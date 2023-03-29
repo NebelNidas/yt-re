@@ -1,0 +1,12 @@
+CLASS aeb AttachedSurfaceInfo
+	FIELD a surfaceConfig Lahc;
+	FIELD b imageFormat I
+	FIELD c size Landroid/util/Size;
+	FIELD d targetFrameRate Landroid/util/Range;
+	METHOD <init> (Lahc;ILandroid/util/Size;Landroid/util/Range;)V
+		ARG 1 surfaceConfig
+		ARG 2 imageFormat
+		ARG 3 size
+		ARG 4 targetFrameRate
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

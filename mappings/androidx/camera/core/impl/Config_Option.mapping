@@ -1,0 +1,18 @@
+CLASS afb androidx/camera/core/impl/Config_Option
+	COMMENT Taken from <a href="https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171">https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171</a>
+	FIELD a id Ljava/lang/String;
+	FIELD b token Ljava/lang/Object;
+	FIELD c valueClass Ljava/lang/Class;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)V
+		ARG 1 id
+		ARG 2 valueClass
+		ARG 3 token
+	METHOD a create (Ljava/lang/String;Ljava/lang/Class;)Lafb;
+		ARG 0 id
+		ARG 1 valueClass
+	METHOD b create (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Lafb;
+		ARG 0 id
+		ARG 1 valueClass
+		ARG 2 token
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

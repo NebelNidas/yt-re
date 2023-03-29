@@ -1,5 +1,5 @@
 CLASS elf com/facebook/litho/Component
-	COMMENT At least <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java</a>
+	COMMENT Taken from <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java</a>
 	FIELD a idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD h EMPTY_ARRAY [Lemv;
 	FIELD k id I

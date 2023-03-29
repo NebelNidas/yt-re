@@ -1,0 +1,17 @@
+CLASS adc TransformationInfo
+	FIELD a cropRect Landroid/graphics/Rect;
+	FIELD b rotationDegrees I
+	FIELD c targetRotation I
+	FIELD d hasCameraTransform Z
+	METHOD <init> (Landroid/graphics/Rect;IIZ)V
+		ARG 1 cropRect
+		ARG 2 rotationDegrees
+		ARG 3 targetRotation
+		ARG 4 hasCameraTransform
+	METHOD a create (Landroid/graphics/Rect;IIZ)Ladc;
+		ARG 0 cropRect
+		ARG 1 rotationDegrees
+		ARG 2 targetRotation
+		ARG 3 hasCameraTransform
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

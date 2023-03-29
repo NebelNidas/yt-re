@@ -1,0 +1,14 @@
+CLASS vcj EditTextExtractedData
+	FIELD a text Ljava/lang/String;
+	FIELD b fontSize F
+	FIELD c foregroundColor I
+	FIELD d backgroundColor I
+	FIELD e alignment I
+	METHOD <init> (Ljava/lang/String;FIII)V
+		ARG 1 text
+		ARG 2 fontSize
+		ARG 3 foregroundColor
+		ARG 4 backgroundColor
+		ARG 5 alignment
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

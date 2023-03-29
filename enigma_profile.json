@@ -3,11 +3,17 @@
         "name_proposal": [
             {
                 "id": "nameproposal:name_proposal"
+            },
+            {
+                "id": "ytmappings:to_string_proposer"
             }
         ],
         "jar_indexer": [
             {
                 "id": "nameproposal:jar_indexer"
+            },
+            {
+                "id": "ytmappings:to_string_index"
             }
         ]
     }

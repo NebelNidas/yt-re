@@ -1,0 +1,15 @@
+CLASS abay PlayerModuleConfigBuilder
+	FIELD a enableVss2StatsTracking Z
+	FIELD b enableLegacyHeartbeatFlow Z
+	FIELD c backgroundNotificationIconResourceId I
+	FIELD d maximumConsecutiveSkippedUnplayableVideos I
+	FIELD e flags B
+	FIELD f onesieEnabled Z
+	FIELD g referringAppProvider Luwv;
+	FIELD h enableVss2UserPresenceTracking Z
+	METHOD a build ()Labaz;
+	METHOD b enableVss2UserPresenceTracking ()V
+	METHOD c setOnesieEnabled (Z)V
+		ARG 1 onesieEnabled
+	METHOD d setReferringAppProvider (Luwv;)V
+		ARG 1 referringAppProvider

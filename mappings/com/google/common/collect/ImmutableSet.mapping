@@ -1,5 +1,5 @@
 CLASS afeg com/google/common/collect/ImmutableSet
-	COMMENT Taken from <a href="https://github.com/google/guava/blob/master/guava/src/com/google/common/collect/ImmutableSet.java">https://github.com/google/guava/blob/master/guava/src/com/google/common/collect/ImmutableSet.java</a>
+	COMMENT Taken from <a href="https://github.com/google/guava/blob/ab72eafff2c47ef02d9c1e13092b27880ed3c181/guava/src/com/google/common/collect/ImmutableSet.java">https://github.com/google/guava/blob/ab72eafff2c47ef02d9c1e13092b27880ed3c181/guava/src/com/google/common/collect/ImmutableSet.java</a>
 	COMMENT Apparently also merged with {@code ImmutableSet.CachingAsList}
 	FIELD a asList Lafdc;
 	METHOD equals (Ljava/lang/Object;)Z

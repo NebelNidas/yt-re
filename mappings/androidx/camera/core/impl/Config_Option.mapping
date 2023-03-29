@@ -1,5 +1,5 @@
 CLASS aev androidx/camera/core/impl/Config_Option
-	COMMENT Taken from <a href="https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171">https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171</a>
+	COMMENT Taken from <a href="https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171">https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171</a>
 	FIELD a id Ljava/lang/String;
 	FIELD b token Ljava/lang/Object;
 	FIELD c valueClass Ljava/lang/Class;

@@ -4,8 +4,8 @@ import cuchaz.enigma.api.EnigmaPlugin;
 import cuchaz.enigma.api.EnigmaPluginContext;
 import cuchaz.enigma.api.service.JarIndexerService;
 import cuchaz.enigma.api.service.NameProposalService;
-import yt_mappings_plugin.index.ToStringIndex;
-import yt_mappings_plugin.proposal.ToStringProposer;
+import yt_mappings_plugin.tostring.ToStringIndex;
+import yt_mappings_plugin.tostring.ToStringProposer;
 
 public class YtMappingsPlugin implements EnigmaPlugin {
     public static final String SERVICE_ID_PREFIX = "ytmappings:";

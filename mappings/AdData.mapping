@@ -1,0 +1,12 @@
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/d AdData
+	FIELD a isSkippable Z
+	FIELD b hideSkipButton Z
+	FIELD c skipEnabled Z
+	FIELD d showAdChoices Z
+	FIELD e extraBottomMarginPx I
+	FIELD f skipTimeRemainingMillis I
+	FIELD g timeRemainingMillis I
+	FIELD h currentAdIndex I
+	FIELD i totalAds I
+	FIELD j adTitle Ljava/lang/CharSequence;
+	FIELD k channelThumbnail Landroid/graphics/Bitmap;

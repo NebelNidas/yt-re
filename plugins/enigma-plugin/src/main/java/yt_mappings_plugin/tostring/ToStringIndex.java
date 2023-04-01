@@ -123,7 +123,6 @@ public class ToStringIndex implements JarIndexerService, Opcodes {
                 String mappedName = lastString.substring(lastCharIndex, lastString.length() - 1);
                 FieldEntry entry = FieldEntry.parse(c.name, field.getName(), field.getDesc());
 
-                System.out.println("Mapped " + entry + " -> " + mappedName);
                 foundFieldNames.put(entry, mappedName);
                 foundField = true;
             }

@@ -1,27 +1,40 @@
 *.DS_Store
 *.cache/
-/.gradle/
-/.jadx/
-/build/
-/enigma-plugin/build/
-/out/
-/namedSrc/
 /*.jar
 /*.apk
+/.jadx/
+/namedSrc/
 /yt-mappings*.tiny
 
-# idea
+# Gradle
+.gradle/
+build/
+classes/
+out/
+
+# IntelliJ Idea
 .idea/
 *.iml
-*.iws
 *.ipr
+*.iws
 
-# eclipse
-.eclipse
-.classpath
-.project
-.settings/
-
-# vscode
-.vscode/
+# Eclipse
+*.launch
+.eclipse/
 bin/
+
+# VS Code
+.settings/
+.vscode/
+
+# Fleet
+.fleet/
+
+# MacOS
+*.DS_Store
+
+# Java
+*.hprof
+*.jfr
+hs_err_*.log
+replay_*.log

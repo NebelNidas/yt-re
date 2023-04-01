@@ -1,5 +1,5 @@
 /**
- * `tiktok` is an internal Google library used by many of their apps.
+ * TikTok is an internal Google library used by many of their apps.
  * It was written and named like that before the social network existed
  * and is absolutely unrelated.
  *

@@ -95,7 +95,10 @@ tasks.withType(JavaCompile).configureEach {
 
 sourceSets {
 	constants
-	packageDocs // package info files
+	packageDocs { // package info files
+        java.srcDirs = ['packageDocs']
+	}
+
 }
 
 spotless {

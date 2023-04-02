@@ -66,7 +66,7 @@ Use `with` for methods that return a copy of an object with a different value fo
 
 Use `create` for methods that create a new instance of some object.
 Use `getOrCreate` for methods that create a new instance only if one does not already exist.
-Don't use `getOrCreate` for lazy initialization, though. 
+Don't use `getOrCreate` for lazy initialization, though.
 
 
 ### Serialization
@@ -120,7 +120,7 @@ Note that `.` from abbreviations, such as `i.e.`, count.
 
 
 ### Packages
-Since the `.enigma` format does not support `package-info.java` file creation, YT-Mappings keeps these files in `src/packageDocs/java` to supply javadocs for packages.
+Since the `.enigma` format does not support `package-info.java` file creation, YT-Mappings keeps these files in `packageDocs/java` to supply javadocs for packages.
 Their only purpose is to host Javadoc for YT-Mappings packages, which are currently not exported to mappings, and their Javadocs should follow the conventions just like enigma-based Javadocs.
 
 

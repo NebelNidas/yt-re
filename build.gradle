@@ -71,7 +71,7 @@ configurations {
 dependencies {
 	enigmaRuntime "cuchaz:enigma-swing:${project.enigma_version}"
 	enigmaRuntime "net.fabricmc:name-proposal:${project.name_proposal_version}"
-	enigmaRuntime project(':enigma-plugin')
+	enigmaRuntime project(':plugins:enigma-plugin')
 	jadxRuntime ("com.github.NebelNidas.jadx:jadx-gui:${project.jadx_version}:all") {
 		transitive = false
 	}

@@ -13,6 +13,7 @@ buildscript {
 			url 'https://jitpack.io'
 		}
 		mavenCentral()
+		google()
 		mavenLocal()
 	}
 	dependencies {

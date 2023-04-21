@@ -1,9 +1,9 @@
-CLASS ahvu Schema
+CLASS ahsp Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;[BIILahrw;)V
+	METHOD h mergeFrom (Ljava/lang/Object;[BIILahor;)V
 	METHOD i equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD j isInitialized (Ljava/lang/Object;)Z
-	METHOD k mergeFrom (Ljava/lang/Object;Lahso;Lcom/google/protobuf/ExtensionRegistryLite;)V
-	METHOD l writeTo (Ljava/lang/Object;Lahfd;)V
+	METHOD k mergeFrom (Ljava/lang/Object;Lahpj;Lcom/google/protobuf/ExtensionRegistryLite;)V
+	METHOD l writeTo (Ljava/lang/Object;Lahbv;)V

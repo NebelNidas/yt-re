@@ -1,2 +1,2 @@
 CLASS eqx
-	FIELD b stacktrace Ljava/lang/Throwable;
+	METHOD b markerPoint (Ljava/lang/String;)V

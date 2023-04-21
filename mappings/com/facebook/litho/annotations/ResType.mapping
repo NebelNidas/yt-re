@@ -1,14 +1,14 @@
-CLASS eso com/facebook/litho/annotations/ResType
-	FIELD a NONE Leso;
-	FIELD b STRING Leso;
-	FIELD c STRING_ARRAY Leso;
-	FIELD d INT Leso;
-	FIELD e INT_ARRAY Leso;
-	FIELD f BOOL Leso;
-	FIELD g COLOR Leso;
-	FIELD h DIMEN_SIZE Leso;
-	FIELD i DIMEN_OFFSET Leso;
-	FIELD j DIMEN_TEXT Leso;
-	FIELD k FLOAT Leso;
-	FIELD l DRAWABLE Leso;
-	FIELD m $VALUES [Leso;
+CLASS etf com/facebook/litho/annotations/ResType
+	FIELD a NONE Letf;
+	FIELD b STRING Letf;
+	FIELD c STRING_ARRAY Letf;
+	FIELD d INT Letf;
+	FIELD e INT_ARRAY Letf;
+	FIELD f BOOL Letf;
+	FIELD g COLOR Letf;
+	FIELD h DIMEN_SIZE Letf;
+	FIELD i DIMEN_OFFSET Letf;
+	FIELD j DIMEN_TEXT Letf;
+	FIELD k FLOAT Letf;
+	FIELD l DRAWABLE Letf;
+	FIELD m $VALUES [Letf;

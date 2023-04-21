@@ -1,0 +1,2 @@
+CLASS aunp
+	METHOD a get ()Ljava/lang/Object;

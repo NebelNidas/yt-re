@@ -1,2 +1,2 @@
-CLASS fan MountItem
+CLASS fbe MountItem
 	FIELD a content Ljava/lang/Object;

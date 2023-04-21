@@ -1,2 +1,0 @@
-CLASS acnq
-	METHOD b getDisplayString (Lakpp;)Landroid/text/Spanned;

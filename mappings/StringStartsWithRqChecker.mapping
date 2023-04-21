@@ -1,3 +1,3 @@
-CLASS yth StringStartsWithRqChecker
+CLASS ywf StringStartsWithRqChecker
 	FIELD b rqPattern Ljava/util/regex/Pattern;
 	METHOD a startsWithRq (Ljava/lang/String;)Z

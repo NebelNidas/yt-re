@@ -1,4 +1,4 @@
-CLASS ahd SurfaceConfig
+CLASS ahb SurfaceConfig
 	FIELD a configType I
 	FIELD b configSize I
 	METHOD <init> (II)V
@@ -6,10 +6,10 @@ CLASS ahd SurfaceConfig
 		ARG 2 configSize
 	METHOD a convertVideoFormat (I)I
 		ARG 0 format
-	METHOD b create (II)Lahd;
+	METHOD b create (II)Lahb;
 		ARG 0 configType
 		ARG 1 configSize
-	METHOD c (ILandroid/util/Size;Lahe;)Lahd;
+	METHOD c (ILandroid/util/Size;Lahc;)Lahb;
 		ARG 2 definition
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

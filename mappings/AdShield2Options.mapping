@@ -1,4 +1,4 @@
-CLASS nti AdShield2Options
+CLASS nuy AdShield2Options
 	FIELD a clientVersion Ljava/lang/String;
 	FIELD b shouldGetAdvertisingId Z
 	FIELD c isGooglePlayServicesAvailable Z

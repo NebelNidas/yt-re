@@ -1,0 +1,2 @@
+CLASS equ
+	FIELD l handler Leov;

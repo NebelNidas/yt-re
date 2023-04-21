@@ -1,14 +1,14 @@
-CLASS tim ContentVideoIdEndedTrigger
+CLASS tky ContentVideoIdEndedTrigger
 	FIELD a contentVideoId Ljava/lang/String;
 	FIELD b shouldPreventActivationOnTriggerRegistration Z
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Laihz;
-	METHOD <init> (Ljava/lang/String;Laihz;Ljava/lang/String;Z)V
+	FIELD d triggerType Laieu;
+	METHOD <init> (Ljava/lang/String;Laieu;Ljava/lang/String;Z)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 contentVideoId
 		ARG 4 shouldPreventActivationOnTriggerRegistration
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;Z)Ltim;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;Z)Ltky;
 		ARG 0 triggerId
 		ARG 1 contentVideoId
 		ARG 2 shouldPreventActivationOnTriggerRegistration

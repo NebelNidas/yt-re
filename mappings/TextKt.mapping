@@ -1,5 +1,5 @@
-CLASS ezf TextKt
-	FIELD a text Lezh;
+CLASS ezw TextKt
+	FIELD a text Lezy;
 	FIELD d required Ljava/util/BitSet;
-	METHOD b getText ()Lezh;
+	METHOD b getText ()Lezy;
 	METHOD d setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

@@ -1,4 +1,4 @@
-CLASS eoc com/facebook/litho/EventDispatcher
-	METHOD x dispatchOnEvent (Leoe;Ljava/lang/Object;)Ljava/lang/Object;
+CLASS eot com/facebook/litho/EventDispatcher
+	METHOD x dispatchOnEvent (Leov;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 eventHandler
 		ARG 2 eventState

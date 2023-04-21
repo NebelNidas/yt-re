@@ -1,5 +1,5 @@
-CLASS yop MdxPlaybackDescriptor
-	FIELD a EMPTY Lyop;
+CLASS yro MdxPlaybackDescriptor
+	FIELD a EMPTY Lyro;
 	FIELD b videoId Ljava/lang/String;
 	FIELD c videoEntry Lj$/util/Optional;
 	FIELD e currentPositionMillis J
@@ -10,10 +10,10 @@ CLASS yop MdxPlaybackDescriptor
 	FIELD j playerParams Ljava/lang/String;
 	FIELD k forceReloadPlayback Z
 	FIELD l clickTrackingParams [B
-	FIELD m queueContextParams Lahsi;
+	FIELD m queueContextParams Lahpd;
 	FIELD n csn Ljava/lang/String;
-	FIELD o videoEntries Laftl;
-	METHOD <init> (Ljava/lang/String;Lj$/util/Optional;JLcom/google/android/libraries/youtube/player/subtitles/model/SubtitleTrack;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Z[BLahsi;Ljava/lang/String;Laftl;)V
+	FIELD o videoEntries Lafxg;
+	METHOD <init> (Ljava/lang/String;Lj$/util/Optional;JLcom/google/android/libraries/youtube/player/subtitles/model/SubtitleTrack;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Z[BLahpd;Ljava/lang/String;Lafxg;)V
 		ARG 1 videoId
 		ARG 2 videoEntry
 		ARG 3 currentPositionMillis
@@ -27,7 +27,7 @@ CLASS yop MdxPlaybackDescriptor
 		ARG 12 queueContextParams
 		ARG 13 csn
 		ARG 14 videoEntries
-	METHOD b builder ()Lyoo;
+	METHOD b builder ()Lyrn;
 	METHOD d hasPlaylistId ()Z
 	METHOD e hasVideoId ()Z
 	METHOD equals (Ljava/lang/Object;)Z
@@ -35,4 +35,4 @@ CLASS yop MdxPlaybackDescriptor
 	METHOD f hasVideoOrPlaylistId ()Z
 	METHOD h isOfVideo (Ljava/lang/String;)Z
 		ARG 1 otherVideoId
-	METHOD i emptyBuilder ()Lyoo;
+	METHOD i emptyBuilder ()Lyrn;

@@ -1,4 +1,4 @@
-CLASS qpe ChimeTaskData
+CLASS qra ChimeTaskData
 	FIELD a id Ljava/lang/Long;
 	FIELD b payload [B
 	FIELD c jobType Ljava/lang/Integer;

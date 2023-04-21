@@ -1,0 +1,3 @@
+CLASS epi
+	METHOD a getLayoutOutput (Lfbe;)Lepi;
+	METHOD c isAccessible ()Z

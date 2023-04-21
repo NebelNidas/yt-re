@@ -1,8 +1,8 @@
-CLASS tiz LiveStreamBreakEndedTrigger
+CLASS tln LiveStreamBreakEndedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Laihz;
+	FIELD b triggerType Laieu;
 	FIELD c cuePointIdentifier Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Laihz;Ljava/lang/String;)V
+	METHOD <init> (Ljava/lang/String;Laieu;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 cuePointIdentifier

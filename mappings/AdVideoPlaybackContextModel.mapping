@@ -1,7 +1,7 @@
-CLASS tgc AdVideoPlaybackContextModel
+CLASS tio AdVideoPlaybackContextModel
 	FIELD a adVideoCpn Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 1 adVideoCpn
-	METHOD a create ()Ltgc;
+	METHOD a create ()Ltio;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

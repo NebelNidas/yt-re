@@ -1,14 +1,14 @@
-CLASS emp com/facebook/litho/Component
+CLASS eng com/facebook/litho/Component
 	COMMENT Taken from <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-core/src/main/java/com/facebook/litho/Component.java</a>
 	FIELD b idGenerator Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD h EMPTY_ARRAY [Lenx;
+	FIELD h EMPTY_ARRAY [Leoo;
 	FIELD j id I
 	METHOD A onCreateMountContent (Landroid/content/Context;)Ljava/lang/Object;
-	METHOD F measure (Lemt;IILeqp;)V
-	METHOD K onMount (Lemt;Ljava/lang/Object;Leop;)V
-	METHOD ag onMeasure (Lemt;Leoz;IILeqp;Leop;)V
-	METHOD g isEquivalentTo (Lemp;)Z
+	METHOD F measure (Lenk;IILerg;)V
+	METHOD K onMount (Lenk;Ljava/lang/Object;Lepg;)V
+	METHOD ag onMeasure (Lenk;Lepq;IILerg;Lepg;)V
+	METHOD g isEquivalentTo (Leng;)Z
 		ARG 1 o
 	METHOD h poolSize ()I
-	METHOD l makeShallowCopy ()Lemp;
-	METHOD y dispatchOnEventImpl (Leoe;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD l makeShallowCopy ()Leng;
+	METHOD y dispatchOnEventImpl (Leov;Ljava/lang/Object;)Ljava/lang/Object;

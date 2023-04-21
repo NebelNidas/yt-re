@@ -1,4 +1,4 @@
-CLASS tmu AdProgressTextState
+CLASS tph AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Ltfx;
+	FIELD c adCountMetadata Ltij;

@@ -1,4 +1,4 @@
-CLASS fxc SectionReloadEvent
-	METHOD a getReloadContinuationData ()Laota;
+CLASS fyd SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laopy;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Laota;)Lfxc;
+	METHOD c of (Ljava/lang/String;Laopy;)Lfyd;

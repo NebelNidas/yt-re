@@ -1,4 +1,4 @@
-CLASS afem SyncConfig
+CLASS afij SyncConfig
 	FIELD a minSyncInterval J
 	FIELD b timeout J
 	FIELD c constraints Ljava/util/Map;
@@ -6,6 +6,6 @@ CLASS afem SyncConfig
 		ARG 1 minSyncInterval
 		ARG 3 timeout
 		ARG 5 constraints
-	METHOD a builder ()Lafel;
+	METHOD a builder ()Lafii;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

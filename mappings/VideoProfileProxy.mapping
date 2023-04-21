@@ -1,4 +1,4 @@
-CLASS afm VideoProfileProxy
+CLASS afk VideoProfileProxy
 	FIELD a mediaType Ljava/lang/String;
 	FIELD b bitrate I
 	FIELD c frameRate I
@@ -20,7 +20,7 @@ CLASS afm VideoProfileProxy
 		ARG 8 bitDepth
 		ARG 9 chromaSubsampling
 		ARG 10 hdrFormat
-	METHOD a create (ILjava/lang/String;IIIIIIII)Lafm;
+	METHOD a create (ILjava/lang/String;IIIIIIII)Lafk;
 		ARG 0 codec
 		ARG 1 mediaType
 		ARG 2 bitrate

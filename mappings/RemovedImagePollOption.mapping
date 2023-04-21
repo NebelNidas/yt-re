@@ -1,7 +1,7 @@
-CLASS tua RemovedImagePollOption
-	FIELD a imagePollOption Lttu;
+CLASS twq RemovedImagePollOption
+	FIELD a imagePollOption Ltwk;
 	FIELD b index I
-	METHOD <init> (Lttu;I)V
+	METHOD <init> (Ltwk;I)V
 		ARG 1 imagePollOption
 		ARG 2 index
 	METHOD equals (Ljava/lang/Object;)Z

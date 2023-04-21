@@ -1,0 +1,6 @@
+CLASS adlg
+	METHOD C assertTrue (ZLjava/lang/String;)V
+	METHOD D assertOnMainThread (Ljava/lang/String;)V
+		ARG 0 methodName
+	METHOD E assertNotNull (Ljava/lang/Object;Ljava/lang/String;)V
+	METHOD F getCompomentName (Landroid/app/Activity;)Ljava/lang/String;

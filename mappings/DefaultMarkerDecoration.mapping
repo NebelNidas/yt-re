@@ -1,7 +1,7 @@
-CLASS abok DefaultMarkerDecoration
+CLASS abrm DefaultMarkerDecoration
 	FIELD a text Ljava/lang/CharSequence;
-	FIELD b icon Lakyu;
-	METHOD <init> (Ljava/lang/CharSequence;Lakyu;)V
+	FIELD b icon Lakvr;
+	METHOD <init> (Ljava/lang/CharSequence;Lakvr;)V
 		ARG 1 text
 		ARG 2 icon
 	METHOD equals (Ljava/lang/Object;)Z

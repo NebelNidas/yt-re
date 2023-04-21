@@ -1,2 +1,2 @@
-CLASS eot LayoutState
+CLASS epk LayoutState
 	FIELD f mountableOutputs Ljava/util/List;

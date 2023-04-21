@@ -1,21 +1,21 @@
-CLASS yoo MdxPlaybackDescriptorBuilder
+CLASS yrn MdxPlaybackDescriptorBuilder
 	FIELD a videoEntry Lj$/util/Optional;
 	FIELD b subtitleTrack Lcom/google/android/libraries/youtube/player/subtitles/model/SubtitleTrack;
 	FIELD c watchParams Ljava/lang/String;
 	FIELD d playerParams Ljava/lang/String;
 	FIELD e clickTrackingParams [B
-	FIELD f queueContextParams Lahsi;
+	FIELD f queueContextParams Lahpd;
 	FIELD g csn Ljava/lang/String;
 	FIELD h videoId Ljava/lang/String;
 	FIELD i currentPositionMillis J
 	FIELD j playlistId Ljava/lang/String;
 	FIELD k playlistIndex I
 	FIELD l forceReloadPlayback Z
-	FIELD m videoEntries Laftl;
+	FIELD m videoEntries Lafxg;
 	FIELD n flags B
-	METHOD <init> (Lyop;)V
+	METHOD <init> (Lyro;)V
 		ARG 1 from
-	METHOD a build ()Lyop;
+	METHOD a build ()Lyro;
 	METHOD b setCurrentPositionMillis (J)V
 		ARG 1 currentPositionMillis
 	METHOD c setForceReloadPlayback (Z)V
@@ -24,7 +24,7 @@ CLASS yoo MdxPlaybackDescriptorBuilder
 		ARG 1 playlistId
 	METHOD e setPlaylistIndex (I)V
 		ARG 1 playlistIndex
-	METHOD f setVideoEntries (Laftl;)V
+	METHOD f setVideoEntries (Lafxg;)V
 		ARG 1 videoEntries
 	METHOD g setVideoId (Ljava/lang/String;)V
 		ARG 1 videoId

@@ -1,11 +1,11 @@
-CLASS ykt MdxUserContext
+CLASS ynr MdxUserContext
 	FIELD a mdxConnectionCountDay I
 	FIELD b mdxConnectionCountWeek I
 	FIELD c mdxConnectionCountMonth I
 	FIELD d castAvailableSessionCountDay I
 	FIELD e castAvailableSessionCountWeek I
 	FIELD f castAvailableSessionCountMonth I
-	FIELD g pageType Lyks;
+	FIELD g pageType Lynq;
 	FIELD h currentVideoDuration I
 	FIELD i fullScreen Z
 	FIELD j hd Z
@@ -17,7 +17,7 @@ CLASS ykt MdxUserContext
 	FIELD p playlistId Ljava/lang/String;
 	FIELD q currentTime J
 	FIELD r casterCategory I
-	METHOD <init> (IIIIIILyks;IZZZZZILjava/lang/String;Ljava/lang/String;JI)V
+	METHOD <init> (IIIIIILynq;IZZZZZILjava/lang/String;Ljava/lang/String;JI)V
 		ARG 1 mdxConnectionCountDay
 		ARG 2 mdxConnectionCountWeek
 		ARG 3 mdxConnectionCountMonth
@@ -36,7 +36,7 @@ CLASS ykt MdxUserContext
 		ARG 16 playlistId
 		ARG 17 currentTime
 		ARG 19 casterCategory
-	METHOD a defaultBuilder ()Lykr;
-	METHOD b emptyBuilder ()Lykr;
+	METHOD a defaultBuilder ()Lynp;
+	METHOD b emptyBuilder ()Lynp;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

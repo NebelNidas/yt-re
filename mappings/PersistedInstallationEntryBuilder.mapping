@@ -1,4 +1,4 @@
-CLASS ahdm PersistedInstallationEntryBuilder
+CLASS ahaf PersistedInstallationEntryBuilder
 	FIELD a firebaseInstallationId Ljava/lang/String;
 	FIELD b authToken Ljava/lang/String;
 	FIELD c refreshToken Ljava/lang/String;
@@ -7,9 +7,9 @@ CLASS ahdm PersistedInstallationEntryBuilder
 	FIELD f tokenCreationEpochInSecs J
 	FIELD g flags B
 	FIELD h registrationStatus I
-	METHOD <init> (Lahdn;)V
+	METHOD <init> (Lahag;)V
 		ARG 1 source
-	METHOD a build ()Lahdn;
+	METHOD a build ()Lahag;
 	METHOD b setExpiresInSecs (J)V
 		ARG 1 expiresInSecs
 	METHOD c setRegistrationStatus (I)V

@@ -1,4 +1,4 @@
-CLASS pbf ThreadIdentifier
+CLASS pdc ThreadIdentifier
 	FIELD a tid I
 	FIELD b id J
 	FIELD c name Ljava/lang/String;

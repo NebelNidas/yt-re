@@ -1,4 +1,4 @@
-CLASS alb AudioSpec
+CLASS alc AudioSpec
 	FIELD a ALL_BITRATES Landroid/util/Range;
 	FIELD b ALL_SAMPLE_RATES Landroid/util/Range;
 	FIELD c bitrate Landroid/util/Range;
@@ -10,6 +10,6 @@ CLASS alb AudioSpec
 		ARG 1 bitrate
 		ARG 2 sampleRate
 		ARG 3 channelCount
-	METHOD a builder ()Lala;
+	METHOD a builder ()Lalb;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

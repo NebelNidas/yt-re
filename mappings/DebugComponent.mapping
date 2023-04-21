@@ -1,4 +1,4 @@
-CLASS enh DebugComponent
-	METHOD c getComponent ()Lemp;
-	METHOD h getLithoView ()Lepn;
-	METHOD o getLayoutNode ()Lgtt;
+CLASS eny DebugComponent
+	METHOD c getComponent ()Leng;
+	METHOD h getLithoView ()Leqe;
+	METHOD o getLayoutNode ()Lguz;

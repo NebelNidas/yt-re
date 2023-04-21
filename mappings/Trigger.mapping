@@ -1,4 +1,4 @@
-CLASS tky Trigger
-	METHOD a getTriggerType ()Laihz;
+CLASS tnn Trigger
+	METHOD a getTriggerType ()Laieu;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

@@ -1,3 +1,3 @@
-CLASS tni AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lwqv;
+CLASS tpv AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lxdq;
 	FIELD c title Ljava/lang/String;

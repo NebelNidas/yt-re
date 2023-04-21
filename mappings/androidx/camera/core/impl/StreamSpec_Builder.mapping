@@ -1,7 +1,7 @@
-CLASS ahb androidx/camera/core/impl/StreamSpec_Builder
+CLASS agz androidx/camera/core/impl/StreamSpec_Builder
 	COMMENT Taken from <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-core/src/main/java/androidx/camera/core/impl/StreamSpec.java;l=69;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b">https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-core/src/main/java/androidx/camera/core/impl/StreamSpec.java;l=69;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b</a>
 	FIELD a resolution Ljava/lang/Object;
 	FIELD b expectedFrameRateRange Ljava/lang/Object;
-	METHOD a build ()Lahc;
+	METHOD a build ()Laha;
 	METHOD b setExpectedFrameRateRange (Landroid/util/Range;)V
 		ARG 1 expectedFrameRateRange

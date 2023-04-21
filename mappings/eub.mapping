@@ -1,2 +1,0 @@
-CLASS eub
-	METHOD o newEventHandler (Ljava/lang/Class;Leua;I[Ljava/lang/Object;)Leoe;

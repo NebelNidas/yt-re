@@ -1,4 +1,4 @@
-CLASS aaqz OfflineHash
+CLASS aaub OfflineHash
 	METHOD a getBlockIndex ()I
 	METHOD b getItag ()I
 	METHOD c getMerkeLevel ()I

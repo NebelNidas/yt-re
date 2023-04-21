@@ -1,2 +1,2 @@
-CLASS tit LayoutIdTrigger
+CLASS tlg LayoutIdTrigger
 	METHOD e getLayoutId ()Ljava/lang/String;

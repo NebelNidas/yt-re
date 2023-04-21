@@ -1,2 +1,0 @@
-CLASS aciv
-	METHOD M setPlaybackSpeed (F)V

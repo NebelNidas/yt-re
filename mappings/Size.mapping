@@ -1,4 +1,4 @@
-CLASS eqp Size
+CLASS erg Size
 	FIELD a width I
 	FIELD b height I
 	METHOD <init> (II)V

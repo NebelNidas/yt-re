@@ -1,3 +1,0 @@
-CLASS raw
-	METHOD v buildGaiaAccountData (Ljava/lang/Object;)Lqxh;
-		ARG 0 owner

@@ -1,5 +1,5 @@
-CLASS szu AdPlayerBytesMetadata
+CLASS tcf AdPlayerBytesMetadata
 	FIELD a managerLayer I
-	FIELD b clientMetadata Ltgh;
-	FIELD c playerBytesSlot Ltkf;
-	FIELD d playerBytesLayout Ltis;
+	FIELD b clientMetadata Ltit;
+	FIELD c playerBytesSlot Ltmu;
+	FIELD d playerBytesLayout Ltlf;

@@ -1,2 +1,2 @@
-CLASS esn com/facebook/litho/annotations/Prop
-	METHOD a resType ()Leso;
+CLASS ete com/facebook/litho/annotations/Prop
+	METHOD a resType ()Letf;

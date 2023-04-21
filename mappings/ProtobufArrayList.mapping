@@ -1,2 +1,2 @@
-CLASS ahvo ProtobufArrayList
-	FIELD b emptyList Lahvo;
+CLASS ahsj ProtobufArrayList
+	FIELD b emptyList Lahsj;

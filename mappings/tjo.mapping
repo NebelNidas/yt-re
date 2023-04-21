@@ -1,2 +1,0 @@
-CLASS tjo
-	METHOD e getMediaCpn ()Ljava/lang/String;

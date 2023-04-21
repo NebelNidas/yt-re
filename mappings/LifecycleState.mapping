@@ -1,2 +1,2 @@
-CLASS bir LifecycleState
-	METHOD a isEquallyOrFurtherAdvancedThan (Lbir;)Z
+CLASS bis LifecycleState
+	METHOD a isEquallyOrFurtherAdvancedThan (Lbis;)Z

@@ -1,4 +1,4 @@
-CLASS emm Component3
+CLASS end Component3
 	METHOD k checkArgs (ILjava/util/BitSet;[Ljava/lang/String;)V
 		ARG 1 required
 		ARG 2 requiredPropsNames

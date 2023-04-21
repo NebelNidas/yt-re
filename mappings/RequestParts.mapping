@@ -1,4 +1,4 @@
-CLASS uni RequestParts
+CLASS upv RequestParts
 	FIELD a headers Ljava/util/Map;
 	FIELD b body [B
 	METHOD <init> (Ljava/util/Map;[B)V

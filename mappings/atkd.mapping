@@ -1,0 +1,4 @@
+CLASS atkd
+	METHOD a (Latmm;Latmm;Latmh;Latmh;Latmh;Latmh;)Latkd;
+		ARG 3 onComplete
+		ARG 6 onDispose

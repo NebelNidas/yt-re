@@ -1,5 +1,5 @@
-CLASS ahuf FreezableList
+CLASS ahra FreezableList
 	METHOD b freeze ()V
 	METHOD c isMutable ()Z
-	METHOD e mutableCopyWithCapacity (I)Lahuf;
+	METHOD e mutableCopyWithCapacity (I)Lahra;
 		ARG 1 capacity

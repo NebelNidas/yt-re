@@ -1,4 +1,4 @@
-CLASS ahe SurfaceSizeDefinition
+CLASS ahc SurfaceSizeDefinition
 	FIELD a analysisSize Landroid/util/Size;
 	FIELD c previewSize Landroid/util/Size;
 	FIELD e recordSize Landroid/util/Size;
@@ -6,7 +6,7 @@ CLASS ahe SurfaceSizeDefinition
 		ARG 1 analysisSize
 		ARG 3 previewSize
 		ARG 5 recordSize
-	METHOD a create (Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;)Lahe;
+	METHOD a create (Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;Landroid/util/Size;)Lahc;
 		ARG 0 analysisSize
 		ARG 1 previewSize
 		ARG 2 recordSize

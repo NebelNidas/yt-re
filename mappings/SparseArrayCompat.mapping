@@ -1,4 +1,4 @@
-CLASS apj SparseArrayCompat
+CLASS apk SparseArrayCompat
 	FIELD a garbage Z
 	FIELD b keys [I
 	FIELD c values [Ljava/lang/Object;

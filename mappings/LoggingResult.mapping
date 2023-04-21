@@ -1,10 +1,10 @@
-CLASS mas LoggingResult
-	FIELD a loggingAction Lmap;
-	FIELD b inputStates Lmar;
-	METHOD <init> (Lmap;Lmar;)V
+CLASS mcg LoggingResult
+	FIELD a loggingAction Lmcd;
+	FIELD b inputStates Lmcf;
+	METHOD <init> (Lmcd;Lmcf;)V
 		ARG 1 loggingAction
 		ARG 2 inputStates
-	METHOD a create (Lmap;Lmar;)Lmas;
+	METHOD a create (Lmcd;Lmcf;)Lmcg;
 		ARG 0 loggingAction
 		ARG 1 inputStates
 	METHOD equals (Ljava/lang/Object;)Z

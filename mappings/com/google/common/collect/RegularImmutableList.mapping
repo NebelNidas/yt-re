@@ -1,5 +1,5 @@
-CLASS agbd com/google/common/collect/RegularImmutableList
-	FIELD a EMPTY Lafxg;
+CLASS agdr com/google/common/collect/RegularImmutableList
+	FIELD a EMPTY Lafzu;
 	FIELD b array [Ljava/lang/Object;
 	FIELD c size I
 	METHOD <init> ([Ljava/lang/Object;I)V

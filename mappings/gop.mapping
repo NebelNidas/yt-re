@@ -1,0 +1,2 @@
+CLASS gop
+	FIELD a menuItems Ljava/util/Map;

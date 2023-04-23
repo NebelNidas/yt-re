@@ -1,0 +1,2 @@
+CLASS vba
+	METHOD c stringToNonNull (Ljava/lang/CharSequence;)Ljava/lang/CharSequence;

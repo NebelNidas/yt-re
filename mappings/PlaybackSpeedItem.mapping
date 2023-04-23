@@ -1,2 +1,2 @@
-CLASS lqh PlaybackSpeedItem
+CLASS lrf PlaybackSpeedItem
 	FIELD a speedMultiplier F

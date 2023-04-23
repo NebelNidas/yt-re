@@ -1,4 +1,4 @@
-CLASS qra ChimeTaskData
+CLASS qru ChimeTaskData
 	FIELD a id Ljava/lang/Long;
 	FIELD b payload [B
 	FIELD c jobType Ljava/lang/Integer;
@@ -6,5 +6,3 @@ CLASS qra ChimeTaskData
 		ARG 1 id
 		ARG 2 jobType
 		ARG 3 payload
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

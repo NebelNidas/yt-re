@@ -1,2 +1,0 @@
-CLASS epc
-	METHOD a collectChildren (Ljava/util/List;)V

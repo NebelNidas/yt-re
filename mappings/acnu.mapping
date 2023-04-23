@@ -1,0 +1,2 @@
+CLASS acnu
+	METHOD M setPlaybackSpeed (F)V

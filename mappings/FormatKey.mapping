@@ -1,4 +1,4 @@
-CLASS ziq FormatKey
+CLASS zkp FormatKey
 	FIELD a videoId Ljava/lang/String;
 	FIELD b itag I
 	FIELD c xtags Ljava/lang/String;
@@ -6,7 +6,7 @@ CLASS ziq FormatKey
 		ARG 1 videoId
 		ARG 2 itag
 		ARG 3 xtags
-	METHOD a create (Ljava/lang/String;ILjava/lang/String;)Lziq;
+	METHOD a create (Ljava/lang/String;ILjava/lang/String;)Lzkp;
 		ARG 0 videoId
 		ARG 1 itag
 		ARG 2 xtags

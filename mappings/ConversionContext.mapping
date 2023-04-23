@@ -1,10 +1,10 @@
-CLASS pyc ConversionContext
-	FIELD A horizontalCollectionTouchInterceptor Lfgp;
+CLASS pyx ConversionContext
+	FIELD A horizontalCollectionTouchInterceptor Lfgm;
 	FIELD b container Landroid/view/View;
 	FIELD c widthConstraint Ljava/lang/Integer;
 	FIELD d heightConstraint Ljava/lang/Integer;
-	FIELD e templateLoggerFactory Lpzz;
-	FIELD f rootDisposableContainer Latmu;
+	FIELD e templateLoggerFactory Lqau;
+	FIELD f rootDisposableContainer Latrt;
 	FIELD g imagePrefetchRangeRatio F
 	FIELD h horizontalCollectionSwipeProtector Lnz;
 	FIELD i useIncrementalMountOnChildrenInternal Z
@@ -13,12 +13,12 @@ CLASS pyc ConversionContext
 	FIELD l identifierProperty Ljava/lang/String;
 	FIELD m loggingNodeInternal Ljava/lang/ref/WeakReference;
 	FIELD n parentLoggingNodeInternal Ljava/lang/ref/WeakReference;
-	FIELD o globalCommandDataDecoratorsInternal Lafxg;
-	FIELD p decoratingElementBuilder Lpyl;
+	FIELD o globalCommandDataDecoratorsInternal Lafzu;
+	FIELD p decoratingElementBuilder Lpzg;
 	FIELD q debugId Ljava/lang/String;
 	FIELD r treeDebugId Ljava/lang/String;
 	FIELD s shouldAddDebuggerViewTags Z
-	FIELD t elementsConfig Lpzb;
+	FIELD t elementsConfig Lpzw;
 	FIELD u couldOverlapWithElementsConfig Z
 	FIELD w scrollStrategyListenerHolder Ljava/util/concurrent/atomic/AtomicReference;
-	FIELD z elementsInteractionLoggerInternal Lacvv;
+	FIELD z elementsInteractionLoggerInternal Lacxt;

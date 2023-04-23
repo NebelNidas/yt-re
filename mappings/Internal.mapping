@@ -1,7 +1,6 @@
-CLASS ahrb Internal
+CLASS ahtr Internal
 	FIELD a UTF_8 Ljava/nio/charset/Charset;
 	METHOD a hashBoolean (Z)I
 	METHOD b hashLong (J)I
 	METHOD c partialHash (I[BII)I
 	METHOD d toStringUtf8 ([B)Ljava/lang/String;
-	METHOD f checkNotNull (Ljava/lang/Object;Ljava/lang/String;)V

@@ -1,2 +1,2 @@
-CLASS emu util/AccessibilityUtil
+CLASS emr util/AccessibilityUtil
 	METHOD b isAccessibilityEnabled (Landroid/content/Context;)Z

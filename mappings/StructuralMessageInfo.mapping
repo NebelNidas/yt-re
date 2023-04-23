@@ -1,2 +1,2 @@
-CLASS ahsz StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Lahsh;Z[I[Lahpv;Ljava/lang/Object;)V
+CLASS ahvp StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Lahux;Z[I[Lahsl;Ljava/lang/Object;)V

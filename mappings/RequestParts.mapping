@@ -1,8 +1,6 @@
-CLASS upv RequestParts
+CLASS urw RequestParts
 	FIELD a headers Ljava/util/Map;
 	FIELD b body [B
 	METHOD <init> (Ljava/util/Map;[B)V
 		ARG 1 headers
 		ARG 2 body
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

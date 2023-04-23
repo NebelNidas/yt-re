@@ -1,14 +1,14 @@
-CLASS etf com/facebook/litho/annotations/ResType
-	FIELD a NONE Letf;
-	FIELD b STRING Letf;
-	FIELD c STRING_ARRAY Letf;
-	FIELD d INT Letf;
-	FIELD e INT_ARRAY Letf;
-	FIELD f BOOL Letf;
-	FIELD g COLOR Letf;
-	FIELD h DIMEN_SIZE Letf;
-	FIELD i DIMEN_OFFSET Letf;
-	FIELD j DIMEN_TEXT Letf;
-	FIELD k FLOAT Letf;
-	FIELD l DRAWABLE Letf;
-	FIELD m $VALUES [Letf;
+CLASS etc com/facebook/litho/annotations/ResType
+	FIELD a NONE Letc;
+	FIELD b STRING Letc;
+	FIELD c STRING_ARRAY Letc;
+	FIELD d INT Letc;
+	FIELD e INT_ARRAY Letc;
+	FIELD f BOOL Letc;
+	FIELD g COLOR Letc;
+	FIELD h DIMEN_SIZE Letc;
+	FIELD i DIMEN_OFFSET Letc;
+	FIELD j DIMEN_TEXT Letc;
+	FIELD k FLOAT Letc;
+	FIELD l DRAWABLE Letc;
+	FIELD m $VALUES [Letc;

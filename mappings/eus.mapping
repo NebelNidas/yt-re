@@ -1,2 +1,0 @@
-CLASS eus
-	METHOD o newEventHandler (Ljava/lang/Class;Leur;I[Ljava/lang/Object;)Leov;

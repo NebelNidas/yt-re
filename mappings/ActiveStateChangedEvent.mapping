@@ -1,6 +1,6 @@
-CLASS gyw ActiveStateChangedEvent
-	METHOD a create (Lgyx;Lgyx;)Lgyw;
+CLASS gyx ActiveStateChangedEvent
+	METHOD a create (Lgyy;Lgyy;)Lgyx;
 		ARG 0 currentState
 		ARG 1 toState
-	METHOD b getCurrentState ()Lgyx;
-	METHOD c getToState ()Lgyx;
+	METHOD b getCurrentState ()Lgyy;
+	METHOD c getToState ()Lgyy;

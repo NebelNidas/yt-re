@@ -1,4 +1,4 @@
-CLASS affy Result
+CLASS afii Result
 	METHOD a getData ()Ljava/lang/Object;
 	METHOD b isSuccess ()Z
 	METHOD c getError ()Ljava/lang/Throwable;

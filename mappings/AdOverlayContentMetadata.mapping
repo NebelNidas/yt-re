@@ -1,3 +1,3 @@
-CLASS tpv AdOverlayContentMetadata
-	FIELD b videoThumbnailDetails Lxdq;
+CLASS tru AdOverlayContentMetadata
+	FIELD b videoThumbnailDetails Lwnz;
 	FIELD c title Ljava/lang/String;

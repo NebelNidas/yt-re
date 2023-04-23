@@ -1,2 +1,2 @@
-CLASS tpj AdTitleOverlayState
-	FIELD a adOverlayMetadata Ltpd;
+CLASS tri AdTitleOverlayState
+	FIELD a adOverlayMetadata Ltrc;

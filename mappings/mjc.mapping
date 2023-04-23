@@ -1,0 +1,6 @@
+CLASS mjc
+	FIELD b playerViewModeMonitor Lgeu;
+	FIELD l tabNames Ljava/util/Set;
+	FIELD m flags Lagaa;
+	FIELD n config Landroid/content/res/Configuration;
+	FIELD p pivotBar Lj$/util/Optional;

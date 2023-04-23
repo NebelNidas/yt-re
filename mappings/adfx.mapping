@@ -1,3 +1,0 @@
-CLASS adfx
-	METHOD a getButtonId (Lakvr;)I
-		ARG 1 icon

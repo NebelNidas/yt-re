@@ -1,5 +1,5 @@
-CLASS aftd com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Laftb;
+CLASS afvr com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lafvp;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Laftb;)V
+	METHOD <init> (Lafvp;)V
 		ARG 1 delegate

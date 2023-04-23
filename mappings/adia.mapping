@@ -1,0 +1,3 @@
+CLASS adia
+	METHOD a getButtonId (Lakyy;)I
+		ARG 1 icon

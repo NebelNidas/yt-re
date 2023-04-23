@@ -1,7 +1,7 @@
-CLASS mcv StoryboardPollInfo
-	FIELD a storyboardLevelInfo Lmcs;
+CLASS mdt StoryboardPollInfo
+	FIELD a storyboardLevelInfo Lmdq;
 	FIELD b frameLookupTimeMs J
-	METHOD <init> (Lmcs;J)V
+	METHOD <init> (Lmdq;J)V
 		ARG 1 storyboardLevelInfo
 		ARG 2 frameLookupTimems
 	METHOD equals (Ljava/lang/Object;)Z

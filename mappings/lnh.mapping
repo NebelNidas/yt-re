@@ -1,0 +1,3 @@
+CLASS lnh
+	FIELD n prefs Landroid/content/SharedPreferences;
+	METHOD p addToPlaylist ()Ljava/lang/String;

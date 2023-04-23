@@ -1,10 +1,10 @@
-CLASS ahbw LibraryVersion
+CLASS ahej LibraryVersion
 	FIELD a libraryName Ljava/lang/String;
 	FIELD b version Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 libraryName
 		ARG 2 version
-	METHOD a create (Ljava/lang/String;Ljava/lang/String;)Lahbw;
+	METHOD a create (Ljava/lang/String;Ljava/lang/String;)Lahej;
 		ARG 0 libraryName
 		ARG 1 version
 	METHOD equals (Ljava/lang/Object;)Z

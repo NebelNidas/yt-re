@@ -1,6 +1,6 @@
-CLASS afim SyncKey
-	FIELD a message Lafjk;
-	METHOD a (Ljava/lang/String;)Lafim;
+CLASS afky SyncKey
+	FIELD a message Laflx;
+	METHOD a (Ljava/lang/String;)Lafky;
 		ARG 0 name
 	METHOD b getName ()Ljava/lang/String;
 	METHOD equals (Ljava/lang/Object;)Z

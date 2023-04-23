@@ -1,6 +1,6 @@
-CLASS jon ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Laioe;
-	METHOD <init> (Laioe;)V
+CLASS jow ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Laire;
+	METHOD <init> (Laire;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

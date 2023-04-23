@@ -1,3 +1,0 @@
-CLASS ylz
-	METHOD aT isHttps (Landroid/net/Uri;)Z
-	METHOD aV isLocalhost (Landroid/net/Uri;)Z

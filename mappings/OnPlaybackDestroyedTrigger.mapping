@@ -1,12 +1,10 @@
-CLASS tmd OnPlaybackDestroyedTrigger
+CLASS tob OnPlaybackDestroyedTrigger
 	FIELD a contentVideoId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Laieu;
-	METHOD <init> (Ljava/lang/String;Laieu;Ljava/lang/String;)V
-		ARG 1 triggerId
+	FIELD c triggerType Laiht;
+	METHOD <init> (Ljava/lang/String;Laiht;ZLjava/lang/String;)V
 		ARG 2 triggerType
-		ARG 3 contentVideoId
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltmd;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltob;
 		ARG 0 triggerId
 		ARG 1 contentVideoId
 	METHOD equals (Ljava/lang/Object;)Z

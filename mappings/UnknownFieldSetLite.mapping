@@ -1,6 +1,6 @@
-CLASS ahtd UnknownFieldSetLite
-	FIELD a defaultInstance Lahtd;
-	METHOD b mutableCopyOf (Lahtd;Lahtd;)Lahtd;
-	METHOD c newInstance ()Lahtd;
+CLASS ahvt UnknownFieldSetLite
+	FIELD a defaultInstance Lahvt;
+	METHOD b mutableCopyOf (Lahvt;Lahvt;)Lahvt;
+	METHOD c newInstance ()Lahvt;
 	METHOD g mergeVarintField (ILjava/lang/Object;)V
-	METHOD h mergeFieldFrom (ILahpi;)Z
+	METHOD h mergeFieldFrom (ILahry;)Z

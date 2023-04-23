@@ -1,7 +1,7 @@
-CLASS afes MonitorReport
-	FIELD a monitor Lafec;
+CLASS afhc MonitorReport
+	FIELD a monitor Lafgn;
 	FIELD b startReport Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD <init> (Lafec;Lcom/google/common/util/concurrent/ListenableFuture;)V
+	METHOD <init> (Lafgn;Lcom/google/common/util/concurrent/ListenableFuture;)V
 		ARG 1 monitor
 		ARG 2 startReport
 	METHOD equals (Ljava/lang/Object;)Z

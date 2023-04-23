@@ -1,4 +1,4 @@
-CLASS phi JavaScriptConfig
+CLASS pic JavaScriptConfig
 	FIELD a initializationMode Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;
 	FIELD b enableVmContextLru Z
 	FIELD c vmContextLruSize I
@@ -15,5 +15,3 @@ CLASS phi JavaScriptConfig
 		ARG 5 shouldUseDirectJsObjectCreation
 		ARG 6 skipLegacyFunctionBindings
 		ARG 7 jsEngineSelection
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

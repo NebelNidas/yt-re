@@ -1,0 +1,3 @@
+CLASS epf
+	METHOD a getLayoutOutput (Lfbb;)Lepf;
+	METHOD c isAccessible ()Z

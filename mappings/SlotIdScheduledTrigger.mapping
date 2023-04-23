@@ -1,12 +1,10 @@
-CLASS tnb SlotIdScheduledTrigger
+CLASS tpa SlotIdScheduledTrigger
 	FIELD a triggeringSlotId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Laieu;
-	METHOD <init> (Ljava/lang/String;Laieu;Ljava/lang/String;)V
-		ARG 1 triggerId
+	FIELD c triggerType Laiht;
+	METHOD <init> (Ljava/lang/String;Laiht;ZLjava/lang/String;)V
 		ARG 2 triggerType
-		ARG 3 triggeringSlotId
-	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltnb;
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltpa;
 		ARG 0 triggerId
 		ARG 1 triggeringSlotId
 	METHOD equals (Ljava/lang/Object;)Z

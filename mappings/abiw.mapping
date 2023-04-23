@@ -1,0 +1,2 @@
+CLASS abiw
+	METHOD e getProgress ()J

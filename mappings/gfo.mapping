@@ -1,0 +1,3 @@
+CLASS gfo
+	METHOD d isInlineMinimal ()Z
+	METHOD e isPIP ()Z

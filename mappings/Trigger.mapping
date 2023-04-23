@@ -1,4 +1,4 @@
-CLASS tnn Trigger
-	METHOD a getTriggerType ()Laieu;
+CLASS tpm Trigger
+	METHOD a getTriggerType ()Laiht;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

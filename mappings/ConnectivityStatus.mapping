@@ -1,12 +1,12 @@
-CLASS umo ConnectivityStatus
+CLASS uop ConnectivityStatus
 	FIELD a connected Z
 	FIELD b temporarilyUnmetered Z
 	FIELD c chargeable Z
 	FIELD d connectionType I
 	FIELD e connectedOrConnecting Z
 	FIELD f dataSaverEnabled Z
-	FIELD g detailedNetworkType Lajuy;
-	METHOD <init> (ZZZZZILajuy;)V
+	FIELD g detailedNetworkType Lajye;
+	METHOD <init> (ZZZZZILajye;)V
 		ARG 1 connectedOrConnection
 		ARG 2 connected
 		ARG 3 temporarilyUnmetered

@@ -1,12 +1,10 @@
-CLASS tme OnSlotCancellationRequestedTrigger
+CLASS toc OnSlotCancellationRequestedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Laieu;
-	FIELD c slotId Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Laieu;Ljava/lang/String;)V
-		ARG 1 triggerId
+	FIELD b triggerType Laiht;
+	FIELD d slotId Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Laiht;ZLjava/lang/String;)V
 		ARG 2 triggerType
-		ARG 3 slotId
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltme;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltoc;
 		ARG 0 triggerId
 		ARG 1 slotId
 	METHOD equals (Ljava/lang/Object;)Z

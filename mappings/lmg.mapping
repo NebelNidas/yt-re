@@ -1,2 +1,0 @@
-CLASS lmg
-	FIELD h reelDismissalInfo Ljava/util/List;

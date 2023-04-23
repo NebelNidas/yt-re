@@ -1,2 +1,0 @@
-CLASS era
-	METHOD b release (Ljava/lang/Object;)V

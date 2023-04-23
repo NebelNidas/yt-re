@@ -1,4 +1,4 @@
-CLASS aesz InstallStateImpl
+CLASS aevn InstallStateImpl
 	FIELD a installStatus I
 	FIELD b bytesDownloaded J
 	FIELD c totalBytesToDownload J

@@ -1,0 +1,2 @@
+CLASS aflx
+	FIELD c name Ljava/lang/String;

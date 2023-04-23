@@ -1,4 +1,4 @@
-CLASS gyi RenderableTransitionAnimationFrame
+CLASS gyj RenderableTransitionAnimationFrame
 	FIELD a progress F
 	FIELD b startSource Lj$/util/Optional;
 	FIELD c endSource Lj$/util/Optional;
@@ -6,8 +6,8 @@ CLASS gyi RenderableTransitionAnimationFrame
 		ARG 1 progress
 		ARG 2 startSource
 		ARG 3 endSource
-	METHOD a create ()Lgyi;
-	METHOD b create (FLj$/util/Optional;Lj$/util/Optional;)Lgyi;
+	METHOD a create ()Lgyj;
+	METHOD b create (FLj$/util/Optional;Lj$/util/Optional;)Lgyj;
 		ARG 0 progress
 		ARG 1 startSource
 		ARG 2 endSource

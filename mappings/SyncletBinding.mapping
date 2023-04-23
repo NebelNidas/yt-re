@@ -1,13 +1,13 @@
-CLASS afio SyncletBinding
+CLASS afla SyncletBinding
 	FIELD a enabled Z
-	FIELD b syncKey Lafim;
-	FIELD c syncletProvider Launp;
-	FIELD d syncConfig Lafij;
-	METHOD <init> (Lafim;Lafij;Launp;)V
+	FIELD b syncKey Lafky;
+	FIELD c syncletProvider Lauso;
+	FIELD d syncConfig Lafkv;
+	METHOD <init> (Lafky;Lafkv;Lauso;)V
 		ARG 1 syncKey
 		ARG 2 syncConfig
 		ARG 3 syncletProvider
-	METHOD a getSyncConfig ()Lafij;
-	METHOD b builder ()Latea;
+	METHOD a getSyncConfig ()Lafkv;
+	METHOD b builder ()Latiz;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

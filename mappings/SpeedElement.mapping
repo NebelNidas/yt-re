@@ -1,4 +1,4 @@
-CLASS htp SpeedElement
+CLASS htn SpeedElement
 	FIELD a speed F
 	FIELD b animationTitle Ljava/lang/String;
 	FIELD c text Ljava/lang/String;
@@ -10,6 +10,6 @@ CLASS htp SpeedElement
 		ARG 3 text
 		ARG 4 icon
 		ARG 5 contentDescription
-	METHOD a builder ()Lhto;
+	METHOD a builder ()Lhtm;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

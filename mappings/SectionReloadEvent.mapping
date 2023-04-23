@@ -1,4 +1,4 @@
-CLASS fyd SectionReloadEvent
-	METHOD a getReloadContinuationData ()Laopy;
+CLASS fyg SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laotu;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Laopy;)Lfyd;
+	METHOD c of (Ljava/lang/String;Laotu;)Lfyg;

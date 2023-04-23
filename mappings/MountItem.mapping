@@ -1,2 +1,2 @@
-CLASS fbe MountItem
+CLASS fbb MountItem
 	FIELD a content Ljava/lang/Object;

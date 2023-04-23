@@ -1,2 +1,0 @@
-CLASS wkj
-	METHOD d toByteArray ()[B

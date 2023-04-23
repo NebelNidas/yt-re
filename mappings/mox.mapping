@@ -1,0 +1,4 @@
+CLASS mox
+	METHOD a getPriority ()Lmoy;
+	METHOD b getCode ()Ljava/lang/Integer;
+	METHOD c getPayload ()Ljava/lang/Object;

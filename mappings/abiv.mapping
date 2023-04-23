@@ -1,0 +1,2 @@
+CLASS abiv
+	METHOD c getPlayingState ()Laccz;

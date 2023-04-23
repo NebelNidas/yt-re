@@ -1,9 +1,9 @@
-CLASS afeg TimeUnitPair
+CLASS afgr TimeUnitPair
 	FIELD a duration J
 	FIELD b timeUnit Ljava/util/concurrent/TimeUnit;
 	METHOD <init> (JLjava/util/concurrent/TimeUnit;)V
 		ARG 1 duration
-	METHOD a create (JLjava/util/concurrent/TimeUnit;)Lafeg;
+	METHOD a create (JLjava/util/concurrent/TimeUnit;)Lafgr;
 		ARG 0 duration
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

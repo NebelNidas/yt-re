@@ -1,9 +1,9 @@
-CLASS tlu MediaPlaybackStartedTrigger
+CLASS tns MediaPlaybackStartedTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b mediaCpn Ljava/lang/String;
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Laieu;
-	METHOD <init> (Ljava/lang/String;Laieu;ZLjava/lang/String;)V
+	FIELD d triggerType Laiht;
+	METHOD <init> (Ljava/lang/String;Laiht;ZLjava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted

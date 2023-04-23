@@ -1,2 +1,2 @@
 CLASS equ
-	FIELD l handler Leov;
+	METHOD b markerPoint (Ljava/lang/String;)V

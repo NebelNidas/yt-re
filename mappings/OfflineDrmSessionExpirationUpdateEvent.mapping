@@ -1,4 +1,4 @@
-CLASS abfc OfflineDrmSessionExpirationUpdateEvent
+CLASS abgz OfflineDrmSessionExpirationUpdateEvent
 	METHOD a getVideoId ()Ljava/lang/String;
-	METHOD b create (Ljava/lang/String;)Labfc;
+	METHOD b create (Ljava/lang/String;)Labgz;
 		ARG 0 videoId

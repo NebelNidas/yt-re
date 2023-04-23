@@ -1,6 +1,0 @@
-CLASS mid
-	FIELD b playerViewModeMonitor Lger;
-	FIELD l tabNames Ljava/util/Set;
-	FIELD m flags Lafxm;
-	FIELD n config Landroid/content/res/Configuration;
-	FIELD p pivotBar Lj$/util/Optional;

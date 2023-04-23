@@ -1,12 +1,12 @@
-CLASS tlo LiveStreamBreakStartedTrigger
+CLASS tnl LiveStreamBreakStartedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Laieu;
+	FIELD b triggerType Laiht;
 	FIELD c cuePointIdentifier Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Laieu;Ljava/lang/String;)V
+	METHOD <init> (Ljava/lang/String;Laiht;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 cuePointIdentifier
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltlo;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltnl;
 		ARG 0 triggerId
 		ARG 1 cuePointIdentifier
 	METHOD equals (Ljava/lang/Object;)Z

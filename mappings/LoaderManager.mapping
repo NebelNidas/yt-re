@@ -1,6 +1,6 @@
-CLASS bkn LoaderManager
-	FIELD a lifecycleOwner Lbiz;
-	METHOD a create (Lbiz;)Lbkn;
+CLASS bkr LoaderManager
+	FIELD a lifecycleOwner Lbjd;
+	METHOD a create (Lbjd;)Lbkr;
 	METHOD b isLoggable (I)Z
 		ARG 0 level
 	METHOD c toString (Ljava/lang/String;Ljava/io/PrintWriter;)V

@@ -1,7 +1,7 @@
-CLASS jvd MidUiModelBuilder
+CLASS jwh MidUiModelBuilder
 	FIELD a isControlsOverlayVisible Z
 	FIELD b isMagicWindowMidUiEduVisible Z
-	FIELD c videoState Labvb;
+	FIELD c videoState Labxf;
 	FIELD d isFullscreen Z
 	FIELD e hasNext Z
 	FIELD f hasPrevious Z
@@ -12,13 +12,13 @@ CLASS jvd MidUiModelBuilder
 	FIELD k isFullscreenEngagementViewVisible Z
 	FIELD l isStickyControlsEnabled Z
 	FIELD m isAutonavToggleEnabled Z
-	FIELD n style Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;
-	FIELD o isSingletonVod Z
-	FIELD p isClip Z
-	FIELD q flags S
-	METHOD <init> (Ljve;)V
+	FIELD o style Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;
+	FIELD p isSingletonVod Z
+	FIELD q isClip Z
+	FIELD r flags S
+	METHOD <init> (Ljwi;)V
 		ARG 1 from
-	METHOD a build ()Ljve;
+	METHOD a build ()Ljwi;
 	METHOD b setHasNext (Z)V
 		ARG 1 hasNext
 	METHOD c setHasPrevious (Z)V
@@ -33,8 +33,6 @@ CLASS jvd MidUiModelBuilder
 		ARG 1 isFineScrubbingEDUVisible
 	METHOD h setFullscreen (Z)V
 		ARG 1 isFullscreen
-	METHOD i setFullscreenEngagementViewVisible (Z)V
-		ARG 1 isFullscreenEngagementViewVisible
 	METHOD j setMagicWindowMidUiEduVisible (Z)V
 		ARG 1 isMagicWindowMidUiEduVisible
 	METHOD k setQuickSeekVisible (Z)V
@@ -43,11 +41,13 @@ CLASS jvd MidUiModelBuilder
 		ARG 1 isSeekEDUVisible
 	METHOD m setSingletonVod (Z)V
 		ARG 1 isSingletonVod
-	METHOD n setStickyControlsEnabled (Z)V
+	METHOD n setFullscreenEngagementViewVisible (Z)V
+		ARG 1 isFullscreenEngagementViewVisible
+	METHOD o setStickyControlsEnabled (Z)V
 		ARG 1 isStickyControlsEnabled
-	METHOD o setUserScrubbing (Z)V
+	METHOD p setUserScrubbing (Z)V
 		ARG 1 isUserScrubbing
-	METHOD p setStyle (Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;)V
+	METHOD q setStyle (Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;)V
 		ARG 1 stlye
-	METHOD q setVideoState (Labvb;)V
+	METHOD r setVideoState (Labxf;)V
 		ARG 1 videoState

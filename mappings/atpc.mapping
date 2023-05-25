@@ -1,4 +1,0 @@
-CLASS atpc
-	METHOD b (Latrl;Latrl;Latrg;Latrg;Latrg;Latrg;)Latpc;
-		ARG 3 onComplete
-		ARG 6 onDispose

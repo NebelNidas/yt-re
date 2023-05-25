@@ -1,2 +1,2 @@
-CLASS rqw ui/pdf
+CLASS rsf ui/pdf
 	METHOD b getIconResourceId ()I

@@ -1,4 +1,4 @@
-CLASS tpm Trigger
-	METHOD a getTriggerType ()Laiht;
+CLASS tra Trigger
+	METHOD a getTriggerType ()Laikw;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

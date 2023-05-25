@@ -1,4 +1,4 @@
-CLASS ply FontKey2
+CLASS pnf FontKey2
 	FIELD a fontName Ljava/lang/String;
 	FIELD b weight I
 	FIELD c italic Z

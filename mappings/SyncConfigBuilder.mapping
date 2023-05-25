@@ -1,9 +1,9 @@
-CLASS afku SyncConfigBuilder
+CLASS afns SyncConfigBuilder
 	FIELD a minSyncInterval J
 	FIELD b timeout J
 	FIELD c constraints Ljava/util/List;
-	METHOD a build ()Lafkv;
-	METHOD b addConstraint (Lafkw;)V
+	METHOD a build ()Lafnt;
+	METHOD b addConstraint (Lafnu;)V
 		ARG 1 constraint
 	METHOD c setMinSyncInterval (JLjava/util/concurrent/TimeUnit;)V
 		ARG 1 interval

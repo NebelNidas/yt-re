@@ -1,0 +1,3 @@
+CLASS oao
+	METHOD ao buildGaiaAccountData (Ljava/lang/Object;)Lrcp;
+		ARG 0 owner

@@ -1,2 +1,0 @@
-CLASS erl
-	FIELD b stacktrace Ljava/lang/Throwable;

@@ -1,8 +1,8 @@
-CLASS tkp BeforeContentVideoIdStartedTrigger
+CLASS tma BeforeContentVideoIdStartedTrigger
 	FIELD a contentVideoId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Laiht;
-	METHOD <init> (Ljava/lang/String;Laiht;ZLjava/lang/String;)V
+	FIELD c triggerType Laikw;
+	METHOD <init> (Ljava/lang/String;Laikw;ZLjava/lang/String;)V
 		ARG 2 triggerType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

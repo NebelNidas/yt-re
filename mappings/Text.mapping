@@ -1,4 +1,4 @@
-CLASS ezv Text
+CLASS fae Text
 	FIELD C typefaceStyle I
 	FIELD E typeface Landroid/graphics/Typeface;
 	FIELD b minLines I

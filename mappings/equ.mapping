@@ -1,2 +1,0 @@
-CLASS equ
-	METHOD b markerPoint (Ljava/lang/String;)V

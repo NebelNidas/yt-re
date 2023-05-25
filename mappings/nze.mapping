@@ -1,3 +1,0 @@
-CLASS nze
-	METHOD ao buildGaiaAccountData (Ljava/lang/Object;)Lrbf;
-		ARG 0 owner

@@ -1,4 +1,4 @@
-CLASS env DebugComponent
-	METHOD c getComponent ()Lend;
-	METHOD h getLithoView ()Leqb;
-	METHOD o getLayoutNode ()Lgvb;
+CLASS eoe DebugComponent
+	METHOD c getComponent ()Lenm;
+	METHOD h getLithoView ()Leqk;
+	METHOD o getLayoutNode ()Lgvj;

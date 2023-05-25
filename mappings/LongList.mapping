@@ -1,2 +1,2 @@
-CLASS ahtl LongList
-	METHOD f mutableCopyWithCapacity (I)Lahtl;
+CLASS ahwo LongList
+	METHOD f mutableCopyWithCapacity (I)Lahwo;

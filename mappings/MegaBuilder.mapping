@@ -1,11 +1,11 @@
-CLASS atiz MegaBuilder
+CLASS atms MegaBuilder
 	FIELD a param1 Ljava/lang/Object;
 	FIELD b param2 Ljava/lang/Object;
 	FIELD c param3 Ljava/lang/Object;
-	METHOD <init> (Ltyl;)V
+	METHOD <init> (Luaa;)V
 		ARG 1 pollOption
-	METHOD s buildImagePollOption ()Ltyl;
-	METHOD t setImage (Lj$/util/Optional;)V
+	METHOD x buildImagePollOption ()Luaa;
+	METHOD y setImage (Lj$/util/Optional;)V
 		ARG 1 image
-	METHOD u setPlaceholderText (Ljava/lang/String;)V
+	METHOD z setPlaceholderText (Ljava/lang/String;)V
 		ARG 1 placeholderText

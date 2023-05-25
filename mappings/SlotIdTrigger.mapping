@@ -1,2 +1,2 @@
-CLASS tou SlotIdTrigger
+CLASS tqh SlotIdTrigger
 	METHOD c getSlotId ()Ljava/lang/String;

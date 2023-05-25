@@ -1,8 +1,8 @@
-CLASS afzu com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Lafzu;
+CLASS agct com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Lagct;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lafzu;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lafzu;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lagct;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagct;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lafzu;
+	METHOD o copyOf (Ljava/util/Collection;)Lagct;
 		ARG 0 elements

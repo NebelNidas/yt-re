@@ -1,0 +1,2 @@
+CLASS astg
+	METHOD a get ()Ljava/lang/Object;

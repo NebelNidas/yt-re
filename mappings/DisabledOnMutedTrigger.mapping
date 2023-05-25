@@ -1,2 +1,2 @@
-CLASS tof DisabledOnMutedTrigger
+CLASS tps DisabledOnMutedTrigger
 	METHOD c shouldDisableIfVideoStartMuted ()Z

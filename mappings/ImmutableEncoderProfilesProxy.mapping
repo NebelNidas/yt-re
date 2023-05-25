@@ -1,4 +1,4 @@
-CLASS afj ImmutableEncoderProfilesProxy
+CLASS afo ImmutableEncoderProfilesProxy
 	FIELD a defaultDurationSeconds I
 	FIELD b recommendedFileFormat I
 	FIELD c audioProfiles Ljava/util/List;
@@ -8,7 +8,7 @@ CLASS afj ImmutableEncoderProfilesProxy
 		ARG 2 recommendedFileFormat
 		ARG 3 audioProfiles
 		ARG 4 videoProfiles
-	METHOD a create (IILjava/util/List;Ljava/util/List;)Lafj;
+	METHOD a create (IILjava/util/List;Ljava/util/List;)Lafo;
 		ARG 0 defaultDurationSeconds
 		ARG 1 recommendedFileFormat
 		ARG 2 audioProfiles

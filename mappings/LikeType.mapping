@@ -1,3 +1,3 @@
-CLASS amlb LikeType
+CLASS amom LikeType
 	FIELD e ordinal I
-	METHOD a fromOrdinal (I)Lamlb;
+	METHOD a fromOrdinal (I)Lamom;

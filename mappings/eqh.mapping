@@ -1,4 +1,0 @@
-CLASS eqh
-	METHOD c getFocusChangeListener (Landroid/view/View;)Leni;
-	METHOD d getClickListener (Landroid/view/View;)Lenm;
-	METHOD e getLongClickListener (Landroid/view/View;)Lenn;

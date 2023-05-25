@@ -1,0 +1,2 @@
+CLASS auwi
+	METHOD a get ()Ljava/lang/Object;

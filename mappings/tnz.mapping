@@ -1,2 +1,0 @@
-CLASS tnz
-	METHOD e getMediaCpn ()Ljava/lang/String;

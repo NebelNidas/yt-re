@@ -1,2 +1,2 @@
-CLASS eoy com/facebook/litho/HasEventDispatcher
-	METHOD n getEventDispatcher ()Leoq;
+CLASS eph com/facebook/litho/HasEventDispatcher
+	METHOD n getEventDispatcher ()Leoz;

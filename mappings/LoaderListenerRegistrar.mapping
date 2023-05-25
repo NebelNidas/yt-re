@@ -1,3 +1,3 @@
-CLASS bko LoaderListenerRegistrar
+CLASS bks LoaderListenerRegistrar
 	FIELD e id I
-	FIELD f loader Lbku;
+	FIELD f loader Lbky;

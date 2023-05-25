@@ -1,2 +1,0 @@
-CLASS acsp
-	METHOD b getDisplayString (Lakpt;)Landroid/text/Spanned;

@@ -1,4 +1,4 @@
-CLASS afih Result_Success
+CLASS afli Result_Success
 	FIELD a data Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/Object;)V
 		ARG 1 data

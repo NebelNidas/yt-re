@@ -1,9 +1,9 @@
-CLASS alb AudioSpecBuilder
+CLASS alg AudioSpecBuilder
 	FIELD a bitrate Landroid/util/Range;
 	FIELD b sourceFormat Ljava/lang/Integer;
 	FIELD c source Ljava/lang/Integer;
 	FIELD d sampleRate Landroid/util/Range;
 	FIELD e channelCount Ljava/lang/Integer;
-	METHOD a build ()Lalc;
+	METHOD a build ()Lalh;
 	METHOD b setChannelCount (I)V
 		ARG 1 channelCount

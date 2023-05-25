@@ -1,2 +1,2 @@
-CLASS pma TextComponentSpec
-	METHOD f getHint (Lpyx;Landroid/content/Context;Lppo;Laum;Lqay;Lpzy;Lpyy;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS pnh TextComponentSpec
+	METHOD f getHint (Lqaf;Landroid/content/Context;Lpqv;Lauq;Lqcg;Lqbg;Lqag;Ljava/util/Map;Z)Ljava/lang/CharSequence;

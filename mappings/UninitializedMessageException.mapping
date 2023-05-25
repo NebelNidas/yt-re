@@ -1,2 +1,2 @@
-CLASS ahvs UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lahtt;
+CLASS ahyv UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Lahww;

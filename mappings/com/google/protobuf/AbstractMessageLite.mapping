@@ -1,2 +1,2 @@
-CLASS ahrc com/google/protobuf/AbstractMessageLite
+CLASS ahuf com/google/protobuf/AbstractMessageLite
 	COMMENT Taken from <a href="https://github.com/protocolbuffers/protobuf/blob/b72eb3f2337599b0e91cadbeeec4e17bdcfcb4b6/java/core/src/main/java/com/google/protobuf/AbstractMessageLite.java">https://github.com/protocolbuffers/protobuf/blob/b72eb3f2337599b0e91cadbeeec4e17bdcfcb4b6/java/core/src/main/java/com/google/protobuf/AbstractMessageLite.java</a>

@@ -1,4 +1,3 @@
 CLASS bbd
-	FIELD a accessibilityActions [I
-	FIELD b views Ljava/util/WeakHashMap;
-	METHOD x addView (Landroid/view/View;)Lbkg;
+	METHOD b setOnReceiveContentListener (Landroid/view/View;[Ljava/lang/String;Lbad;)V
+	METHOD c getReceiveContentMimeTypes (Landroid/view/View;)[Ljava/lang/String;

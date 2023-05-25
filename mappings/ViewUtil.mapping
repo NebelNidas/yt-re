@@ -1,4 +1,4 @@
-CLASS bal ViewUtil
+CLASS bap ViewUtil
 	METHOD a getImportantForAccessibility (Landroid/view/View;)I
 	METHOD b getMinimumHeight (Landroid/view/View;)I
 	METHOD c getMinimumWidth (Landroid/view/View;)I

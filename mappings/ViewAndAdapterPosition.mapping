@@ -1,10 +1,10 @@
-CLASS heu ViewAndAdapterPosition
+CLASS hfd ViewAndAdapterPosition
 	FIELD a view Landroid/view/View;
 	FIELD b adapterPosition I
 	METHOD <init> (Landroid/view/View;I)V
 		ARG 1 view
 		ARG 2 adapterPosition
-	METHOD a create (Landroid/view/View;I)Lheu;
+	METHOD a create (Landroid/view/View;I)Lhfd;
 		ARG 0 view
 		ARG 1 adapterPosition
 	METHOD equals (Ljava/lang/Object;)Z

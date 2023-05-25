@@ -1,7 +1,7 @@
-CLASS jve MidUiModel
+CLASS jwi MidUiModel
 	FIELD a isControlsOverlayVisible Z
 	FIELD b isMagicWindowMidUiEduVisible Z
-	FIELD c videoState Labvb;
+	FIELD c videoState Labxf;
 	FIELD d isFullscreen Z
 	FIELD e hasNext Z
 	FIELD f hasPrevious Z
@@ -12,10 +12,10 @@ CLASS jve MidUiModel
 	FIELD k isFullscreenEngagementViewVisible Z
 	FIELD l isStickyControlsEnabled Z
 	FIELD m isAutonavToggleEnabled Z
-	FIELD n style Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;
-	FIELD o isSingletonVod Z
-	FIELD p isClip Z
-	METHOD <init> (ZZLabvb;ZZZZZZZZZZLcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;ZZ)V
+	FIELD o style Lcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;
+	FIELD p isSingletonVod Z
+	FIELD q isClip Z
+	METHOD <init> (ZZLabxf;ZZZZZZZZZZZLcom/google/android/libraries/youtube/player/features/overlay/controls/ControlsOverlayStyle;ZZ)V
 		ARG 1 isControlsOverlayVisible
 		ARG 2 isMagicWindowMidUiEduVisible
 		ARG 3 videoState
@@ -29,8 +29,5 @@ CLASS jve MidUiModel
 		ARG 11 isFullscreenEngagementViewVisible
 		ARG 12 isStickyControlsVisible
 		ARG 13 isAutonavToggleEnabled
-		ARG 14 style
-		ARG 15 isSingletonVod
-		ARG 16 isClip
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

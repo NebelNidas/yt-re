@@ -1,4 +1,4 @@
-CLASS toe OrganicPlaybackContextModel
+CLASS tpr OrganicPlaybackContextModel
 	FIELD a contentCpn Ljava/lang/String;
 	FIELD b isLivePlayback Z
 	FIELD c isDaiContent Z

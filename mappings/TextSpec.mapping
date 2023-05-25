@@ -1,4 +1,4 @@
-CLASS faj TextSpec
+CLASS fas TextSpec
 	FIELD b typefaceStyle I
 	FIELD c DEFAULT_TYPEFACE Landroid/graphics/Typeface;
 	FIELD d tempPath Landroid/graphics/Path;
@@ -7,4 +7,4 @@ CLASS faj TextSpec
 	FIELD h typeface Landroid/graphics/Typeface;
 	FIELD i DEFAULT_TEXT_COLOR_STATE_LIST_STATES [[I
 	FIELD j DEFAULT_TEXT_COLOR_STATE_LIST_COLORS [I
-	METHOD f createTextLayout (Lenh;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILfch;FI)Landroid/text/Layout;
+	METHOD f createTextLayout (Lenq;ILandroid/text/TextUtils$TruncateAt;ZIFFFILjava/lang/CharSequence;Landroid/content/res/ColorStateList;IIFILandroid/graphics/Typeface;ILfcq;FI)Landroid/text/Layout;

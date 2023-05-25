@@ -1,0 +1,2 @@
+CLASS tpm
+	METHOD e getMediaCpn ()Ljava/lang/String;

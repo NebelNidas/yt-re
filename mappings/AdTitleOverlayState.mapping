@@ -1,2 +1,2 @@
-CLASS tri AdTitleOverlayState
-	FIELD a adOverlayMetadata Ltrc;
+CLASS tsx AdTitleOverlayState
+	FIELD a adOverlayMetadata Ltsr;

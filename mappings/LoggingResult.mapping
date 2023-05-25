@@ -1,10 +1,10 @@
-CLASS mde LoggingResult
-	FIELD a loggingAction Lmdb;
-	FIELD b inputStates Lmdd;
-	METHOD <init> (Lmdb;Lmdd;)V
+CLASS mej LoggingResult
+	FIELD a loggingAction Lmeg;
+	FIELD b inputStates Lmei;
+	METHOD <init> (Lmeg;Lmei;)V
 		ARG 1 loggingAction
 		ARG 2 inputStates
-	METHOD a create (Lmdb;Lmdd;)Lmde;
+	METHOD a create (Lmeg;Lmei;)Lmej;
 		ARG 0 loggingAction
 		ARG 1 inputStates
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,4 +1,4 @@
-CLASS vgu EditTextExtractedData
+CLASS vik EditTextExtractedData
 	FIELD a text Ljava/lang/String;
 	FIELD b fontSize F
 	FIELD c foregroundColor I

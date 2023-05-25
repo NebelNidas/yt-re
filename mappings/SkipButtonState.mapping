@@ -1,12 +1,12 @@
-CLASS trp SkipButtonState
-	FIELD a skipAdRenderer Lapih;
-	FIELD b contentMetadata Ltru;
-	FIELD c adCountMetadata Ltkc;
+CLASS tte SkipButtonState
+	FIELD a skipAdRenderer Laply;
+	FIELD b contentMetadata Lttj;
+	FIELD c adCountMetadata Ltlm;
 	FIELD d skipState I
 	FIELD e hidden Z
 	FIELD f timeRemainingUntilSkippableMillis I
 	FIELD g timeRemainingInAdMillis I
-	FIELD h breakType Ltnw;
+	FIELD h breakType Ltpj;
 	FIELD i drCallToActionEnabled Z
 	FIELD j fullscreen Z
 	FIELD k countdownNextToThumbnail Z

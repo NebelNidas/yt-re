@@ -1,2 +1,2 @@
-CLASS tnd LayoutIdTrigger
+CLASS tor LayoutIdTrigger
 	METHOD e getLayoutId ()Ljava/lang/String;

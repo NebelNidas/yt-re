@@ -1,5 +1,5 @@
-CLASS tea AdPlayerBytesMetadata
+CLASS tfl AdPlayerBytesMetadata
 	FIELD a managerLayer I
-	FIELD b clientMetadata Ltkq;
-	FIELD c playerBytesSlot Ltot;
-	FIELD d playerBytesLayout Ltnc;
+	FIELD b clientMetadata Ltmb;
+	FIELD c playerBytesSlot Ltqg;
+	FIELD d playerBytesLayout Ltoq;

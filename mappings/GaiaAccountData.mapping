@@ -1,4 +1,4 @@
-CLASS rbf GaiaAccountData
+CLASS rcp GaiaAccountData
 	FIELD a isG1User Z
 	FIELD b isUnicornUser I
 	METHOD <init> (ZI)V

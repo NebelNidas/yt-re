@@ -1,0 +1,26 @@
+CLASS jcd
+	FIELD a id Ljava/lang/String;
+	FIELD b title Ljava/lang/String;
+	FIELD c lengthSeconds J
+	FIELD f channelTitle Ljava/lang/String;
+	FIELD g channelThumbnailDetails Lapym;
+	FIELD h thumbnailDetails Lapym;
+	FIELD i description Laksy;
+	FIELD j publishedTimestampMs Ljava/lang/Long;
+	FIELD k viewCount Ljava/lang/Long;
+	FIELD l likeCountText Ljava/lang/String;
+	METHOD E setLengthSeconds (J)V
+	METHOD G setLikeCountText (Ljava/lang/String;)V
+		ARG 1 likeCountText
+	METHOD K setPublishedTimestampMs (J)V
+	METHOD O setThumbnailDetails (Lapym;)V
+		ARG 1 thumbnailDetails
+	METHOD P setTitle (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD S setViewCount (J)V
+		ARG 1 viewCount
+	METHOD d setChannelThumbnailDetails (Lapym;)V
+	METHOD e setChannelTitle (Ljava/lang/String;)V
+	METHOD f setDescription (Laksy;)V
+	METHOD g setDislikeCountText (Ljava/lang/String;)V
+	METHOD l setId (Ljava/lang/String;)V

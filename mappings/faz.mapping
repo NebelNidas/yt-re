@@ -1,3 +1,0 @@
-CLASS faz
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Lfbb;

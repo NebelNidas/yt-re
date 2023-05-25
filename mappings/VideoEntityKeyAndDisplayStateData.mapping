@@ -1,7 +1,7 @@
-CLASS kqv VideoEntityKeyAndDisplayStateData
+CLASS krx VideoEntityKeyAndDisplayStateData
 	FIELD a videoEntityKey Ljava/lang/String;
-	FIELD b videoDisplayState Ljav;
-	METHOD <init> (Ljava/lang/String;Ljav;)V
+	FIELD b videoDisplayState Ljbr;
+	METHOD <init> (Ljava/lang/String;Ljbr;)V
 		ARG 1 videoEntityKey
 		ARG 2 videoDisplayState
 	METHOD equals (Ljava/lang/Object;)Z

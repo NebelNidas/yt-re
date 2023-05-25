@@ -1,2 +1,2 @@
-CLASS etb com/facebook/litho/annotations/Prop
-	METHOD a resType ()Letc;
+CLASS etk com/facebook/litho/annotations/Prop
+	METHOD a resType ()Letl;

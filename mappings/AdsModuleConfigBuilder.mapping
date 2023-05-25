@@ -1,4 +1,4 @@
-CLASS sxk AdsModuleConfigBuilder
+CLASS syx AdsModuleConfigBuilder
 	FIELD a getAppVersionForAds Ljava/lang/String;
 	FIELD b getMidrollAdsFreqCapMillis J
 	FIELD c getImmediateAdExpireTimeMillis J
@@ -12,7 +12,7 @@ CLASS sxk AdsModuleConfigBuilder
 	FIELD k shouldEmitAdClickthroughReportedEvent Z
 	FIELD l shouldPreventYoutubeHeaders Z
 	FIELD m shouldPreventAdsHeaders Z
-	METHOD a build ()Lsxl;
+	METHOD a build ()Lsyy;
 	METHOD b setShouldAllowInnertubeCaching (Z)V
 		ARG 1 shouldAllowInnertubeCaching
 	METHOD c setShouldEmitAdClickthroughReportedEvent (Z)V

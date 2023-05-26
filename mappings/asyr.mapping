@@ -1,0 +1,2 @@
+CLASS asyr
+	METHOD a get ()Ljava/lang/Object;

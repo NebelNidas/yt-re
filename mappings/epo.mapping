@@ -1,3 +1,0 @@
-CLASS epo
-	METHOD a getLayoutOutput (Lfbk;)Lepo;
-	METHOD c isAccessible ()Z

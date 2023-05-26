@@ -1,9 +1,9 @@
-CLASS tov LayoutIdEnteredAndSlotFilledTrigger
+CLASS trj LayoutIdEnteredAndSlotFilledTrigger
 	FIELD a associatedLayoutId Ljava/lang/String;
 	FIELD b associatedSlotId Ljava/lang/String;
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Laikw;
-	METHOD <init> (Ljava/lang/String;Laikw;Ljava/lang/String;Ljava/lang/String;)V
+	FIELD d triggerType Laipc;
+	METHOD <init> (Ljava/lang/String;Laipc;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 associatedLayoutId

@@ -1,4 +1,4 @@
-CLASS ksr HiddenItem
+CLASS ksv HiddenItem
 	FIELD a eventTag Ljava/lang/Object;
 	FIELD b undoIndex I
 	FIELD c seperatorRemoved Z

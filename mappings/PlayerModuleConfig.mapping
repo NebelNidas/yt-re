@@ -1,12 +1,12 @@
-CLASS abig PlayerModuleConfig
+CLASS ably PlayerModuleConfig
 	FIELD a onesieEnabled Z
 	FIELD b enableVss2StatsTracking Z
 	FIELD c enableLegacyHeartbeatFLow Z
 	FIELD d backgroundNotificationIconResourceId I
-	FIELD e referringAppProvider Lvda;
+	FIELD e referringAppProvider Lvfm;
 	FIELD f maximumConsecutiveSkippedUnplayableVideos I
 	FIELD g enableVss2UserPresenceTracking Z
-	METHOD <init> (ZZZILvda;IZ)V
+	METHOD <init> (ZZZILvfm;IZ)V
 		ARG 1 onesieEnabled
 		ARG 2 enableVss2StatsTracking
 		ARG 3 enableLegacyHeartbeatFlow
@@ -14,6 +14,6 @@ CLASS abig PlayerModuleConfig
 		ARG 5 referringAppProvider
 		ARG 6 maximumConsecutiveSkippedUnplayableVideos
 		ARG 7 enableVss2UserPresenceTracking
-	METHOD a builder ()Labif;
+	METHOD a builder ()Lablx;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

@@ -1,2 +1,2 @@
-CLASS ahys StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Lahya;Z[I[Lahvo;Ljava/lang/Object;)V
+CLASS aida StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Laici;Z[I[Lahzv;Ljava/lang/Object;)V

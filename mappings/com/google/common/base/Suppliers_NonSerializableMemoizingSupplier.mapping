@@ -1,5 +1,5 @@
-CLASS afyq com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Lafyo;
+CLASS agcq com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lagco;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lafyo;)V
+	METHOD <init> (Lagco;)V
 		ARG 1 delegate

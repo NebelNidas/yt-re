@@ -1,2 +1,2 @@
-CLASS ahyv UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Lahww;
+CLASS aidd UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Laibd;

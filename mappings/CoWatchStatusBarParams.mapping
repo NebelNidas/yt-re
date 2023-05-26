@@ -1,8 +1,8 @@
-CLASS ved CoWatchStatusBarParams
+CLASS vgp CoWatchStatusBarParams
 	FIELD a isPip Z
 	FIELD b isFullscreen Z
-	FIELD c liveSharingState Lveh;
-	METHOD <init> (ZZLveh;)V
+	FIELD c liveSharingState Lvgs;
+	METHOD <init> (ZZLvgs;)V
 		ARG 1 isPip
 		ARG 2 isFullscreen
 		ARG 3 liveSharingState

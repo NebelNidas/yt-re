@@ -1,2 +1,2 @@
 CLASS erd
-	METHOD b markerPoint (Ljava/lang/String;)V
+	METHOD b release (Ljava/lang/Object;)V

@@ -1,4 +1,4 @@
-CLASS aflh Result_Failure
+CLASS afph Result_Failure
 	FIELD a error Ljava/lang/Throwable;
 	METHOD <init> (Ljava/lang/Throwable;)V
 		ARG 1 error

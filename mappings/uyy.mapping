@@ -1,0 +1,3 @@
+CLASS uyy
+	METHOD cx isHttps (Landroid/net/Uri;)Z
+	METHOD cz isLocalhost (Landroid/net/Uri;)Z

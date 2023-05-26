@@ -1,0 +1,2 @@
+CLASS rul
+	FIELD av list Landroid/widget/ListAdapter;

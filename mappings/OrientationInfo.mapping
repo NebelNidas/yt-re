@@ -1,7 +1,7 @@
-CLASS hda OrientationInfo
-	FIELD a deviceOrientation Lakby;
-	FIELD b interfaceOrientation Lakby;
-	METHOD <init> (Lakby;Lakby;)V
+CLASS hdd OrientationInfo
+	FIELD a deviceOrientation Lakgi;
+	FIELD b interfaceOrientation Lakgi;
+	METHOD <init> (Lakgi;Lakgi;)V
 		ARG 1 deviceOrientation
 		ARG 2 interfaceOrientation
 	METHOD equals (Ljava/lang/Object;)Z

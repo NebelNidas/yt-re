@@ -1,3 +1,0 @@
-CLASS ypt
-	METHOD bT isHttps (Landroid/net/Uri;)Z
-	METHOD bV isLocalhost (Landroid/net/Uri;)Z

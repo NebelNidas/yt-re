@@ -1,3 +1,0 @@
-CLASS adka
-	METHOD a getButtonId (Lalci;)I
-		ARG 1 icon

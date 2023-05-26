@@ -1,2 +1,0 @@
-CLASS woc
-	METHOD d toByteArray ()[B

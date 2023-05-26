@@ -1,5 +1,5 @@
 CLASS com/facebook/litho/ComponentTree
-	FIELD w mainThreadLayoutState Lepq;
+	FIELD w mainThreadLayoutState Lepn;
 	METHOD I mountComponentInternal (Landroid/graphics/Rect;Z)V
 		ARG 1 currentVisibleArea
 		ARG 2 processVisibilityOutputs

@@ -1,12 +1,12 @@
-CLASS tlg ActiveViewMeasurableCriteriaSatisfiedTrigger
+CLASS tnu ActiveViewMeasurableCriteriaSatisfiedTrigger
 	FIELD a layoutId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Laikw;
-	METHOD <init> (Ljava/lang/String;Laikw;Ljava/lang/String;)V
+	FIELD c triggerType Laipc;
+	METHOD <init> (Ljava/lang/String;Laipc;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 layoutId
-	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltlg;
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltnu;
 		ARG 0 triggerId
 		ARG 1 layoutId
 	METHOD equals (Ljava/lang/Object;)Z

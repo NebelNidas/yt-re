@@ -1,2 +1,0 @@
-CLASS acqa
-	METHOD M setPlaybackSpeed (F)V

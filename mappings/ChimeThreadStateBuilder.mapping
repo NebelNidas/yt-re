@@ -1,4 +1,4 @@
-CLASS qsu ChimeThreadStateBuilder
+CLASS qux ChimeThreadStateBuilder
 	FIELD a id J
 	FIELD b threadId Ljava/lang/String;
 	FIELD c lastUpdatedVersion J
@@ -8,9 +8,9 @@ CLASS qsu ChimeThreadStateBuilder
 	FIELD g deletionStatus I
 	FIELD h countBehavior I
 	FIELD i systemTrayBehavior I
-	METHOD <init> (Lqtc;)V
+	METHOD <init> (Lqvf;)V
 		ARG 1 from
-	METHOD a build ()Lqtc;
+	METHOD a build ()Lqvf;
 	METHOD b setId (J)V
 		ARG 1 id
 	METHOD c setLastUpdatedVersion (Ljava/lang/Long;)V

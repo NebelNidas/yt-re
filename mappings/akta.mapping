@@ -1,2 +1,0 @@
-CLASS akta
-	FIELD c displayString Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS abos
+	METHOD e getProgress ()J

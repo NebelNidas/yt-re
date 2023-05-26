@@ -1,4 +1,0 @@
-CLASS atsv
-	METHOD b (Latve;Latve;Latuz;Latuz;Latuz;Latuz;)Latsv;
-		ARG 3 onComplete
-		ARG 6 onDispose

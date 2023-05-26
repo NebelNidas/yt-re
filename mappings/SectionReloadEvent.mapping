@@ -1,4 +1,4 @@
-CLASS fyo SectionReloadEvent
-	METHOD a getReloadContinuationData ()Laoxk;
+CLASS fyk SectionReloadEvent
+	METHOD a getReloadContinuationData ()Lapcd;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Laoxk;)Lfyo;
+	METHOD c of (Ljava/lang/String;Lapcd;)Lfyk;

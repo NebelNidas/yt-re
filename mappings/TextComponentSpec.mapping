@@ -1,2 +1,2 @@
-CLASS pnh TextComponentSpec
-	METHOD f getHint (Lqaf;Landroid/content/Context;Lpqv;Lauq;Lqcg;Lqbg;Lqag;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS pno TextComponentSpec
+	METHOD f getHint (Lqcm;Landroid/content/Context;Lpra;Laup;Lqel;Lqdl;Lqcn;Ljava/util/Map;Z)Ljava/lang/CharSequence;

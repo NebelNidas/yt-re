@@ -1,4 +1,4 @@
-CLASS tra Trigger
-	METHOD a getTriggerType ()Laikw;
+CLASS ttp Trigger
+	METHOD a getTriggerType ()Laipc;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

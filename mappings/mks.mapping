@@ -1,0 +1,6 @@
+CLASS mks
+	FIELD b playerViewModeMonitor Lgff;
+	FIELD l tabNames Ljava/util/Set;
+	FIELD m flags Laggz;
+	FIELD n config Landroid/content/res/Configuration;
+	FIELD p pivotBar Lj$/util/Optional;

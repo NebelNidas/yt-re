@@ -1,4 +1,4 @@
-CLASS vik EditTextExtractedData
+CLASS vlf EditTextExtractedData
 	FIELD a text Ljava/lang/String;
 	FIELD b fontSize F
 	FIELD c foregroundColor I

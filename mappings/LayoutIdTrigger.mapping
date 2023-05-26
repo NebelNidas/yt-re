@@ -1,2 +1,2 @@
-CLASS tor LayoutIdTrigger
+CLASS trf LayoutIdTrigger
 	METHOD e getLayoutId ()Ljava/lang/String;

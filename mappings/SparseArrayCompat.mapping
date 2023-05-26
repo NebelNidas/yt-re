@@ -1,4 +1,4 @@
-CLASS app SparseArrayCompat
+CLASS apo SparseArrayCompat
 	FIELD a garbage Z
 	FIELD b keys [I
 	FIELD c values [Ljava/lang/Object;

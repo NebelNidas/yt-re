@@ -1,4 +1,4 @@
-CLASS aff androidx/camera/core/impl/Config_Option
+CLASS afe androidx/camera/core/impl/Config_Option
 	COMMENT Taken from <a href="https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171">https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/impl/Config.java#171</a>
 	FIELD a id Ljava/lang/String;
 	FIELD b token Ljava/lang/Object;
@@ -7,10 +7,10 @@ CLASS aff androidx/camera/core/impl/Config_Option
 		ARG 1 id
 		ARG 2 valueClass
 		ARG 3 token
-	METHOD a create (Ljava/lang/String;Ljava/lang/Class;)Laff;
+	METHOD a create (Ljava/lang/String;Ljava/lang/Class;)Lafe;
 		ARG 0 id
 		ARG 1 valueClass
-	METHOD b create (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Laff;
+	METHOD b create (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Lafe;
 		ARG 0 id
 		ARG 1 valueClass
 		ARG 2 token

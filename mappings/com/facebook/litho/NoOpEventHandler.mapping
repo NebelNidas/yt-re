@@ -1,2 +1,2 @@
-CLASS eqw com/facebook/litho/NoOpEventHandler
-	FIELD a NO_OP_EVENT_HANDLER Leqw;
+CLASS eqt com/facebook/litho/NoOpEventHandler
+	FIELD a NO_OP_EVENT_HANDLER Leqt;

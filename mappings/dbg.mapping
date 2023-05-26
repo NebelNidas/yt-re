@@ -1,2 +1,0 @@
-CLASS dbg
-	METHOD a onRecreation (Ldbk;)V

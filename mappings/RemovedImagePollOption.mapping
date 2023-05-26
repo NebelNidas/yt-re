@@ -1,7 +1,7 @@
-CLASS uag RemovedImagePollOption
-	FIELD a imagePollOption Luaa;
+CLASS ucs RemovedImagePollOption
+	FIELD a imagePollOption Lucm;
 	FIELD b index I
-	METHOD <init> (Luaa;I)V
+	METHOD <init> (Lucm;I)V
 		ARG 1 imagePollOption
 		ARG 2 index
 	METHOD equals (Ljava/lang/Object;)Z

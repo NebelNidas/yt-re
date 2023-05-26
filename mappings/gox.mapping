@@ -1,2 +1,0 @@
-CLASS gox
-	FIELD a menuItems Ljava/util/Map;

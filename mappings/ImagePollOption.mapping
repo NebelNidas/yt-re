@@ -1,4 +1,4 @@
-CLASS uaa ImagePollOption
+CLASS ucm ImagePollOption
 	FIELD a image Lj$/util/Optional;
 	FIELD b text Lj$/util/Optional;
 	FIELD c placeholderText Ljava/lang/String;

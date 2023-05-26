@@ -1,0 +1,4 @@
+CLASS eqn
+	METHOD c getFocusChangeListener (Landroid/view/View;)Leno;
+	METHOD d getClickListener (Landroid/view/View;)Lens;
+	METHOD e getLongClickListener (Landroid/view/View;)Lent;

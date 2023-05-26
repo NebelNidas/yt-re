@@ -1,0 +1,2 @@
+CLASS err
+	FIELD b stacktrace Ljava/lang/Throwable;

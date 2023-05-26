@@ -1,4 +1,4 @@
-CLASS ahfv PersistedInstallationEntry
+CLASS ahjz PersistedInstallationEntry
 	FIELD a firebaseInstallationId Ljava/lang/String;
 	FIELD b authToken Ljava/lang/String;
 	FIELD c refreshToken Ljava/lang/String;
@@ -14,12 +14,12 @@ CLASS ahfv PersistedInstallationEntry
 		ARG 5 expiresInSecs
 		ARG 7 tokenCreationEpochInSecs
 		ARG 9 fisError
-	METHOD a builder ()Lahfu;
+	METHOD a builder ()Lahjy;
 	METHOD b isRegisterError ()Z
 	METHOD c isOther ()Z
 	METHOD d isRegistered ()Z
 	METHOD e isUnregistered ()Z
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f asBuilder ()Lahfu;
-	METHOD g withBadConfig ()Lahfv;
+	METHOD f asBuilder ()Lahjy;
+	METHOD g withBadConfig ()Lahjz;

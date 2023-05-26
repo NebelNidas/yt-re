@@ -1,2 +1,0 @@
-CLASS dpc
-	FIELD a context Ljava/lang/Object;

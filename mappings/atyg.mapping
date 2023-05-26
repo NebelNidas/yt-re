@@ -1,0 +1,4 @@
+CLASS atyg
+	METHOD b (Lauap;Lauap;Lauak;Lauak;Lauak;Lauak;)Latyg;
+		ARG 3 onComplete
+		ARG 6 onDispose

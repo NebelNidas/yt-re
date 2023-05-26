@@ -1,4 +1,4 @@
-CLASS aheu HeartBeatResult
+CLASS ahiy HeartBeatResult
 	FIELD a userAgent Ljava/lang/String;
 	FIELD b usedDates Ljava/util/List;
 	METHOD <init> (Ljava/lang/String;Ljava/util/List;)V

@@ -1,4 +1,4 @@
-CLASS ttb LearnMoreOverlayState
+CLASS tvp LearnMoreOverlayState
 	FIELD a learnMoreCallToActionHidden Z
 	FIELD b learnMoreCallToActionEnabled Z
 	FIELD c learnMoreText Ljava/lang/CharSequence;
@@ -6,6 +6,6 @@ CLASS ttb LearnMoreOverlayState
 		ARG 1 learnMoreCallToActionHidden
 		ARG 2 learnMoreCallToActionEnabled
 		ARG 3 learnMoreText
-	METHOD a builder ()Ltta;
+	METHOD a builder ()Ltvo;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

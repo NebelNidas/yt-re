@@ -1,10 +1,10 @@
-CLASS enq com/facebook/litho/ComponentContext
+CLASS enn com/facebook/litho/ComponentContext
 	FIELD a context Landroid/content/Context;
 	FIELD b noStateUpdatesMethod Ljava/lang/String;
-	FIELD c componentScope Lenm;
+	FIELD c componentScope Lenj;
 	FIELD g componentTree Lcom/facebook/litho/ComponentTree;
 	FIELD k logTag Ljava/lang/String;
-	FIELD l logger Lnce;
-	METHOD <init> (Landroid/content/Context;Ljava/lang/String;Lnce;Lesn;)V
+	FIELD l logger Lnrw;
+	METHOD <init> (Landroid/content/Context;Ljava/lang/String;Lnrw;Lesk;)V
 		ARG 2 logTag
 	METHOD s checkIfNoStateUpdatesMethod ()V

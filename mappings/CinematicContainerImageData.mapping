@@ -1,4 +1,4 @@
-CLASS gyb CinematicContainerImageData
+CLASS gye CinematicContainerImageData
 	FIELD a backgroundImage Landroid/graphics/Bitmap;
 	FIELD b originalImageSize Landroid/util/Size;
 	METHOD <init> (Landroid/graphics/Bitmap;Landroid/util/Size;)V

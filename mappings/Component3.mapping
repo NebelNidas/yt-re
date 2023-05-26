@@ -1,2 +1,2 @@
-CLASS enj Component3
-	METHOD s key (Ljava/lang/String;)V
+CLASS eng Component3
+	METHOD r key (Ljava/lang/String;)V

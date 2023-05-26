@@ -1,0 +1,2 @@
+CLASS euv
+	METHOD o newEventHandler (Ljava/lang/Class;Leuu;I[Ljava/lang/Object;)Leoy;

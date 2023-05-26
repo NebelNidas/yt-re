@@ -1,10 +1,10 @@
-CLASS mei LoggingInputStates
-	FIELD a loggingState Labtt;
-	FIELD b containerState Lmeu;
-	METHOD <init> (Labtt;Lmeu;)V
+CLASS mem LoggingInputStates
+	FIELD a loggingState Labxk;
+	FIELD b containerState Lmez;
+	METHOD <init> (Labxk;Lmez;)V
 		ARG 1 loggingState
 		ARG 2 containerState
-	METHOD a create (Labtt;Lmeu;)Lmei;
+	METHOD a create (Labxk;Lmez;)Lmem;
 		ARG 0 loggingState
 		ARG 1 containerState
 	METHOD equals (Ljava/lang/Object;)Z

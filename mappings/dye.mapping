@@ -1,0 +1,2 @@
+CLASS dye
+	FIELD a context Ljava/lang/Object;

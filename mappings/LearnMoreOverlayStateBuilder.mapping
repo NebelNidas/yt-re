@@ -1,9 +1,9 @@
-CLASS tvo LearnMoreOverlayStateBuilder
+CLASS tuy LearnMoreOverlayStateBuilder
 	FIELD a learnMoreCtaHidden Z
 	FIELD b learnMoreCtaEnabled Z
 	FIELD c learnMoteText Ljava/lang/CharSequence;
 	FIELD d flags B
-	METHOD a build ()Ltvp;
+	METHOD a build ()Ltuz;
 	METHOD b setLearnMoreCtaEnabled (Z)V
 		ARG 1 learnMoreCtaEnabled
 	METHOD c setLearnMoreCtaHidden (Z)V

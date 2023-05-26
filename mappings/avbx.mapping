@@ -1,0 +1,2 @@
+CLASS avbx
+	METHOD a get ()Ljava/lang/Object;

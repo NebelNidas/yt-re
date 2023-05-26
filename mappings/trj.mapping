@@ -1,0 +1,2 @@
+CLASS trj
+	METHOD e getMediaCpn ()Ljava/lang/String;

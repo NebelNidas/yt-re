@@ -1,5 +1,5 @@
-CLASS aiba FreezableList
+CLASS aibf FreezableList
 	METHOD b freeze ()V
 	METHOD c isMutable ()Z
-	METHOD e mutableCopyWithCapacity (I)Laiba;
+	METHOD e mutableCopyWithCapacity (I)Laibf;
 		ARG 1 capacity

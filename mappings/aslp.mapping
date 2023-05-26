@@ -1,6 +1,0 @@
-CLASS aslp
-	FIELD a applicablePeriod J
-	METHOD b buildSyncConstraint ()Lafru;
-	METHOD c setApplicablePeriod (JLjava/util/concurrent/TimeUnit;)V
-		ARG 1 period
-		ARG 3 unit

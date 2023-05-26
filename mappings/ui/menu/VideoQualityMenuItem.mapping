@@ -1,2 +1,2 @@
-CLASS jsh ui/menu/VideoQualityMenuItem
+CLASS jth ui/menu/VideoQualityMenuItem
 	FIELD d qualities [Lcom/google/android/libraries/youtube/innertube/model/media/VideoQuality;

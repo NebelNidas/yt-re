@@ -1,2 +1,2 @@
 CLASS abor
-	METHOD c getPlayingState ()Laciv;
+	METHOD e getProgress ()J

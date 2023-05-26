@@ -1,4 +1,4 @@
-CLASS obp MdiSyncClientOptions
+CLASS oci MdiSyncClientOptions
 	FIELD a account Landroid/accounts/Account;
 	METHOD <init> (Landroid/accounts/Account;)V
 		ARG 1 account

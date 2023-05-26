@@ -1,10 +1,10 @@
-CLASS wjw TouchReleaseWithResultingSizeState
-	FIELD a touchReleaseType Lwkd;
-	FIELD b resultingSizeState Lwjs;
-	METHOD <init> (Lwkd;Lwjs;)V
+CLASS wju TouchReleaseWithResultingSizeState
+	FIELD a touchReleaseType Lwjy;
+	FIELD b resultingSizeState Lwjr;
+	METHOD <init> (Lwjy;Lwjr;)V
 		ARG 1 touchReleaseType
 		ARG 2 resultingSizeState
-	METHOD a create (Lwkd;Lwjs;)Lwjw;
+	METHOD a create (Lwjy;Lwjr;)Lwju;
 		ARG 0 touchReleaseType
 		ARG 1 resultingSizeState
 	METHOD equals (Ljava/lang/Object;)Z

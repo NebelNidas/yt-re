@@ -1,4 +1,4 @@
-CLASS pjl JavaScriptConfig
+CLASS pkl JavaScriptConfig
 	FIELD a initializationMode Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;
 	FIELD b enableVmContextLru Z
 	FIELD c vmContextLruSize I

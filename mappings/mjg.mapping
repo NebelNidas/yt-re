@@ -1,3 +1,0 @@
-CLASS mjg
-	FIELD aM accountId Lcom/google/apps/tiktok/account/AccountId;
-	FIELD aN accountChangedCalledKey Z

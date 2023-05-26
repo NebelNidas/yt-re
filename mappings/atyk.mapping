@@ -1,0 +1,4 @@
+CLASS atyk
+	METHOD b (Lauat;Lauat;Lauao;Lauao;Lauao;Lauao;)Latyk;
+		ARG 3 onComplete
+		ARG 6 onDispose

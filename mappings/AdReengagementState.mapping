@@ -1,5 +1,5 @@
-CLASS tvk AdReengagementState
-	FIELD a renderer Lajde;
+CLASS tuu AdReengagementState
+	FIELD a renderer Lajdi;
 	FIELD b enabled Z
 	FIELD c fullscreen Z
 	FIELD d annotationEnabled Z

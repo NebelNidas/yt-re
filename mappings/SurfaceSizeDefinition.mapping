@@ -1,4 +1,4 @@
-CLASS ahf SurfaceSizeDefinition
+CLASS ahg SurfaceSizeDefinition
 	FIELD a analysisSize Landroid/util/Size;
 	FIELD c previewSize Landroid/util/Size;
 	FIELD e recordSize Landroid/util/Size;
@@ -6,7 +6,7 @@ CLASS ahf SurfaceSizeDefinition
 		ARG 1 analysisSize
 		ARG 3 previewSize
 		ARG 5 recordSize
-	METHOD a create (Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Ljava/util/Map;)Lahf;
+	METHOD a create (Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Ljava/util/Map;)Lahg;
 		ARG 0 analysisSize
 		ARG 1 previewSize
 		ARG 2 recordSize

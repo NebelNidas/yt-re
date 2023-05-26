@@ -1,5 +1,5 @@
-CLASS aiai MessageType
+CLASS aian MessageType
 	FIELD a containingTypeDefaultInstance Lcom/google/protobuf/MessageLite;
-	METHOD <init> (Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Laiah;)V
+	METHOD <init> (Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Laiam;)V
 		ARG 1 containingTypeDefaultInstance
 		ARG 3 messageDefaultInstance

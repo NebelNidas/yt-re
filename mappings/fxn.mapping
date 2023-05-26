@@ -1,5 +1,0 @@
-CLASS fxn
-	FIELD c watchWhileActivity Lbt;
-	METHOD f someDislikeMethod (Lajrc;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Lajrc;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Lajrc;)Lcom/google/common/util/concurrent/ListenableFuture;

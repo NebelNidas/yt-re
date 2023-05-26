@@ -1,6 +1,6 @@
-CLASS aerc WatchingStateMetadata
-	FIELD a intentCounterMap Laggz;
-	METHOD <init> (Laggz;)V
+CLASS aerg WatchingStateMetadata
+	FIELD a intentCounterMap Laghh;
+	METHOD <init> (Laghh;)V
 		ARG 1 intentCounterMap
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

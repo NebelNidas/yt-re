@@ -1,3 +1,0 @@
-CLASS adnt
-	METHOD a getButtonId (Lalgx;)I
-		ARG 1 icon

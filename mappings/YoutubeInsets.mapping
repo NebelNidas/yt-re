@@ -1,14 +1,14 @@
-CLASS vaa YoutubeInsets
+CLASS uzk YoutubeInsets
 	FIELD a systemWindowInsets Landroid/graphics/Rect;
-	FIELD b displayCutout Luzu;
+	FIELD b displayCutout Luze;
 	FIELD c mandatorySystemGestureInsets Landroid/graphics/Rect;
 	FIELD d stableInsets Landroid/graphics/Rect;
-	METHOD <init> (Landroid/graphics/Rect;Luzu;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
+	METHOD <init> (Landroid/graphics/Rect;Luze;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 		ARG 1 systemWindowInsets
 		ARG 2 displayCutout
 		ARG 3 mandatorySystemGestureInsets
 		ARG 4 stableInsets
-	METHOD a create (Landroid/graphics/Rect;Luzu;Landroid/graphics/Rect;Landroid/graphics/Rect;)Lvaa;
+	METHOD a create (Landroid/graphics/Rect;Luze;Landroid/graphics/Rect;Landroid/graphics/Rect;)Luzk;
 		ARG 0 systemWindowInsets
 		ARG 1 displayCutout
 		ARG 2 mandatorySystemGestureInsets

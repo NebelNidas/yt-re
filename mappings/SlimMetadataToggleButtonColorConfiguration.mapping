@@ -1,4 +1,4 @@
-CLASS lpf SlimMetadataToggleButtonColorConfiguration
+CLASS lps SlimMetadataToggleButtonColorConfiguration
 	FIELD a defaultIconColorRes I
 	FIELD b selectedIconColorRes I
 	FIELD c defaultTextColorRes I

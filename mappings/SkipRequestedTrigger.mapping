@@ -1,16 +1,16 @@
-CLASS tss SkipRequestedTrigger
+CLASS tsa SkipRequestedTrigger
 	FIELD a shouldDisableIfVideoStartMuted Z
 	FIELD b layoutId Ljava/lang/String;
 	FIELD c mediaCpn Ljava/lang/String;
 	FIELD d triggerId Ljava/lang/String;
-	FIELD e triggerType Laipc;
-	METHOD <init> (Ljava/lang/String;Laipc;ZLjava/lang/String;Ljava/lang/String;)V
+	FIELD e triggerType Laipg;
+	METHOD <init> (Ljava/lang/String;Laipg;ZLjava/lang/String;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted
 		ARG 4 layoutId
 		ARG 5 mediaCpn
-	METHOD e create (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ltss;
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ltsa;
 		ARG 0 triggerId
 		ARG 1 layoutId
 		ARG 2 mediaCpn

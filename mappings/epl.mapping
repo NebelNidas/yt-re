@@ -1,3 +1,0 @@
-CLASS epl
-	METHOD a getLayoutOutput (Lfbh;)Lepl;
-	METHOD c isAccessible ()Z

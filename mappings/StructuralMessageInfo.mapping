@@ -1,2 +1,2 @@
-CLASS aida StructuralMessageInfo
-	METHOD <init> StructuralMessageInfo (Laici;Z[I[Lahzv;Ljava/lang/Object;)V
+CLASS aide StructuralMessageInfo
+	METHOD <init> StructuralMessageInfo (Laicm;Z[I[Laiaa;Ljava/lang/Object;)V

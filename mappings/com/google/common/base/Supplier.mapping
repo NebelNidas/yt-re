@@ -1,2 +1,2 @@
-CLASS agco com/google/common/base/Supplier
+CLASS agcw com/google/common/base/Supplier
 	METHOD a get ()Ljava/lang/Object;

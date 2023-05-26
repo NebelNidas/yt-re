@@ -1,6 +1,6 @@
-CLASS aide UnknownFieldSetLite
-	FIELD a defaultInstance Laide;
-	METHOD b mutableCopyOf (Laide;Laide;)Laide;
-	METHOD c newInstance ()Laide;
+CLASS aidi UnknownFieldSetLite
+	FIELD a defaultInstance Laidi;
+	METHOD b mutableCopyOf (Laidi;Laidi;)Laidi;
+	METHOD c newInstance ()Laidi;
 	METHOD g mergeVarintField (ILjava/lang/Object;)V
-	METHOD h mergeFieldFrom (ILahzi;)Z
+	METHOD h mergeFieldFrom (ILahzn;)Z

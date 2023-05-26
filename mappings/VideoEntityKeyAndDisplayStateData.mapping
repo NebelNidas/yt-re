@@ -1,7 +1,7 @@
-CLASS ksb VideoEntityKeyAndDisplayStateData
+CLASS ktb VideoEntityKeyAndDisplayStateData
 	FIELD a videoEntityKey Ljava/lang/String;
-	FIELD b videoDisplayState Ljby;
-	METHOD <init> (Ljava/lang/String;Ljby;)V
+	FIELD b videoDisplayState Ljdi;
+	METHOD <init> (Ljava/lang/String;Ljdi;)V
 		ARG 1 videoEntityKey
 		ARG 2 videoDisplayState
 	METHOD equals (Ljava/lang/Object;)Z

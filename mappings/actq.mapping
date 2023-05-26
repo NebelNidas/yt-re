@@ -1,0 +1,2 @@
+CLASS actq
+	METHOD M setPlaybackSpeed (F)V

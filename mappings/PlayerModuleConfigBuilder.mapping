@@ -1,15 +1,15 @@
-CLASS ablx PlayerModuleConfigBuilder
+CLASS ablw PlayerModuleConfigBuilder
 	FIELD a enableVss2StatsTracking Z
 	FIELD b enableLegacyHeartbeatFlow Z
 	FIELD c backgroundNotificationIconResourceId I
 	FIELD d maximumConsecutiveSkippedUnplayableVideos I
 	FIELD e flags B
 	FIELD f onesieEnabled Z
-	FIELD g referringAppProvider Lvfm;
+	FIELD g referringAppProvider Lvev;
 	FIELD h enableVss2UserPresenceTracking Z
-	METHOD a build ()Lably;
+	METHOD a build ()Lablx;
 	METHOD b enableVss2UserPresenceTracking ()V
 	METHOD c setOnesieEnabled (Z)V
 		ARG 1 onesieEnabled
-	METHOD d setReferringAppProvider (Lvfm;)V
+	METHOD d setReferringAppProvider (Lvev;)V
 		ARG 1 referringAppProvider

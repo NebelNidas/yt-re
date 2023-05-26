@@ -1,9 +1,9 @@
-CLASS afru SyncConstraint
-	FIELD a constraintType Lafrv;
+CLASS afsa SyncConstraint
+	FIELD a constraintType Lafsb;
 	FIELD b applicablePeriod J
-	METHOD <init> (Lafrv;J)V
+	METHOD <init> (Lafsb;J)V
 		ARG 1 constraintType
 		ARG 2 applicablePeriod
-	METHOD a builder ()Laslp;
+	METHOD a builder ()Laslu;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

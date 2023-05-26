@@ -1,10 +1,10 @@
-CLASS men LoggingResult
-	FIELD a loggingAction Lmek;
-	FIELD b inputStates Lmem;
-	METHOD <init> (Lmek;Lmem;)V
+CLASS mfi LoggingResult
+	FIELD a loggingAction Lmff;
+	FIELD b inputStates Lmfh;
+	METHOD <init> (Lmff;Lmfh;)V
 		ARG 1 loggingAction
 		ARG 2 inputStates
-	METHOD a create (Lmek;Lmem;)Lmen;
+	METHOD a create (Lmff;Lmfh;)Lmfi;
 		ARG 0 loggingAction
 		ARG 1 inputStates
 	METHOD equals (Ljava/lang/Object;)Z

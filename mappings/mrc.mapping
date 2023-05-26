@@ -1,0 +1,8 @@
+CLASS mrc
+	FIELD a code Ljava/lang/Integer;
+	FIELD b payload Ljava/lang/Object;
+	FIELD c priority Lmrf;
+	METHOD <init> (Ljava/lang/Integer;Ljava/lang/Object;Lmrf;)V
+		ARG 1 code
+		ARG 2 payload
+		ARG 3 priority

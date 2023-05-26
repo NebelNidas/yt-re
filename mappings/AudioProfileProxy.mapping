@@ -1,4 +1,4 @@
-CLASS afm AudioProfileProxy
+CLASS afn AudioProfileProxy
 	FIELD a codec I
 	FIELD b mediaType Ljava/lang/String;
 	FIELD c bitrate I
@@ -12,7 +12,7 @@ CLASS afm AudioProfileProxy
 		ARG 4 sampleRate
 		ARG 5 channels
 		ARG 6 profile
-	METHOD a create (ILjava/lang/String;IIII)Lafm;
+	METHOD a create (ILjava/lang/String;IIII)Lafn;
 		ARG 0 codec
 		ARG 1 mediaType
 		ARG 2 bitrate

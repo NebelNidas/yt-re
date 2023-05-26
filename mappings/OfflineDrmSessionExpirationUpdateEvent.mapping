@@ -1,4 +1,4 @@
-CLASS abmv OfflineDrmSessionExpirationUpdateEvent
+CLASS abmu OfflineDrmSessionExpirationUpdateEvent
 	METHOD a getVideoId ()Ljava/lang/String;
-	METHOD b create (Ljava/lang/String;)Labmv;
+	METHOD b create (Ljava/lang/String;)Labmu;
 		ARG 0 videoId

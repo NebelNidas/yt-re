@@ -1,12 +1,12 @@
-CLASS trk LayoutIdEnteredTrigger
+CLASS tqs LayoutIdEnteredTrigger
 	FIELD a triggeringLayoutId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Laipc;
-	METHOD <init> (Ljava/lang/String;Laipc;Ljava/lang/String;)V
+	FIELD c triggerType Laipg;
+	METHOD <init> (Ljava/lang/String;Laipg;Ljava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 triggeringLayoutId
-	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltrk;
+	METHOD c create (Ljava/lang/String;Ljava/lang/String;)Ltqs;
 		ARG 0 triggerId
 		ARG 1 triggeringLayoutId
 	METHOD equals (Ljava/lang/Object;)Z

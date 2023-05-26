@@ -1,2 +1,2 @@
-CLASS fai TextInput
+CLASS fax TextInput
 	FIELD f hint Ljava/lang/CharSequence;

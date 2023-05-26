@@ -1,8 +1,8 @@
-CLASS uqu TimestampedEvent
+CLASS upv TimestampedEvent
 	FIELD c timestamp J
 	METHOD <init> (J)V
 		ARG 1 timestamp
-	METHOD h getTimestamp ()J
-	METHOD i setTimestamp (J)V
+	METHOD i getTimestamp ()J
+	METHOD j setTimestamp (J)V
 		ARG 1 timestamp
-	METHOD j hasTimestamp ()Z
+	METHOD k hasTimestamp ()Z

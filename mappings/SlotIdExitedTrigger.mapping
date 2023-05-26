@@ -1,10 +1,10 @@
-CLASS tsz SlotIdExitedTrigger
+CLASS tsh SlotIdExitedTrigger
 	FIELD a triggeringSlotId Ljava/lang/String;
 	FIELD b triggerId Ljava/lang/String;
-	FIELD c triggerType Laipc;
-	METHOD <init> (Ljava/lang/String;Laipc;ZLjava/lang/String;)V
+	FIELD c triggerType Laipg;
+	METHOD <init> (Ljava/lang/String;Laipg;ZLjava/lang/String;)V
 		ARG 2 triggerType
-	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltsz;
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;)Ltsh;
 		ARG 0 triggerId
 		ARG 1 triggeringSlotId
 	METHOD equals (Ljava/lang/Object;)Z

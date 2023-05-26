@@ -1,0 +1,3 @@
+CLASS eqb
+	METHOD a getLayoutOutput (Lfbw;)Leqb;
+	METHOD c isAccessible ()Z

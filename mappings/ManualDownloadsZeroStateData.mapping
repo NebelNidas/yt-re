@@ -1,6 +1,6 @@
-CLASS jqd ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Laiyn;
-	METHOD <init> (Laiyn;)V
+CLASS jrc ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Laiyr;
+	METHOD <init> (Laiyr;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

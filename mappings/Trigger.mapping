@@ -1,4 +1,4 @@
-CLASS ttp Trigger
-	METHOD a getTriggerType ()Laipc;
+CLASS tsy Trigger
+	METHOD a getTriggerType ()Laipg;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

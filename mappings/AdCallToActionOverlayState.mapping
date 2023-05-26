@@ -1,8 +1,8 @@
-CLASS tve AdCallToActionOverlayState
-	FIELD b renderer Lagbo;
-	FIELD c onClickedRenderer Lagbo;
-	FIELD d trackingParams Lahzd;
-	FIELD e visualStateChangeTriggers Laggt;
+CLASS tuo AdCallToActionOverlayState
+	FIELD b renderer Lagbw;
+	FIELD c onClickedRenderer Lagbw;
+	FIELD d trackingParams Lahzi;
+	FIELD e visualStateChangeTriggers Laghb;
 	FIELD f currentPositionMillis J
 	FIELD g animate Z
 	FIELD h fullscreen Z

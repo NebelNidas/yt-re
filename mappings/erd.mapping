@@ -1,2 +1,0 @@
-CLASS erd
-	METHOD b release (Ljava/lang/Object;)V

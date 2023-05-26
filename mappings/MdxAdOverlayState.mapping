@@ -1,2 +1,2 @@
-CLASS tvq MdxAdOverlayState
+CLASS tva MdxAdOverlayState
 	FIELD a remotePlayback Z

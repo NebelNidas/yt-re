@@ -1,2 +1,2 @@
-CLASS aias IntList
-	METHOD f mutableCopyWithCapacity (I)Laias;
+CLASS aiax IntList
+	METHOD f mutableCopyWithCapacity (I)Laiax;

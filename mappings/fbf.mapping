@@ -1,3 +1,0 @@
-CLASS fbf
-	METHOD a getMountItemCount ()I
-	METHOD b getMountItemAt (I)Lfbh;

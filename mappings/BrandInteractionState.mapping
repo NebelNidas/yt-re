@@ -1,8 +1,8 @@
-CLASS tvn BrandInteractionState
+CLASS tux BrandInteractionState
 	FIELD a hidden Z
 	FIELD b enabled Z
 	FIELD c annotationEnabled Z
 	FIELD d appPromoEnabled Z
 	FIELD e fullscreen Z
-	FIELD f renderer Lajch;
+	FIELD f renderer Lajcl;
 	FIELD g likeOrdinal I

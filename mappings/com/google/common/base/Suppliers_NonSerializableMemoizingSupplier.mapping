@@ -1,5 +1,5 @@
-CLASS agcq com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Lagco;
+CLASS agcy com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Lagcw;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lagco;)V
+	METHOD <init> (Lagcw;)V
 		ARG 1 delegate

@@ -1,0 +1,3 @@
+CLASS adnu
+	METHOD a getButtonId (Lalhf;)I
+		ARG 1 icon

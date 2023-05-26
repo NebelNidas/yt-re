@@ -1,4 +1,4 @@
-CLASS erj Size
+CLASS esa Size
 	FIELD a width I
 	FIELD b height I
 	METHOD <init> (II)V

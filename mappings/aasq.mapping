@@ -1,0 +1,2 @@
+CLASS aasq
+	METHOD h findXop (Ljava/lang/String;)Laaso;

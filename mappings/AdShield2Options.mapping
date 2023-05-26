@@ -1,4 +1,4 @@
-CLASS nxj AdShield2Options
+CLASS nyc AdShield2Options
 	FIELD a clientVersion Ljava/lang/String;
 	FIELD b shouldGetAdvertisingId Z
 	FIELD c isGooglePlayServicesAvailable Z

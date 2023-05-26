@@ -1,4 +1,0 @@
-CLASS mqn
-	METHOD a getPriority ()Lmqo;
-	METHOD b getCode ()Ljava/lang/Integer;
-	METHOD c getPayload ()Ljava/lang/Object;

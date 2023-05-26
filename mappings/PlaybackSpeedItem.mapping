@@ -1,2 +1,2 @@
-CLASS lso PlaybackSpeedItem
+CLASS lsz PlaybackSpeedItem
 	FIELD a speedMultiplier F

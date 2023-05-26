@@ -1,10 +1,10 @@
-CLASS yvb SessionMemberInternal
+CLASS yvf SessionMemberInternal
 	FIELD a type Ljava/lang/String;
 	FIELD b id Ljava/lang/String;
 	FIELD c receiverIdentityMatchStatus Ljava/lang/String;
-	FIELD d capabilities Laghx;
+	FIELD d capabilities Lagif;
 	FIELD e encryptionKey Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Laghx;)V
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lagif;)V
 		ARG 1 type
 		ARG 2 id
 		ARG 3 encryptionKey

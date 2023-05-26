@@ -1,2 +1,2 @@
-CLASS rum ui/pdf
+CLASS rtp ui/pdf
 	METHOD b getIconResourceId ()I

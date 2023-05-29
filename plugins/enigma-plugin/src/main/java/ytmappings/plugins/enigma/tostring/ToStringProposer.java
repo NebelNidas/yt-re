@@ -1,4 +1,4 @@
-package yt_mappings_plugin.tostring;
+package ytmappings.plugins.enigma.tostring;
 
 import java.util.Optional;
 

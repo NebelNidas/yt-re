@@ -1,4 +1,4 @@
-package yt_mappings_plugin.tostring.interpreter;
+package ytmappings.plugins.enigma.tostring.interpreter;
 
 import org.objectweb.asm.Type;
 import org.objectweb.asm.tree.analysis.BasicValue;

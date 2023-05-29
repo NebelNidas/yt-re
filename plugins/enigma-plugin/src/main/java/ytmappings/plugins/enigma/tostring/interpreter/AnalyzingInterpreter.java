@@ -1,4 +1,4 @@
-package yt_mappings_plugin.tostring.interpreter;
+package ytmappings.plugins.enigma.tostring.interpreter;
 
 import cuchaz.enigma.translation.representation.entry.FieldEntry;
 import org.objectweb.asm.Opcodes;

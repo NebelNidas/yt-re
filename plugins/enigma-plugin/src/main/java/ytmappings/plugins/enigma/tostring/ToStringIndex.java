@@ -1,4 +1,4 @@
-package yt_mappings_plugin.tostring;
+package ytmappings.plugins.enigma.tostring;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +7,8 @@ import java.util.Set;
 import cuchaz.enigma.translation.representation.entry.FieldEntry;
 import cuchaz.enigma.translation.representation.entry.LocalVariableEntry;
 import cuchaz.enigma.translation.representation.entry.MethodEntry;
+import ytmappings.plugins.enigma.tostring.interpreter.*;
+
 import org.objectweb.asm.Opcodes;
 
 import cuchaz.enigma.analysis.index.JarIndex;
@@ -16,7 +18,6 @@ import org.objectweb.asm.tree.*;
 import org.objectweb.asm.tree.analysis.Analyzer;
 import org.objectweb.asm.tree.analysis.AnalyzerException;
 import org.objectweb.asm.tree.analysis.BasicValue;
-import yt_mappings_plugin.tostring.interpreter.*;
 
 public class ToStringIndex implements JarIndexerService, Opcodes {
     private final Map<String, String> foundClassNames = new HashMap<>();

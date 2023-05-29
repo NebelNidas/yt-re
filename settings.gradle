@@ -17,3 +17,4 @@ if (!JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
 rootProject.name = "yt-mappings"
 
 include 'plugins:enigma-plugin'
+include 'plugins:stitch-plugin'

@@ -1,0 +1,22 @@
+plugins {
+	id 'java-library'
+}
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+repositories {
+	mavenCentral()
+	maven {
+		name "Fabric Repository"
+		url 'https://maven.fabricmc.net'
+	}
+	maven {
+		name "JitPack"
+		url 'https://jitpack.io'
+	}
+}
+
+dependencies {
+	api "com.github.NebelNidas.stitch:stitch:${project.stitch_version}"
+}

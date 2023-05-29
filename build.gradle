@@ -53,10 +53,11 @@ repositories {
 
 configurations {
 	asm
-	enigmaRuntime {
+	enigmaClasspath {
 		extendsFrom asm
 	}
-	jadxRuntime
+	jadxClasspath
+	stitchRuntime
 	matcherClasspath
 	javadocClasspath
 	mappingPoetJar {
@@ -70,12 +71,14 @@ configurations {
 }
 
 dependencies {
-	enigmaRuntime "cuchaz:enigma-swing:${project.enigma_version}"
-	enigmaRuntime "net.fabricmc:name-proposal:${project.name_proposal_version}"
-	enigmaRuntime project(':plugins:enigma-plugin')
-	jadxRuntime ("com.github.NebelNidas.jadx:jadx-gui:${project.jadx_version}:all") {
+	enigmaClasspath "cuchaz:enigma-swing:${project.enigma_version}"
+	enigmaClasspath "net.fabricmc:name-proposal:${project.name_proposal_version}"
+	enigmaClasspath project(':plugins:enigma-plugin')
+	jadxClasspath ("com.github.NebelNidas.jadx:jadx-gui:${project.jadx_version}:all") {
 		transitive = false
 	}
+	stitchRuntime "com.github.NebelNidas.stitch:stitch:${project.stitch_version}"
+	stitchRuntime project(':plugins:stitch-plugin')
 	matcherClasspath "com.github.NebelNidas:Matcher:${project.matcher_version}:all"
 	javadocClasspath "org.jetbrains:annotations:${project.jetbrains_annotations_version}"
 	javadocClasspath "com.google.code.findbugs:jsr305:3.0.2" // for some other jsr annotations
@@ -111,36 +114,36 @@ spotless {
 
 
 // **************************
-//        Variables
+//        Constants
 // **************************
-
-def youtubeVersion = project.youtube_version
-def youtubeApkChecksum = project.youtube_apk_md5
 
 def ENV = System.getenv()
 // Fetch build number from Github Actions
 def buildNumber = ENV.BUILD_NUMBER ?: "local"
 
-def mappingsVersion = "${youtubeVersion}+build.$buildNumber"
+project.ext {
+	youtubeVersion = project.youtube_version
+	youtubeApkChecksum = project.youtube_apk_md5
+
+	mappingsVersion = "${youtubeVersion}+build.$buildNumber"
+
+	setupGroup = "jar setup"
+
+	mappingsGroup = "yt-mappings"
+	buildMappingGroup = "mapping build"
+	mappingsDir = file("mappings")
+	mapJarGroup = "jar mapping"
+
+	intermediaryDir = file("intermediary")
+	intermediaryCounter = file("${intermediaryDir}/counter.tiny")
+	matchesDir = file("matches")
+	cacheDir = file(".gradle/youtube")
+	tempDir = file(".gradle/temp")
+	fakeSourceDir = file(".gradle/temp/fakeSource")
+	jadxDir = file('.jadx')
+}
+
 version = mappingsVersion
-
-def setupGroup = "jar setup"
-def mappingsGroup = "yt-mappings"
-def buildMappingGroup = "mapping build"
-def mapJarGroup = "jar mapping"
-
-def mappingsDir = file("mappings")
-def cacheDir = file(".gradle/youtube")
-def tempDir = file(".gradle/temp")
-def fakeSourceDir = file(".gradle/temp/fakeSource")
-
-def youtubeApk = file("youtube.apk")
-def youtubeJar = file("${cacheDir}/youtube-${youtubeVersion}.jar")
-def youtubeJarCleaned = file("${cacheDir}/youtube-${youtubeVersion}-cleaned.jar")
-def youtubeJarNamed = file("youtube-${youtubeVersion}-named.jar")
-def jadxProjectFile = file(".jadx/youtube-${youtubeVersion}.jadx")
-def youtubeApkToMatchAgainst = file("youtube-new.apk")
-def youtubeJarToMatchAgainst = file("${cacheDir}/youtube-new.jar")
 
 
 
@@ -148,19 +151,14 @@ def youtubeJarToMatchAgainst = file("${cacheDir}/youtube-new.jar")
 //         Classes
 // **************************
 
-class FileOutput extends DefaultTask {
-	@OutputFile
-	File output
-}
-
-class FileOutputInput extends DefaultTask {
+class FileIO extends DefaultTask {
 	@InputFile
 	File input
 	@OutputFile
 	File output
 }
 
-class WithV2FileOutput extends DefaultTask {
+class TinyMappingsOutput extends DefaultTask {
 	@OutputFile
 	File tiny1Output
 	@OutputFile
@@ -197,10 +195,11 @@ boolean isChecksumValid(File file, String checksum) {
 import java.io.File
 import java.net.URI;
 import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.LinkOption;
-import java.nio.file.Files;
+import java.nio.file.NoSuchFileException
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
@@ -215,6 +214,24 @@ void deleteDirectory(Path path) throws IOException {
 		}
 	}
 	Files.delete(path);
+}
+
+
+File removeEntriesFromZip(Path zipFilePath, String... entriesToRemove) {
+		/* Define ZIP File System Properies in HashMap */
+		Map<String, String> zipProperties = new HashMap<>();
+		/* We want to read an existing ZIP File, so we set this to False */
+		zipProperties.put("create", "false");
+
+		URI zipFile = URI.create("jar:" + zipFilePath.toUri());
+
+		/* Create ZIP file System */
+		try (FileSystem zipfs = FileSystems.newFileSystem(zipFile, zipProperties)) {
+			for (String pkg : entriesToRemove) {
+				Path pathInZipfile = zipfs.getPath(pkg);
+				deleteDirectory(pathInZipfile);
+			}
+		} catch (NoSuchFileException e) {}
 }
 
 
@@ -255,15 +272,57 @@ void mapJar(File output, File input, File mappings, File libraries, String from,
 }
 
 
-clean.doFirst {
-	delete tempDir, cacheDir, jadxProjectFile.getParentFile()
+File getYoutubeApk(String ytVersion) {
+	return file("youtube-${ytVersion}.apk")
 }
+
+File getYoutubeJar(String ytVersion) {
+	return file("${cacheDir}/youtube-${ytVersion}.jar")
+}
+
+File getCleanedYoutubeJar(String ytVersion) {
+	return file("${cacheDir}/youtube-${ytVersion}-cleaned.jar")
+}
+
+File getNamedYoutubeJar(String ytVersion) {
+	return file("youtube-${ytVersion}-named.jar")
+}
+
+File getJadxProjectFile(String ytVersion) {
+	return file("${jadxDir}/youtube-${ytVersion}.jadx")
+}
+
+File getIntermediaryFile(String ytVersion) {
+	return file("${intermediaryDir}/${ytVersion}.tiny")
+}
+
+File getMatchFile(String ytVersionA, String ytVersionB) {
+	return file("${matchesDir}/${ytVersionA} - ${ytVersionB}.match")
+}
+
+
+
+// **************************
+//      Constants (2)
+// **************************
+
+def youtubeApk = getYoutubeApk(youtubeVersion)
+def youtubeJar = getYoutubeJar(youtubeVersion)
+def youtubeJarCleaned = getCleanedYoutubeJar(youtubeVersion)
+def youtubeJarNamed = getNamedYoutubeJar(youtubeVersion)
+def jadxProjectFile = getJadxProjectFile(youtubeVersion)
+def intermediaryFile = getIntermediaryFile(youtubeVersion)
 
 
 
 // **************************
 //          Setup
 // **************************
+
+clean.doFirst {
+	delete tempDir, cacheDir, jadxDir
+}
+
 
 task validateApkChecksum {
 	doLast {
@@ -278,10 +337,11 @@ task validateApkChecksum {
 
 import com.googlecode.d2j.dex.Dex2jar
 
-task convertApkToJar(dependsOn: validateApkChecksum, type: FileOutputInput) {
+task convertApkToJar(dependsOn: validateApkChecksum, type: FileIO) {
 	group = setupGroup
-	input youtubeApk
-	output youtubeJar
+	input = youtubeApk
+	output = youtubeJar
+	enabled = !youtubeJar.exists() || youtubeJar.length() < 30000000
 
 	doLast {
 		logger.lifecycle(":deleting old cache")
@@ -294,63 +354,31 @@ task convertApkToJar(dependsOn: validateApkChecksum, type: FileOutputInput) {
 		d2j.resetRandom()
 	}
 }
-convertApkToJar.enabled = !youtubeJar.exists() || youtubeJar.length() < 30000000
 
 
-task copyYoutubeJarForCleanup(dependsOn: convertApkToJar) {
+task copyYoutubeJarForCleanup(dependsOn: convertApkToJar, type: Copy) {
+	enabled = !youtubeJarCleaned.exists() || youtubeJarCleaned.length() < 30000000
+
+	from youtubeJar
+	into cacheDir
+	rename { String fileName ->
+		fileName.replace(youtubeJar.getName(), youtubeJarCleaned.getName())
+	}
+
 	doLast {
 		logger.lifecycle(":copying youtube jar for cleanup")
-		copy {
-			from youtubeJar
-			into cacheDir
-			rename { String fileName ->
-				fileName.replace(youtubeJar.getName(), youtubeJarCleaned.getName())
-			}
-
-		}
-
 	}
 }
-copyYoutubeJarForCleanup.enabled = !youtubeJarCleaned.exists() || youtubeJarCleaned.length() < 30000000
 
 
-import java.nio.file.NoSuchFileException
-
-task removeUnneededPackagesFromJar(dependsOn: copyYoutubeJarForCleanup, type: FileOutputInput) {
+task removeUnneededPackagesFromJar(dependsOn: copyYoutubeJarForCleanup, type: FileIO) {
 	group = setupGroup
-	input youtubeJarCleaned
-	output youtubeJarCleaned
+	input = youtubeJarCleaned
+	output = youtubeJarCleaned
 
 	doLast {
 		logger.lifecycle(":removing unneeded packages from jar")
-
-		List<String> packagesToDelete = Arrays.asList(
-			// 'android',
-			// 'androidx',
-			// 'com',
-			// 'dagger',
-			// 'io',
-			// 'J',
-			'j$',			// The dollar sign causes some issues with certain tools
-			// 'kotlinx',
-			// 'org'
-		);
-
-		/* Define ZIP File System Properies in HashMap */
-		Map<String, String> zipProperties = new HashMap<>();
-		/* We want to read an existing ZIP File, so we set this to False */
-		zipProperties.put("create", "false");
-
-		Path path = youtubeJarCleaned.toPath();
-		URI zipFile = URI.create("jar:" + path.toUri());
-
-		/* Create ZIP file System */
-		try (FileSystem zipfs = FileSystems.newFileSystem(zipFile, zipProperties)) {
-			for (String pack : packagesToDelete) {
-				Path pathInZipfile = zipfs.getPath(pack);
-				deleteDirectory(pathInZipfile);
-			}
-		} catch (NoSuchFileException e) {}
+		removeEntriesFromZip(youtubeJarCleaned.toPath(), 'J', 'j$')
 	}
 }
 
@@ -382,7 +410,7 @@ task checkMappings(dependsOn: removeUnneededPackagesFromJar) {
 //      Export mappings
 // **************************
 
-task buildTinyMappingFiles(type: WithV2FileOutput) {
+task buildTinyMappingFiles(type: TinyMappingsOutput) {
 	group = buildMappingGroup
 	inputs.dir mappingsDir
 
@@ -557,7 +585,7 @@ check.dependsOn javadocLint
 task enigma(dependsOn: checkMappings, type: JavaExec) {
 	group = mappingsGroup
 
-	classpath = configurations.enigmaRuntime
+	classpath = configurations.enigmaClasspath
 	mainClass = 'cuchaz.enigma.gui.Main'
 
 	args '-jar'
@@ -572,43 +600,92 @@ task enigma(dependsOn: checkMappings, type: JavaExec) {
 
 
 task prepareJadx {
+	enabled = !jadxProjectFile.exists()
+
 	doLast {
-		jadxProjectFile.getParentFile().mkdirs()
+		jadxDir.mkdirs()
 		jadxProjectFile.text = """
 			{
 				"projectVersion": 1,
 				"files": [
-					"../youtube.apk"
+					"../youtube-${youtubeVersion}.apk"
 				],
 				"cacheDir": "youtube-${youtubeVersion}.apk.cache"
 			}
 		"""
 	}
 }
-prepareJadx.enabled = !jadxProjectFile.exists()
 
 
 task jadx(dependsOn: [validateApkChecksum, prepareJadx], type: JavaExec) {
 	group = mappingsGroup
 
-	classpath = configurations.jadxRuntime
+	classpath = configurations.jadxClasspath
 	mainClass = 'jadx.gui.JadxGUI'
 
 	args jadxProjectFile.getAbsolutePath()
 	args '--mappings-path'
 	args mappingsDir.getAbsolutePath()
-	// args '--mappings-mode'
-	// args 'read_and_autosave_every_change'
-	// args 'read_and_autosave_before_closing'
 
 	jvmArgs project.jadx_jvmargs
 }
 
 
-task convertApkToMatchAgainstToJar(type: FileOutputInput) {
+task validateNewVersionProp {
+	if (!project.hasProperty('newYtVersion')) {
+		// Use a dummy version during project evaluation,
+		// otherwise tasks like `clean` would crash.
+		project.ext.newYtVersion = '0.0.0'
+
+		doLast {
+			throw new RuntimeException("Property \"newYtVersion\" hasn't been set! Pass it via \"-P'newYtVersion'='<version>'\".")
+		}
+	} else if (newYtVersion == youtubeVersion) {
+		throw new IllegalArgumentException("New version equals old version!")
+	} else if (!getYoutubeApk(newYtVersion).exists()) {
+		throw new IllegalArgumentException("Couldn't find an APK with the specified version!")
+	}
+}
+
+
+task prepareJadxForNewYtVersion(dependsOn: validateNewVersionProp) {
+	def newJadxProjectFile = getJadxProjectFile(newYtVersion)
+	enabled = !newJadxProjectFile.exists()
+
+	doLast {
+		jadxDir.mkdirs()
+		newJadxProjectFile.text = """
+			{
+				"projectVersion": 1,
+				"files": [
+					"../youtube-${newYtVersion}.apk"
+				],
+				"cacheDir": "youtube-${newYtVersion}.apk.cache"
+			}
+		"""
+	}
+}
+
+
+task jadxNewYtVersion(dependsOn: [validateApkChecksum, prepareJadxForNewYtVersion], type: JavaExec) {
+	group = mappingsGroup
+
+	classpath = configurations.jadxClasspath
+	mainClass = 'jadx.gui.JadxGUI'
+
+	args getJadxProjectFile(newYtVersion).getAbsolutePath()
+	jvmArgs project.jadx_jvmargs
+}
+
+
+task convertApkToMatchAgainstToJar(dependsOn: validateNewVersionProp, type: FileIO) {
+	def youtubeApkToMatchAgainst = getYoutubeApk(newYtVersion)
+	def youtubeJarToMatchAgainst = getYoutubeJar(newYtVersion)
+
 	group = setupGroup
-	input youtubeApkToMatchAgainst
-	output youtubeJarToMatchAgainst
+	input = youtubeApkToMatchAgainst
+	output = youtubeJarToMatchAgainst
+	enabled = !youtubeJarToMatchAgainst.exists() || youtubeJarToMatchAgainst.length() < 30000000
 
 	doLast {
 		logger.lifecycle(":converting new youtube version apk to jar")
@@ -618,7 +695,6 @@ task convertApkToMatchAgainstToJar(type: FileOutputInput) {
 		d2j.resetRandom()
 	}
 }
-convertApkToMatchAgainstToJar.enabled = !youtubeJarToMatchAgainst.exists() || youtubeJarToMatchAgainst.length() < 30000000
 
 
 task matcher(dependsOn: [convertApkToJar, convertApkToMatchAgainstToJar], type: JavaExec) {
@@ -631,7 +707,12 @@ task matcher(dependsOn: [convertApkToJar, convertApkToMatchAgainstToJar], type: 
 	args youtubeJar.getAbsolutePath()
 
 	args '--inputs-b'
-	args youtubeJarToMatchAgainst.getAbsolutePath()
+	args getYoutubeJar(newYtVersion).getAbsolutePath()
+
+	args '--non-obfuscated-class-pattern-a'
+	args '^.*/.*$'
+	args '--non-obfuscated-class-pattern-b'
+	args '^.*/.*$'
 
 	args '--mappings-a'
 	args mappingsDir.getAbsolutePath()
@@ -640,4 +721,78 @@ task matcher(dependsOn: [convertApkToJar, convertApkToMatchAgainstToJar], type: 
 	// args '--dont-save-unmapped-matches'
 
 	jvmArgs project.matcher_jvmargs
+}
+
+
+
+// **************************
+//       Intermediary
+// **************************
+
+task copyYoutubeJarToMatchAgainstForCleanup(dependsOn: convertApkToMatchAgainstToJar) {
+	def youtubeJarToMatchAgainst = getYoutubeJar(newYtVersion)
+	def youtubeJarToMatchAgainstCleaned = getCleanedYoutubeJar(newYtVersion)
+	enabled = !youtubeJarToMatchAgainstCleaned.exists() || youtubeJarToMatchAgainstCleaned.length() < 30000000
+
+	doLast {
+		logger.lifecycle(":copying new youtube jar for cleanup")
+		copy {
+			from youtubeJarToMatchAgainst
+			into cacheDir
+			rename { String fileName ->
+				fileName.replace(youtubeJarToMatchAgainst.getName(), youtubeJarToMatchAgainstCleaned.getName())
+			}
+		}
+	}
+}
+
+
+task removeUnneededPackagesFromJarToMatchAgainst(dependsOn: copyYoutubeJarToMatchAgainstForCleanup, type: FileIO) {
+	group = setupGroup
+
+	def youtubeJarToMatchAgainstCleaned = getCleanedYoutubeJar(newYtVersion)
+	input = youtubeJarToMatchAgainstCleaned
+	output = youtubeJarToMatchAgainstCleaned
+
+	doLast {
+		logger.lifecycle(":removing unneeded packages from new jar")
+		removeEntriesFromZip(youtubeJarToMatchAgainstCleaned.toPath(), 'J', 'j$')
+	}
+}
+
+
+task generateIntermediary(dependsOn: removeUnneededPackagesFromJar, type: JavaExec) {
+	group = mappingsGroup
+	enabled = !intermediaryFile.exists()
+
+	classpath = configurations.stitchRuntime
+	mainClass = 'net.fabricmc.stitch.Main'
+
+	systemProperty 'stitch.counter', intermediaryCounter.toPath()
+	args 'generateIntermediary'
+	args youtubeJarCleaned.getAbsolutePath()
+	args intermediaryFile
+
+	jvmArgs project.stitch_jvmargs
+}
+
+
+task updateIntermediary(dependsOn: [generateIntermediary, removeUnneededPackagesFromJarToMatchAgainst], type: JavaExec) {
+	def newIntermediaryFile = getIntermediaryFile(newYtVersion)
+
+	group = mappingsGroup
+	enabled = !newIntermediaryFile.exists()
+
+	classpath = configurations.stitchRuntime
+	mainClass = 'net.fabricmc.stitch.Main'
+
+	systemProperty 'stitch.counter', intermediaryCounter.toPath()
+	args 'updateIntermediary'
+	args youtubeJarCleaned.getAbsolutePath()
+	args getCleanedYoutubeJar(newYtVersion).getAbsolutePath()
+	args intermediaryFile
+	args newIntermediaryFile
+	args getMatchFile(youtubeVersion, newYtVersion)
+
+	jvmArgs project.stitch_jvmargs
 }

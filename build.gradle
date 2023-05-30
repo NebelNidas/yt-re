@@ -29,8 +29,17 @@ buildscript {
 plugins {
 	id 'java' // for constants, packages, javadoc
 	id 'maven-publish'
-	id "com.diffplug.spotless" version "6.4.2"
+	id 'com.diffplug.spotless' version '6.4.2'
 	id 'net.fabricmc.filament' version '0.3.0'
+	id 'checkstyle'
+}
+
+allprojects {
+	apply plugin: 'checkstyle'
+
+	checkstyle {
+		configFile = rootProject.file('checkstyle.xml')
+	}
 }
 
 repositories {
@@ -100,7 +109,7 @@ tasks.withType(JavaCompile).configureEach {
 sourceSets {
 	constants
 	packageDocs { // package info files
-        java.srcDirs = ['packageDocs']
+		java.srcDirs = ['packageDocs']
 	}
 
 }

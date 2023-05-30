@@ -1,16 +1,15 @@
-*.DS_Store
+# YT-Mappings
 *.cache/
 /*.jar
 /*.apk
 /.jadx/
-/namedSrc/
 /yt-mappings*.tiny
 
 # Gradle
 .gradle/
 build/
-classes/
 out/
+classes/
 
 # IntelliJ Idea
 .idea/
@@ -19,13 +18,15 @@ out/
 *.iws
 
 # Eclipse
-*.launch
 .eclipse/
-bin/
+*.launch
 
 # VS Code
-.settings/
 .vscode/
+.settings/
+bin/
+.classpath
+.project
 
 # Fleet
 .fleet/
@@ -34,7 +35,7 @@ bin/
 *.DS_Store
 
 # Java
-*.hprof
-*.jfr
 hs_err_*.log
 replay_*.log
+*.hprof
+*.jfr

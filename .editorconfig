@@ -1,17 +1,21 @@
-root=true
+root = true
 
 [*]
 charset = utf-8
-indent_style = space
+indent_style = tab
 indent_size = 4
+end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{yml,yaml}]
+[*.{yml,yaml,json,toml}]
 indent_size = 2
 
-[*.{gradle,mapping,unpick,tiny,match}]
-indent_style = tab
+[*.{yml,yaml,properties}]
+indent_style = space
 
-[*.{tiny,match}]
+[*.bat]
+end_of_line = crlf
+
+[*.{mapping,tiny,match}]
 trim_trailing_whitespace = false

@@ -29,7 +29,6 @@ buildscript {
 plugins {
 	id 'java' // for constants, packages, javadoc
 	id 'maven-publish'
-	id 'com.diffplug.spotless' version '6.4.2'
 	id 'net.fabricmc.filament' version '0.3.0'
 	id 'checkstyle'
 }
@@ -112,12 +111,6 @@ sourceSets {
 		java.srcDirs = ['packageDocs']
 	}
 
-}
-
-spotless {
-	java {
-		licenseHeaderFile(rootProject.file("HEADER"))
-	}
 }
 
 

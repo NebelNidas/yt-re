@@ -1,8 +1,9 @@
-# YT-Mappings
+# YT-RE
 *.cache/
 /*.jar
 /*.apk
 /.jadx/
+/git-repo/
 /yt-mappings*.tiny
 
 # Gradle

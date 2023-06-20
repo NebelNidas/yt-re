@@ -1,0 +1,4 @@
+dependencies {
+	api "com.github.NebelNidas.stitch:stitch:${project.stitch_version}"
+	api "com.github.NebelNidas.jadx:jadx-core:${project.jadx_version}"
+}

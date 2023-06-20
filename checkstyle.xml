@@ -76,7 +76,7 @@
 		<module name="UnusedImports"/>
 
 		<module name="ImportOrder">
-			<property name="groups" value="java,javax,*,ytmappings"/>
+			<property name="groups" value="java,javax,*,ytre"/>
 			<property name="ordered" value="false"/><!-- the plugin orders alphabetically without considering separators.. -->
 			<property name="separated" value="true"/>
 			<property name="option" value="top"/>

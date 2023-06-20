@@ -152,7 +152,7 @@ A class is assumed to be imported in the following scenarios:
 If it does not fulfill one of these scenarios, use the [full binary name](https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/ClassLoader.html#binary-name), such as `com.google.common.collect.Lists` rather than simply `Lists`.
 Unlike class naming in enigma, do not use `/` to separate packages; use `.` instead.
 
-Use YT-Mappings mappings when referencing YouTube members, such as `com.youtube.app.ui.FontWeight` rather than `class_468`.
+Use named mappings when referencing YouTube members, such as `ui/font/FontWeight` rather than intermediary's `Class_2665`.
 The Javadoc task will warn if some links no longer work after a rename.
 
 <details>

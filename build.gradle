@@ -18,7 +18,7 @@ buildscript {
 	}
 	dependencies {
 		classpath "cuchaz:enigma-cli:${project.enigma_version}"
-		classpath "commons-io:commons-io:2.11.0"
+		classpath "commons-io:commons-io:${project.commonsio_version}"
 		classpath "net.fabricmc:mapping-io:${project.mappingio_version}"
 		classpath "net.fabricmc:tiny-remapper:${project.tiny_remapper_version}"
 		classpath "net.fabricmc:name-proposal:${project.name_proposal_version}"
@@ -29,34 +29,38 @@ buildscript {
 plugins {
 	id 'java' // for constants, packages, javadoc
 	id 'maven-publish'
-	id 'net.fabricmc.filament' version '0.3.0'
+	id 'net.fabricmc.filament' version '0.3.+'
 	id 'checkstyle'
 }
 
 allprojects {
+	apply plugin: 'java-library'
 	apply plugin: 'checkstyle'
+
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
 
 	checkstyle {
 		configFile = rootProject.file('checkstyle.xml')
 	}
-}
 
-repositories {
-	mavenCentral()
-	maven {
-		name "Fabric Repository"
-		url 'https://maven.fabricmc.net'
+	repositories {
+		mavenCentral()
+		maven {
+			name "Fabric Repository"
+			url 'https://maven.fabricmc.net'
+		}
+		google()
+		maven {
+			name "JitPack"
+			url 'https://jitpack.io'
+		}
+		maven {
+			name = 'FlexVer'
+			url = 'https://repo.sleeping.town/'
+		}
+		mavenLocal()
 	}
-	maven {
-		name "JitPack"
-		url 'https://jitpack.io'
-	}
-	maven {
-		name "Quilt"
-		url 'https://maven.quiltmc.org/repository/release/'
-	}
-	google()
-	mavenLocal()
 }
 
 configurations {
@@ -65,7 +69,8 @@ configurations {
 		extendsFrom asm
 	}
 	jadxClasspath
-	stitchRuntime
+	stitchClasspath
+	gitifierClasspath
 	matcherClasspath
 	javadocClasspath
 	mappingPoetJar {
@@ -81,12 +86,13 @@ configurations {
 dependencies {
 	enigmaClasspath "cuchaz:enigma-swing:${project.enigma_version}"
 	enigmaClasspath "net.fabricmc:name-proposal:${project.name_proposal_version}"
-	enigmaClasspath project(':plugins:enigma-plugin')
+	enigmaClasspath project(':tools:enigma-plugin')
 	jadxClasspath ("com.github.NebelNidas.jadx:jadx-gui:${project.jadx_version}:all") {
 		transitive = false
 	}
-	stitchRuntime "com.github.NebelNidas.stitch:stitch:${project.stitch_version}"
-	stitchRuntime project(':plugins:stitch-plugin')
+	stitchClasspath "com.github.NebelNidas.stitch:stitch:${project.stitch_version}"
+	stitchClasspath project(':tools:stitch-plugin')
+	gitifierClasspath project(':tools:gitifier')
 	matcherClasspath "com.github.NebelNidas:Matcher:${project.matcher_version}:all"
 	javadocClasspath "org.jetbrains:annotations:${project.jetbrains_annotations_version}"
 	javadocClasspath "com.google.code.findbugs:jsr305:3.0.2" // for some other jsr annotations
@@ -136,7 +142,7 @@ project.ext {
 	mappingsDir = file("mappings")
 	mapJarGroup = "jar mapping"
 
-	intermediaryDir = file("intermediary")
+	intermediaryDir = file("intermediaries")
 	intermediaryCounter = file("${intermediaryDir}/counter.tiny")
 	matchesDir = file("matches")
 	cacheDir = file(".gradle/youtube")
@@ -357,18 +363,20 @@ task convertApkToJar(dependsOn: validateApkChecksum, type: FileIO) {
 	}
 }
 
-
-task copyYoutubeJarForCleanup(dependsOn: convertApkToJar, type: Copy) {
+task copyYoutubeJarForCleanup(dependsOn: convertApkToJar, type: FileIO) {
+	input youtubeJar
+	output youtubeJarCleaned
 	enabled = !youtubeJarCleaned.exists() || youtubeJarCleaned.length() < 30000000
-
-	from youtubeJar
-	into cacheDir
-	rename { String fileName ->
-		fileName.replace(youtubeJar.getName(), youtubeJarCleaned.getName())
-	}
 
 	doLast {
 		logger.lifecycle(":copying youtube jar for cleanup")
+		copy {
+			from youtubeJar
+			into cacheDir
+			rename { String fileName ->
+				fileName.replace(youtubeJar.getName(), youtubeJarCleaned.getName())
+			}
+		}
 	}
 }
 
@@ -725,6 +733,19 @@ task matcher(dependsOn: [convertApkToJar, convertApkToMatchAgainstToJar], type: 
 	jvmArgs project.matcher_jvmargs
 }
 
+task generateGitRepo(type: JavaExec) {
+	classpath = configurations.gitifierClasspath
+	mainClass = 'ytre.gitifier.Main'
+
+	args 'generateRepo'
+	args './'
+	args intermediaryDir
+	args './git-repo'
+	args '--overwrite'
+
+	jvmArgs project.gitifier_jvmargs
+}
+
 
 
 // **************************
@@ -767,7 +788,7 @@ task generateIntermediary(dependsOn: removeUnneededPackagesFromJar, type: JavaEx
 	group = mappingsGroup
 	enabled = !intermediaryFile.exists()
 
-	classpath = configurations.stitchRuntime
+	classpath = configurations.stitchClasspath
 	mainClass = 'net.fabricmc.stitch.Main'
 
 	systemProperty 'stitch.counter', intermediaryCounter.toPath()
@@ -785,7 +806,7 @@ task updateIntermediary(dependsOn: [generateIntermediary, removeUnneededPackages
 	group = mappingsGroup
 	enabled = !newIntermediaryFile.exists()
 
-	classpath = configurations.stitchRuntime
+	classpath = configurations.stitchClasspath
 	mainClass = 'net.fabricmc.stitch.Main'
 
 	systemProperty 'stitch.counter', intermediaryCounter.toPath()

@@ -1,0 +1,20 @@
+plugins {
+	id 'application'
+}
+
+application {
+	mainClass = 'ytre.gitifier.Main'
+}
+
+dependencies {
+	implementation "net.fabricmc:mapping-io:${project.mappingio_version}"
+	implementation "com.github.NebelNidas.jadx:jadx-core:${project.jadx_version}"
+	implementation "com.github.NebelNidas.jadx:jadx-dex-input:${project.jadx_version}"
+	implementation "com.github.NebelNidas.jadx:jadx-rename-mappings:${project.jadx_version}"
+    implementation "org.eclipse.jgit:org.eclipse.jgit:${project.jgit_version}"
+	implementation "com.unascribed:flexver-java:${project.flexver_version}"
+	implementation "org.slf4j:slf4j-api:${slf4j_version}"
+	implementation "org.tinylog:tinylog-api:${tinylog_version}"
+	runtimeOnly "org.tinylog:tinylog-impl:${tinylog_version}"
+	runtimeOnly "org.tinylog:slf4j-tinylog:${tinylog_version}"
+}

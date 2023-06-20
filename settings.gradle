@@ -11,10 +11,11 @@ pluginManagement {
 
 // This check is done here before any plugins that may require java 17 are able to load.
 if (!JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
-	throw new UnsupportedOperationException("YT-Mappings's buildscript requires Java 17 or higher.")
+	throw new UnsupportedOperationException("YT-RE's buildscript requires Java 17 or higher.")
 }
 
-rootProject.name = "yt-mappings"
+rootProject.name = "yt-re"
 
-include 'plugins:enigma-plugin'
-include 'plugins:stitch-plugin'
+include ':tools:gitifier'
+include ':tools:enigma-plugin'
+include ':tools:stitch-plugin'

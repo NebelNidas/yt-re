@@ -1,6 +1,7 @@
 package ytre.gitifier.commands;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -46,10 +47,11 @@ public class GenState {
 
 		for (String version : versions) {
 			Logger.info("Cleaning up output directory...");
-			cleanupFiles();
+			cleanupDir();
 
 			Logger.info("Decompiling version {}...", version);
 			decompile(version);
+			deleteFilesRecursively(".*\\.dex$");
 
 			Logger.info("Committing version {}...", version);
 			repoManager.commit(version);
@@ -104,7 +106,7 @@ public class GenState {
 		}
 	}
 
-	private void cleanupFiles() {
+	private void cleanupDir() {
 		File[] files = outputDir.toFile().listFiles();
 
 		if (files == null) {
@@ -120,6 +122,26 @@ public class GenState {
 						file.delete();
 					}
 				});
+	}
+
+	private void deleteFilesRecursively(String regex) {
+		try (Stream<Path> stream = Files.walk(outputDir)) {
+			stream.filter(path -> !path.startsWith(outputDir.resolve(".git").toAbsolutePath()))
+				.filter(path -> path.getFileName().toString().matches(regex))
+				.forEach(path -> {
+					if (path.toFile().isDirectory()) {
+						FileUtils.deleteDirIfExists(path);
+					} else {
+						try {
+							Files.deleteIfExists(path);
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+					}
+				});
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	private void decompile(String version) {

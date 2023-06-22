@@ -1,0 +1,11 @@
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/c com/google/android/apps/youtube/embeddedplayer/service/p015ui/overlays/adoverlay/remoteloaded/AdData
+	FIELD l adFlags S
+	METHOD b setCurrentAdIndex (I)V
+	METHOD c setExtraBottomMarginPx (I)V
+	METHOD d setHideSkipButton (Z)V
+	METHOD e setIsSkippable (Z)V
+	METHOD f setShowAdChoices (Z)V
+	METHOD g setSkipEnabled (Z)V
+	METHOD h setSkipTimeRemainingMillis (I)V
+	METHOD i setTimeRemainingMillis (I)V
+	METHOD j setTotalAds (I)V

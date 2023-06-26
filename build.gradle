@@ -22,7 +22,9 @@ buildscript {
 		classpath "net.fabricmc:mapping-io:${project.mappingio_version}"
 		classpath "net.fabricmc:tiny-remapper:${project.tiny_remapper_version}"
 		classpath "net.fabricmc:name-proposal:${project.name_proposal_version}"
-		classpath "com.github.ThexXTURBOXx:dex2jar:v${project.dex2jar_version}"
+		classpath ("com.github.ThexXTURBOXx.dex2jar:dex-translator:v${project.dex2jar_version}") {
+			exclude group: 'com.github.ThexXTURBOXx.dex2jar', module: 'd2j-base-cmd'
+		}
 	}
 }
 

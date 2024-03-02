@@ -1,4 +1,4 @@
-CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/d AdData
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/d com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/AdDataInner
 	FIELD a isSkippable Z
 	FIELD b hideSkipButton Z
 	FIELD c skipEnabled Z

@@ -1,4 +1,4 @@
-CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/c com/google/android/apps/youtube/embeddedplayer/service/p015ui/overlays/adoverlay/remoteloaded/AdData
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/c com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/AdData
 	FIELD l adFlags S
 	METHOD b setCurrentAdIndex (I)V
 	METHOD c setExtraBottomMarginPx (I)V

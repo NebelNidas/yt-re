@@ -594,6 +594,23 @@ check.dependsOn javadocLint
 //   External applications
 // **************************
 
+import net.fabricmc.mappingio.MappingReader;
+import net.fabricmc.mappingio.MappingWriter;
+import net.fabricmc.mappingio.format.MappingFormat;
+import net.fabricmc.mappingio.tree.MemoryMappingTree;
+
+task mergeDuplicateMappings(dependsOn: checkMappings) {
+	group = mappingsGroup
+
+	doLast {
+		logger.lifecycle(":merging duplicate mapping files")
+
+		MemoryMappingTree tree = new MemoryMappingTree();
+		MappingReader.read(mappingsDir.toPath(), tree);
+		tree.accept(MappingWriter.create(mappingsDir.toPath(), MappingFormat.ENIGMA));
+	}
+}
+
 task enigma(dependsOn: checkMappings, type: JavaExec) {
 	group = mappingsGroup
 

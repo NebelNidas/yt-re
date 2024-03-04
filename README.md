@@ -1,8 +1,5 @@
-# YT-Mappings
-YT-Mappings is a set of open, unencumbered YouTube app mappings, free for everyone to use under the Creative Commons Zero license.
-The intention is to let everyone mod YouTube freely and openly, while also being able to innovate and process the mappings as they see fit.
-
-To see the current version being targeted, check the branch name!
+# YouTube App Reverse Engineering Suite
+YT-RE provides several facilities aiding the YouTube Android app reverse engineering process. These include our own set of deobfuscation mappings, tracking of obfuscated artifacts across releases, integration with several well-known reverse engineering tools and a local Git repository generator.
 
 ## Getting Started
 1. Clone the repo.
@@ -12,7 +9,7 @@ To see the current version being targeted, check the branch name!
 5. If you want to, commit and push your work to a fork and open a PR with your changes. Please have a look at the [naming conventions](/CONVENTIONS.md) before submitting one.
 
 ## Gradle Tasks
-YT-Mappings uses Gradle to provide a number of utility tasks for working with the mappings.
+YT-RE uses Gradle to provide a number of utility tasks for working with the mappings.
 Please note, to run our build script **Java 17** is required!
 
 ### `enigma`
@@ -23,11 +20,13 @@ Compared to launching Enigma externally, the gradle task adds a name guesser plu
 ### `jadx`
 Download, setup and launch the latest version of [JADX](https://github.com/skylot/jadx) automatically configured to use the provided APK and mappings.
 
+Please do not enable JADX's built-in auto-deobfuscation, as this feature can mess with exported package names.
+
 ### `buildTinyMappingFiles`
 Build Tiny and Tiny v2 mapping files between official (obfuscated) names and our renames ("named").
 
 ### `buildNamedJar`
-Builds a deobfuscated jar with YT-Mappings applied (`youtube-<yt-version>-named.jar`).
+Builds a deobfuscated jar with deobfuscation mappings applied (`youtube-<yt-version>-named.jar`).
 
 ### Tasks for updating to a new YT version
 These are of no use to the average user, but are listed here anyway for completeness' sake. To update the project to a new YT version, repeat steps 2 and 3 from [Getting Started](#getting-started), but this time with the YT version you want to update to. Then run the following tasks. Note that they all require passing an additional `newYtVersion` property via `-PnewYtVersion='<new-version>'`.

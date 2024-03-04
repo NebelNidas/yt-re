@@ -738,10 +738,11 @@ task matcher(dependsOn: [convertApkToJar, convertApkToMatchAgainstToJar], type: 
 	args '--inputs-b'
 	args getYoutubeJar(newYtVersion).getAbsolutePath()
 
-	args '--non-obfuscated-class-pattern-a'
-	args '^.*/.*$'
-	args '--non-obfuscated-class-pattern-b'
-	args '^.*/.*$'
+	// Disabled due to random minified packages like in com/google/android/apps/youtube/embeddedplayer/service/
+	// args '--non-obfuscated-class-pattern-a'
+	// args '^.*/.*$'
+	// args '--non-obfuscated-class-pattern-b'
+	// args '^.*/.*$'
 
 	args '--mappings-a'
 	args mappingsDir.getAbsolutePath()

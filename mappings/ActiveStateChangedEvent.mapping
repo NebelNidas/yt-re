@@ -1,6 +1,6 @@
-CLASS haq ActiveStateChangedEvent
-	METHOD a create (Lhar;Lhar;)Lhaq;
+CLASS hba ActiveStateChangedEvent
+	METHOD a create (Lhbb;Lhbb;)Lhba;
 		ARG 0 currentState
 		ARG 1 toState
-	METHOD b getCurrentState ()Lhar;
-	METHOD c getToState ()Lhar;
+	METHOD b getCurrentState ()Lhbb;
+	METHOD c getToState ()Lhbb;

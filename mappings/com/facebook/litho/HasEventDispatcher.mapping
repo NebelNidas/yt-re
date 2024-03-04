@@ -1,2 +1,2 @@
-CLASS eqc com/facebook/litho/HasEventDispatcher
-	METHOD n getEventDispatcher ()Lepu;
+CLASS eqa com/facebook/litho/HasEventDispatcher
+	METHOD n getEventDispatcher ()Leps;

@@ -1,4 +1,4 @@
-CLASS pku JavaScriptConfigBuilder
+CLASS pln JavaScriptConfigBuilder
 	FIELD a initializationMode Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;
 	FIELD b enableVmContextLru Z
 	FIELD c vmContextLruSize I
@@ -7,20 +7,20 @@ CLASS pku JavaScriptConfigBuilder
 	FIELD f skipLegacyFunctionBindings Z
 	FIELD g jsEngineSelection I
 	FIELD i platformDetails [B
-	FIELD l flags B
-	METHOD a setEnableVmContextLru (Z)V
+	FIELD m flags S
+	METHOD d setEnableVmContextLru (Z)V
 		ARG 1 enableVmContextLru
-	METHOD c setInitializationMode (Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;)V
+	METHOD f setInitializationMode (Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;)V
 		ARG 1 initializationMode
-	METHOD d setJsEngineSelection (I)V
+	METHOD g setJsEngineSelection (I)V
 		ARG 1 jsEngineSelection
-	METHOD e setPlatformDetails ([B)V
+	METHOD h setPlatformDetails ([B)V
 		ARG 1 platformDetails
-	METHOD h setShouldLockVmIsolate (Z)V
+	METHOD i setShouldLockVmIsolate (Z)V
 		ARG 1 shouldLockVmIsolate
-	METHOD i setShouldUseDirectJsObjectCreation (Z)V
+	METHOD j setShouldUseDirectJsObjectCreation (Z)V
 		ARG 1 shouldUseDirectJsObjectCreation
-	METHOD j setSkipLegacyFunctionBindings (Z)V
+	METHOD k setSkipLegacyFunctionBindings (Z)V
 		ARG 1 skipLegacyFunctionBindings
-	METHOD k setVmContextLruSize (I)V
+	METHOD l setVmContextLruSize (I)V
 		ARG 1 vmContextLruSize

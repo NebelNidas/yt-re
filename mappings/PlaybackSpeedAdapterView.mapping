@@ -1,6 +1,6 @@
-CLASS lua PlaybackSpeedAdapterView
-	FIELD ae speeds [Laqzb;
+CLASS lur PlaybackSpeedAdapterView
+	FIELD ae speeds [Larev;
 	FIELD af selectedIndex I
-	METHOD aO (Landroid/content/Context;Ladte;[Laqzb;I)V
+	METHOD aP (Landroid/content/Context;Ladyc;[Larev;I)V
 		ARG 2 speeds
 		ARG 3 selectedIndex

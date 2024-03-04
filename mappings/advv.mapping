@@ -1,0 +1,3 @@
+CLASS advv
+	METHOD a getButtonId (Lalrc;)I
+		ARG 1 icon

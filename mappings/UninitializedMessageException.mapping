@@ -1,2 +1,2 @@
-CLASS aihp UninitializedMessageException
-	METHOD a asInvalidProtocolBufferException ()Laifr;
+CLASS aina UninitializedMessageException
+	METHOD a asInvalidProtocolBufferException ()Laild;

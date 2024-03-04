@@ -27,12 +27,12 @@ CLASS bt Fragment
 		ARG 1 requestCode
 		ARG 2 resultCode
 		ARG 3 data
-	METHOD aA create (Landroid/content/Context;Ljava/lang/String;)Lbt;
+	METHOD aA onGetLayoutInflater ()Landroid/view/LayoutInflater;
+	METHOD aB create (Landroid/content/Context;Ljava/lang/String;)Lbt;
 		ARG 1 name
-	METHOD ar getPopDirection ()Z
-	METHOD aw isSaved ()Z
-	METHOD az onGetLayoutInflater ()Landroid/view/LayoutInflater;
-	METHOD mQ getPopEnterAnimation ()I
-	METHOD mR getPopExitAnimation ()I
-	METHOD og getEnterAnimation ()I
-	METHOD oh getExitAnimation ()I
+	METHOD as getPopDirection ()Z
+	METHOD ax isSaved ()Z
+	METHOD mR getPopEnterAnimation ()I
+	METHOD mS getPopExitAnimation ()I
+	METHOD oi getEnterAnimation ()I
+	METHOD oj getExitAnimation ()I

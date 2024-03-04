@@ -1,4 +1,4 @@
-CLASS tul Trigger
-	METHOD a getTriggerType ()Laito;
+CLASS txz Trigger
+	METHOD a getTriggerType ()Laiyx;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

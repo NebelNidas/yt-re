@@ -1,2 +1,2 @@
-CLASS eoe Component3
+CLASS eoc Component3
 	METHOD r key (Ljava/lang/String;)V

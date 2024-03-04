@@ -1,13 +1,13 @@
-CLASS afwe SyncletBinding
+CLASS agbg SyncletBinding
 	FIELD a enabled Z
-	FIELD b syncKey Lafwc;
-	FIELD c syncletProvider Lavib;
-	FIELD d syncConfig Lafvz;
-	METHOD <init> (Lafwc;Lafvz;Lavib;)V
+	FIELD b syncKey Lagbe;
+	FIELD c syncletProvider Lavoj;
+	FIELD d syncConfig Lagbb;
+	METHOD <init> (Lagbe;Lagbb;Lavoj;)V
 		ARG 1 syncKey
 		ARG 2 syncConfig
 		ARG 3 syncletProvider
-	METHOD a getSyncConfig ()Lafvz;
-	METHOD b builder ()Latyd;
+	METHOD a getSyncConfig ()Lagbb;
+	METHOD b builder ()Lauek;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

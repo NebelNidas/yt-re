@@ -1,0 +1,2 @@
+CLASS nrq
+	METHOD a getAccount ()Landroid/accounts/Account;

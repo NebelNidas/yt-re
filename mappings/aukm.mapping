@@ -1,0 +1,4 @@
+CLASS aukm
+	METHOD b (Laumv;Laumv;Laumq;Laumq;Laumq;Laumq;)Laukm;
+		ARG 3 onComplete
+		ARG 6 onDispose

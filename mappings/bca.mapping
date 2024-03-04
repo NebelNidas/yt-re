@@ -1,4 +1,0 @@
-CLASS bca
-	FIELD a accessibilityActions [I
-	FIELD b views Ljava/util/WeakHashMap;
-	METHOD w addView (Landroid/view/View;)Lbld;

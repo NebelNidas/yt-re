@@ -1,2 +1,2 @@
-CLASS eug com/facebook/litho/annotations/Prop
-	METHOD a resType ()Leuh;
+CLASS eue com/facebook/litho/annotations/Prop
+	METHOD a resType ()Leuf;

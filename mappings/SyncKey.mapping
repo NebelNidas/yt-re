@@ -1,6 +1,6 @@
-CLASS afwc SyncKey
-	FIELD a message Lafxa;
-	METHOD a (Ljava/lang/String;)Lafwc;
+CLASS agbe SyncKey
+	FIELD a message Lagcc;
+	METHOD a (Ljava/lang/String;)Lagbe;
 		ARG 0 name
 	METHOD b getName ()Ljava/lang/String;
 	METHOD equals (Ljava/lang/Object;)Z

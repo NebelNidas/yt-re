@@ -1,4 +1,4 @@
-CLASS gib EntityData
+CLASS gij EntityData
 	FIELD a entityKey Ljava/lang/String;
 	FIELD b fieldNumber I
 	FIELD c contentId Ljava/lang/String;

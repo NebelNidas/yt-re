@@ -1,4 +1,4 @@
-CLASS lic RegionEntry
+CLASS lio RegionEntry
 	FIELD a regionName Ljava/lang/String;
 	FIELD b regionCode Ljava/lang/String;
 	FIELD c callingCode I

@@ -1,2 +1,2 @@
-CLASS fbh TextInput
+CLASS fbf TextInput
 	FIELD f hint Ljava/lang/CharSequence;

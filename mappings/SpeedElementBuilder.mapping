@@ -1,11 +1,11 @@
-CLASS hum SpeedElementBuilder
+CLASS huy SpeedElementBuilder
 	FIELD a speed F
 	FIELD b animationTitle Ljava/lang/String;
 	FIELD c text Ljava/lang/String;
 	FIELD d icon I
 	FIELD e contentDescription Ljava/lang/String;
 	FIELD f flags B
-	METHOD a build ()Lhun;
+	METHOD a build ()Lhuz;
 	METHOD b setAnimationTitle (Ljava/lang/String;)V
 		ARG 1 animationTitle
 	METHOD c setContentDescription (Ljava/lang/String;)V

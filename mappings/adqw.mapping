@@ -1,3 +1,0 @@
-CLASS adqw
-	METHOD a getButtonId (Lallr;)I
-		ARG 1 icon

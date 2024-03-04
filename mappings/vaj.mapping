@@ -1,3 +1,0 @@
-CLASS vaj
-	METHOD bv isHttps (Landroid/net/Uri;)Z
-	METHOD bx isLocalhost (Landroid/net/Uri;)Z

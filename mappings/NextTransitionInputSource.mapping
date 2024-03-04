@@ -1,7 +1,7 @@
-CLASS lyx NextTransitionInputSource
-	FIELD a inputSource Llyz;
+CLASS lzq NextTransitionInputSource
+	FIELD a inputSource Llzs;
 	FIELD b isActive Z
-	METHOD <init> (Llyz;Z)V
+	METHOD <init> (Llzs;Z)V
 		ARG 1 inputSource
 		ARG 2 isActive
 	METHOD equals (Ljava/lang/Object;)Z

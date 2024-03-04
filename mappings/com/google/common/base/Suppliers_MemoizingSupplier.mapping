@@ -1,6 +1,6 @@
-CLASS aggv com/google/common/base/Suppliers_MemoizingSupplier
-	FIELD a delegate Laggu;
+CLASS aglw com/google/common/base/Suppliers_MemoizingSupplier
+	FIELD a delegate Laglv;
 	FIELD b initialized Z
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Laggu;)V
+	METHOD <init> (Laglv;)V
 		ARG 1 delegate

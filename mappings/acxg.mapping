@@ -1,3 +1,0 @@
-CLASS acxg
-	METHOD o (F)V
-		ARG 1 speedMult

@@ -1,0 +1,2 @@
+CLASS adbp
+	METHOD M setPlaybackSpeed (F)V

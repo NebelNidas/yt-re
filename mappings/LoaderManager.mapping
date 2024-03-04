@@ -1,6 +1,6 @@
-CLASS blk LoaderManager
-	FIELD a lifecycleOwner Lbjw;
-	METHOD a create (Lbjw;)Lblk;
+CLASS blg LoaderManager
+	FIELD a lifecycleOwner Lbjs;
+	METHOD a create (Lbjs;)Lblg;
 	METHOD b isLoggable (I)Z
 		ARG 0 level
 	METHOD c toString (Ljava/lang/String;Ljava/io/PrintWriter;)V

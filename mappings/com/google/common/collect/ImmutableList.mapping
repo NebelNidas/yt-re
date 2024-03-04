@@ -1,8 +1,8 @@
-CLASS agkz com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Lagkz;
+CLASS agqa com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Lagqa;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Lagkz;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagkz;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lagqa;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagqa;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Lagkz;
+	METHOD o copyOf (Ljava/util/Collection;)Lagqa;
 		ARG 0 elements

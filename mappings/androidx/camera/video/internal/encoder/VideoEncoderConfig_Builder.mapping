@@ -1,4 +1,4 @@
-CLASS aon androidx/camera/video/internal/encoder/VideoEncoderConfig_Builder
+CLASS aoi androidx/camera/video/internal/encoder/VideoEncoderConfig_Builder
 	COMMENT Taken from <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-video/src/main/java/androidx/camera/video/internal/encoder/VideoEncoderConfig.java;l=97;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b">https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-video/src/main/java/androidx/camera/video/internal/encoder/VideoEncoderConfig.java;l=97;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b</a>
 	FIELD b IFrameInterval Ljava/lang/Integer;
 	FIELD c mimeType Ljava/lang/String;
@@ -7,7 +7,7 @@ CLASS aon androidx/camera/video/internal/encoder/VideoEncoderConfig_Builder
 	FIELD f frameRate Ljava/lang/Integer;
 	FIELD g bitrate Ljava/lang/Integer;
 	FIELD h inputTimebase I
-	METHOD a build ()Laoo;
+	METHOD a build ()Laoj;
 	METHOD b setBitrate (I)V
 		ARG 1 bitrate
 	METHOD c setFrameRate (I)V

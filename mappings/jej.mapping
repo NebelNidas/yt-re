@@ -1,0 +1,26 @@
+CLASS jej
+	FIELD a id Ljava/lang/String;
+	FIELD b title Ljava/lang/String;
+	FIELD c lengthSeconds J
+	FIELD f channelTitle Ljava/lang/String;
+	FIELD g channelThumbnailDetails Laqof;
+	FIELD h thumbnailDetails Laqof;
+	FIELD i description Lalhs;
+	FIELD j publishedTimestampMs Ljava/lang/Long;
+	FIELD l viewCount Ljava/lang/Long;
+	FIELD n likeCountText Ljava/lang/String;
+	METHOD E setLengthSeconds (J)V
+	METHOD G setLikeCountText (Ljava/lang/String;)V
+		ARG 1 likeCountText
+	METHOD L setPublishedTimestampMs (J)V
+	METHOD P setThumbnailDetails (Laqof;)V
+		ARG 1 thumbnailDetails
+	METHOD Q setTitle (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD T setViewCount (J)V
+		ARG 1 viewCount
+	METHOD d setChannelThumbnailDetails (Laqof;)V
+	METHOD e setChannelTitle (Ljava/lang/String;)V
+	METHOD f setDescription (Lalhs;)V
+	METHOD g setDislikeCountText (Ljava/lang/String;)V
+	METHOD l setId (Ljava/lang/String;)V

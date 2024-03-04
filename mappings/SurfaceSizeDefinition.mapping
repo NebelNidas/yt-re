@@ -1,4 +1,4 @@
-CLASS ahr SurfaceSizeDefinition
+CLASS aho SurfaceSizeDefinition
 	FIELD a analysisSize Landroid/util/Size;
 	FIELD c previewSize Landroid/util/Size;
 	FIELD e recordSize Landroid/util/Size;
@@ -6,7 +6,7 @@ CLASS ahr SurfaceSizeDefinition
 		ARG 1 analysisSize
 		ARG 3 previewSize
 		ARG 5 recordSize
-	METHOD b create (Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Ljava/util/Map;)Lahr;
+	METHOD b create (Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Landroid/util/Size;Ljava/util/Map;Ljava/util/Map;)Laho;
 		ARG 0 analysisSize
 		ARG 1 previewSize
 		ARG 2 recordSize

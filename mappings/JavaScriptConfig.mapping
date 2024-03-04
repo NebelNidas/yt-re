@@ -1,4 +1,4 @@
-CLASS pkv JavaScriptConfig
+CLASS plo JavaScriptConfig
 	FIELD a initializationMode Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;
 	FIELD b enableVmContextLru Z
 	FIELD c vmContextLruSize I
@@ -7,7 +7,7 @@ CLASS pkv JavaScriptConfig
 	FIELD f skipLegacyFunctionBindings Z
 	FIELD g jsEngineSelection I
 	FIELD i platformDetails [B
-	METHOD <init> (Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;ZIZZZILjava/lang/String;[BZZ)V
+	METHOD <init> (Lcom/google/android/libraries/elements/interfaces/JSControllerInitializationMode;ZIZZZILjava/lang/String;[BZZZ)V
 		ARG 1 initializationMode
 		ARG 2 enableVmContextLru
 		ARG 3 vmContextLruSize

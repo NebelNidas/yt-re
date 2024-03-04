@@ -1,9 +1,9 @@
-CLASS tpk OnMediaPlaybackErrorTrigger
+CLASS tsw OnMediaPlaybackErrorTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Laito;
+	FIELD b triggerType Laiyx;
 	FIELD c shouldDisableIfVideoStartMuted Z
 	FIELD d mediaCpn Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Laito;ZLjava/lang/String;)V
+	METHOD <init> (Ljava/lang/String;Laiyx;ZLjava/lang/String;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldDisableIfVideoStartMuted

@@ -1,0 +1,2 @@
+CLASS abar
+	METHOD h findXop (Ljava/lang/String;)Labap;

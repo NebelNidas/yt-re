@@ -1,24 +1,24 @@
-CLASS qcl ConversionContext
+CLASS qfh ConversionContext
+	FIELD A horizontalCollectionTouchInterceptor Lfho;
 	FIELD b container Landroid/view/View;
 	FIELD c widthConstraint Ljava/lang/Integer;
 	FIELD d heightConstraint Ljava/lang/Integer;
-	FIELD e templateLoggerFactory Lqee;
-	FIELD f rootDisposableContainer Laugw;
+	FIELD e templateLoggerFactory Lqha;
+	FIELD f rootDisposableContainer Laund;
 	FIELD g imagePrefetchRangeRatio F
-	FIELD h horizontalCollectionSwipeProtector Lob;
+	FIELD h horizontalCollectionSwipeProtector Loc;
 	FIELD i useIncrementalMountOnChildrenInternal Z
 	FIELD j pathBuilder Ljava/lang/StringBuilder;
 	FIELD k elementId Ljava/lang/String;
 	FIELD l identifierProperty Ljava/lang/String;
 	FIELD m loggingNodeInternal Ljava/lang/ref/WeakReference;
 	FIELD n parentLoggingNodeInternal Ljava/lang/ref/WeakReference;
-	FIELD o globalCommandDataDecoratorsInternal Lagkz;
-	FIELD p decoratingElementBuilder Lqcs;
+	FIELD o globalCommandDataDecoratorsInternal Lagqa;
+	FIELD p decoratingElementBuilder Lqfo;
 	FIELD q debugId Ljava/lang/String;
 	FIELD r treeDebugId Ljava/lang/String;
 	FIELD s shouldAddDebuggerViewTags Z
-	FIELD t elementsConfig Lqdh;
+	FIELD t elementsConfig Lqgd;
 	FIELD u couldOverlapWithElementsConfig Z
 	FIELD w scrollStrategyListenerHolder Ljava/util/concurrent/atomic/AtomicReference;
-	FIELD y elementsInteractionLoggerInternal Ladgn;
-	FIELD z horizontalCollectionTouchInterceptor Labry;
+	FIELD z elementsInteractionLoggerInternal Ladlm;

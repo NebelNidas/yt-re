@@ -1,4 +1,4 @@
-CLASS aoo androidx/camera/video/internal/encoder/VideoEncoderConfig
+CLASS aoj androidx/camera/video/internal/encoder/VideoEncoderConfig
 	COMMENT Taken from <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-video/src/main/java/androidx/camera/video/internal/encoder/VideoEncoderConfig.java;l=32;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b">https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-video/src/main/java/androidx/camera/video/internal/encoder/VideoEncoderConfig.java;l=32;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b</a>
 	FIELD a mimeType Ljava/lang/String;
 	FIELD b bitrate I
@@ -11,6 +11,6 @@ CLASS aoo androidx/camera/video/internal/encoder/VideoEncoderConfig
 	METHOD <init> (Ljava/lang/String;IILandroid/util/Size;II)V
 		ARG 1 mimeType
 	METHOD a toMediaFormat ()Landroid/media/MediaFormat;
-	METHOD b builder ()Laon;
+	METHOD b builder ()Laoi;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

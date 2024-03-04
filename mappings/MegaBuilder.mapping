@@ -1,10 +1,10 @@
-CLASS atyd MegaBuilder
+CLASS auek MegaBuilder
 	FIELD a param1 Ljava/lang/Object;
 	FIELD b param2 Ljava/lang/Object;
 	FIELD c param3 Ljava/lang/Object;
-	METHOD <init> (Ludf;)V
+	METHOD <init> (Lugu;)V
 		ARG 1 pollOption
-	METHOD x buildImagePollOption ()Ludf;
+	METHOD x buildImagePollOption ()Lugu;
 	METHOD y setImage (Lj$/util/Optional;)V
 		ARG 1 image
 	METHOD z setPlaceholderText (Ljava/lang/String;)V

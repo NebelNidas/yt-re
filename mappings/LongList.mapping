@@ -1,2 +1,2 @@
-CLASS aifj LongList
-	METHOD f mutableCopyWithCapacity (I)Laifj;
+CLASS aikv LongList
+	METHOD f mutableCopyWithCapacity (I)Laikv;

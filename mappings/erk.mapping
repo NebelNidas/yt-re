@@ -1,0 +1,4 @@
+CLASS erk
+	METHOD c getFocusChangeListener (Landroid/view/View;)Leok;
+	METHOD d getClickListener (Landroid/view/View;)Leoo;
+	METHOD e getLongClickListener (Landroid/view/View;)Leop;

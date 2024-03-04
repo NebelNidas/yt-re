@@ -1,11 +1,11 @@
-CLASS anc VideoValidatedEncoderProfilesProxy
-	FIELD a defaultVideoProfile Laga;
+CLASS amy VideoValidatedEncoderProfilesProxy
+	FIELD a defaultVideoProfile Lafx;
 	FIELD b defaultDurationSeconds I
 	FIELD c recommendedFileFormat I
 	FIELD d audioProfiles Ljava/util/List;
 	FIELD e videoProfiles Ljava/util/List;
-	FIELD f defaultAudioProfile Lafy;
-	METHOD <init> (IILjava/util/List;Ljava/util/List;Lafy;Laga;)V
+	FIELD f defaultAudioProfile Lafv;
+	METHOD <init> (IILjava/util/List;Ljava/util/List;Lafv;Lafx;)V
 		ARG 1 defaultDurationSeconds
 		ARG 2 recommendedFileFormat
 		ARG 3 audioProfiles

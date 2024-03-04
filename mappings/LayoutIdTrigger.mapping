@@ -1,2 +1,2 @@
-CLASS tsb LayoutIdTrigger
+CLASS tvn LayoutIdTrigger
 	METHOD e getLayoutId ()Ljava/lang/String;

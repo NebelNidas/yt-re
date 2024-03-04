@@ -1,6 +1,6 @@
-CLASS jrk ManualDownloadsZeroStateData
-	FIELD a backgroundPromoStyleType Lajdc;
-	METHOD <init> (Lajdc;)V
+CLASS jsd ManualDownloadsZeroStateData
+	FIELD a backgroundPromoStyleType Lajil;
+	METHOD <init> (Lajil;)V
 		ARG 1 backgroundPromoStyleType
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

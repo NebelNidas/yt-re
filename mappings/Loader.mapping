@@ -1,4 +1,4 @@
-CLASS blr Loader
+CLASS bln Loader
 	FIELD d id I
 	FIELD f started Z
 	FIELD i contentChanged Z

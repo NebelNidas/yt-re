@@ -1,2 +1,2 @@
-CLASS poy TextComponentSpec
-	METHOD g getHint (Lqcl;Landroid/content/Context;Lpsv;Lavk;Lqei;Lqdj;Lqcm;Ljava/util/Map;Z)Ljava/lang/CharSequence;
+CLASS ppt TextComponentSpec
+	METHOD g getHint (Lqfh;Landroid/content/Context;Lptr;Lavf;Lqhe;Lqgf;Lqfi;Ljava/util/Map;Z)Ljava/lang/CharSequence;

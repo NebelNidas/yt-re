@@ -1,10 +1,10 @@
-CLASS ttj ReelItemSequenceAbandonedTrigger
+CLASS twx ReelItemSequenceAbandonedTrigger
 	FIELD a triggerId Ljava/lang/String;
-	FIELD b triggerType Laito;
-	METHOD <init> (Ljava/lang/String;Laito;)V
+	FIELD b triggerType Laiyx;
+	METHOD <init> (Ljava/lang/String;Laiyx;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
-	METHOD c create (Ljava/lang/String;)Lttj;
+	METHOD c create (Ljava/lang/String;)Ltwx;
 		ARG 0 triggerId
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

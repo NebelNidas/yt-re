@@ -1,0 +1,3 @@
+CLASS vec
+	METHOD co isHttps (Landroid/net/Uri;)Z
+	METHOD cq isLocalhost (Landroid/net/Uri;)Z

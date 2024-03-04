@@ -1,0 +1,2 @@
+CLASS ptv
+	METHOD q isItalic ()Z

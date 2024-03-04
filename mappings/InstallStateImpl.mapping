@@ -1,4 +1,4 @@
-CLASS affx InstallStateImpl
+CLASS afla InstallStateImpl
 	FIELD a installStatus I
 	FIELD b bytesDownloaded J
 	FIELD c totalBytesToDownload J

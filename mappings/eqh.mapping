@@ -1,0 +1,3 @@
+CLASS eqh
+	METHOD a getLayoutOutput (Lfce;)Leqh;
+	METHOD c isAccessible ()Z

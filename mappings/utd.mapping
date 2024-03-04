@@ -1,0 +1,2 @@
+CLASS utd
+	METHOD d getPackageInfo (Landroid/content/Context;)Landroid/content/pm/PackageInfo;

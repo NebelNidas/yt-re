@@ -1,0 +1,2 @@
+CLASS dpw
+	FIELD a context Ljava/lang/Object;

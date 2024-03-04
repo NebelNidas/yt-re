@@ -1,7 +1,7 @@
-CLASS fzm SectionReloadEventImpl
+CLASS fzs SectionReloadEventImpl
 	FIELD a sectionId Ljava/lang/String;
-	FIELD b reloadContinuationData Laphd;
-	METHOD <init> (Ljava/lang/String;Laphd;)V
+	FIELD b reloadContinuationData Lapmu;
+	METHOD <init> (Ljava/lang/String;Lapmu;)V
 		ARG 1 sectionId
 		ARG 2 reloadContinuationData
 	METHOD equals (Ljava/lang/Object;)Z

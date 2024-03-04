@@ -1,5 +1,5 @@
-CLASS aied CodedOutputStream
+CLASS aijp CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ai getCodedOutput ([B)Laied;
+	METHOD ai getCodedOutput ([B)Laijp;
 	METHOD al checkNoSpaceLeft ()V
 	METHOD i flush ()V

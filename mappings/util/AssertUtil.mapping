@@ -1,2 +1,2 @@
-CLASS auho util/AssertUtil
+CLASS aunw util/AssertUtil
 	METHOD a assertGreaterThan0 (ILjava/lang/String;)V

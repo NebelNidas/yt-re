@@ -1,2 +1,2 @@
-CLASS allr Icon
-	METHOD a fromValue (I)Lallr;
+CLASS alrc Icon
+	METHOD a fromValue (I)Lalrc;

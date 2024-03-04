@@ -1,4 +1,4 @@
-CLASS eoa Column
+CLASS eny Column
 	FIELD a children Ljava/util/List;
 	FIELD d reverse Z
-	METHOD b create (Leol;)Lenz;
+	METHOD b create (Leoj;)Lenx;

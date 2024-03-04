@@ -1,8 +1,8 @@
-CLASS twk BrandInteractionState
+CLASS tzy BrandInteractionState
 	FIELD a hidden Z
 	FIELD b enabled Z
 	FIELD c annotationEnabled Z
 	FIELD d appPromoEnabled Z
 	FIELD e fullscreen Z
-	FIELD f renderer Lajgw;
+	FIELD f renderer Lajmf;
 	FIELD g likeOrdinal I

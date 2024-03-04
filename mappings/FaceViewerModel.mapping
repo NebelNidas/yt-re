@@ -1,7 +1,7 @@
-CLASS pam FaceViewerModel
-	FIELD a experienceRequestProto Lahjz;
+CLASS pbk FaceViewerModel
+	FIELD a experienceRequestProto Lahoz;
 	FIELD b theme I
-	METHOD <init> (Lahjz;I)V
+	METHOD <init> (Lahoz;I)V
 		ARG 1 experienceRequestproto
 		ARG 2 theme
 	METHOD equals (Ljava/lang/Object;)Z

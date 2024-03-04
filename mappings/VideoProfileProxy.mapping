@@ -1,4 +1,4 @@
-CLASS aga VideoProfileProxy
+CLASS afx VideoProfileProxy
 	FIELD a codec I
 	FIELD b mediaType Ljava/lang/String;
 	FIELD c bitrate I
@@ -20,7 +20,7 @@ CLASS aga VideoProfileProxy
 		ARG 8 bitDepth
 		ARG 9 chromaSubsampling
 		ARG 10 hdrFormat
-	METHOD a create (ILjava/lang/String;IIIIIIII)Laga;
+	METHOD a create (ILjava/lang/String;IIIIIIII)Lafx;
 		ARG 0 codec
 		ARG 1 mediaType
 		ARG 2 bitrate

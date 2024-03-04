@@ -1,0 +1,5 @@
+CLASS fyx
+	FIELD c watchWhileActivity Lbw;
+	METHOD f someDislikeMethod (Lakba;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD g someLikeMethod (Lakba;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD h someIndifferentMethod (Lakba;)Lcom/google/common/util/concurrent/ListenableFuture;

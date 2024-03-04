@@ -1,0 +1,2 @@
+CLASS acio
+	METHOD my hasView ()Z

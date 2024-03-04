@@ -1,2 +1,2 @@
-CLASS aifg IntList
-	METHOD f mutableCopyWithCapacity (I)Laifg;
+CLASS aiks IntList
+	METHOD f mutableCopyWithCapacity (I)Laiks;

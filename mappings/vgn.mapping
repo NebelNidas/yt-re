@@ -1,2 +1,0 @@
-CLASS vgn
-	METHOD c stringToNonNull (Ljava/lang/CharSequence;)Ljava/lang/CharSequence;

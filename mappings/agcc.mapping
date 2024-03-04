@@ -1,0 +1,2 @@
+CLASS agcc
+	FIELD c name Ljava/lang/String;

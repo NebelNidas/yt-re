@@ -1,3 +1,3 @@
-CLASS aidt ByteBuffer
-	METHOD l newCodedInput ()Laidy;
+CLASS aijf ByteBuffer
+	METHOD l newCodedInput ()Laijk;
 	METHOD q isValidUtf8 ()Z

@@ -1,4 +1,4 @@
-CLASS rjm GoogleOwnerBuilder
+CLASS rms GoogleOwnerBuilder
 	FIELD a displayName Ljava/lang/String;
 	FIELD b givenName Ljava/lang/String;
 	FIELD c familyName Ljava/lang/String;
@@ -12,7 +12,7 @@ CLASS rjm GoogleOwnerBuilder
 	FIELD k isG1User Z
 	FIELD l isDasherUser Z
 	FIELD m flags B
-	METHOD a build ()Lrjn;
+	METHOD a build ()Lrmt;
 	METHOD b setAccountName (Ljava/lang/String;)V
 		ARG 1 accountName
 	METHOD c setDasherUser (Z)V

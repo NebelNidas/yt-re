@@ -1,4 +1,0 @@
-CLASS erm
-	METHOD c getFocusChangeListener (Landroid/view/View;)Leom;
-	METHOD d getClickListener (Landroid/view/View;)Leoq;
-	METHOD e getLongClickListener (Landroid/view/View;)Leor;

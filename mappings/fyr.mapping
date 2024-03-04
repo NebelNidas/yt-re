@@ -1,5 +1,0 @@
-CLASS fyr
-	FIELD c watchWhileActivity Lbw;
-	METHOD f someDislikeMethod (Lajvr;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD g someLikeMethod (Lajvr;)Lcom/google/common/util/concurrent/ListenableFuture;
-	METHOD h someIndifferentMethod (Lajvr;)Lcom/google/common/util/concurrent/ListenableFuture;

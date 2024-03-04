@@ -1,10 +1,10 @@
-CLASS mfz StoryboardLevelInfo
-	FIELD a storyboardLevel Lacjw;
+CLASS mgs StoryboardLevelInfo
+	FIELD a storyboardLevel Lacox;
 	FIELD b threeDLayout I
-	METHOD <init> (Lacjw;I)V
+	METHOD <init> (Lacox;I)V
 		ARG 1 storyboardLevel
 		ARG 2 threeDLayout
-	METHOD a (Lacjw;I)Lmfz;
+	METHOD a (Lacox;I)Lmgs;
 		ARG 0 storyboardLevel
 		ARG 1 threeDLayout
 	METHOD equals (Ljava/lang/Object;)Z

@@ -1,2 +1,2 @@
-CLASS env util/AccessibilityUtil
+CLASS ent util/AccessibilityUtil
 	METHOD b isAccessibilityEnabled (Landroid/content/Context;)Z

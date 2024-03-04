@@ -1,2 +1,1 @@
-CLASS aggu com/google/common/base/Supplier
-	METHOD a get ()Ljava/lang/Object;
+CLASS aglv com/google/common/base/Supplier

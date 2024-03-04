@@ -1,4 +1,4 @@
-CLASS fzo SectionReloadEvent
-	METHOD a getReloadContinuationData ()Laphd;
+CLASS fzu SectionReloadEvent
+	METHOD a getReloadContinuationData ()Lapmu;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Laphd;)Lfzo;
+	METHOD c of (Ljava/lang/String;Lapmu;)Lfzu;

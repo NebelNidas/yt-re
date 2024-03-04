@@ -1,6 +1,6 @@
-CLASS fci com/facebook/rendercore/MountItemsPool_ItemPool
+CLASS fcg com/facebook/rendercore/MountItemsPool_ItemPool
 	COMMENT Taken from <a href="https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-rendercore/src/main/java/com/facebook/rendercore/MountItemsPool.java#L361">https://github.com/facebook/litho/blob/b1f40d519cad2091af7bf5d0b44638ddb7d64026/litho-rendercore/src/main/java/com/facebook/rendercore/MountItemsPool.java#L361</a>
-	METHOD a acquire (Landroid/content/Context;Lfcl;)Ljava/lang/Object;
+	METHOD a acquire (Landroid/content/Context;Lfcj;)Ljava/lang/Object;
 		ARG 1 c
 		ARG 2 poolableMountContent
 	METHOD b release (Ljava/lang/Object;)V

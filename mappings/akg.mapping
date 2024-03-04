@@ -1,0 +1,3 @@
+CLASS akg
+	METHOD a areaOf (Landroid/util/Size;)I
+		ARG 0 size

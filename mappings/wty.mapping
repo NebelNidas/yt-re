@@ -1,2 +1,0 @@
-CLASS wty
-	METHOD d toByteArray ()[B

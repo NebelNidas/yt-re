@@ -1,2 +1,0 @@
-CLASS rut
-	FIELD av list Landroid/widget/ListAdapter;

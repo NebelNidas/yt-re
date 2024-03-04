@@ -1,0 +1,2 @@
+CLASS esa
+	METHOD b release (Ljava/lang/Object;)V

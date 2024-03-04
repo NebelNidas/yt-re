@@ -1,0 +1,2 @@
+CLASS dbz
+	METHOD a onRecreation (Ldcd;)V

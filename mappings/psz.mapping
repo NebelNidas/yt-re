@@ -1,2 +1,0 @@
-CLASS psz
-	METHOD q isItalic ()Z

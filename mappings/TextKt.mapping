@@ -1,5 +1,5 @@
-CLASS fay TextKt
-	FIELD a text Lfba;
+CLASS faw TextKt
+	FIELD a text Lfay;
 	FIELD d required Ljava/util/BitSet;
-	METHOD b getText ()Lfba;
+	METHOD b getText ()Lfay;
 	METHOD d setEllipsize (Landroid/text/TextUtils$TruncateAt;)V

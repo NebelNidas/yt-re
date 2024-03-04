@@ -1,0 +1,2 @@
+CLASS eso
+	FIELD b stacktrace Ljava/lang/Throwable;

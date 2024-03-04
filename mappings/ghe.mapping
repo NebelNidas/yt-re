@@ -1,3 +1,0 @@
-CLASS ghe
-	METHOD d isInlineMinimal ()Z
-	METHOD e isPIP ()Z

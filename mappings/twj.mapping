@@ -1,0 +1,2 @@
+CLASS twj
+	METHOD e getMediaCpn ()Ljava/lang/String;

@@ -1,4 +1,4 @@
-CLASS qul ChimeThreadState
+CLASS qvi ChimeThreadState
 	FIELD a id J
 	FIELD b threadId Ljava/lang/String;
 	FIELD c lastUpdatedVersion J
@@ -16,7 +16,7 @@ CLASS qul ChimeThreadState
 		ARG 8 countBehavior
 		ARG 9 systemTrayBehavior
 		ARG 10 modifiedTimestamp
-	METHOD a defaultBuilder ()Lqud;
-	METHOD b emptyBuilder ()Lqud;
+	METHOD a defaultBuilder ()Lqva;
+	METHOD b emptyBuilder ()Lqva;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

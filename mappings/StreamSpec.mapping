@@ -1,11 +1,11 @@
-CLASS ahe StreamSpec
+CLASS ahp StreamSpec
 	COMMENT Taken from <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-core/src/main/java/androidx/camera/core/impl/StreamSpec.java;l=35;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b">https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-core/src/main/java/androidx/camera/core/impl/StreamSpec.java;l=35;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b</a>
 	FIELD a FRAME_RATE_RANGE_UNSPECIFIED Landroid/util/Range;
 	FIELD b resolution Landroid/util/Size;
 	FIELD d expectedFrameRateRange Landroid/util/Range;
-	METHOD <init> (Landroid/util/Size;Labh;Landroid/util/Range;)V
+	METHOD <init> (Landroid/util/Size;Labs;Landroid/util/Range;)V
 		ARG 1 resolution
 		ARG 3 expectedFrameRateRange
-	METHOD a builder ()Low;
+	METHOD a builder ()Lpa;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

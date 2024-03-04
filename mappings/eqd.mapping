@@ -1,0 +1,2 @@
+CLASS eqd
+	METHOD a collectChildren (Ljava/util/List;)V

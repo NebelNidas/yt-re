@@ -1,4 +1,4 @@
-CLASS ade TransformationInfo
+CLASS adp TransformationInfo
 	FIELD a cropRect Landroid/graphics/Rect;
 	FIELD b rotationDegrees I
 	FIELD c targetRotation I
@@ -8,7 +8,7 @@ CLASS ade TransformationInfo
 		ARG 2 rotationDegrees
 		ARG 3 targetRotation
 		ARG 4 hasCameraTransform
-	METHOD a create (Landroid/graphics/Rect;IIZ)Lade;
+	METHOD a create (Landroid/graphics/Rect;IIZ)Ladp;
 		ARG 0 cropRect
 		ARG 1 rotationDegrees
 		ARG 2 targetRotation

@@ -1,4 +1,4 @@
-CLASS aahe FontKey
+CLASS aakk FontKey
 	FIELD a fontName Ljava/lang/String;
 	FIELD b weight I
 	FIELD c italic Z

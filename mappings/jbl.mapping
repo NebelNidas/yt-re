@@ -1,0 +1,2 @@
+CLASS jbl
+	FIELD d likeEndpoint Ljava/lang/Object;

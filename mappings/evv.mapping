@@ -1,0 +1,2 @@
+CLASS evv
+	METHOD o newEventHandler (Ljava/lang/Class;Levu;I[Ljava/lang/Object;)Lepw;

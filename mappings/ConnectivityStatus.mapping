@@ -1,12 +1,12 @@
-CLASS urq ConnectivityStatus
+CLASS utt ConnectivityStatus
 	FIELD a connected Z
 	FIELD b temporarilyUnmetered Z
 	FIELD c chargeable Z
 	FIELD d connectionType I
 	FIELD e connectedOrConnecting Z
 	FIELD f dataSaverEnabled Z
-	FIELD g detailedNetworkType Lakfy;
-	METHOD <init> (ZZZZZILakfy;)V
+	FIELD g detailedNetworkType Lakkk;
+	METHOD <init> (ZZZZZILakkk;)V
 		ARG 1 connectedOrConnection
 		ARG 2 connected
 		ARG 3 temporarilyUnmetered

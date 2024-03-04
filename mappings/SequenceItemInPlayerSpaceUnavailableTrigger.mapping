@@ -1,9 +1,9 @@
-CLASS trz SequenceItemInPlayerSpaceUnavailableTrigger
-	FIELD a reelAdMetadata Lagbw;
-	FIELD b reelImageAdMetadata Lagbw;
+CLASS ttn SequenceItemInPlayerSpaceUnavailableTrigger
+	FIELD a reelAdMetadata Lagfu;
+	FIELD b reelImageAdMetadata Lagfu;
 	FIELD c triggerId Ljava/lang/String;
-	FIELD d triggerType Laipg;
-	METHOD <init> (Ljava/lang/String;Laipg;Lagbw;Lagbw;)V
+	FIELD d triggerType Laito;
+	METHOD <init> (Ljava/lang/String;Laito;Lagfu;Lagfu;)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 reelAdMetadata

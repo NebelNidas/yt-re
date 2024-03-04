@@ -1,0 +1,2 @@
+CLASS esq
+	FIELD b stacktrace Ljava/lang/Throwable;

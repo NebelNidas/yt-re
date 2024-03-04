@@ -1,7 +1,7 @@
-CLASS uby RemovedImagePollOption
-	FIELD a imagePollOption Lubs;
+CLASS udl RemovedImagePollOption
+	FIELD a imagePollOption Ludf;
 	FIELD b index I
-	METHOD <init> (Lubs;I)V
+	METHOD <init> (Ludf;I)V
 		ARG 1 imagePollOption
 		ARG 2 index
 	METHOD equals (Ljava/lang/Object;)Z

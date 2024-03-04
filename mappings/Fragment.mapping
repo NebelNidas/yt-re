@@ -1,6 +1,6 @@
-CLASS bq Fragment
-	FIELD A host Lby;
-	FIELD C parentFragment Lbq;
+CLASS bt Fragment
+	FIELD A host Lcb;
+	FIELD C parentFragment Lbt;
 	FIELD F tag Ljava/lang/String;
 	FIELD G hidden Z
 	FIELD H detached Z
@@ -22,17 +22,17 @@ CLASS bq Fragment
 	FIELD u fromLayout Z
 	FIELD v inLayout Z
 	FIELD y backStackNesting I
-	FIELD z fragmentManager Lcl;
+	FIELD z fragmentManager Lco;
 	METHOD V (IILandroid/content/Intent;)V
 		ARG 1 requestCode
 		ARG 2 resultCode
 		ARG 3 data
-	METHOD aA create (Landroid/content/Context;Ljava/lang/String;)Lbq;
+	METHOD aA create (Landroid/content/Context;Ljava/lang/String;)Lbt;
 		ARG 1 name
 	METHOD ar getPopDirection ()Z
 	METHOD aw isSaved ()Z
 	METHOD az onGetLayoutInflater ()Landroid/view/LayoutInflater;
 	METHOD mQ getPopEnterAnimation ()I
 	METHOD mR getPopExitAnimation ()I
-	METHOD oi getEnterAnimation ()I
-	METHOD oj getExitAnimation ()I
+	METHOD og getEnterAnimation ()I
+	METHOD oh getExitAnimation ()I

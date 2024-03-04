@@ -1,2 +1,2 @@
-CLASS biy LifecycleState
-	METHOD a isEquallyOrFurtherAdvancedThan (Lbiy;)Z
+CLASS bjq LifecycleState
+	METHOD a isEquallyOrFurtherAdvancedThan (Lbjq;)Z

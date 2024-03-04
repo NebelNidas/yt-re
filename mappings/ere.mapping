@@ -1,4 +1,0 @@
-CLASS ere
-	METHOD c getFocusChangeListener (Landroid/view/View;)Leoe;
-	METHOD d getClickListener (Landroid/view/View;)Leoi;
-	METHOD e getLongClickListener (Landroid/view/View;)Leoj;

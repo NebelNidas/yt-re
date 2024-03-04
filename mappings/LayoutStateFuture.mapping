@@ -1,10 +1,10 @@
-CLASS eon LayoutStateFuture
-	FIELD a context Leod;
-	FIELD b root Lenz;
+CLASS eov LayoutStateFuture
+	FIELD a context Leol;
+	FIELD b root Leoh;
 	FIELD c widthSpec I
 	FIELD d heightSpec I
 	FIELD e diffingEnabled Z
-	FIELD f treeProps Letb;
+	FIELD f treeProps Letj;
 	FIELD g runningThreadId Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD h isFromSyncLayout Z
 	FIELD j source I
@@ -12,7 +12,7 @@ CLASS eon LayoutStateFuture
 	FIELD l released Z
 	FIELD m tree Lcom/facebook/litho/ComponentTree;
 	FIELD n refCount Ljava/util/concurrent/atomic/AtomicInteger;
-	METHOD <init> (Lcom/facebook/litho/ComponentTree;Leod;Lenz;IIZLetb;ILjava/lang/String;)V
+	METHOD <init> (Lcom/facebook/litho/ComponentTree;Leol;Leoh;IIZLetj;ILjava/lang/String;)V
 		ARG 3 root
 		ARG 4 widthSpec
 		ARG 5 heightSpec

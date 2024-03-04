@@ -1,2 +1,0 @@
-CLASS err
-	METHOD b markerPoint (Ljava/lang/String;)V

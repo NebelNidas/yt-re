@@ -1,2 +1,2 @@
-CLASS epu com/facebook/litho/HasEventDispatcher
-	METHOD n getEventDispatcher ()Lepm;
+CLASS eqc com/facebook/litho/HasEventDispatcher
+	METHOD n getEventDispatcher ()Lepu;

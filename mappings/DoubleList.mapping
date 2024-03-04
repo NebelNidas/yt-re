@@ -1,3 +1,3 @@
-CLASS aias DoubleList
-	METHOD d mutableCopyWithCapacity (I)Laias;
+CLASS aifb DoubleList
+	METHOD d mutableCopyWithCapacity (I)Laifb;
 		ARG 1 capacity

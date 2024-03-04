@@ -1,9 +1,9 @@
-CLASS aee AttachedSurfaceInfo
-	FIELD a surfaceConfig Lahf;
+CLASS aep AttachedSurfaceInfo
+	FIELD a surfaceConfig Lahq;
 	FIELD b imageFormat I
 	FIELD c size Landroid/util/Size;
 	FIELD e targetFrameRate Landroid/util/Range;
-	METHOD <init> (Lahf;ILandroid/util/Size;Labh;Landroid/util/Range;)V
+	METHOD <init> (Lahq;ILandroid/util/Size;Labs;Landroid/util/Range;)V
 		ARG 1 surfaceConfig
 		ARG 2 imageFormat
 		ARG 3 size

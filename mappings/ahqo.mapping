@@ -1,0 +1,2 @@
+CLASS ahqo
+	FIELD b byteBuffer Ljava/nio/ByteBuffer;

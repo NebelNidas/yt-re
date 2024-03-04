@@ -1,0 +1,3 @@
+CLASS eqj
+	METHOD a getLayoutOutput (Lfcg;)Leqj;
+	METHOD c isAccessible ()Z

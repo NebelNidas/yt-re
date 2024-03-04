@@ -1,2 +1,0 @@
-CLASS gps
-	FIELD a menuItems Ljava/util/Map;

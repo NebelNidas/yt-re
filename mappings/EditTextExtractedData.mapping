@@ -1,4 +1,4 @@
-CLASS vkn EditTextExtractedData
+CLASS vnn EditTextExtractedData
 	FIELD a text Ljava/lang/String;
 	FIELD b fontSize F
 	FIELD c foregroundColor I

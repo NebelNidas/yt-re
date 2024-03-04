@@ -1,15 +1,15 @@
-CLASS tre MediaTimeRangeTrigger
+CLASS tss MediaTimeRangeTrigger
 	FIELD a triggerId Ljava/lang/String;
 	FIELD b shouldOnlyTriggerOnce Z
 	FIELD c shouldDisableIfVideoStartMuted Z
 	FIELD d activatingMediaLayoutId Ljava/lang/String;
-	FIELD e timeRange Ltsv;
+	FIELD e timeRange Ltui;
 	FIELD f shouldPreventActivationOnTriggerRestoration Z
 	FIELD g shouldActivateOnVideoTimeEvent Z
 	FIELD h shouldAttachActiveViewDataOnActivation Z
 	FIELD i shouldDisableOnSeek Z
-	FIELD j triggerType Laipg;
-	METHOD <init> (Ljava/lang/String;Laipg;ZZLjava/lang/String;Ltsv;ZZZZ)V
+	FIELD j triggerType Laito;
+	METHOD <init> (Ljava/lang/String;Laito;ZZLjava/lang/String;Ltui;ZZZZ)V
 		ARG 1 triggerId
 		ARG 2 triggerType
 		ARG 3 shouldOnlyTriggerOnce
@@ -20,7 +20,7 @@ CLASS tre MediaTimeRangeTrigger
 		ARG 8 shouldActivateOnVideoTimeEvent
 		ARG 9 shouldAttachActiveViewDataOnActivation
 		ARG 10 shouldDisableOnSeek
-	METHOD e create (Ljava/lang/String;Ljava/lang/String;Ltsv;ZZZZ)Ltre;
+	METHOD e create (Ljava/lang/String;Ljava/lang/String;Ltui;ZZZZ)Ltss;
 		ARG 0 triggerId
 		ARG 1 activatingMediaLayout
 		ARG 2 timeRange
@@ -30,7 +30,7 @@ CLASS tre MediaTimeRangeTrigger
 		ARG 6 shouldAttachActiveViewDataOnActivation
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f create (Ljava/lang/String;Ljava/lang/String;Ltsv;)Ltre;
+	METHOD f create (Ljava/lang/String;Ljava/lang/String;Ltui;)Ltss;
 		ARG 0 triggerId
 		ARG 1 activatingMediaLayout
 		ARG 2 timeRange

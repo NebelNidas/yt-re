@@ -1,0 +1,2 @@
+CLASS esc
+	METHOD b release (Ljava/lang/Object;)V

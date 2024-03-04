@@ -1,2 +1,0 @@
-CLASS adqf
-	METHOD f setSelectedText (Ljava/lang/String;)V

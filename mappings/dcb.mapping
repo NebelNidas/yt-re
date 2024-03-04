@@ -1,0 +1,2 @@
+CLASS dcb
+	METHOD a onRecreation (Ldcf;)V

@@ -1,10 +1,10 @@
-CLASS mfi LoggingResult
-	FIELD a loggingAction Lmff;
-	FIELD b inputStates Lmfh;
-	METHOD <init> (Lmff;Lmfh;)V
+CLASS mfl LoggingResult
+	FIELD a loggingAction Lmfi;
+	FIELD b inputStates Lmfk;
+	METHOD <init> (Lmfi;Lmfk;)V
 		ARG 1 loggingAction
 		ARG 2 inputStates
-	METHOD a create (Lmff;Lmfh;)Lmfi;
+	METHOD a create (Lmfi;Lmfk;)Lmfl;
 		ARG 0 loggingAction
 		ARG 1 inputStates
 	METHOD equals (Ljava/lang/Object;)Z

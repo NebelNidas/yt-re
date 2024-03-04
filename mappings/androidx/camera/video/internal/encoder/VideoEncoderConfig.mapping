@@ -1,20 +1,16 @@
-CLASS anw androidx/camera/video/internal/encoder/VideoEncoderConfig
+CLASS aoo androidx/camera/video/internal/encoder/VideoEncoderConfig
 	COMMENT Taken from <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-video/src/main/java/androidx/camera/video/internal/encoder/VideoEncoderConfig.java;l=32;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b">https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:camera/camera-video/src/main/java/androidx/camera/video/internal/encoder/VideoEncoderConfig.java;l=32;drc=187e9a2088c3f281cfb617b9bedd94b9a3546d8b</a>
 	FIELD a mimeType Ljava/lang/String;
-	FIELD b inputTimebase I
-	FIELD c profile I
-	FIELD d resolution Landroid/util/Size;
-	FIELD e colorFormat I
-	FIELD f frameRate I
-	FIELD g IFrameInterval I
-	FIELD h bitrate I
-	METHOD <init> (Ljava/lang/String;ILandroid/util/Size;II)V
+	FIELD b bitrate I
+	FIELD c inputTimebase I
+	FIELD d profile I
+	FIELD e resolution Landroid/util/Size;
+	FIELD f colorFormat I
+	FIELD g frameRate I
+	FIELD h IFrameInterval I
+	METHOD <init> (Ljava/lang/String;IILandroid/util/Size;II)V
 		ARG 1 mimeType
-		ARG 2 inputTimebase
-		ARG 3 resolution
-		ARG 4 frameRate
-		ARG 5 bitrate
 	METHOD a toMediaFormat ()Landroid/media/MediaFormat;
-	METHOD b builder ()Lanv;
+	METHOD b builder ()Laon;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

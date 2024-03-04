@@ -1,0 +1,2 @@
+CLASS nqt
+	METHOD a getAccount ()Landroid/accounts/Account;

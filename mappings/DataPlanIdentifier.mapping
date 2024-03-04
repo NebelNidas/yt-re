@@ -1,4 +1,4 @@
-CLASS vwl DataPlanIdentifier
+CLASS waj DataPlanIdentifier
 	FIELD a carrierId J
 	FIELD b cpid Ljava/lang/String;
 	METHOD <init> (JLjava/lang/String;)V

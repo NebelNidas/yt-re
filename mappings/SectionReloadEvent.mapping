@@ -1,4 +1,4 @@
-CLASS fzb SectionReloadEvent
-	METHOD a getReloadContinuationData ()Lapck;
+CLASS fzo SectionReloadEvent
+	METHOD a getReloadContinuationData ()Laphd;
 	METHOD b getSectionId ()Ljava/lang/String;
-	METHOD c of (Ljava/lang/String;Lapck;)Lfzb;
+	METHOD c of (Ljava/lang/String;Laphd;)Lfzo;

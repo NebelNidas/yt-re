@@ -1,4 +1,4 @@
-CLASS abca OfflineHash
+CLASS abez OfflineHash
 	METHOD a getBlockIndex ()I
 	METHOD b getItag ()I
 	METHOD c getMerkeLevel ()I

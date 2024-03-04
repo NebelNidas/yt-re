@@ -1,4 +1,4 @@
-CLASS tut AdProgressTextState
+CLASS twg AdProgressTextState
 	FIELD a timeRemainingMillis I
 	FIELD b showAdChoices Z
-	FIELD c adCountMetadata Ltnh;
+	FIELD c adCountMetadata Ltov;

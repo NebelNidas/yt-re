@@ -1,5 +1,5 @@
-CLASS ahzs CodedOutputStream
+CLASS aied CodedOutputStream
 	METHOD D writeUInt32NoTag (I)V
-	METHOD ai getCodedOutput ([B)Lahzs;
+	METHOD ai getCodedOutput ([B)Laied;
 	METHOD al checkNoSpaceLeft ()V
 	METHOD i flush ()V

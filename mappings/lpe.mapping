@@ -1,3 +1,2 @@
 CLASS lpe
-	FIELD n prefs Landroid/content/SharedPreferences;
-	METHOD p addToPlaylist ()Ljava/lang/String;
+	FIELD h reelDismissalInfo Ljava/util/List;

@@ -1,7 +1,7 @@
-CLASS hae ActiveStateChangedEventImpl
-	FIELD a currentState Lhab;
-	FIELD b toState Lhab;
-	METHOD <init> (Lhab;Lhab;)V
+CLASS hau ActiveStateChangedEventImpl
+	FIELD a currentState Lhar;
+	FIELD b toState Lhar;
+	METHOD <init> (Lhar;Lhar;)V
 		ARG 1 currentState
 		ARG 2 toState
 	METHOD equals (Ljava/lang/Object;)Z

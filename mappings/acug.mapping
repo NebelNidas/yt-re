@@ -1,3 +1,0 @@
-CLASS acug
-	METHOD o (F)V
-		ARG 1 speedMult

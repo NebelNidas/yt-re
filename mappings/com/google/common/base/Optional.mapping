@@ -1,11 +1,11 @@
-CLASS agbw com/google/common/base/Optional
+CLASS agfu com/google/common/base/Optional
 	COMMENT Taken from <a href="https://github.com/google/guava/blob/ab72eafff2c47ef02d9c1e13092b27880ed3c181/guava/src/com/google/common/base/Optional.java">https://github.com/google/guava/blob/ab72eafff2c47ef02d9c1e13092b27880ed3c181/guava/src/com/google/common/base/Optional.java</a>
-	METHOD a or (Lagbw;)Lagbw;
+	METHOD a or (Lagfu;)Lagfu;
 		ARG 1 secondChoice
-	METHOD b transform (Lagbk;)Lagbw;
+	METHOD b transform (Lagfi;)Lagfu;
 		ARG 1 function
 	METHOD c get ()Ljava/lang/Object;
-	METHOD d or (Lagcw;)Ljava/lang/Object;
+	METHOD d or (Laggu;)Ljava/lang/Object;
 		ARG 1 supplier
 	METHOD e or (Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 defaultValue
@@ -14,8 +14,8 @@ CLASS agbw com/google/common/base/Optional
 	METHOD f orNull ()Ljava/lang/Object;
 	METHOD g asSet ()Ljava/util/Set;
 	METHOD h isPresent ()Z
-	METHOD i absent ()Lagbw;
-	METHOD j fromNullable (Ljava/lang/Object;)Lagbw;
+	METHOD i absent ()Lagfu;
+	METHOD j fromNullable (Ljava/lang/Object;)Lagfu;
 		ARG 0 nullableReference
-	METHOD k of (Ljava/lang/Object;)Lagbw;
+	METHOD k of (Ljava/lang/Object;)Lagfu;
 		ARG 0 reference

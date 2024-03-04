@@ -1,9 +1,9 @@
-CLASS aicu Schema
+CLASS aihc Schema
 	METHOD a getSerializedSize (Ljava/lang/Object;)I
 	METHOD b hashCode (Ljava/lang/Object;)I
 	METHOD f makeImmutable (Ljava/lang/Object;)V
-	METHOD h mergeFrom (Ljava/lang/Object;[BIILahyw;)V
+	METHOD h mergeFrom (Ljava/lang/Object;[BIILaidh;)V
 	METHOD i equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 	METHOD j isInitialized (Ljava/lang/Object;)Z
-	METHOD k mergeFrom (Ljava/lang/Object;Lahzo;Lcom/google/protobuf/ExtensionRegistryLite;)V
-	METHOD l writeTo (Ljava/lang/Object;Lahlu;)V
+	METHOD k mergeFrom (Ljava/lang/Object;Laidz;Lcom/google/protobuf/ExtensionRegistryLite;)V
+	METHOD l writeTo (Ljava/lang/Object;Lahqd;)V

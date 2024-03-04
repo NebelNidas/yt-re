@@ -1,0 +1,2 @@
+CLASS acws
+	METHOD M setPlaybackSpeed (F)V

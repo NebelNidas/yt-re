@@ -1,11 +1,11 @@
-CLASS add androidx/camera/core/SurfaceRequest_Result
+CLASS ado androidx/camera/core/SurfaceRequest_Result
 	COMMENT Taken from <a href="https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/SurfaceRequest.java#645">https://android.googlesource.com/platform/frameworks/support/+/7370a4a5658c51d797de3bd11b21f6cfa1c38ab2/camera/camera-core/src/main/java/androidx/camera/core/SurfaceRequest.java#645</a>
 	FIELD a resultCode I
 	FIELD b surface Landroid/view/Surface;
 	METHOD <init> (ILandroid/view/Surface;)V
 		ARG 1 resultCode
 		ARG 2 surface
-	METHOD a create (ILandroid/view/Surface;)Ladd;
+	METHOD a create (ILandroid/view/Surface;)Lado;
 		ARG 0 resultCode
 		ARG 1 surface
 	METHOD equals (Ljava/lang/Object;)Z

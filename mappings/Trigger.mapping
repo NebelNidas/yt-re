@@ -1,4 +1,4 @@
-CLASS tsy Trigger
-	METHOD a getTriggerType ()Laipg;
+CLASS tul Trigger
+	METHOD a getTriggerType ()Laito;
 	METHOD b getTriggerId ()Ljava/lang/String;
 	METHOD d shouldOnlyTriggerOnce ()Z

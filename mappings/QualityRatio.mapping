@@ -1,10 +1,10 @@
-CLASS aln QualityRatio
-	FIELD a quality Lalm;
+CLASS alz QualityRatio
+	FIELD a quality Laly;
 	FIELD b aspectRatio I
-	METHOD <init> (Lalm;I)V
+	METHOD <init> (Laly;I)V
 		ARG 1 quality
 		ARG 2 aspectRatio
-	METHOD a (Lalm;I)Laln;
+	METHOD a (Laly;I)Lalz;
 		ARG 0 quality
 		ARG 1 aspectRatio
 	METHOD equals (Ljava/lang/Object;)Z

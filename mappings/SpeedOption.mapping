@@ -1,4 +1,4 @@
-CLASS aque SpeedOption
+CLASS aqzb SpeedOption
 	FIELD d multiplier F
-	METHOD dynamicMethod (Laiao;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD dynamicMethod (Laiex;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 methodToInvoke

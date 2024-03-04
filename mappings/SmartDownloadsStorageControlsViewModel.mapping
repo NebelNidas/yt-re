@@ -1,12 +1,12 @@
-CLASS kqe SmartDownloadsStorageControlsViewModel
+CLASS kqi SmartDownloadsStorageControlsViewModel
 	FIELD a forSdCard Z
 	FIELD b userSavedMaxStorageMb J
 	FIELD c manualDownloadSpaceUsedMb J
 	FIELD d storageAvailableMb J
-	FIELD e offlineabilityFormatType Laoee;
+	FIELD e offlineabilityFormatType Laoix;
 	FIELD f sliderMinimumValueMb F
 	FIELD g sliderMaximumValueMb J
-	METHOD <init> (ZJJJLaoee;FJ)V
+	METHOD <init> (ZJJJLaoix;FJ)V
 		ARG 1 forSdCard
 		ARG 2 userSavedMaxStorageMb
 		ARG 4 manualDownloadSpaceUsedMb

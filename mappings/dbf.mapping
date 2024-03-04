@@ -1,2 +1,0 @@
-CLASS dbf
-	METHOD a onRecreation (Ldbj;)V

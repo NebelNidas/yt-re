@@ -1,2 +1,2 @@
-CLASS tse SlotIdTrigger
+CLASS tts SlotIdTrigger
 	METHOD c getSlotId ()Ljava/lang/String;

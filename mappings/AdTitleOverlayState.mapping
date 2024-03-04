@@ -1,2 +1,2 @@
-CLASS tuv AdTitleOverlayState
-	FIELD a adOverlayMetadata Ltup;
+CLASS twi AdTitleOverlayState
+	FIELD a adOverlayMetadata Ltwc;

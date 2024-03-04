@@ -1,7 +1,7 @@
-CLASS hdv OrientationInfo
-	FIELD a deviceOrientation Lakgn;
-	FIELD b interfaceOrientation Lakgn;
-	METHOD <init> (Lakgn;Lakgn;)V
+CLASS hej OrientationInfo
+	FIELD a deviceOrientation Lakkz;
+	FIELD b interfaceOrientation Lakkz;
+	METHOD <init> (Lakkz;Lakkz;)V
 		ARG 1 deviceOrientation
 		ARG 2 interfaceOrientation
 	METHOD equals (Ljava/lang/Object;)Z

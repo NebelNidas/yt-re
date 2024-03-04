@@ -1,0 +1,26 @@
+CLASS jdx
+	FIELD a id Ljava/lang/String;
+	FIELD b title Ljava/lang/String;
+	FIELD c lengthSeconds J
+	FIELD f channelTitle Ljava/lang/String;
+	FIELD g channelThumbnailDetails Laqin;
+	FIELD h thumbnailDetails Laqin;
+	FIELD i description Lalch;
+	FIELD j publishedTimestampMs Ljava/lang/Long;
+	FIELD k viewCount Ljava/lang/Long;
+	FIELD m likeCountText Ljava/lang/String;
+	METHOD E setLengthSeconds (J)V
+	METHOD G setLikeCountText (Ljava/lang/String;)V
+		ARG 1 likeCountText
+	METHOD K setPublishedTimestampMs (J)V
+	METHOD O setThumbnailDetails (Laqin;)V
+		ARG 1 thumbnailDetails
+	METHOD P setTitle (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD S setViewCount (J)V
+		ARG 1 viewCount
+	METHOD d setChannelThumbnailDetails (Laqin;)V
+	METHOD e setChannelTitle (Ljava/lang/String;)V
+	METHOD f setDescription (Lalch;)V
+	METHOD g setDislikeCountText (Ljava/lang/String;)V
+	METHOD l setId (Ljava/lang/String;)V

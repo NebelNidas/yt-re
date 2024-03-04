@@ -1,0 +1,2 @@
+CLASS acdn
+	METHOD mx hasView ()Z

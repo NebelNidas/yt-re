@@ -1,4 +1,4 @@
-CLASS fas LongClickRunnable
-	FIELD a longClickableSpan Leyr;
-	FIELD b textDrawable Lfau;
+CLASS fbc LongClickRunnable
+	FIELD a longClickableSpan Lezb;
+	FIELD b textDrawable Lfbe;
 	FIELD c longClickableSpanView Landroid/view/View;

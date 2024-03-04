@@ -1,2 +1,0 @@
-CLASS wrf
-	METHOD d toByteArray ()[B

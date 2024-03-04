@@ -1,5 +1,5 @@
-CLASS agcy com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
-	FIELD b delegate Lagcw;
+CLASS aggw com/google/common/base/Suppliers_NonSerializableMemoizingSupplier
+	FIELD b delegate Laggu;
 	FIELD c value Ljava/lang/Object;
-	METHOD <init> (Lagcw;)V
+	METHOD <init> (Laggu;)V
 		ARG 1 delegate

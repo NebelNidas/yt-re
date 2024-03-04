@@ -1,4 +1,4 @@
-CLASS ubs ImagePollOption
+CLASS udf ImagePollOption
 	FIELD a image Lj$/util/Optional;
 	FIELD b text Lj$/util/Optional;
 	FIELD c placeholderText Ljava/lang/String;

@@ -1,8 +1,8 @@
-CLASS aghb com/google/common/collect/ImmutableList
-	METHOD E construct ([Ljava/lang/Object;)Laghb;
+CLASS agkz com/google/common/collect/ImmutableList
+	METHOD E construct ([Ljava/lang/Object;)Lagkz;
 		ARG 0 elements
-	METHOD i asImmutableList ([Ljava/lang/Object;)Laghb;
-	METHOD j asImmutableList ([Ljava/lang/Object;I)Laghb;
+	METHOD i asImmutableList ([Ljava/lang/Object;)Lagkz;
+	METHOD j asImmutableList ([Ljava/lang/Object;I)Lagkz;
 		ARG 1 length
-	METHOD o copyOf (Ljava/util/Collection;)Laghb;
+	METHOD o copyOf (Ljava/util/Collection;)Lagkz;
 		ARG 0 elements

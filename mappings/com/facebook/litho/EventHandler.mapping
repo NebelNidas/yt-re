@@ -1,15 +1,15 @@
-CLASS epo com/facebook/litho/EventHandler
-	FIELD b hasEventDispatcher Lepu;
+CLASS epw com/facebook/litho/EventHandler
+	FIELD b hasEventDispatcher Leqc;
 	FIELD c id I
 	FIELD d params [Ljava/lang/Object;
-	METHOD <init> (Lepu;I)V
+	METHOD <init> (Leqc;I)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
-	METHOD <init> (Lepu;I[Ljava/lang/Object;)V
+	METHOD <init> (Leqc;I[Ljava/lang/Object;)V
 		ARG 1 hasEventDispatcher
 		ARG 2 id
 		ARG 3 params
-	METHOD c isEquivalentTo (Lepo;)Z
+	METHOD c isEquivalentTo (Lepw;)Z
 		ARG 1 other
 	METHOD lD dispatchEvent (Ljava/lang/Object;)V
 		ARG 1 event

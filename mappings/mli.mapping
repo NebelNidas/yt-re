@@ -1,6 +1,0 @@
-CLASS mli
-	FIELD b playerViewModeMonitor Lgfw;
-	FIELD l tabNames Ljava/util/Set;
-	FIELD m flags Laghh;
-	FIELD n config Landroid/content/res/Configuration;
-	FIELD p pivotBar Lj$/util/Optional;

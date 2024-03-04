@@ -1,0 +1,2 @@
+CLASS dpy
+	FIELD a context Ljava/lang/Object;

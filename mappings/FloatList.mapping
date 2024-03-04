@@ -1,2 +1,2 @@
-CLASS aiaw FloatList
-	METHOD g mutableCopyWithCapacity (I)Laiaw;
+CLASS aiff FloatList
+	METHOD g mutableCopyWithCapacity (I)Laiff;

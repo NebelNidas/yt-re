@@ -1,7 +1,7 @@
-CLASS afpi CallbackResult
-	FIELD a callbacks Lafov;
-	FIELD b result Lafpo;
-	METHOD <init> (Lafov;Lafpo;)V
+CLASS aftj CallbackResult
+	FIELD a callbacks Lafsw;
+	FIELD b result Laftp;
+	METHOD <init> (Lafsw;Laftp;)V
 		ARG 1 callbacks
 		ARG 2 result
 	METHOD equals (Ljava/lang/Object;)Z

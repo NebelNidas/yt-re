@@ -1,4 +1,4 @@
-CLASS eor DebugComponent
-	METHOD c getComponent ()Lenz;
-	METHOD h getLithoView ()Leqy;
-	METHOD o getLayoutNode ()Lgwe;
+CLASS eoz DebugComponent
+	METHOD c getComponent ()Leoh;
+	METHOD h getLithoView ()Lerg;
+	METHOD o getLayoutNode ()Lgwr;

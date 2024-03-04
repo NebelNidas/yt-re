@@ -1,4 +1,4 @@
-CLASS rdx GaiaAccountData
+CLASS reu GaiaAccountData
 	FIELD a isG1User Z
 	FIELD b isUnicornUser I
 	METHOD <init> (ZI)V

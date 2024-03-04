@@ -1,0 +1,2 @@
+CLASS abrv
+	METHOD e getProgress ()J

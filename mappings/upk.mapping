@@ -1,0 +1,2 @@
+CLASS upk
+	METHOD e getPackageInfo (Landroid/content/Context;)Landroid/content/pm/PackageInfo;

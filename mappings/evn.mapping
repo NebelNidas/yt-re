@@ -1,2 +1,0 @@
-CLASS evn
-	METHOD o newEventHandler (Ljava/lang/Class;Levm;I[Ljava/lang/Object;)Lepo;

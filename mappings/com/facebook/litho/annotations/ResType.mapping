@@ -1,14 +1,14 @@
-CLASS etz com/facebook/litho/annotations/ResType
-	FIELD a NONE Letz;
-	FIELD b STRING Letz;
-	FIELD c STRING_ARRAY Letz;
-	FIELD d INT Letz;
-	FIELD e INT_ARRAY Letz;
-	FIELD f BOOL Letz;
-	FIELD g COLOR Letz;
-	FIELD h DIMEN_SIZE Letz;
-	FIELD i DIMEN_OFFSET Letz;
-	FIELD j DIMEN_TEXT Letz;
-	FIELD k FLOAT Letz;
-	FIELD l DRAWABLE Letz;
-	FIELD m $VALUES [Letz;
+CLASS euh com/facebook/litho/annotations/ResType
+	FIELD a NONE Leuh;
+	FIELD b STRING Leuh;
+	FIELD c STRING_ARRAY Leuh;
+	FIELD d INT Leuh;
+	FIELD e INT_ARRAY Leuh;
+	FIELD f BOOL Leuh;
+	FIELD g COLOR Leuh;
+	FIELD h DIMEN_SIZE Leuh;
+	FIELD i DIMEN_OFFSET Leuh;
+	FIELD j DIMEN_TEXT Leuh;
+	FIELD k FLOAT Leuh;
+	FIELD l DRAWABLE Leuh;
+	FIELD m $VALUES [Leuh;

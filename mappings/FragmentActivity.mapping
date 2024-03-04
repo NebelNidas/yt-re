@@ -1,3 +1,3 @@
-CLASS bt FragmentActivity
+CLASS bw FragmentActivity
 	METHOD dump (Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 		ARG 1 state

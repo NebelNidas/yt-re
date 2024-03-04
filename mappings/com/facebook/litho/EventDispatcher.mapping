@@ -1,4 +1,4 @@
-CLASS epm com/facebook/litho/EventDispatcher
-	METHOD x dispatchOnEvent (Lepo;Ljava/lang/Object;)Ljava/lang/Object;
+CLASS epu com/facebook/litho/EventDispatcher
+	METHOD x dispatchOnEvent (Lepw;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 eventHandler
 		ARG 2 eventState

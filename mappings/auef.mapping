@@ -1,0 +1,4 @@
+CLASS auef
+	METHOD b (Laugo;Laugo;Laugj;Laugj;Laugj;Laugj;)Lauef;
+		ARG 3 onComplete
+		ARG 6 onDispose

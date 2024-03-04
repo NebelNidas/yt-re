@@ -1,0 +1,2 @@
+CLASS atem
+	METHOD a get ()Ljava/lang/Object;

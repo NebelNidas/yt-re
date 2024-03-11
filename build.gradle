@@ -32,6 +32,7 @@ plugins {
 	id 'java' // for constants, packages, javadoc
 	id 'maven-publish'
 	id 'net.fabricmc.filament' version '0.3.+'
+	id 'ytre.plugins.gradle'
 	id 'checkstyle'
 }
 

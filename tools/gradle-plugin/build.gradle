@@ -1,0 +1,12 @@
+plugins {
+	id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+	plugins {
+		ytre {
+			id = 'ytre.plugins.gradle'
+			implementationClass = 'ytre.plugins.gradle.YtReGradlePlugin'
+		}
+	}
+}

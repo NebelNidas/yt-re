@@ -16,6 +16,8 @@ if (!JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
 
 rootProject.name = "yt-re"
 
+includeBuild 'tools/gradle-plugin'
+
 include ':tools:gitifier'
 include ':tools:enigma-plugin'
 include ':tools:stitch-plugin'

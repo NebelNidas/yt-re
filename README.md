@@ -1,5 +1,7 @@
-# YT-Mappings
-YT-Mappings is a set of open, unencumbered YouTube app mappings, free for everyone to use under the Creative Commons Zero license.
+# YT-RE
+YT-RE is a reverse engineering suite for the YouTube Android app. It contains several deobfuscation tools, all made accessible through an easy to use Gradle buildscript.
+
+is a set of open, unencumbered YouTube app mappings, free for everyone to use under the Creative Commons Zero license.
 The intention is to let everyone mod YouTube freely and openly, while also being able to innovate and process the mappings as they see fit.
 
 To see the current version being targeted, check the branch name!

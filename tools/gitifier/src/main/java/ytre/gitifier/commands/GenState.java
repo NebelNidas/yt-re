@@ -6,17 +6,20 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Map;
 import java.util.stream.Stream;
 
 import org.tinylog.Logger;
+import com.unascribed.flexver.FlexVerComparator;
 import jadx.api.JadxArgs;
 import jadx.api.JadxDecompiler;
 import jadx.api.impl.NoOpCodeCache;
 import jadx.core.utils.files.FileUtils;
 
 import ytre.gitifier.RepoManager;
+import ytre.gitifier.VersionBundle;
 
 public class GenState {
 	private final Path apkDir;
@@ -24,9 +27,9 @@ public class GenState {
 	private final Path outputDir;
 	private final File cacheFile;
 	private final RepoManager repoManager;
-	private List<String> versions;
+	private Map<String, VersionBundle> versionBundles = new HashMap<>();
 
-	public GenState(Path apkDir, Path intermediaryDir, Path outputDir) {
+	public GenState(Path apkDir, Path intermediaryDir, Path outputDir) throws Exception {
 		this.apkDir = apkDir;
 		this.intermediaryDir = intermediaryDir;
 		this.outputDir = outputDir;
@@ -35,74 +38,95 @@ public class GenState {
 		repoManager = new RepoManager(outputDir);
 	}
 
-	public void generate(boolean overwriteExisting) {
-		gatherVersionsFromIntermediary();
-		assertApksArePresent();
+	public void generate(boolean overwriteExisting) throws Exception {
+		gatherVersionBundles();
 
 		if (overwriteExisting) {
 			FileUtils.deleteDirIfExists(outputDir);
 		}
 
+		List<VersionBundle> bundles = List.copyOf(versionBundles.values());
+		bundles.sort((v1, v2) -> FlexVerComparator.compare(v1.version, v2.version));
+		generate(bundles);
+	}
+
+	public void update() throws Exception {
+		gatherVersionBundles();
+		String lastCommited = repoManager.getLastCommitVersion();
+	}
+
+	private void generate(List<VersionBundle> versions) throws Exception {
 		repoManager.reload();
 
-		for (String version : versions) {
+		for (VersionBundle bundle : versionBundles.values()) {
 			Logger.info("Cleaning up output directory...");
 			cleanupDir();
 
-			Logger.info("Decompiling version {}...", version);
-			decompile(version);
+			Logger.info("Decompiling version {}...", bundle.version);
+			decompile(bundle.version);
 			deleteFilesRecursively(".*\\.dex$");
 
-			Logger.info("Committing version {}...", version);
-			repoManager.commit(version);
+			Logger.info("Committing version {}...", bundle.version);
+			repoManager.commit(bundle.version);
 		}
 
 		repoManager.close();
 	}
 
-	private void gatherVersionsFromIntermediary() {
+	private void gatherVersionBundles() throws Exception {
+		List<String> versions = new ArrayList<>();
+
 		try (Stream<Path> stream = Files.list(intermediaryDir)) {
-			versions = stream
-					.filter(file -> !Files.isDirectory(file))
-					.map(Path::getFileName)
-					.map(Path::toString)
-					.filter(name -> name.endsWith(".tiny") && !name.startsWith("counter"))
-					.map(name -> name.substring(0, name.lastIndexOf(".tiny")))
-					.collect(Collectors.toList());
-		} catch (Throwable e) {
-			throw new RuntimeException(e);
+			for (Path path : stream.toList()) {
+				if (Files.isDirectory(path)) {
+					continue;
+				}
+
+				String name = path.getFileName().toString();
+
+				if (!name.endsWith(".tiny") || name.startsWith("counter")) {
+					continue;
+				}
+
+				String version = name.substring(0, name.lastIndexOf(".tiny"));
+				versionBundles.put(version, new VersionBundle(version, null, path));
+				versions.add(version);
+			}
 		}
-
-		Logger.info("Intermediary versions: {}", versions);
-	}
-
-	private void assertApksArePresent() {
-		List<String> apkVersions;
 
 		try (Stream<Path> stream = Files.list(apkDir)) {
-			apkVersions = stream
-					.filter(file -> !Files.isDirectory(file))
-					.map(Path::getFileName)
-					.map(Path::toString)
-					.filter(name -> name.startsWith("youtube-") && name.endsWith(".apk"))
-					.map(name -> name.substring(8, name.lastIndexOf(".apk")))
-					.collect(Collectors.toList());
-		} catch (Throwable e) {
-			throw new RuntimeException(e);
-		}
+			for (Path path : stream.toList()) {
+				if (Files.isDirectory(path)) {
+					continue;
+				}
 
+				String name = path.getFileName().toString();
+
+				if (!name.startsWith("youtube-") || !name.endsWith(".apk")) {
+					continue;
+				}
+
+				String version = name.substring(8, name.lastIndexOf(".apk"));
+				VersionBundle bundle;
+
+				if ((bundle = versionBundles.get(version)) != null) {
+					bundle.apkPath = path;
+				}
+			}
+		}
+	}
+
+	private void assertApksArePresent(List<VersionBundle> versionBundles) throws Exception {
 		List<String> missingVersions = new ArrayList<>();
 
-		Logger.info("APK versions: {}", apkVersions);
-
-		for (String version : versions) {
-			if (!apkVersions.contains(version)) {
-				missingVersions.add(version);
+		for (VersionBundle bundle : versionBundles) {
+			if (bundle.apkPath == null) {
+				missingVersions.add(bundle.version);
 			}
 		}
 
 		if (!missingVersions.isEmpty()) {
-			throw new RuntimeException("Missing APK(s) for version(s): " + missingVersions);
+			throw new RuntimeException("Missing APK(s) for version(s): " + String.join(",", missingVersions));
 		}
 	}
 
@@ -127,18 +151,18 @@ public class GenState {
 	private void deleteFilesRecursively(String regex) {
 		try (Stream<Path> stream = Files.walk(outputDir)) {
 			stream.filter(path -> !path.startsWith(outputDir.resolve(".git").toAbsolutePath()))
-				.filter(path -> path.getFileName().toString().matches(regex))
-				.forEach(path -> {
-					if (path.toFile().isDirectory()) {
-						FileUtils.deleteDirIfExists(path);
-					} else {
-						try {
-							Files.deleteIfExists(path);
-						} catch (IOException e) {
-							e.printStackTrace();
+					.filter(path -> path.getFileName().toString().matches(regex))
+					.forEach(path -> {
+						if (path.toFile().isDirectory()) {
+							FileUtils.deleteDirIfExists(path);
+						} else {
+							try {
+								Files.deleteIfExists(path);
+							} catch (IOException e) {
+								e.printStackTrace();
+							}
 						}
-					}
-				});
+					});
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -152,8 +176,6 @@ public class GenState {
 		try (JadxDecompiler jadx = new JadxDecompiler(jadxArgs)) {
 			jadx.load();
 			jadx.save();
-		} catch (Throwable e) {
-			throw new RuntimeException(e);
 		}
 	}
 

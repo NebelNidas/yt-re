@@ -1,0 +1,7 @@
+CLASS aawc GoogleSsoAuthTokenTask
+	FIELD b activity Landroid/app/Activity;
+	FIELD c account Landroid/accounts/Account;
+	METHOD <init> (Landroid/app/Activity;Landroid/accounts/Account;Ljava/lang/String;Lvil;)V
+		ARG 1 activity
+		ARG 2 account
+	METHOD run run ()V

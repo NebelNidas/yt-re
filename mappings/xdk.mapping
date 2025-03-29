@@ -1,0 +1,10 @@
+CLASS xdk
+	FIELD j clickTrackingParams [B
+	FIELD n continuation Ljava/lang/String;
+	FIELD t serviceName Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Lafoa;Laawf;IZLj$/util/Optional;Ljava/lang/String;Ljava/lang/Boolean;)V
+		ARG 1 serviceName
+	METHOD b getCacheKey ()Ljava/lang/String;
+	METHOD i initClickTrackingParams ()V
+	METHOD l setClickTrackingParams ([B)V
+		ARG 1 clickTrackingParams

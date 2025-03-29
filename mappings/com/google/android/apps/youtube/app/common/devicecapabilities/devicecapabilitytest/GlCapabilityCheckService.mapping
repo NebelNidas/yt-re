@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/common/devicecapabilities/devicecapabilitytest/GlCapabilityCheckService
+	METHOD onBind onBind (Landroid/content/Intent;)Landroid/os/IBinder;
+		ARG 1 intent

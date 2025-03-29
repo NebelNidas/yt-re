@@ -1,2 +1,9 @@
 CLASS aiio com/google/protobuf/AbstractMessageLite
 	COMMENT Taken from <a href="https://github.com/protocolbuffers/protobuf/blob/b72eb3f2337599b0e91cadbeeec4e17bdcfcb4b6/java/core/src/main/java/com/google/protobuf/AbstractMessageLite.java">https://github.com/protocolbuffers/protobuf/blob/b72eb3f2337599b0e91cadbeeec4e17bdcfcb4b6/java/core/src/main/java/com/google/protobuf/AbstractMessageLite.java</a>
+	FIELD memoizedHashCode memoizedHashCode I
+	METHOD addAll addAll (Ljava/lang/Iterable;Ljava/util/Collection;)V
+		ARG 0 values
+		ARG 1 list
+	METHOD addAll addAll (Ljava/lang/Iterable;Ljava/util/List;)V
+		ARG 0 values
+		ARG 1 list

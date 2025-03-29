@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/settings/AutoplayPrefsFragment
+	METHOD onSharedPreferenceChanged onSharedPreferenceChanged (Landroid/content/SharedPreferences;Ljava/lang/String;)V
+		ARG 1 preferences
+		ARG 2 name

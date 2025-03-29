@@ -1,0 +1,31 @@
+CLASS com/google/android/apps/youtube/app/ui/SlimMetadataButtonContainerLayout
+	FIELD e views Ljava/util/List;
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+		ARG 4 defStyleRes
+	METHOD d init (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD onLayout onLayout (ZIIII)V
+		ARG 1 changed
+		ARG 2 left
+		ARG 3 top
+		ARG 4 right
+		ARG 5 bottom
+	METHOD onMeasure onMeasure (II)V
+		ARG 1 widthMeasureSpec
+		ARG 2 heightMeasureSpec
+	METHOD onViewAdded onViewAdded (Landroid/view/View;)V
+		ARG 1 view
+	METHOD onViewRemoved onViewRemoved (Landroid/view/View;)V
+		ARG 1 view

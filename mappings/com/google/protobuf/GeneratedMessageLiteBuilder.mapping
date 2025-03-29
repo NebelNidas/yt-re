@@ -1,0 +1,7 @@
+CLASS aikc com/google/protobuf/GeneratedMessageLiteBuilder
+	FIELD defaultInstance defaultInstance Laikk;
+	FIELD instance instance Laikk;
+	METHOD <init> (Laikk;)V
+		ARG 1 defaultInstance
+	METHOD copyOnWrite copyOnWrite ()V
+	METHOD newMutableInstance newMutableInstance ()Laikk;

@@ -1,0 +1,3 @@
+CLASS afko
+	METHOD a create (I)Lafko;
+		ARG 0 appUpdateType

@@ -1,0 +1,20 @@
+CLASS aild com/google/protobuf/InvalidProtocolBufferException
+	FIELD a thrownFromInputStream Z
+	FIELD serialVersionUID serialVersionUID J
+	METHOD <init> (Ljava/io/IOException;)V
+		ARG 1 cause
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD <init> (Ljava/lang/String;Ljava/io/IOException;)V
+		ARG 1 message
+		ARG 2 cause
+	METHOD a invalidWireType ()Lailc;
+	METHOD b invalidEndTag ()Laild;
+	METHOD c invalidTag ()Laild;
+	METHOD d invalidUtf8 ()Laild;
+	METHOD e malformedVariant ()Laild;
+	METHOD f negativeSize ()Laild;
+	METHOD g parseFailure ()Laild;
+	METHOD h recursionLimitExceeded ()Laild;
+	METHOD i sizeLimitExceeded ()Laild;
+	METHOD j truncatedMessage ()Laild;

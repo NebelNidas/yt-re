@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/common/ads/WatchLayoutStateMonitor
+	METHOD <init> (Ltgp;Ltgr;Landroid/content/Context;Lmbp;)V
+		ARG 3 context

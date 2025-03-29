@@ -1,0 +1,5 @@
+CLASS com/google/android/apps/youtube/app/ui/swipetocontainer/SwipeToContainerFrameLayout
+	METHOD onAttachedToWindow onAttachedToWindow ()V
+	METHOD onDetachedFromWindow onDetachedFromWindow ()V
+	METHOD onInterceptTouchEvent onInterceptTouchEvent (Landroid/view/MotionEvent;)Z
+		ARG 1 event

@@ -1,1 +1,4 @@
 CLASS com/google/protobuf/ExtensionRegistryLite ExtensionRegistryLite
+	METHOD c mergeFrom (Laiki;)V
+		ARG 1 message
+	METHOD getGeneratedRegistry getGeneratedRegistry ()Lcom/google/protobuf/ExtensionRegistryLite;

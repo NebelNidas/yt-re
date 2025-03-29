@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/common/notification/NotificationOsSettingEntityController
+	FIELD a context Landroid/content/Context;
+	METHOD <init> (Lwwr;Landroid/content/Context;Lei;)V
+		ARG 2 context

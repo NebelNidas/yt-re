@@ -1,0 +1,3 @@
+CLASS com/google/protos/youtube/api/innertube/SettingRenderer
+	FIELD settingDialogRenderer settingDialogRenderer Laiki;
+	FIELD settingSingleOptionMenuRenderer settingSingleOptionMenuRenderer Laiki;

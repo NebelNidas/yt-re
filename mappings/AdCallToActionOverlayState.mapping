@@ -9,3 +9,6 @@ CLASS tzp AdCallToActionOverlayState
 	FIELD i shownLogged Z
 	FIELD j visualChanged Z
 	FIELD k visualState I
+	METHOD <init> (Lagkv;Lagkv;Laijf;Lagqa;IJZZZZ)V
+		ARG 5 visualState
+	METHOD b emptyBuilder ()Ltzo;

@@ -1,0 +1,19 @@
+CLASS aimm com/google/protobuf/RopeByteString
+	FIELD a minLengthByDepth [I
+	FIELD d totalLength I
+	FIELD e left Laijf;
+	FIELD f right Laijf;
+	FIELD g treeDepth I
+	FIELD h leftLength I
+	FIELD serialVersionUID serialVersionUID J
+	METHOD <init> (Laijf;Laijf;)V
+		ARG 1 left
+		ARG 2 right
+	METHOD c minLength (I)I
+		ARG 0 depth
+	METHOD g concatenateBytes (Laijf;Laijf;)Laijf;
+		ARG 0 left
+		ARG 1 right
+	METHOD readObject readObject (Ljava/io/ObjectInputStream;)V
+		ARG 1 in
+	METHOD writeReplace writeReplace ()Ljava/lang/Object;

@@ -1,0 +1,25 @@
+CLASS com/google/android/apps/youtube/app/ui/StandaloneCollectionBadgeView
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+		ARG 4 defStyleResId
+	METHOD onFinishInflate onFinishInflate ()V
+	METHOD onLayout onLayout (ZIIII)V
+		ARG 1 changed
+		ARG 2 left
+		ARG 3 top
+		ARG 4 right
+		ARG 5 bottom
+	METHOD onMeasure onMeasure (II)V
+		ARG 1 widthMeasureSpec
+		ARG 2 heightMeasureSpec

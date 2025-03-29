@@ -1,5 +1,0 @@
-CLASS aiki MessageType
-	FIELD a containingTypeDefaultInstance Lcom/google/protobuf/MessageLite;
-	METHOD <init> (Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Laikh;)V
-		ARG 1 containingTypeDefaultInstance
-		ARG 3 messageDefaultInstance

@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/common/inappupdate/DefaultInAppUpdateController
+	FIELD f activity Landroid/app/Activity;
+	METHOD <init> (Landroid/app/Activity;Laedb;Lwbj;Lgwz;)V
+		ARG 1 activity

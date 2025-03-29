@@ -1,1 +1,2 @@
 CLASS aiko EnumNumberGetter
+	METHOD getNumber getNumber ()I

@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout
+	FIELD g controller Lcom/google/android/apps/youtube/app/common/player/overlay/PlayerOverlayRenderersControllerImpl;
+	METHOD onFinishInflate onFinishInflate ()V

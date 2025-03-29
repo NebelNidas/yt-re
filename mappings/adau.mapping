@@ -1,0 +1,26 @@
+CLASS adau
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD checkLayoutParams checkLayoutParams (Landroid/view/ViewGroup$LayoutParams;)Z
+		ARG 1 params
+	METHOD generateDefaultLayoutParams generateDefaultLayoutParams ()Landroid/view/ViewGroup$LayoutParams;
+	METHOD generateLayoutParams generateLayoutParams (Landroid/view/ViewGroup$LayoutParams;)Landroid/view/ViewGroup$LayoutParams;
+		ARG 1 params
+	METHOD i setVideoView (Landroid/view/View;)V
+		ARG 1 videoView
+	METHOD onAttachedToWindow onAttachedToWindow ()V
+	METHOD onDetachedFromWindow onDetachedFromWindow ()V
+	METHOD onLayout onLayout (ZIIII)V
+		ARG 1 changed
+		ARG 2 left
+		ARG 3 top
+		ARG 4 right
+		ARG 5 bottom
+	METHOD onMeasure onMeasure (II)V
+		ARG 1 widthMeasureSpec
+		ARG 2 heightMeasureSpec
+	METHOD onTouchEvent onTouchEvent (Landroid/view/MotionEvent;)Z
+		ARG 1 event

@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/ui/PlaylistEditToastController
+	FIELD a context Landroid/content/Context;
+	METHOD <init> (Landroid/content/Context;Laedb;Luvi;)V
+		ARG 1 context

@@ -1,0 +1,8 @@
+CLASS ailb com/google/protobuf/Internal
+	FIELD a UTF_8 Ljava/nio/charset/Charset;
+	FIELD b EMPTY_BYTE_ARRAY [B
+	METHOD a hashBoolean (Z)I
+	METHOD b hashLong (J)I
+	METHOD c partialHash (I[BII)I
+	METHOD d toStringUtf8 ([B)Ljava/lang/String;
+	METHOD e checkNotNull (Ljava/lang/Object;)V

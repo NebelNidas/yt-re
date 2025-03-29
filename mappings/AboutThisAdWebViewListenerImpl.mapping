@@ -1,0 +1,9 @@
+CLASS uby AboutThisAdWebViewListenerImpl
+	FIELD a skipCallback Ltsj;
+	FIELD c endpoint Lcom/google/protos/youtube/api/innertube/AboutThisAdEndpointOuterClass$AboutThisAdEndpoint;
+	FIELD g hideEnclosingEvent Lj$/util/Optional;
+	FIELD h isAdAlreadyPaused Z
+	METHOD <init> (Lubx;Ltsj;Luvi;Ljava/util/concurrent/Executor;Lacwc;)V
+		ARG 1 data
+		ARG 2 skipCallback
+		ARG 4 executor

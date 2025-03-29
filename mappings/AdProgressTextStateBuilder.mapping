@@ -1,0 +1,16 @@
+CLASS tzt AdProgressTextStateBuilder
+	FIELD a showAdChoices Z
+	FIELD b setProperties B
+	FIELD c adCountMetadata Ljava/lang/Object;
+	FIELD d timeRemainingMillis I
+	METHOD a build ()Ltzu;
+	METHOD b setAdCountMetadata (Ltsg;)V
+		ARG 1 adCountMetadata
+	METHOD c setShowAdChoices (Z)V
+		ARG 1 showAdChoices
+	METHOD d setTimeRemainingMillis (I)V
+		ARG 1 timeRemainingMillis
+	METHOD h setClearHistory (Z)V
+		ARG 1 clearHistory
+	METHOD i setNavigationType (I)V
+		ARG 1 navigationType

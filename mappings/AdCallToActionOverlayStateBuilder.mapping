@@ -1,0 +1,35 @@
+CLASS tzo AdCallToActionOverlayStateBuilder
+	FIELD a renderer Lagkv;
+	FIELD b onClickedRenderer Lagkv;
+	FIELD c trackingParams Laijf;
+	FIELD d visualStateChangeTriggers Lagqa;
+	FIELD e currentPositionMillis J
+	FIELD f animate Z
+	FIELD g fullscreen Z
+	FIELD h shownLogged Z
+	FIELD i visualChanged Z
+	FIELD j setProperties B
+	FIELD k visualState I
+	METHOD <init> ([B)V
+		ARG 2 absent
+	METHOD a build ()Ltzp;
+	METHOD b animate (Z)V
+		ARG 1 animate
+	METHOD c currentPositionMillis (J)V
+		ARG 1 currentPositionMillis
+	METHOD d fullscreen (Z)V
+		ARG 1 fullscreen
+	METHOD e onClickedRenderer (Lagkv;)V
+		ARG 1 onClickedRenderer
+	METHOD f renderer (Lagkv;)V
+		ARG 1 renderer
+	METHOD g shownLogged (Z)V
+		ARG 1 shownLogged
+	METHOD h trackingParams (Laijf;)V
+		ARG 1 trackingParams
+	METHOD i visualChanged (Z)V
+		ARG 1 visualChanged
+	METHOD j visualStateChangeTriggers (Lagqa;)V
+		ARG 1 visualStateChangeTriggers
+	METHOD k visualState (I)V
+		ARG 1 visualState

@@ -1,0 +1,11 @@
+CLASS com/google/protobuf/MessageLite
+	METHOD getParserForType getParserForType ()Laime;
+	METHOD getSerializedSize getSerializedSize ()I
+	METHOD newBuilderForType newBuilderForType ()Lailx;
+	METHOD toBuilder toBuilder ()Lailx;
+	METHOD toByteArray toByteArray ()[B
+	METHOD toByteString toByteString ()Laijf;
+	METHOD writeDelimitedTo writeDelimitedTo (Ljava/io/OutputStream;)V
+		ARG 1 outputStream
+	METHOD writeTo writeTo (Laijp;)V
+		ARG 1 outputStream

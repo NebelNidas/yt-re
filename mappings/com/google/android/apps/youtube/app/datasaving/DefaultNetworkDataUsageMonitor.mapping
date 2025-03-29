@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/datasaving/DefaultNetworkDataUsageMonitor
+	METHOD <init> (Landroid/content/Context;Lvbr;Latwt;Lafwh;Latwt;)V
+		ARG 1 context

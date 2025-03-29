@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/offline/OfflineModeChangedMealbarController
+	FIELD o model Laeda;
+	METHOD m (Laeda;)V
+		ARG 1 model

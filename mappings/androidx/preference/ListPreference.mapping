@@ -1,0 +1,8 @@
+CLASS androidx/preference/ListPreference
+	FIELD g entries [Ljava/lang/CharSequence;
+	FIELD h entryValues [Ljava/lang/CharSequence;
+	METHOD e setEntries ([Ljava/lang/CharSequence;)V
+		ARG 1 entries
+	METHOD l getEntry ()Ljava/lang/CharSequence;
+	METHOD o setValue (Ljava/lang/String;)V
+		ARG 1 value

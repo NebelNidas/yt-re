@@ -1,0 +1,2 @@
+CLASS ahyz com/google/protobuf/TextFormatEscaper
+	METHOD v escapeBytes (Laijf;)Ljava/lang/String;

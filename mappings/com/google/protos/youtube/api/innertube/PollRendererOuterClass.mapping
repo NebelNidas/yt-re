@@ -1,0 +1,3 @@
+CLASS com/google/protos/youtube/api/innertube/PollRendererOuterClass
+	FIELD pollHeaderRenderer pollHeaderRenderer Laiki;
+	FIELD pollRenderer pollRenderer Laiki;

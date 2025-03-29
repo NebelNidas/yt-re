@@ -1,0 +1,5 @@
+CLASS vau
+	METHOD j (Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ARG 1 executor
+	METHOD k (Ljava/util/concurrent/Executor;Ldxc;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ARG 1 executor

@@ -1,0 +1,3 @@
+CLASS aula io/reactivex/rxjava3/core/MaybeSource
+	METHOD ah subscribe (Lauky;)V
+		ARG 1 observer

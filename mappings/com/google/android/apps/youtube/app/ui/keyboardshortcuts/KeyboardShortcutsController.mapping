@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/ui/keyboardshortcuts/KeyboardShortcutsController
+	METHOD <init> (Lbw;Llzg;Latkr;Latkr;Latkr;Latkr;Latkr;Latkr;Latkr;)V
+		ARG 1 activity

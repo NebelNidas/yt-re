@@ -1,0 +1,15 @@
+CLASS vnl ReelsBottomSheetDialog
+	FIELD a fragmentManager Lco;
+	METHOD <init> (Landroid/content/Context;Lco;Lyra;Lj$/util/Optional;ZZZ)V
+		ARG 2 fragmentManager
+	METHOD <init> (Landroid/content/Context;Lco;Lyra;ZZ)V
+		ARG 1 context
+		ARG 2 fragmentManager
+	METHOD t (F)V
+		ARG 1 maxDefaultHeight
+	METHOD u setMinHeight (F)V
+		ARG 1 minHeight
+	METHOD v setDropShadow (Z)V
+		ARG 1 dropShadow
+	METHOD w setCloseButtonTexture (Ljava/lang/String;)V
+		ARG 1 closeButtonTexture

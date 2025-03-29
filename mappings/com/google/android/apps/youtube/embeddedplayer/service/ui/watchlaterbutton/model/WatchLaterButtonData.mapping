@@ -1,0 +1,5 @@
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/watchlaterbutton/model/WatchLaterButtonData
+	METHOD a getState ()I
+	METHOD b getTrackingParams ()Laijf;
+	METHOD c getAccessibilityLabel ()Ljava/lang/String;
+	METHOD d getLabel ()Ljava/lang/String;

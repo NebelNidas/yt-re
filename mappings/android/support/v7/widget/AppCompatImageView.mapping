@@ -1,0 +1,28 @@
+CLASS android/support/v7/widget/AppCompatImageView
+	FIELD a backgroundHelper Lkd;
+	FIELD c imageHelper Latfx;
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+	METHOD drawableStateChanged drawableStateChanged ()V
+	METHOD hasOverlappingRendering hasOverlappingRendering ()Z
+	METHOD setBackgroundDrawable setBackgroundDrawable (Landroid/graphics/drawable/Drawable;)V
+		ARG 1 backgroundDrawable
+	METHOD setBackgroundResource setBackgroundResource (I)V
+		ARG 1 backgroundResource
+	METHOD setImageBitmap setImageBitmap (Landroid/graphics/Bitmap;)V
+		ARG 1 imageBitmap
+	METHOD setImageDrawable setImageDrawable (Landroid/graphics/drawable/Drawable;)V
+		ARG 1 imageDrawable
+	METHOD setImageLevel setImageLevel (I)V
+		ARG 1 imageLevel
+	METHOD setImageResource setImageResource (I)V
+		ARG 1 imageResource
+	METHOD setImageURI setImageURI (Landroid/net/Uri;)V
+		ARG 1 imageUri

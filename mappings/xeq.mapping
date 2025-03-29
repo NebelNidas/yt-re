@@ -1,0 +1,4 @@
+CLASS xeq
+	METHOD a hasUriMutator ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

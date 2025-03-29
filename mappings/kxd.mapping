@@ -1,0 +1,4 @@
+CLASS kxd
+	FIELD a controller Lcom/google/android/apps/youtube/app/ui/WatchUpsellDialogController;
+	METHOD <init> (Lcom/google/android/apps/youtube/app/ui/WatchUpsellDialogController;Lgwz;)V
+		ARG 1 controller

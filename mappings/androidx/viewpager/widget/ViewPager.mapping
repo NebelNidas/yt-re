@@ -1,0 +1,11 @@
+CLASS androidx/viewpager/widget/ViewPager
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD canScrollHorizontally canScrollHorizontally (I)Z
+	METHOD onInterceptTouchEvent onInterceptTouchEvent (Landroid/view/MotionEvent;)Z
+		ARG 1 event
+	METHOD onTouchEvent (Landroid/view/MotionEvent;)Z
+		ARG 1 event

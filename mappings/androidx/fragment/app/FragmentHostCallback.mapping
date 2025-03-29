@@ -1,0 +1,2 @@
+CLASS cb androidx/fragment/app/FragmentHostCallback
+	METHOD e onStartActivityFromFragment (Landroid/content/Intent;ILandroid/os/Bundle;)V

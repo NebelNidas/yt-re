@@ -1,0 +1,2 @@
+CLASS com/google/android/apps/youtube/app/ui/actionbar/MainCollapsingToolbarLayout
+	FIELD c collapseBehavior Lgwr;

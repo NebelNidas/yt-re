@@ -1,0 +1,2 @@
+CLASS aulb io/reactivex/rxjava3/core/MaybeTransformer
+	METHOD a apply (Laukx;)Laula;

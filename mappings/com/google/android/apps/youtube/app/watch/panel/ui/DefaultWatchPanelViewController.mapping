@@ -1,0 +1,5 @@
+CLASS com/google/android/apps/youtube/app/watch/panel/ui/DefaultWatchPanelViewController
+	FIELD u latencyLogger Lcom/google/android/apps/youtube/app/common/csi/WatchUiActionLatencyLogger;
+	METHOD <init> (Landroid/app/Activity;Luvi;Lizt;Lizu;Lacwg;Lcat;Ltgj;Lcat;Lgwz;Lyix;Lgwz;Lacpq;Lguo;Lwtq;Lgko;Lcen;Lggs;Lcom/google/android/apps/youtube/embeddedplayer/service/hostappverification/e;Lyra;Lgwh;Lavoj;Ljaa;Lmes;Lmen;Laelp;Lcen;Lmdw;Lcom/google/android/apps/youtube/embeddedplayer/service/clientinfo/service/a;Lcom/google/android/apps/youtube/embeddedplayer/service/clientinfo/service/c;Lcom/google/android/apps/youtube/embeddedplayer/service/clientinfo/service/a;Lgvf;Lfxe;Llxl;Llxy;Latzk;Labwu;Lmdf;Lgwz;Lcom/google/android/apps/youtube/app/ui/presenter/ads/webview/AdsWebViewCacheController;Lavoj;Lwob;Lldg;Lldg;Lmdk;Lacfq;Latwt;Llwb;Lafoa;Lafoa;Latkr;Lgha;Lvcl;Lcen;Lcom/google/android/apps/youtube/app/common/csi/WatchUiActionLatencyLogger;Lmfp;Lauln;Lauln;Lfho;Lmew;Lmep;Lnbe;Lgyo;)V
+		ARG 1 activity
+		ARG 54 latencyLogger

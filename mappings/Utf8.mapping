@@ -1,0 +1,2 @@
+CLASS aink Utf8
+	METHOD g isValidUtf8 ([BII)Z

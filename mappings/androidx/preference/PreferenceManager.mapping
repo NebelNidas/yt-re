@@ -1,0 +1,6 @@
+CLASS dal androidx/preference/PreferenceManager
+	FIELD a shouldCommit Z
+	METHOD b getEditor ()Landroid/content/SharedPreferences$Editor;
+	METHOD c getSharedPreferences ()Landroid/content/SharedPreferences;
+	METHOD d findPreference (Ljava/lang/CharSequence;)Landroidx/preference/Preference;
+	METHOD h showDialog (Landroidx/preference/Preference;)V

@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/common/dialog/ProgressBarDialogFragmentController
+	METHOD <init> (Lbw;)V
+		ARG 1 activity

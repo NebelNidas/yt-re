@@ -1,0 +1,6 @@
+CLASS com/google/android/apps/youtube/app/common/endpoint/LoggingUrlsPingController
+	FIELD d executor Ljava/util/concurrent/Executor;
+	METHOD <init> (Lavoj;Lgfz;Ltym;Lacpq;Ljava/util/concurrent/Executor;Lacwg;Laelp;Ladpr;)V
+		ARG 5 executor
+	METHOD j (Ljava/lang/String;Ljava/util/Map;)Landroid/net/Uri;
+		ARG 1 url

@@ -1,1 +1,5 @@
 CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/mutedautoplay/remoteloaded/a com/google/android/apps/youtube/embeddedplayer/service/ui/mutedautoplay/remoteloaded/LazyMutedAutoplayOverlay
+	FIELD d listener Landroid/view/View$OnClickListener;
+	METHOD <init> (Landroid/content/Context;Landroid/view/View$OnClickListener;)V
+		ARG 1 context
+		ARG 2 listener

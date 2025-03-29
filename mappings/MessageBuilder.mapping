@@ -1,1 +1,10 @@
 CLASS ailx MessageBuilder
+	METHOD mergeFrom mergeFrom ([B)Lailx;
+		ARG 1 data
+	METHOD mergeFrom mergeFrom ([BLcom/google/protobuf/ExtensionRegistryLite;)Lailx;
+		ARG 1 data
+		ARG 2 extensionRegistry
+	METHOD mergeFrom mergeFrom (Laijf;)Lailx;
+		ARG 1 data
+	METHOD mergeFrom mergeFrom (Lcom/google/protobuf/MessageLite;)Lailx;
+		ARG 1 message

@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/bedtime/DataReminderController
+	FIELD j dataUsageMonitor Lcom/google/android/apps/youtube/app/datasaving/DefaultNetworkDataUsageMonitor;
+	METHOD <init> (Landroid/app/Activity;Lyqz;Latkr;Latkr;Latkr;Latkr;Latkr;Lacwg;Latkr;Latkr;Lauln;Lauln;Ljava/util/concurrent/Executor;Lcom/google/android/apps/youtube/app/datasaving/DefaultNetworkDataUsageMonitor;Latwt;Latkr;Lvbr;Latkr;Latkr;)V
+		ARG 14 dataUsageMonitor

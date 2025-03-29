@@ -1,0 +1,4 @@
+CLASS amep
+	FIELD a INSTANCE Lamep;
+	FIELD g parser Laime;
+	FIELD h memoizedIsInitialized B

@@ -1,0 +1,17 @@
+CLASS com/google/android/apps/youtube/app/ui/SearchEditText
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+		ARG 4 defStyleRes
+	METHOD onTextContextMenuItem onTextContextMenuItem (I)Z
+		ARG 1 id

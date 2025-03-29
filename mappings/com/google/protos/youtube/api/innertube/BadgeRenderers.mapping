@@ -1,0 +1,5 @@
+CLASS com/google/protos/youtube/api/innertube/BadgeRenderers
+	FIELD standaloneCollectionBadgeRenderer standaloneCollectionBadgeRenderer Laiki;
+	FIELD standaloneRedBadgeRenderer standaloneRedBadgeRenderer Laiki;
+	FIELD standaloneYpcBadgeRenderer standaloneYpcBadgeRenderer Laiki;
+	FIELD unifiedVerifiedBadgeRenderer unifiedVerifiedBadgeRenderer Laiki;

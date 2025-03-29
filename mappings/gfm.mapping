@@ -1,0 +1,4 @@
+CLASS gfm
+	FIELD a service Lcom/google/android/apps/youtube/app/common/devicecapabilities/devicecapabilitytest/GlCapabilityCheckService;
+	METHOD <init> (Lcom/google/android/apps/youtube/app/common/devicecapabilities/devicecapabilitytest/GlCapabilityCheckService;)V
+		ARG 1 service

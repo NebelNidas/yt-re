@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/ui/inappreviews/InAppReviewController
+	FIELD b activity Landroid/app/Activity;
+	METHOD <init> (Landroid/app/Activity;Latzk;Llzg;Lavoj;Lacwg;Latkr;Lpdo;Lbjs;Lvdg;Lwup;)V
+		ARG 1 activity

@@ -1,0 +1,6 @@
+CLASS aijk com/google/protobuf/CodedInputStream
+	METHOD A checkLastTagWas (I)V
+	METHOD J readRawVarint32 (ILjava/io/InputStream;)I
+	METHOD M newInstance (Ljava/nio/ByteBuffer;)Laijk;
+	METHOD O newInstance (Ljava/io/InputStream;I)Laijk;
+	METHOD R newInstance ([BII)Laijk;

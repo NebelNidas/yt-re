@@ -1,0 +1,2 @@
+CLASS op
+	FIELD a itemView Landroid/view/View;

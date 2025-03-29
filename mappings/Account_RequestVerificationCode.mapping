@@ -1,1 +1,2 @@
 CLASS xgk Account_RequestVerificationCode
+	FIELD a deliveryMethod Lammp;

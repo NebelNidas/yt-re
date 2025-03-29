@@ -1,0 +1,2 @@
+CLASS com/google/android/apps/youtube/app/application/Shell_SettingsActivity
+	METHOD o createPeer ()V

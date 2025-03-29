@@ -1,0 +1,5 @@
+CLASS dao androidx/preference/PreferenceViewHolder
+	FIELD v allowDividerAbove Z
+	FIELD w allowDividerBelow Z
+	FIELD x viewMap Landroid/util/SparseArray;
+	METHOD E findViewById (I)Landroid/view/View;

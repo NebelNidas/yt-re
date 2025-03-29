@@ -1,3 +1,0 @@
-CLASS aijf ByteBuffer
-	METHOD l newCodedInput ()Laijk;
-	METHOD q isValidUtf8 ()Z

@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/watch/panel/ui/cinematics/WatchCinematicSettingsController
+	FIELD a context Landroid/content/Context;
+	METHOD <init> (Landroid/content/Context;Lavoj;Lmnh;Lvbr;Lgqr;Lwup;)V
+		ARG 1 context

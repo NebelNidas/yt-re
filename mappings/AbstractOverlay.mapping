@@ -1,1 +1,4 @@
 CLASS acim AbstractOverlay
+	FIELD a context Landroid/content/Context;
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context

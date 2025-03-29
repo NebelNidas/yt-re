@@ -1,1 +1,41 @@
 CLASS aiin BasicMessageBuilder
+	METHOD addAll addAll (Ljava/lang/Iterable;Ljava/util/Collection;)V
+		ARG 0 values
+		ARG 1 list
+	METHOD addAll addAll (Ljava/lang/Iterable;Ljava/util/List;)V
+		ARG 0 values
+		ARG 1 list
+	METHOD addAllCheckingNulls addAllCheckingNulls (Ljava/lang/Iterable;Ljava/util/List;)V
+		ARG 0 values
+		ARG 1 list
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD getReadingExceptionMessage getReadingExceptionMessage (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 target
+	METHOD internalMergeFrom internalMergeFrom (Laiio;)Laiin;
+		ARG 1 message
+	METHOD mergeDelimitedFrom mergeDelimitedFrom (Ljava/io/InputStream;)Z
+		ARG 1 input
+	METHOD mergeDelimitedFrom mergeDelimitedFrom (Ljava/io/InputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Z
+		ARG 1 input
+		ARG 2 extensionRegistry
+	METHOD mergeFrom mergeFrom ([BII)Lailx;
+		ARG 1 data
+		ARG 2 offset
+		ARG 3 length
+	METHOD mergeFrom mergeFrom ([BIILcom/google/protobuf/ExtensionRegistryLite;)Lailx;
+		ARG 1 data
+		ARG 2 offset
+		ARG 3 length
+		ARG 4 extensionRegistry
+	METHOD mergeFrom mergeFrom (Laijf;Lcom/google/protobuf/ExtensionRegistryLite;)Lailx;
+		ARG 1 data
+		ARG 2 extensionRegistry
+	METHOD mergeFrom mergeFrom (Laijk;)Lailx;
+		ARG 1 input
+	METHOD mergeFrom mergeFrom (Ljava/io/InputStream;)Lailx;
+		ARG 1 input
+	METHOD mergeFrom mergeFrom (Ljava/io/InputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lailx;
+		ARG 1 input
+		ARG 2 mergeFrom
+	METHOD newUninitializedMessageException newUninitializedMessageException (Lcom/google/protobuf/MessageLite;)Laina;
+		ARG 0 message

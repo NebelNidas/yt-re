@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/ui/inline/SnappyLinearLayoutManager
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context

@@ -1,0 +1,66 @@
+CLASS bt androidx/fragment/app/Fragment
+	FIELD A host Lcb;
+	FIELD aaf contentLayoutId I
+	FIELD C parentFragment Lbt;
+	FIELD D fragmentId I
+	FIELD E containerId I
+	FIELD F tag Ljava/lang/String;
+	FIELD g state I
+	FIELD G hidden Z
+	FIELD h savedFragmentState Landroid/os/Bundle;
+	FIELD H detached Z
+	FIELD i savedViewState Landroid/util/SparseArray;
+	FIELD I retainInstance Z
+	FIELD j savedViewRegistryState Landroid/os/Bundle;
+	FIELD K hasMenu Z
+	FIELD l who Ljava/lang/String;
+	FIELD L menuVisible Z
+	FIELD m arguments Landroid/os/Bundle;
+	FIELD M called Z
+	FIELD N container Landroid/view/ViewGroup;
+	FIELD O view Landroid/view/View;
+	FIELD p targetRequestCode I
+	FIELD Q userVisibleHint Z
+	FIELD r added Z
+	FIELD s removing Z
+	FIELD u fromLayout Z
+	FIELD v inLayout Z
+	FIELD y backStackNesting I
+	FIELD z fragmentManager Lco;
+	METHOD <init> (I)V
+		ARG 1 contentLayoutId
+	METHOD aA onGetLayoutInflater ()Landroid/view/LayoutInflater;
+	METHOD aB instantiate (Landroid/content/Context;Ljava/lang/String;)Lbt;
+		ARG 0 context
+		ARG 1 name
+	METHOD ae requestPermissions ([Ljava/lang/String;I)V
+		ARG 1 permissions
+		ARG 2 requestCode
+	METHOD aF setTargetFragment (Lbt;)V
+		ARG 1 targetFragment
+	METHOD aG startActivity (Landroid/content/Intent;)V
+		ARG 1 intent
+	METHOD aj setInitialSavedState (Landroid/support/v4/app/Fragment$SavedState;)V
+		ARG 1 state
+	METHOD ar startActivityForResult (Landroid/content/Intent;ILandroid/os/Bundle;)V
+		ARG 1 intent
+		ARG 2 requestCode
+		ARG 3 options
+	METHOD as getPopDirection ()Z
+	METHOD ax isSaved ()Z
+	METHOD mR getPopEnterAnimation ()I
+	METHOD mS getPopExitAnimation ()I
+	METHOD mT requireContext ()Landroid/content/Context;
+	METHOD oi getEnterAnimation ()I
+	METHOD oj getExitAnimation ()I
+	METHOD S (Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+		ARG 1 prefix
+		ARG 2 fd
+		ARG 3 writer
+		ARG 4 args
+	METHOD V onActivityResult (IILandroid/content/Intent;)V
+		ARG 1 requestCode
+		ARG 2 resultCode
+		ARG 3 data
+	METHOD W onAttach (Landroid/app/Activity;)V
+		ARG 1 activity

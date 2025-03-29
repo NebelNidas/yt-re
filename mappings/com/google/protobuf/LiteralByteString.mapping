@@ -1,0 +1,6 @@
+CLASS aijd com/google/protobuf/LiteralByteString
+	FIELD a bytes [B
+	FIELD serialVersionUID serialVersionUID J
+	METHOD <init> ([B)V
+		ARG 1 bytes
+	METHOD c getOffsetIntoBytes ()I

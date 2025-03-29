@@ -1,0 +1,2 @@
+CLASS afyz
+	METHOD aM peer ()Ljava/lang/Object;

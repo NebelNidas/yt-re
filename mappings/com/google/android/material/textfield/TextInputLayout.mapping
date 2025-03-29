@@ -1,0 +1,11 @@
+CLASS com/google/android/material/textfield/TextInputLayout
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+	METHOD getBaseline getBaseline ()I

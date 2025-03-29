@@ -1,0 +1,14 @@
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/watchlaterbutton/model/a
+	FIELD a text Ljava/lang/String;
+	FIELD b accessibilityText Ljava/lang/String;
+	FIELD c state I
+	FIELD d trackingParams Laijf;
+	FIELD e stateSet B
+	METHOD b (I)V
+		ARG 1 state
+	METHOD c (Laijf;)V
+		ARG 1 trackingParams
+	METHOD e (I)V
+		ARG 1 state
+	METHOD f (Laijf;)V
+		ARG 1 trackingParams

@@ -1,11 +1,15 @@
-CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/c com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/AdData
-	FIELD l adFlags S
-	METHOD b setCurrentAdIndex (I)V
-	METHOD c setExtraBottomMarginPx (I)V
-	METHOD d setHideSkipButton (Z)V
-	METHOD e setIsSkippable (Z)V
-	METHOD f setShowAdChoices (Z)V
-	METHOD g setSkipEnabled (Z)V
-	METHOD h setSkipTimeRemainingMillis (I)V
-	METHOD i setTimeRemainingMillis (I)V
-	METHOD j setTotalAds (I)V
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/d com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/AdData
+	FIELD a isSkippable Z
+	FIELD b hideSkipButton Z
+	FIELD c skipEnabled Z
+	FIELD d showAdChoices Z
+	FIELD e extraBottomMarginPx I
+	FIELD f skipTimeRemainingMillis I
+	FIELD g timeRemainingMillis I
+	FIELD h currentAdIndex I
+	FIELD i totalAds I
+	FIELD j adTitle Ljava/lang/CharSequence;
+	FIELD k channelThumbnail Landroid/graphics/Bitmap;
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

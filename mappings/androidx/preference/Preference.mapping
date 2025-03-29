@@ -1,0 +1,127 @@
+CLASS androidx/preference/Preference
+	FIELD a summary Ljava/lang/CharSequence;
+	FIELD A copyingEnabled Z
+	FIELD b icon Landroid/graphics/drawable/Drawable;
+	FIELD B layoutResId I
+	FIELD C widgetLayoutResId I
+	FIELD d enabled Z
+	FIELD D parentGroup Landroidx/preference/PreferenceGroup;
+	FIELD e requiresKey Z
+	FIELD E summaryProvider Lczt;
+	FIELD f dependencyMet Z
+	FIELD F listener Ldag;
+	FIELD g parentDependencyMet Z
+	FIELD G hasSingleLineTitleAttr Z
+	FIELD h allowDividerAbove Z
+	FIELD H singleLineTitle Z
+	FIELD i allowDividerBelow Z
+	FIELD I iconSpaceReserved Z
+	FIELD j context Landroid/content/Context;
+	FIELD J shouldDisableView Z
+	FIELD k preferenceManager Ldal;
+	FIELD K dependents Ljava/util/List;
+	FIELD L baseMethodCalled Z
+	FIELD M onCopyListener Lczs;
+	FIELD N clickListener Landroid/view/View$OnClickListener;
+	FIELD p order I
+	FIELD q title Ljava/lang/CharSequence;
+	FIELD r iconResId I
+	FIELD s key Ljava/lang/String;
+	FIELD u fragment Ljava/lang/String;
+	FIELD v selectable Z
+	FIELD w persistent Z
+	FIELD x dependencyKey Ljava/lang/String;
+	FIELD y defaultValue Ljava/lang/Object;
+	FIELD z visible Z
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attributes
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attributes
+		ARG 3 defaultStyleAttribute
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+		ARG 1 context
+		ARG 2 attributes
+		ARG 3 defaultStyleAttribute
+		ARG 4 defaultStyleRes
+		ARG 6 var6
+		ARG 8 var8
+	METHOD aa openIconSpace ()V
+	METHOD ab persistInt (I)V
+		ARG 1 value
+	METHOD c onClick ()V
+	METHOD d notifyChanged ()V
+	METHOD D performClick ()V
+	METHOD E registerDependency ()V
+	METHOD F setDefaultValue (Ljava/lang/Object;)V
+		ARG 1 defaultValue
+	METHOD g onRestoreInstanceState (Landroid/os/Parcelable;)V
+		ARG 1 state
+	METHOD G setEnabled (Z)V
+		ARG 1 enabled
+	METHOD H setIcon (Landroid/graphics/drawable/Drawable;)V
+		ARG 1 icon
+	METHOD I setKey (Ljava/lang/String;)V
+		ARG 1 key
+	METHOD j shouldDisableDependents ()Z
+	METHOD J setOrder (I)V
+		ARG 1 order
+	METHOD K setSummary (I)V
+		ARG 1 summaryResId
+	METHOD L setSummaryProvider (Lczt;)V
+		ARG 1 summaryProvider
+	METHOD lt onSaveInstanceState ()Landroid/os/Parcelable;
+	METHOD lu onGetDefaultValue (Landroid/content/res/TypedArray;I)Ljava/lang/Object;
+		ARG 1 attrs
+		ARG 2 index
+	METHOD m getSummary ()Ljava/lang/CharSequence;
+	METHOD M setTitle (I)V
+		ARG 1 titleResId
+	METHOD n setSummary (Ljava/lang/CharSequence;)V
+		ARG 1 summary
+	METHOD N setTitle (Ljava/lang/CharSequence;)V
+		ARG 1 title
+	METHOD O setVisible (Z)V
+		ARG 1 visible
+	METHOD p getPersistedInt (I)I
+		ARG 1 defaultReturnValue
+	METHOD P tryCommit (Landroid/content/SharedPreferences$Editor;)V
+		ARG 1 editor
+	METHOD Q unregisterDependency ()V
+	METHOD r findPreferenceInHierarchy (Ljava/lang/String;)Landroidx/preference/Preference;
+		ARG 1 key
+	METHOD s getPersistedString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 defaultReturnValue
+	METHOD S getPersistedBoolean (Z)Z
+		ARG 1 defaultReturnValue
+	METHOD sa onBindViewHolder (Ldao;)V
+		ARG 1 holder
+	METHOD sb performClick (Landroid/view/View;)V
+		ARG 1 view
+	METHOD t getPersistedStringSet (Ljava/util/Set;)Ljava/util/Set;
+		ARG 1 defaultReturnValue
+	METHOD T hasKey ()Z
+	METHOD u setParentGroup (Landroidx/preference/PreferenceGroup;)V
+		ARG 1 parentGroup
+	METHOD U isEnabled ()Z
+	METHOD v dispatchRestoreInstanceState (Landroid/os/Bundle;)V
+		ARG 1 container
+	METHOD V shouldPersist ()Z
+	METHOD w dispatchSaveInstanceState (Landroid/os/Bundle;)V
+		ARG 1 container
+	METHOD W onDependencyChanged (Z)V
+		ARG 1 disabledDependent
+	METHOD x notifyDependencyChange (Z)V
+		ARG 1 disableDependents
+	METHOD X onParentChanged (Z)V
+		ARG 1 disableChild
+	METHOD y notifyHierarchyChanged ()V
+	METHOD Y persistBoolean (Z)V
+		ARG 1 value
+	METHOD z onAttached ()V
+	METHOD Z persistString (Ljava/lang/String;)V
+		ARG 1 value
+	CLASS BaseSavedState

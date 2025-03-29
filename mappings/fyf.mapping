@@ -1,0 +1,4 @@
+CLASS fyf
+	METHOD onReceive onReceive (Landroid/content/Context;Landroid/content/Intent;)V
+		ARG 1 context
+		ARG 2 intent

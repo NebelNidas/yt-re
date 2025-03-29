@@ -1,1 +1,4 @@
 CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/e com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/LazyEmbeddedAdOverlay
+	FIELD l adData Lcom/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/remoteloaded/d;
+	METHOD r setExtraBottomMarginPx (I)V
+		ARG 1 extraBottomMarginPx

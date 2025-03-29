@@ -1,0 +1,8 @@
+CLASS aikk GeneratedMessageLite
+	METHOD createBuilder createBuilder ()Laikc;
+	METHOD dynamicMethod dynamicMethod (Laikj;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 method
+		ARG 2 arg0
+		ARG 3 arg1
+	METHOD newSingularGeneratedExtension newSingularGeneratedExtension (Lcom/google/protobuf/MessageLite;Ljava/lang/Object;Lcom/google/protobuf/MessageLite;Laikp;ILainl;Ljava/lang/Class;)Laiki;
+	METHOD registerDefaultInstance registerDefaultInstance (Ljava/lang/Class;Laikk;)V

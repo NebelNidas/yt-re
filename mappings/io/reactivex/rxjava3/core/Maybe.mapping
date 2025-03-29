@@ -1,0 +1,57 @@
+CLASS aukx io/reactivex/rxjava3/core/Maybe
+	METHOD A (Laulr;)Laukx;
+		ARG 0 singleSource
+	METHOD ab (Ljava/lang/Object;)Laulo;
+		ARG 1 defaultValue
+	METHOD af (Laumv;Laumv;Laumq;)Laumb;
+		ARG 1 onSuccess
+		ARG 2 onError
+		ARG 3 onComplete
+	METHOD B (Ljava/lang/Object;)Laukx;
+		ARG 0 item
+	METHOD c (Launa;)Laukm;
+		ARG 1 mapper
+	METHOD C (Launa;)Laukx;
+		ARG 1 mapper
+	METHOD E (Lauln;)Laukx;
+		ARG 1 scheduler
+	METHOD G (Launb;)Laukx;
+		ARG 1 predicate
+	METHOD J (Launa;)Laukx;
+		ARG 1 valueSupplier
+	METHOD k compose (Laulb;)Laukx;
+		ARG 1 transformer
+	METHOD K (Ljava/lang/Object;)Laukx;
+		ARG 1 item
+	METHOD L (Lauln;)Laukx;
+		ARG 1 scheduler
+	METHOD m (Laukz;)Laukx;
+		ARG 0 onSubscribe
+	METHOD n defaultIfEmpty (Ljava/lang/Object;)Laukx;
+		ARG 1 defaultItem
+	METHOD p (Laumq;)Laukx;
+		ARG 1 onComplete
+	METHOD q (Laumv;)Laukx;
+		ARG 1 onError
+	METHOD Q timer (JLjava/util/concurrent/TimeUnit;Lauln;)Laukx;
+		ARG 0 delay
+		ARG 2 unit
+		ARG 3 scheduler
+	METHOD R wrap (Laula;)Laukx;
+		ARG 0 source
+	METHOD s (Laumv;)Laukx;
+		ARG 1 onSuccess
+	METHOD u (Ljava/lang/Throwable;)Laukx;
+		ARG 0 exception
+	METHOD v (Launb;)Laukx;
+		ARG 1 predicate
+	METHOD w (Launa;)Laukx;
+		ARG 1 mapper
+	METHOD W (Launa;)Lauld;
+		ARG 1 mapper
+	METHOD x (Launa;Launa;Ljava/util/concurrent/Callable;)Laukx;
+		ARG 1 onSuccessMapper
+		ARG 2 onErrorMapper
+		ARG 3 onCompleteSupplier
+	METHOD y (Ljava/util/concurrent/Callable;)Laukx;
+		ARG 0 callable

@@ -1,0 +1,5 @@
+CLASS aijc LeafByteString
+	METHOD g equalsRange (Laijf;II)Z
+		ARG 1 other
+		ARG 2 offset
+		ARG 3 length

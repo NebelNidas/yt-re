@@ -1,0 +1,9 @@
+CLASS com/google/android/apps/youtube/app/account/profilecard/DefaultProfileCardController
+	FIELD e activity Lbw;
+	FIELD i executor Ljava/util/concurrent/Executor;
+	METHOD <init> (Lbw;Ladho;Lwtq;Lyax;Ljava/util/concurrent/Executor;Lafoa;Laawg;Lgvs;Lyra;Laavw;)V
+		ARG 1 activity
+		ARG 5 executor
+	METHOD g (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLfor;)V
+		ARG 4 trackingParams
+		ARG 9 request

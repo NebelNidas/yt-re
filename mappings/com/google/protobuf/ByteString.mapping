@@ -1,0 +1,55 @@
+CLASS aijf com/google/protobuf/ByteString
+	FIELD b EMPTY Laijf;
+	FIELD c hash I
+	FIELD serialVersionUID serialVersionUID J
+	METHOD a byteAt (I)B
+		ARG 1 index
+	METHOD A wrap ([B)Laijf;
+		ARG 0 bytes
+	METHOD b internalByteAt (I)B
+		ARG 1 index
+	METHOD c balancedConcat (Ljava/util/Iterator;I)Laijf;
+		ARG 0 iterator
+		ARG 1 length
+	METHOD C checkIndex (II)V
+		ARG 0 index
+		ARG 1 size
+	METHOD d size ()I
+	METHOD D copyTo ([BIII)V
+		ARG 1 target
+		ARG 2 sourceOffset
+		ARG 3 targetOffset
+		ARG 4 numberToCopy
+	METHOD e copyToInternal ([BIII)V
+		ARG 1 target
+		ARG 2 sourceOffset
+		ARG 3 targetOffset
+		ARG 4 numberToCopy
+	METHOD E isEmpty ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getTreeDepth ()I
+	METHOD h isBalances ()Z
+	METHOD i partialHash (III)I
+		ARG 1 h
+		ARG 2 offset
+		ARG 3 length
+	METHOD j partialIsValidUtf8 (III)I
+		ARG 1 state
+		ARG 2 offset
+		ARG 3 length
+	METHOD k substring (II)Laijf;
+		ARG 1 beginIndex
+		ARG 2 endIndex
+	METHOD l newCodedInput ()Laijk;
+	METHOD m newInput ()Ljava/io/InputStream;
+	METHOD n toStringInternal (Ljava/nio/charset/Charset;)Ljava/lang/String;
+		ARG 1 charset
+	METHOD o asReadOnlyByteBuffer ()Ljava/nio/ByteBuffer;
+	METHOD p writeTo (Laiix;)V
+		ARG 1 output
+	METHOD q isValidUtf8 ()Z
+	METHOD r checkRange (III)I
+		ARG 0 startIndex
+		ARG 1 endIndex
+		ARG 2 size

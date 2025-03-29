@@ -1,0 +1,13 @@
+CLASS com/google/android/apps/youtube/app/common/player/overlay/InlineTimeBarWrapper
+	METHOD isImportantForAccessibility isImportantForAccessibility ()Z
+	METHOD onInterceptTouchEvent onInterceptTouchEvent (Landroid/view/MotionEvent;)Z
+		ARG 1 event
+	METHOD onLayout onLayout (ZIIII)V
+		ARG 1 changed
+		ARG 2 left
+		ARG 3 top
+		ARG 4 right
+		ARG 5 bottom
+	METHOD onMeasure onMeasure (II)V
+		ARG 1 widthMeasureSpec
+		ARG 2 heightMeasureSpec

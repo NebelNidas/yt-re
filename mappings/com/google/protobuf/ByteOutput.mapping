@@ -1,0 +1,2 @@
+CLASS aiix com/google/protobuf/ByteOutput
+	METHOD a writeLazy ([BII)V

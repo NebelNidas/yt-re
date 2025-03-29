@@ -1,0 +1,3 @@
+CLASS bj
+	METHOD onCancel onCancel (Landroid/content/DialogInterface;)V
+	METHOD onDismiss onDismiss (Landroid/content/DialogInterface;)V

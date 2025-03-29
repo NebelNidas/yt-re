@@ -1,0 +1,6 @@
+CLASS asz
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD n (Landroid/view/View;)Z
+		ARG 1 view

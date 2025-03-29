@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/common/command/modal/ModalDialogController
+	FIELD a context Landroid/content/Context;
+	METHOD <init> (Landroid/content/Context;Ladtn;Lyqz;Ladol;Lacwc;Laelp;)V
+		ARG 1 context

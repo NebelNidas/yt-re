@@ -1,0 +1,7 @@
+CLASS androidx/preference/DialogPreference
+	FIELD a dialogTitle Ljava/lang/CharSequence;
+	FIELD b dialogMessage Ljava/lang/CharSequence;
+	FIELD c dialogIcon Landroid/graphics/drawable/Drawable;
+	FIELD d positiveButtonText Ljava/lang/CharSequence;
+	FIELD e negativeButtonText Ljava/lang/CharSequence;
+	FIELD f dialogLayoutResId I

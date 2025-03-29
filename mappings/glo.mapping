@@ -1,0 +1,15 @@
+CLASS glo
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defaultStyleAttr
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defaultStyleAttr
+		ARG 4 defaultStyleRes

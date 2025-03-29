@@ -1,0 +1,6 @@
+CLASS c
+	METHOD ci (Landroid/content/Context;Lbt;ZZ)Lki;
+		ARG 0 context
+		ARG 1 fragment
+	METHOD cN (Landroid/content/Context;I)I
+		ARG 0 context

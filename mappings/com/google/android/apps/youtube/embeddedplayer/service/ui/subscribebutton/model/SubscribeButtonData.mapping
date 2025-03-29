@@ -1,0 +1,5 @@
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/subscribebutton/model/SubscribeButtonData
+	METHOD a getState ()I
+	METHOD b getTrackingParams ()Laijf;
+	METHOD c getAccessibilityText ()Ljava/lang/String;
+	METHOD d getText ()Ljava/lang/String;

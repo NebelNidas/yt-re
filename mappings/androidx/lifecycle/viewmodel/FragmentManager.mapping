@@ -1,0 +1,2 @@
+CLASS co androidx/lifecycle/viewmodel/FragmentManager
+	METHOD Y isLoggingEnabled (I)Z

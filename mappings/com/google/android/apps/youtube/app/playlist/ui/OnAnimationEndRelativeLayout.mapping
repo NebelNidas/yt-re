@@ -1,0 +1,12 @@
+CLASS com/google/android/apps/youtube/app/playlist/ui/OnAnimationEndRelativeLayout
+	FIELD a onAnimationEnd Ljava/lang/Runnable;
+	METHOD <init> (Landroid/content/Context;)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;)V
+		ARG 1 context
+		ARG 2 attrs
+	METHOD <init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V
+		ARG 1 context
+		ARG 2 attrs
+		ARG 3 defStyleAttr
+	METHOD onAnimationEnd onAnimationEnd ()V

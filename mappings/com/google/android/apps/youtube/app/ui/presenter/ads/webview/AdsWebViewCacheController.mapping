@@ -1,0 +1,4 @@
+CLASS com/google/android/apps/youtube/app/ui/presenter/ads/webview/AdsWebViewCacheController
+	METHOD l (Landroid/app/Activity;Lcom/google/android/libraries/youtube/ads/ui/webview/AdsWebView;Ljava/lang/String;Z)V
+		ARG 1 activity
+		ARG 2 view

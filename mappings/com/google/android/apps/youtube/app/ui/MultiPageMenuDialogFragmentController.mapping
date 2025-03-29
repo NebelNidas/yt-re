@@ -1,0 +1,3 @@
+CLASS com/google/android/apps/youtube/app/ui/MultiPageMenuDialogFragmentController
+	METHOD <init> (Lbw;Laavw;Laawg;)V
+		ARG 1 activity

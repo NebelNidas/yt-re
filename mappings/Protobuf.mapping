@@ -1,3 +1,6 @@
 CLASS aimg Protobuf
-	FIELD a instance Laimg;
+	FIELD a INSTANCE Laimg;
+	METHOD a schemaFor (Ljava/lang/Class;)Laimn;
+		ARG 1 messageType
 	METHOD b schemaFor (Ljava/lang/Object;)Laimn;
+		ARG 1 message

@@ -1,1 +1,4 @@
 CLASS xon Account_SetSetting
+	FIELD a endpoint Lcom/google/protos/youtube/api/innertube/SetSettingEndpointOuterClass$SetSettingEndpoint;
+	METHOD A setEndpoint (Lcom/google/protos/youtube/api/innertube/SetSettingEndpointOuterClass$SetSettingEndpoint;)V
+		ARG 1 endpoint

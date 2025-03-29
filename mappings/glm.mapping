@@ -1,0 +1,4 @@
+CLASS glm
+	METHOD a builder ()Lyzi;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

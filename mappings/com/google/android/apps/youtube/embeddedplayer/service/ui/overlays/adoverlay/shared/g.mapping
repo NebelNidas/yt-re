@@ -1,0 +1,13 @@
+CLASS com/google/android/apps/youtube/embeddedplayer/service/ui/overlays/adoverlay/shared/g
+	METHOD p setAdTitle (Ljava/lang/CharSequence;)V
+		ARG 1 adTitle
+	METHOD q setChannelThumbnail (Landroid/graphics/Bitmap;)V
+		ARG 1 channelThumbnail
+	METHOD s setHideSkipButton (Z)V
+		ARG 1 hideSkipButton
+	METHOD v setShowAdChoices (Z)V
+		ARG 1 showAdChoices
+	METHOD w setSkipEnabled (Z)V
+		ARG 1 skipEnabled
+	METHOD x setIsSkippable (Z)V
+		ARG 1 isSkippable

@@ -1,0 +1,6 @@
+CLASS com/google/android/apps/youtube/app/common/loading/SpecificNetworkErrorViewLoadingFrameLayout
+	FIELD a context Landroid/content/Context;
+	METHOD <init> (Landroid/content/Context;II)V
+		ARG 1 context
+	METHOD <init> (Landroid/content/Context;III)V
+		ARG 1 context
